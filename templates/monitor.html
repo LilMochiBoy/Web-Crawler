@@ -129,7 +129,31 @@
 {% endblock %}
 
 {% block extra_scripts %}
+<!-- Template data injection -->
+<script id="crawl-data" type="application/json">
+{
+    "crawl_id": "{{ crawl_id }}",
+    "start_time": {{ (crawl_info.start_time or 0)|int }},
+    "max_pages": {{ (crawl_info.max_pages or 100)|int }},
+    "initial_data": {
+        "pages_crawled": {{ (crawl_info.pages_crawled or 0)|int }},
+        "pages_found": {{ (crawl_info.pages_found or 0)|int }},
+        "errors": {{ (crawl_info.errors or 0)|int }},
+        "status": "{{ crawl_info.status or 'unknown' }}",
+        "current_url": "{{ (crawl_info.current_url or '')|replace('"', '\\"') }}",
+        "data_size": {{ (crawl_info.data_size or 0)|int }}
+    }
+}
+</script>
+
 <script>
+    // Parse template data
+    const templateData = JSON.parse(document.getElementById('crawl-data').textContent);
+    const crawlId = templateData.crawl_id;
+    const crawlStartTime = templateData.start_time;
+    const maxPages = templateData.max_pages;
+    let lastUpdate = Date.now();
+    
     // Initialize Socket.IO connection
     let socket;
     try {
@@ -138,11 +162,6 @@
         console.log('Socket.IO not available, using polling fallback');
         socket = null;
     }
-    
-    const crawlId = '{{ crawl_id }}';
-    const crawlStartTime = {{ (crawl_info.start_time or 0)|int }};
-    const maxPages = {{ (crawl_info.max_pages or 100)|int }};
-    let lastUpdate = Date.now();
     
     // Performance chart
     const ctx = document.getElementById('performanceChart').getContext('2d');
@@ -312,15 +331,7 @@
     // Initialize
     addActivityLog('Monitoring started');
     
-    // Initial data
-    const initialData = {
-        pages_crawled: {{ (crawl_info.pages_crawled or 0)|int }},
-        pages_found: {{ (crawl_info.pages_found or 0)|int }},
-        errors: {{ (crawl_info.errors or 0)|int }},
-        status: '{{ crawl_info.status or "unknown" }}',
-        current_url: '{{ (crawl_info.current_url or "")|replace("'", "\\'") }}',
-        data_size: {{ (crawl_info.data_size or 0)|int }}
-    };
-    updateDisplay(initialData);
+    // Use initial data from template
+    updateDisplay(templateData.initial_data);
 </script>
 {% endblock %}

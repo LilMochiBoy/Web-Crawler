@@ -5,6 +5,7 @@ crawler:
   max_depth: 2                    # How deep to crawl (0 = only start page)
   delay: 1.0                     # Seconds between requests (be polite!)
   max_pages: 50                  # Maximum number of pages to download
+  max_workers: 3                 # Number of concurrent workers (1 = sequential, 3-5 recommended)
   user_agent: "WebCrawler-Bot/1.0"  # How the crawler identifies itself
 
 # Output settings  

@@ -1,0 +1,28 @@
+{
+  "url": "https://httpbin.org/forms/post",
+  "extracted_at": "2025-09-21T21:36:39.970057",
+  "title": "No title found",
+  "description": "Customer name:",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 24,
+  "paragraph_count": 13,
+  "heading_structure": {},
+  "text_content": "Customer name: Telephone: E-mail address: Pizza Size Small Medium Large Pizza Toppings Bacon Extra Cheese Onion Mushroom Preferred delivery time: Delivery instructions: Submit order",
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 1397,
+  "meta_tags": {},
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 0
+  }
+}

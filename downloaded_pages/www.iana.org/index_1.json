@@ -1,0 +1,110 @@
+{
+  "url": "https://www.iana.org/",
+  "extracted_at": "2025-09-21T21:37:57.542326",
+  "title": "Internet Assigned Numbers Authority",
+  "description": "The global coordination of the DNS Root, IP addressing,\n            and other Internet protocol resources is performed as the\n            Internet Assigned Numbers Authority (IANA) functions.\n        ...",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 179,
+  "paragraph_count": 6,
+  "heading_structure": {
+    "h1": [
+      "Internet Assigned Numbers Authority"
+    ],
+    "h2": [
+      "Domain Names",
+      "Number Resources",
+      "Protocol Assignments"
+    ]
+  },
+  "text_content": "Internet Assigned Numbers Authority The global coordination of the DNS Root, IP addressing, and other Internet protocol resources is performed as the Internet Assigned Numbers Authority (IANA) functions. Learn more. Domain Names Management of the DNS Root Zone (assignments of ccTLDs and gTLDs) along with other functions such as the .int and .arpa zones. Root Zone Management Database of Top Level Domains .int Registry .arpa Registry IDN Practices Repository Number Resources Coordination of the global IP and AS number spaces, such as allocations made to Regional Internet Registries. IP Addresses & AS Numbers Network abuse information Protocol Assignments The central repository for protocol name and number registries used in many Internet protocols. Protocol Registries Apply for an assignment Time Zone Database",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/about",
+      "text": "Learn more.",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains",
+      "text": "Domain Names",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root",
+      "text": "Root Zone Management",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db",
+      "text": "Database of Top Level Domains",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/int",
+      "text": ".int Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/arpa",
+      "text": ".arpa Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/idn-tables",
+      "text": "IDN Practices Repository",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "Number Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "IP Addresses & AS Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/abuse",
+      "text": "Network abuse information",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocol Assignments",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocol Registries",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols/apply",
+      "text": "Apply for an assignment",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/time-zones",
+      "text": "Time Zone Database",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 6100,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

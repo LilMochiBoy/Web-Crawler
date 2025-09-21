@@ -1,0 +1,358 @@
+{
+  "url": "https://github.com/resources/articles/devops",
+  "extracted_at": "2025-09-21T21:58:40.152007",
+  "title": "DevOps · GitHub",
+  "description": "Gallery of articles for the topic DevOps",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 756,
+  "paragraph_count": 15,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "DevOps"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Topics",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "What is Infrastructure as Code (IaC)?",
+      "What is CI/CD?",
+      "What is Continuous Deployment?",
+      "What is DevOps?",
+      "What is a DevOps pipeline? A complete guide",
+      "DevOps monitoring tools: Automating your DevOps monitoring processes",
+      "SRE vs DevOps",
+      "What is DevSecOps?",
+      "What is the DevOps Model? Exploring foundational practices in DevOps",
+      "What is a DevOps engineer and what does a DevOps engineer do?",
+      "What is DevOps automation?",
+      "What is agile methodology?",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "DevOps Topics What is Infrastructure as Code (IaC)? Treat servers like code and turn deployment chaos into predictable, automated precision. Learn more What is CI/CD? Continuous Integration and Continuous Delivery/Deployment or (CI/CD) automates builds, testing, and deployment so you can ship code changes faster and reliably Learn more What is Continuous Deployment? Continuous deployment (CD) is a process that uses automated testing to validate if changes to a codebase are secure, correct, and stable for deployment to a production environment. Learn more What is DevOps? Discover what DevOps means and how it helps teams build higher-quality software faster through increased automation and collaboration. Learn more What is a DevOps pipeline? A complete guide Learn how to transform your organization and deliver software faster by combining processes, tooling, and automation in a DevOps Pipeline. Learn more DevOps monitoring tools: Automating your DevOps monitoring processes Use GitHub as your approach to developing, testing, and deploying applications through comprehensive and real-time monitoring systems. Workflows are the foundation of automation and DevOps, and monitoring is the bedrock. Learn more SRE vs DevOps Site reliability engineering (SRE) & DevOps have unique responsibilities. Learn more about SRE vs DevOps, and how they work together. Learn more What is DevSecOps? DevSecOps combines development, security, and operations to automate security integration across all phases of the software development lifecycle (SDLC). Learn more What is the DevOps Model? Exploring foundational practices in DevOps GitHub provides the tools required to be a mature DevOps organization. Discover the DevOps model that separates successful DevOps teams from those that fail. Learn more What is a DevOps engineer and what does a DevOps engineer do? A DevOps engineer enables collaboration and innovation within an organization. Learn more What is DevOps automation? DevOps automation is a modern approach to software development that uses tools and processes to automate tasks and streamline workflows. Learn more What is agile methodology? Learn what agile is, its benefits, why it’s so popular, and how you can apply it in software development and other kinds of work. Learn more",
+  "internal_links": [
+    {
+      "url": "https://github.com/resources/articles/devops#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fdevops",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fdevops",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles%2Fdevops&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-infrastructure-as-code",
+      "text": "What is Infrastructure as Code (IaC)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/ci-cd",
+      "text": "What is CI/CD?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/continuous-deployment",
+      "text": "What is Continuous Deployment?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-devops",
+      "text": "What is DevOps?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/pipeline",
+      "text": "What is a DevOps pipeline? A complete guide",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/monitoring-tools",
+      "text": "DevOps monitoring tools: Automating your DevOps monitoring processes",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/sre-vs-devops",
+      "text": "SRE vs DevOps",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-devsecops",
+      "text": "What is DevSecOps?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/devops-model",
+      "text": "What is the DevOps Model? Exploring foundational practices in DevOps",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-a-devops-engineer",
+      "text": "What is a DevOps engineer and what does a DevOps engineer do?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-devops-automation",
+      "text": "What is DevOps automation?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-agile-methodology",
+      "text": "What is agile methodology?",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/resources/articles/devops/what-is-agile-methodology",
+    "https://github.com/resources/articles/devops/what-is-devops-automation",
+    "https://github.com/resources/articles/devops/sre-vs-devops",
+    "https://github.com/resources/articles/devops/ci-cd",
+    "https://github.com/resources/articles/devops/devops-model",
+    "https://github.com/resources/articles/devops/what-is-infrastructure-as-code",
+    "https://github.com/resources/articles/devops/what-is-a-devops-engineer",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fdevops",
+    "https://github.com/resources/articles/devops/what-is-devsecops",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/resources/articles/devops/continuous-deployment",
+    "https://github.com/resources/articles/devops/pipeline",
+    "https://github.com/resources/articles/devops/what-is-devops",
+    "https://github.com/resources/articles/devops/monitoring-tools"
+  ],
+  "page_size_bytes": 285701,
+  "meta_tags": {
+    "route-pattern": "/resources/articles/:topic(.:format)",
+    "route-controller": "site_resources_articles",
+    "route-action": "index",
+    "fetch-nonce": "v2:3f400a04-1caa-50d3-c980-bdb4d5a6feb0",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE4A34:11F52D3:68D0048D",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNEEzNDoxMUY1MkQzOjY4RDAwNDhEIiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "93aaba75a535cf373ee4a4c242e6189097003a33e6165ec31d49b00e55eade8a",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Gallery of articles for the topic DevOps",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/resources/articles/devops",
+    "twitter:image": "https://github.com/opengraph.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "DevOps",
+    "twitter:description": "Gallery of articles for the topic DevOps",
+    "og:image": "https://github.com/opengraph.png",
+    "og:image:alt": "Gallery of articles for the topic DevOps",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "DevOps",
+    "og:url": "https://github.com/resources/articles/devops",
+    "og:description": "Gallery of articles for the topic DevOps",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

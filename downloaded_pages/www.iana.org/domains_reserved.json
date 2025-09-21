@@ -1,0 +1,166 @@
+{
+  "url": "https://www.iana.org/domains/reserved",
+  "extracted_at": "2025-09-21T21:52:25.945178",
+  "title": "IANA-managed Reserved Domains",
+  "description": "Certain domains are set aside, and nominally registered to “IANA”, for specific\n\t\tpolicy or technical purposes.",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 339,
+  "paragraph_count": 7,
+  "heading_structure": {
+    "h1": [
+      "IANA-managed Reserved Domains"
+    ],
+    "h2": [
+      "Example domains",
+      "Test IDN top-level domains",
+      "Policy-reserved domains",
+      "Other Special-Use Domains",
+      "Domain Names"
+    ]
+  },
+  "text_content": "IANA-managed Reserved Domains Certain domains are set aside, and nominally registered to “IANA”, for specific policy or technical purposes. Example domains As described in RFC 2606 and RFC 6761 , a number of domains such as example.com and example.org are maintained for documentation purposes. These domains may be used as illustrative examples in documents without prior coordination with us. They are not available for registration or transfer. Test IDN top-level domains These domains were temporarily delegated by IANA for the IDN Evaluation being conducted by ICANN . Domain Domain (A-label) Language Script إختبار XN--KGBECHTV Arabic Arabic آزمایشی XN--HGBK6AJ7F53BBA Persian Arabic 测试 XN--0ZWM56D Chinese Han (Simplified variant) 測試 XN--G6W251D Chinese Han (Traditional variant) испытание XN--80AKHBYKNJ4F Russian Cyrillic परीक्षा XN--11B5BS3A9AJ6G Hindi Devanagari (Nagari) δοκιμή XN--JXALPDLP Greek, Modern (1453-) Greek 테스트 XN--9T4B11YI5A Korean Hangul (Hangŭl, Hangeul) טעסט XN--DEBA0AD Yiddish Hebrew テスト XN--ZCKZAH Japanese Katakana பரிட்சை XN--HLCJ6AYA9ESC7A Tamil Tamil Policy-reserved domains We act as both the registrant and registrar for a select number of domains which have been reserved under policy grounds. These exclusions are typically indicated in either technical standards (RFC documents), or contractual limitations . Domains which are described as registered to IANA or ICANN on policy grounds are not available for registration or transfer, with the exception of country-name .info domains. These domains are available for release by the ICANN Governmental Advisory Committee Secretariat. Other Special-Use Domains There is additionally a Special-Use Domain Names registry documenting special-use domains designated by technical standards. For further information, see Special-Use Domain Names (RFC 6761).",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains",
+      "text": "Domains",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocols",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "RFC 2606",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--kgbechtv.html",
+      "text": "XN--KGBECHTV",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--hgbk6aj7f53bba.html",
+      "text": "XN--HGBK6AJ7F53BBA",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--0zwm56d.html",
+      "text": "XN--0ZWM56D",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--g6w251d.html",
+      "text": "XN--G6W251D",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--80akhbyknj4f.html",
+      "text": "XN--80AKHBYKNJ4F",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--11b5bs3a9aj6g.html",
+      "text": "XN--11B5BS3A9AJ6G",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--jxalpdlp.html",
+      "text": "XN--JXALPDLP",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--9t4b11yi5a.html",
+      "text": "XN--9T4B11YI5A",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--deba0ad.html",
+      "text": "XN--DEBA0AD",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--zckzah.html",
+      "text": "XN--ZCKZAH",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/xn--hlcj6aya9esc7a.html",
+      "text": "XN--HLCJ6AYA9ESC7A",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/special-use-domain-names",
+      "text": "Special-Use Domain Names",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "Special-Use Domain Names",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "http://www.icann.org/topics/idn/",
+      "text": "IDN Evaluation",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/",
+      "text": "ICANN",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/registries/agreements.htm",
+      "text": "contractual limitations",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.iana.org/_img/2025.01/iana-logo-header.svg",
+      "alt": "Homepage",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 10766,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 1,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

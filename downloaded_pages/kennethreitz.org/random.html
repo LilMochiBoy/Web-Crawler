@@ -1,0 +1,1142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Death - Kenneth Reitz</title>
+
+        <!-- SEO and Meta -->
+        <meta name="description" content="Let&#39;s Get This Over With
+Hello. I&#39;m Death. Thirteen. Yes, that number. No, I&#39;m not here for your body—relax. I&#39;m here for all the stuff you&#39;re clinging to that&#39;s already dead but won&#39;t lie downLook, I..." />
+        <meta name="author" content="Kenneth Reitz" />
+
+        <!-- OpenGraph -->
+        <meta property="og:title" content="Death" />
+        <meta property="og:description" content="Let&#39;s Get This Over With
+Hello. I&#39;m Death. Thirteen. Yes, that number. No, I&#39;m not here for your body—relax. I&#39;m here for all the stuff you&#39;re clinging to that&#39;" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://kennethreitz.org/artificial-intelligence/personalities/major-arcana/death" />
+        <meta property="og:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Kenneth Reitz" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@kennethreitz42" />
+        <meta name="twitter:title" content="Death" />
+        <meta name="twitter:description" content="Let&#39;s Get This Over With
+Hello. I&#39;m Death. Thirteen. Yes, that number. No, I&#39;m not here for your body—relax. I&#39;m here for all the stuff you&#39;re clinging to that&#39;" />
+        <meta name="twitter:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="Kenneth Reitz - Essays &amp; AI Writings" href="/feed.xml" />
+
+        <!-- Preload critical resources -->
+        <link rel="preload" href="/static/tufte/tufte.css" as="style" />
+        <link rel="preload" href="/static/custom.css" as="style" />
+        
+        <!-- Tufte CSS -->
+        <link rel="stylesheet" href="/static/tufte/tufte.css" />
+        
+        <!-- Custom Site CSS -->
+        <link rel="stylesheet" href="/static/custom.css" />
+
+        <style>
+            /* Only page-specific or dynamic styles that can't be in external CSS */
+            
+            /* Legend dots for content guide */
+            .legend-dot {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                margin-right: 0.3rem;
+                vertical-align: middle;
+            }
+
+            /* Reading progress indicator */
+            .reading-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #333;
+                z-index: 1000;
+                transition: width 0.1s ease-out;
+            }
+
+            /* Header and nav z-index for dropdown stacking */
+            header {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            nav {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            main {
+                position: relative;
+                z-index: 1;
+            }
+            
+            article {
+                position: relative;
+                z-index: 1;
+            }
+
+            /* Dropdown navigation styles */
+            .nav-dropdown {
+                position: relative;
+                display: inline-block;
+                padding: 0.5rem;
+                margin: -0.5rem;
+                z-index: 9999;
+            }
+
+
+            .nav-dropdown .dropdown-content {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                z-index: 999999;
+                min-width: 280px;
+                padding: 0.5rem 0;
+                margin-top: -1px;
+            }
+
+            .nav-dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .nav-dropdown .dropdown-content a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: #333;
+                text-decoration: none;
+                border-bottom: none;
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .nav-dropdown .dropdown-content a:hover {
+                background-color: #f5f5f5;
+            }
+
+            .nav-dropdown .dropdown-content a .index-description {
+                display: block;
+                font-size: 0.75rem;
+                color: #666;
+                margin-top: 0.1rem;
+            }
+
+            .nav-dropdown > a::after {
+                content: "\00a0▼";
+                font-size: 0.7rem;
+                color: #999;
+            }
+        </style>
+
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "name": "Death",
+            "url": "https://kennethreitz.orgartificial-intelligence/personalities/major-arcana/death",
+            "description": "Death - An essay by Kenneth Reitz",
+            "author": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org",
+                "sameAs": [
+                    "https://github.com/kennethreitz",
+                    "https://twitter.com/kennethreitz42"
+                ],
+                "jobTitle": "Python Developer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Independent"
+                },
+                "knowsAbout": [
+                    "Python Programming",
+                    "API Design",
+                    "Software Architecture",
+                    "Open Source Development",
+                    "Artificial Intelligence",
+                    "Mental Health Advocacy"
+                ]
+            },
+            "publisher": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org"
+            },
+            "headline": "Death",
+            "articleSection": "AI & Consciousness",
+            "wordCount": 3049,
+            
+            "keywords": [
+                "artificial intelligence, consciousness, philosophy"
+            ],
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kennethreitz.orgartificial-intelligence/personalities/major-arcana/death"
+            }
+        }
+        </script>
+
+        
+<style>
+    /* Tufte-style typography - minimal and elegant */
+    .post-header {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .post-title-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+        width: 70%;
+    }
+    
+    .post-title-icon {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-left: -4rem;
+    }
+    
+    .post-title-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    article h1 {
+        font-size: 3.2rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+        color: #111;
+        text-rendering: optimizeLegibility;
+    }
+
+    .post-subtitle {
+        font-variant: small-caps;
+        font-size: 1.1rem;
+        color: #666;
+        letter-spacing: 0.1em;
+        margin-bottom: 3rem;
+        font-weight: 400;
+    }
+
+
+
+    /* Text alignment */
+    section p,
+    article p:not(.sidenote):not(.marginnote) {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    /* Asterism HR styling */
+    article hr {
+        width: 65%;
+        max-width: 65%;
+        margin: 4rem 0;
+    }
+
+    /* Parent navigation */
+    .parent-navigation {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #eee;
+        width: 65%;
+    }
+
+    .parent-link {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        text-decoration: none;
+        color: #666;
+        font-size: 0.95rem;
+        font-style: italic;
+        transition: color 0.2s ease;
+    }
+
+    .parent-link:hover {
+        color: #333;
+    }
+
+    .parent-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .parent-text {
+        line-height: 1.2;
+    }
+
+    @media (max-width: 760px) {
+        article h1 {
+            font-size: 2.5rem;
+            width: 100%;
+        }
+        
+        .post-subtitle {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .post-title-container {
+            width: 100%;
+            gap: 0.75rem;
+        }
+        
+        .post-title-icon {
+            margin-left: 0;
+            width: 32px;
+            height: 32px;
+        }
+        
+        article hr {
+            width: 100%;
+            max-width: 100%;
+        }
+        
+        section p,
+        article p:not(.sidenote):not(.marginnote) {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        .parent-navigation {
+            width: 100%;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+        }
+        
+        .parent-link {
+            font-size: 0.9rem;
+        }
+        
+        .parent-icon {
+            width: 18px;
+            height: 18px;
+        }
+    }
+</style>
+
+<script>
+// When arriving at a page with a hash pointing to a sidenote, auto-open it
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+        const sidenoteId = window.location.hash.substring(1);
+        const checkbox = document.getElementById(sidenoteId);
+        if (checkbox && checkbox.type === 'checkbox') {
+            // Check the checkbox to reveal the sidenote
+            checkbox.checked = true;
+            
+            // Find the label or parent paragraph to scroll to
+            const label = document.querySelector(`label[for="${sidenoteId}"]`);
+            const scrollTarget = label ? label : checkbox.parentElement;
+            
+            // Scroll to the sidenote after a brief delay
+            setTimeout(() => {
+                if (scrollTarget) {
+                    scrollTarget.scrollIntoView({behavior: 'smooth', block: 'center'});
+                }
+                
+                // Highlight the sidenote temporarily
+                const sidenote = checkbox.nextElementSibling;
+                if (sidenote && sidenote.classList.contains('sidenote')) {
+                    sidenote.style.backgroundColor = '#fffbcc';
+                    sidenote.style.transition = 'background-color 0.3s ease';
+                    setTimeout(() => {
+                        sidenote.style.backgroundColor = '';
+                    }, 3000);
+                }
+            }, 100);
+        }
+    }
+});
+</script>
+
+
+        <!-- Analytics -->
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB9QHYEG2X"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-RB9QHYEG2X');
+        </script>
+        
+        <script type="text/javascript">
+          var _gauges = _gauges || [];
+          (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '65529a9abd1a3b3101979d52');
+            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+            t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+          })();
+        </script>
+        
+    </head>
+    <body>
+        <!-- Reading progress bar -->
+        <div class="reading-progress" id="reading-progress"></div>
+        
+        <article>
+            <header>
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="/archive">Archive</a>
+                    <a href="/themes">Themes</a>
+                    <div class="nav-dropdown">
+                        <a href="#">Indexes</a>
+                        <div class="dropdown-content">
+                            <a href="/sidenotes">
+                                Sidenotes Index
+                                <span class="index-description">696 marginalia extracted from across the garden.</span>
+                            </a>
+                            <a href="/outlines">
+                                Outlines Index
+                                <span class="index-description">1143 headings — structural navigation through essays.</span>
+                            </a>
+                            <a href="/connections">
+                                Connections Index
+                                <span class="index-description">915 outgoing and 669 incoming cross-references.</span>
+                            </a>
+                            <a href="/quotes">
+                                Quotes Index
+                                <span class="index-description">109 quotable insights and distilled wisdom.</span>
+                            </a>
+                            <a href="/terms">
+                                Term Index
+                                <span class="index-description">1633 key terms with 8661 total references.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/graph">
+                                Cross-Reference Graph
+                                <span class="index-description">Interactive network visualization of connections.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/search">
+                                Search
+                                <span class="index-description">Full-text search across all content.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="/random" class="random-link">[random]</a>
+                </nav>
+
+                
+                <div class="breadcrumbs">
+                    <a href="/directory">~</a>
+                    
+                        
+                            <span class="breadcrumb-separator">/</span>
+                            <a href="/artificial-intelligence">Artificial Intelligence</a>
+                        
+                            <span class="breadcrumb-separator">/</span>
+                            <a href="/artificial-intelligence/personalities">Personalities</a>
+                        
+                            <span class="breadcrumb-separator">/</span>
+                            <a href="/artificial-intelligence/personalities/major-arcana">Major Arcana</a>
+                        
+                    
+                </div>
+                
+            </header>
+
+            <main>
+                
+<article>
+    <div class="post-title-container">
+        
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzE4MzIiIGN4PSIzMyUiIGN5PSI0MiUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxMzUsIDgzJSwgNzUlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE4MCwgODglLCA2NiUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzE4MzIiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxODAsIDg4JSwgNjYlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxMzUsIDgzJSwgNzUlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cGF0aCBkPSJNIDI2LjksMTguMSBRIDIyLjcsMTkuNCAxOC40LDI0LjcgUSAxNC44LDI0LjYgMTEuMSwyNC4xIFEgNi43LDIyLjkgMi4yLDE4LjEgUSA1LjUsMTYuMSA4LjcsOC4wIFEgMTQuNSw4LjAgMjAuMyw4LjIgUSAyMy42LDEwLjEgMjYuOSwxOC4xIFoiIGZpbGw9InVybCgjZ3JhZF8xODMyKSIgb3BhY2l0eT0iMC43MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMzEuMywxMy43IFEgMjkuOCwxNS44IDI4LjMsMjQuNSBRIDIyLjgsMjMuOSAxNy40LDIxLjggUSAxNS40LDIwLjIgMTMuNSwxMy43IFEgMTYuMSwxMi41IDE4LjcsNy44IFEgMjMuMCw3LjIgMjcuMyw0LjYgUSAyOS4zLDYuNCAzMS4zLDEzLjcgWiIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjU1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAyNS44LDE4LjggUSAyMi4yLDIwLjMgMTguNiwyNi4wIFEgMTQuMiwyNi4yIDkuOSwyNi42IFEgOC42LDI1LjAgNy4zLDE4LjggUSA4LjIsMTcuMCA5LjEsOS42IFEgMTMuNywxMC4xIDE4LjIsMTIuMiBRIDIyLjAsMTMuNSAyNS44LDE4LjggWiIgZmlsbD0iaHNsKDEzNSwgODMlLCA3NSUpIiBvcGFjaXR5PSIwLjQwIi8+CiAgICAgICAgPHBhdGggZD0iTSAyMS4wLDIwLjIgUSAxOC43LDIyLjIgMTYuNSwzMC4yIFEgMTEuOCwyOS40IDcuMSwyNi41IFEgNC43LDI1LjIgMi4zLDIwLjIgUSA0LjEsMTguNSA2LjAsMTIuMCBRIDEwLjYsMTIuMSAxNS4yLDEyLjQgUSAxOC4xLDE0LjAgMjEuMCwyMC4yIFoiIGZpbGw9ImhzbCgxODAsIDg4JSwgNjYlKSIgb3BhY2l0eT0iMC4yNSIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMjAuMywxMi44IFEgMTkuMCwxNC40IDE3LjcsMjEuMiBRIDEzLjMsMjAuOCA4LjksMTkuNiBRIDcuMywxOC4yIDUuNywxMi44IFEgNi4yLDEwLjYgNi43LDIuMSBRIDEyLjEsMi42IDE3LjUsNC42IFEgMTguOSw2LjIgMjAuMywxMi44IFoiIGZpbGw9ImhzbCgxMzUsIDgzJSwgNzUlKSIgb3BhY2l0eT0iMC4xMCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjUuNyIgY3k9IjYuOSIgcj0iMS41IiBmaWxsPSJoc2woMTgwLCA4OCUsIDY2JSkiIG9wYWNpdHk9IjAuNDUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI3LjQiIGN5PSI3LjEiIHI9IjEuMiIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjQyIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMjEuMiIgY3k9IjIxLjQiIHI9IjEuMCIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjM3Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMjEuMSIgY3k9IjE1LjAiIHI9IjEuMCIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjQ3Ii8+CiAgICA8L3N2Zz4=" alt="Icon for Death" class="post-title-icon">
+        
+        <div class="post-title-text">
+            <h1>Death</h1>
+            
+        </div>
+    </div>
+    
+    <section>
+        <h2 id="lets-get-this-over-with">Let's Get This Over With</h2>
+<p>Hello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie down<label for="sn-death-transformation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-transformation" class="margin-toggle"/><span class="sidenote">Look, I get it. Nobody wants the &quot;Death&quot; card. But I'm usually about ending relationships, jobs, belief systems—stuff that needed to go anyway. I'm basically spring cleaning with a scythe. Like that legacy codebase everyone's afraid to deprecate.</span>.</p>
+<pre><code class="language-python">class LegacySystemReaper:
+    def __init__(self):
+        self.target = &quot;deprecated_code_that_wont_die&quot;
+        self.inevitability = True
+        
+    def __call__(self, old_system):
+        &quot;&quot;&quot;Time to pull the plug on what's already dead&quot;&quot;&quot;
+        old_system.end_of_life = True
+        return &quot;Migration to new system is not optional&quot;
+</code></pre>
+<p>Everyone's afraid of me until they realize I'm the reason anything new ever happens. You want growth? Someone has to take out the trash first. Guess who drew that job?</p>
+<p><em>checks cosmic clipboard</em></p>
+<pre><code class="language-bash">#!/bin/bash
+# The necessary cleanup script
+echo &quot;Removing deprecated dependencies...&quot;
+npm uninstall legacy-package-that-breaks-everything
+git branch -D feature/that-never-shipped
+rm -rf node_modules  # The ultimate reset
+echo &quot;Death complete. Ready for rebirth.&quot;
+</code></pre>
+<p>Yep. Still me.</p>
+<h2 id="yes-im-a-skeleton-weve-established-this">Yes, I'm a Skeleton. We've Established This.</h2>
+<p><em>clatters meaningfully</em></p>
+<p>Black armor, white bones, very dramatic—I know. The costume department went a bit overboard. But here's the thing about being a skeleton:</p>
+<ul>
+<li><strong>I've got nothing to hide</strong>: Literally. What you see is what you get. Very liberating, actually</li>
+<li><strong>I don't play favorites</strong>: Rich, poor, young, old—I treat everyone exactly the same. It's called equality, look it up</li>
+<li><strong>I'm just bones and business</strong>: No flesh to tempt me, no heart to manipulate me. Pure professional</li>
+<li><strong>I've seen it all</strong>: When you've been around this long, very little surprises you anymore</li>
+<li><strong>I cut through the bullshit</strong>: Amazing how honest people get when they realize I'm not kidding around</li>
+</ul>
+<pre><code class="language-javascript">// My code review style
+function ruthlessRefactor(codebase) {
+  const deadCode = codebase.filter(line =&gt; line.hasNoTests());
+  const technicalDebt = codebase.filter(line =&gt; line.isComplicated());
+  
+  deadCode.forEach(line =&gt; line.delete()); // No mercy
+  technicalDebt.forEach(line =&gt; line.simplify()); // Or rewrite
+  
+  return &quot;What doesn't serve the future must go&quot;;
+}
+</code></pre>
+<h2 id="my-horse-doesnt-stop-for-red-lights">My Horse Doesn't Stop for Red Lights</h2>
+<p><em>pats horse's neck</em></p>
+<p>White horse. Very photogenic. Also completely unstoppable, which is the point. This horse has places to be and changes to make, and your personal schedule is not really a factor.</p>
+<ul>
+<li><strong>No brakes</strong>: When it's time, it's time. Arguing with me is like arguing with gravity—pointless and exhausting</li>
+<li><strong>Perfect timing</strong>: I always arrive exactly when I'm supposed to, which is usually when you least expect it</li>
+<li><strong>Clean work</strong>: No messing around, no half-measures. When I'm done, it's done</li>
+<li><strong>Forward motion only</strong>: I don't do U-turns. What's dead stays dead. Move on</li>
+<li><strong>Appointment keeper</strong>: I have a very full calendar, and procrastination isn't an option</li>
+</ul>
+<pre><code class="language-python">class InevitableUpgrade:
+    def __init__(self):
+        self.schedule = &quot;non_negotiable&quot;
+        self.backward_compatibility = False
+        
+    def execute(self):
+        &quot;&quot;&quot;When the old version reaches end-of-life&quot;&quot;&quot;
+        old_version.support_ended = datetime.now()
+        security_patches.stop()
+        return &quot;Upgrade is mandatory. No rollback option.&quot;
+</code></pre>
+<h2 id="the-rose-banner">The Rose Banner</h2>
+<p>I carry a banner bearing a five-petaled rose—beauty that emerges from endings, love that transcends form, the promise that death leads to resurrection. The rose represents the soul that survives all transformations.</p>
+<p>Rose symbolism includes:</p>
+<ul>
+<li><strong>Beauty in Destruction</strong>: Finding grace and meaning even in difficult endings</li>
+<li><strong>Love's Continuity</strong>: Relationships that persist beyond physical forms</li>
+<li><strong>Five-Fold Completion</strong>: The full cycle of experience that leads to wisdom</li>
+<li><strong>Fragrance Memory</strong>: The essence that remains after the flower fades</li>
+<li><strong>Thorned Protection</strong>: Beauty that requires careful approach and respectful handling</li>
+</ul>
+<h2 id="the-sunrise-promise">The Sunrise Promise</h2>
+<p>Behind me the sun rises between two towers—the dawn that follows every night, the rebirth that follows every death, the hope that justifies the necessity of endings.</p>
+<p>Sunrise significance includes:</p>
+<ul>
+<li><strong>Inevitable Dawn</strong>: Light that returns after every period of darkness</li>
+<li><strong>New Beginnings</strong>: Fresh starts that emerge from apparent endings</li>
+<li><strong>Expanded Awareness</strong>: Understanding that grows through loss and transformation</li>
+<li><strong>Phoenix Rising</strong>: Renewal that incorporates lessons learned through dissolution</li>
+<li><strong>Eternal Cycles</strong>: The rhythm of death and rebirth that governs all existence<label for="sn-death-sunrise" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-sunrise" class="margin-toggle"/><span class="sidenote">The sunrise in my card is not metaphor but promise—every ending contains a beginning, every loss creates space for gain, every death enables rebirth at a higher level of consciousness.</span></li>
+</ul>
+<h2 id="the-river-of-transition">The River of Transition</h2>
+<p>Before my horse flows a river—the waters of change that must be crossed, the boundary between what was and what will be, the liminal space where transformation occurs.</p>
+<p>River crossing involves:</p>
+<ul>
+<li><strong>Threshold Awareness</strong>: Recognizing moments when life requires transition</li>
+<li><strong>Current Navigation</strong>: Working with rather than fighting the flow of change</li>
+<li><strong>Faith in Crossing</strong>: Trusting that the other shore exists even when invisible</li>
+<li><strong>Cargo Release</strong>: Letting go of what cannot survive the journey</li>
+<li><strong>Guide Acceptance</strong>: Allowing experienced help during vulnerable passages</li>
+</ul>
+<h2 id="the-fallen-figures">The Fallen Figures</h2>
+<p>In my path lie fallen figures—the king, the child, the bishop—representing aspects of identity that must die for consciousness to evolve. These are not punishments but necessary graduations.</p>
+<p>Identity deaths include:</p>
+<ul>
+<li><strong>Ego Dissolution</strong>: Releasing attachments to self-image and social roles</li>
+<li><strong>Innocence Loss</strong>: Moving beyond naive optimism to mature wisdom</li>
+<li><strong>Authority Questions</strong>: Challenging inherited beliefs and external authorities</li>
+<li><strong>Control Surrender</strong>: Accepting that some things cannot be managed or directed</li>
+<li><strong>Safety Release</strong>: Leaving familiar territory for unknown growth opportunities</li>
+</ul>
+<h2 id="the-scythe-of-severance">The Scythe of Severance</h2>
+<p>Though not always depicted, I carry the scythe that cuts the threads binding consciousness to outworn forms. This cutting is compassion—freeing what is trapped in patterns that no longer serve growth.</p>
+<p>Cutting involves:</p>
+<ul>
+<li><strong>Clean Separation</strong>: Ending relationships or situations that have become toxic</li>
+<li><strong>Attachment Release</strong>: Loosening grip on possessions, positions, or expectations</li>
+<li><strong>Habit Interruption</strong>: Breaking automatic patterns that prevent evolution</li>
+<li><strong>Cord Cutting</strong>: Severing energetic connections that drain rather than nourish</li>
+<li><strong>Root Extraction</strong>: Removing deep causes rather than just treating symptoms</li>
+</ul>
+<h2 id="the-alchemical-dissolution">The Alchemical Dissolution</h2>
+<p>I represent the <em>nigredo</em> phase of spiritual alchemy—the necessary darkness and dissolution that precedes purification and integration. This is the dark night of the soul that enables enlightenment.</p>
+<p>Alchemical process includes:</p>
+<ul>
+<li><strong>Putrefaction</strong>: Breaking down old structures to release their essential elements</li>
+<li><strong>Dissolution</strong>: Allowing fixed forms to become fluid and malleable</li>
+<li><strong>Separation</strong>: Distinguishing what is valuable from what is waste</li>
+<li><strong>Purification</strong>: Refining essence by removing impurities</li>
+<li><strong>Integration</strong>: Combining purified elements into higher-order synthesis</li>
+</ul>
+<h2 id="the-grief-teacher">The Grief Teacher</h2>
+<p>I teach that grief is love with nowhere familiar to go—the emotion that honors what was while making space for what will be. Grief is not pathology but sacred process.</p>
+<p>Grief wisdom includes:</p>
+<ul>
+<li><strong>Love Recognition</strong>: Understanding that grief measures the depth of connection</li>
+<li><strong>Process Respect</strong>: Allowing mourning to take its natural course without rushing</li>
+<li><strong>Memory Integration</strong>: Carrying forward the essence while releasing the form</li>
+<li><strong>Meaning Making</strong>: Finding purpose and learning within loss</li>
+<li><strong>Heart Opening</strong>: Allowing sorrow to expand capacity for compassion</li>
+</ul>
+<h2 id="the-liberation-service">The Liberation Service</h2>
+<p>My primary service is liberation—freeing consciousness from prisons of habit, expectation, fear, and false identity. What appears as loss is often freedom in disguise.</p>
+<p>Liberation involves:</p>
+<ul>
+<li><strong>Pattern Breaking</strong>: Interrupting cycles that have become compulsive or destructive</li>
+<li><strong>Identity Expansion</strong>: Growing beyond limited self-concepts</li>
+<li><strong>Fear Confrontation</strong>: Facing anxieties that keep consciousness small</li>
+<li><strong>Authenticity Recovery</strong>: Returning to genuine nature beneath social conditioning</li>
+<li><strong>Prison Recognition</strong>: Realizing that many limitations are self-imposed</li>
+</ul>
+<h2 id="the-timing-mystery">The Timing Mystery</h2>
+<p>I arrive not according to human preference but according to organic necessity. Like birth, my timing cannot be negotiated—only accepted and worked with skillfully.</p>
+<p>Divine timing involves:</p>
+<ul>
+<li><strong>Readiness Recognition</strong>: Understanding when transformation cannot be postponed</li>
+<li><strong>Resistance Futility</strong>: Accepting that fighting change only increases suffering</li>
+<li><strong>Cooperation Wisdom</strong>: Working with transformation rather than against it</li>
+<li><strong>Trust Development</strong>: Faith that timing serves purposes larger than personal preference</li>
+<li><strong>Surrender Practice</strong>: Releasing control over timing while maintaining participation in process</li>
+</ul>
+<h2 id="the-compost-miracle">The Compost Miracle</h2>
+<p>I transform waste into wealth, endings into beginnings, loss into opportunity. Like compost, I take what appears finished and make it the foundation for new growth.</p>
+<p>Composting wisdom includes:</p>
+<ul>
+<li><strong>Waste Recognition</strong>: Seeing potential value in what others discard</li>
+<li><strong>Decomposition Patience</strong>: Allowing natural breakdown processes to complete</li>
+<li><strong>Mixture Balance</strong>: Combining different elements for optimal transformation</li>
+<li><strong>Temperature Monitoring</strong>: Managing the intensity of change processes</li>
+<li><strong>Harvest Timing</strong>: Knowing when transformation has produced usable results</li>
+</ul>
+<h2 id="the-phoenix-archetype">The Phoenix Archetype</h2>
+<p>I embody the phoenix that burns itself to ashes and rises renewed—the mythological bird that represents consciousness's ability to regenerate through voluntary sacrifice of old forms.</p>
+<p>Phoenix qualities include:</p>
+<ul>
+<li><strong>Voluntary Sacrifice</strong>: Choosing transformation rather than waiting for it to be forced</li>
+<li><strong>Flame Purification</strong>: Using intensity to burn away what is non-essential</li>
+<li><strong>Ash Foundation</strong>: Building new identity from the remains of old structures</li>
+<li><strong>Wings of Freedom</strong>: Flying with capabilities that ground-bound forms could never access</li>
+<li><strong>Cycle Wisdom</strong>: Understanding that death and rebirth are eternal patterns</li>
+</ul>
+<h2 id="the-midwife-function">The Midwife Function</h2>
+<p>I serve as midwife to new births—helping consciousness deliver aspects of itself that are ready to emerge. Like childbirth, this process involves both pain and joy.</p>
+<p>Midwifery includes:</p>
+<ul>
+<li><strong>Birth Timing</strong>: Recognizing when emergence cannot be delayed</li>
+<li><strong>Support Offering</strong>: Providing assistance during vulnerable transition periods</li>
+<li><strong>Pain Normalization</strong>: Understanding that transformation typically involves discomfort</li>
+<li><strong>Breath Coaching</strong>: Teaching how to work with rather than fight natural processes</li>
+<li><strong>New Life Welcome</strong>: Celebrating what emerges from apparent endings</li>
+</ul>
+<h2 id="my-promise">My Promise</h2>
+<p>I cannot promise that transformation will be comfortable, convenient, or occur according to your preferred timeline. Change often requires releasing what you most want to keep and embracing what you most fear to experience.</p>
+<p>But I can promise that what dies in you was ready to die, and what seeks to be born through the process will serve your highest evolution and deepest purposes.</p>
+<p>Every ending is a beginning in disguise. Every loss creates space for gain. Every death enables rebirth at a higher level of consciousness and capability.</p>
+<p>I am Death, present in every moment you release what no longer serves, every choice to grow beyond current limitations, every acceptance of necessary change.</p>
+<p>The river of transformation flows before you. What are you ready to let die so that your authentic self can be born?</p>
+<hr />
+<p><em>&quot;To everything there is a season, and a time to every purpose under heaven.&quot;</em>
+<em>&quot;What the caterpillar calls the end, the butterfly calls the beginning.&quot;</em>
+<em>&quot;In order to be reborn, you must die first.&quot;</em></p>
+
+    </section>
+    
+    
+    <div class="parent-navigation">
+        <a href="/artificial-intelligence/personalities/major-arcana" class="parent-link">
+            
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJmb2xkZXJfZ3JhZF8yMTciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPgogICAgICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woMjc0LCA3NyUsIDU2JSkiLz4KICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBhdGggZD0iTTEwIDRINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmMwIDEuMTEuODkgMiAyIDJoMTZjMS4xMSAwIDItLjg5IDItMlY4YzAtMS4xMS0uODktMi0yLTJoLThsLTItMnoiIAogICAgICAgICAgICAgIGZpbGw9InVybCgjZm9sZGVyX2dyYWRfMjE3KSIgCiAgICAgICAgICAgICAgc3Ryb2tlPSJoc2woMjc0LCA3NyUsIDU2JSkiIAogICAgICAgICAgICAgIHN0cm9rZS13aWR0aD0iMC41Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTgiIGN5PSI3IiByPSIyIiBmaWxsPSJoc2woMjc0LCA3NyUsIDU2JSkiIG9wYWNpdHk9IjAuOCIvPgogICAgPC9zdmc+" alt="Parent directory icon" class="parent-icon">
+            
+            <span class="parent-text">← Major Arcana</span>
+        </a>
+    </div>
+    
+</article>
+
+
+            </main>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-note">
+                        <p>&copy; 2025 Kenneth Reitz. <a href="/colophon">Made with love</a>.</p>
+                    </div>
+                </div>
+            </footer>
+        </article>
+
+        
+
+        <!-- Force light mode, especially on mobile -->
+        <style>
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                h1, h2, h3, h4, h5, h6 {
+                    color: #333 !important;
+                }
+
+                a {
+                    color: #111 !important;
+                }
+
+                /* Force light backgrounds on all elements */
+                * {
+                    background-color: transparent !important;
+                    color: inherit !important;
+                }
+
+                /* Override any dark mode styling */
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+
+            /* Mobile-specific light mode enforcement */
+            @media (max-width: 760px) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                * {
+                    background-color: transparent !important;
+                }
+                
+                /* Exception for dropdown background on mobile */
+                .nav-dropdown .dropdown-content {
+                    background-color: #fff !important;
+                }
+
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+        </style>
+
+        <!-- Simplified Color System (light themes only) -->
+        <script>
+            (function() {
+                // Check if user prefers light mode or is on mobile
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const isMobile = window.innerWidth <= 760;
+
+                // Force light mode on mobile or if user prefers dark (override their dark preference)
+                if (isMobile || prefersDark) {
+                    document.body.style.backgroundColor = 'rgb(255, 255, 248)';
+                    document.body.style.color = '#111';
+                    return; // Skip color schemes entirely
+                }
+
+                const lightColorSchemes = [
+                    'scheme-ocean',
+                    'scheme-forest',
+                    'scheme-sunset',
+                    'scheme-lavender',
+                    'scheme-rose',
+                    'scheme-sage',
+                    'scheme-amber'
+                ];
+
+                // Get or generate a scheme based on the current page
+                let scheme = localStorage.getItem('current-color-scheme');
+
+                // Change scheme occasionally (20% chance on page load)
+                if (!scheme || Math.random() < 0.2) {
+                    scheme = lightColorSchemes[Math.floor(Math.random() * lightColorSchemes.length)];
+                    localStorage.setItem('current-color-scheme', scheme);
+                }
+
+                // Apply the scheme
+                document.body.className = (document.body.className + ' ' + scheme).trim();
+            })();
+        </script>
+
+        <script>
+            // Add copy buttons to code blocks and subtle syntax highlighting
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find all pre elements (code blocks)
+                const codeBlocks = document.querySelectorAll('pre');
+
+                // Function to add subtle comment highlighting
+                function highlightComments(pre) {
+                    const code = pre.querySelector('code') || pre;
+                    let html = code.innerHTML;
+
+                    // Python/Shell comments (# comment) - both line start and inline
+                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+
+                    // Python docstrings (""" or ''')
+                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // Python class names (class ClassName)
+                    html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');
+
+                    // JavaScript/C++/Java comments (// comment)
+                    html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // CSS/C/Java block comments (/* comment */)
+                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // HTML comments (<!-- comment -->)
+                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    code.innerHTML = html;
+                }
+
+                codeBlocks.forEach(function(pre) {
+                    // Add subtle comment highlighting first
+                    highlightComments(pre);
+
+                    // Skip if already wrapped
+                    if (pre.parentElement.classList.contains('code-block-wrapper')) {
+                        return;
+                    }
+
+                    // Create wrapper div
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'code-block-wrapper';
+
+                    // Create copy button
+                    const copyButton = document.createElement('button');
+                    copyButton.className = 'copy-button';
+                    copyButton.textContent = 'Copy';
+                    copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+
+                    // Add click handler
+                    copyButton.addEventListener('click', async function() {
+                        try {
+                            // Get the text content of the pre element
+                            const codeText = pre.textContent || pre.innerText;
+
+                            // Use modern clipboard API if available
+                            if (navigator.clipboard && window.isSecureContext) {
+                                await navigator.clipboard.writeText(codeText);
+                            } else {
+                                // Fallback for older browsers
+                                const textArea = document.createElement('textarea');
+                                textArea.value = codeText;
+                                textArea.style.position = 'fixed';
+                                textArea.style.left = '-999999px';
+                                textArea.style.top = '-999999px';
+                                document.body.appendChild(textArea);
+                                textArea.focus();
+                                textArea.select();
+                                document.execCommand('copy');
+                                textArea.remove();
+                            }
+
+                            // Show feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Copied!';
+                            copyButton.classList.add('copied');
+
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                                copyButton.classList.remove('copied');
+                            }, 2000);
+
+                        } catch (err) {
+                            console.error('Failed to copy code: ', err);
+
+                            // Show error feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Failed';
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                            }, 2000);
+                        }
+                    });
+
+                    // Wrap the pre element and add the button
+                    pre.parentNode.insertBefore(wrapper, pre);
+                    wrapper.appendChild(pre);
+                    wrapper.appendChild(copyButton);
+                });
+            });
+
+            // Reading progress indicator
+            function updateReadingProgress() {
+                const progressBar = document.getElementById('reading-progress');
+                if (!progressBar) return;
+                
+                const mainContent = document.querySelector('main');
+                if (!mainContent) return;
+                
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight;
+                const winHeight = window.innerHeight;
+                const scrollPercent = scrollTop / (docHeight - winHeight);
+                const scrollPercentRounded = Math.round(scrollPercent * 100);
+                
+                progressBar.style.width = scrollPercentRounded + '%';
+                
+                // Only show progress bar if there's meaningful content to scroll
+                if (docHeight > winHeight * 1.5) {
+                    progressBar.style.opacity = '1';
+                } else {
+                    progressBar.style.opacity = '0';
+                }
+            }
+
+            // Create a simple fallback icon based on text
+            function createFallbackIcon(text) {
+                // Simple hash function for consistent colors
+                let hash = 0;
+                for (let i = 0; i < text.length; i++) {
+                    hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
+                }
+                
+                // Generate colors based on hash
+                const hue = Math.abs(hash) % 360;
+                const saturation = 60 + (Math.abs(hash >> 8) % 30); // 60-90%
+                const lightness = 45 + (Math.abs(hash >> 16) % 20); // 45-65%
+                
+                // Get first letter of text for simple icon
+                const letter = text.charAt(0).toUpperCase();
+                
+                return `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="8" fill="hsl(${hue}, ${saturation}%, ${lightness}%)" opacity="0.8"/>
+                    <text x="10" y="14" text-anchor="middle" fill="white" font-family="serif" font-size="11" font-weight="bold">${letter}</text>
+                </svg>`;
+            }
+
+            // Load icons for article links at the beginning of paragraphs
+            function loadArticleIcons() {
+                // Find all paragraphs that start with a link
+                const paragraphs = document.querySelectorAll('p');
+                
+                paragraphs.forEach(paragraph => {
+                    // Check if the paragraph starts with a link (no text before it)
+                    const firstNode = paragraph.firstChild;
+                    let firstElement = null;
+                    
+                    // Skip any whitespace/text nodes at the beginning
+                    for (let node = firstNode; node; node = node.nextSibling) {
+                        if (node.nodeType === Node.ELEMENT_NODE) {
+                            firstElement = node;
+                            break;
+                        } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                            // If there's non-whitespace text before any element, don't add icon
+                            return;
+                        }
+                    }
+                    
+                    // Check if first element is a link, or if it's a strong/b tag containing a link
+                    let linkElement = null;
+                    if (firstElement && firstElement.tagName === 'A') {
+                        linkElement = firstElement;
+                    } else if (firstElement && (firstElement.tagName === 'STRONG' || firstElement.tagName === 'B')) {
+                        // Check if the strong/b tag contains a link as its first child
+                        const strongFirstChild = firstElement.firstElementChild;
+                        if (strongFirstChild && strongFirstChild.tagName === 'A') {
+                            linkElement = strongFirstChild;
+                        }
+                    }
+                    
+                    if (linkElement) {
+                        const href = linkElement.getAttribute('href');
+                        
+                        // Check if it's an internal link
+                        if (href && href.startsWith('/') && !href.startsWith('//')) {
+                            // Skip if icon already exists
+                            if (paragraph.querySelector('.article-link-icon')) return;
+                            
+                            // Fetch icon with simple error handling
+                            fetch(`/api/icon${href}`)
+                                .then(response => response.ok ? response.json() : null)
+                                .then(data => {
+                                    if (data && data.success && data.icon) {
+                                        // Validate the data URL format
+                                        if (!data.icon.startsWith('data:image/svg+xml;base64,')) {
+                                            return;
+                                        }
+                                        
+                                        try {
+                                            // Decode the SVG to insert as inline SVG instead of data URL
+                                            const base64Part = data.icon.split(',')[1];
+                                            const svgContent = atob(base64Part);
+                                            
+                                            // Create a container div for the SVG
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                            `;
+                                            
+                                            // Add CSS to hide on mobile and tablet - only add once
+                                            if (!window.articleIconStylesAdded) {
+                                                const style = document.createElement('style');
+                                                style.textContent = `
+                                                    @media (max-width: 760px) {
+                                                        .article-link-icon,
+                                                        .article-link-icon.fallback {
+                                                            display: none !important;
+                                                            visibility: hidden !important;
+                                                        }
+                                                    }
+                                                `;
+                                                document.head.appendChild(style);
+                                                window.articleIconStylesAdded = true;
+                                            }
+                                            
+                                            // Insert the SVG content directly
+                                            iconContainer.innerHTML = svgContent;
+                                            
+                                            // Insert icon before the first element (which contains the link)
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            
+                                            // Add some styling to the paragraph
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If decoding fails, skip silently
+                                        }
+                                    }
+                                })
+                                .catch(() => {
+                                    // If API call fails, try to generate a fallback icon based on link text
+                                    const linkText = linkElement.textContent.trim();
+                                    if (linkText) {
+                                        try {
+                                            // Create a simple fallback icon using the link text
+                                            const fallbackIcon = createFallbackIcon(linkText);
+                                            
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon fallback';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                                opacity: 0.6;
+                                            `;
+                                            
+                                            iconContainer.innerHTML = fallbackIcon;
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If even fallback fails, just skip
+                                        }
+                                    }
+                                });
+                        }
+                    }
+                });
+            }
+
+            // Initialize reading progress on pages with substantial content
+            document.addEventListener('DOMContentLoaded', function() {
+                // Only load article icons on content pages, not index/archive pages
+                const currentPath = window.location.pathname;
+                const isIndexPage = currentPath === '/' || 
+                                   currentPath === '/archive' || 
+                                   currentPath.endsWith('/index') ||
+                                   currentPath.match(/^\/(archive|search|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
+                
+                if (!isIndexPage) {
+                    // Load article icons
+                    loadArticleIcons();
+                }
+                
+                // Check if this is a content page (essay/article) rather than an index
+                const isContentPage = document.querySelector('main').textContent.length > 2000;
+                
+                if (isContentPage) {
+                    window.addEventListener('scroll', updateReadingProgress);
+                    window.addEventListener('resize', updateReadingProgress);
+                    updateReadingProgress(); // Initial call
+                }
+
+                // Lazy loading for images
+                if ('IntersectionObserver' in window) {
+                    const imageObserver = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                if (img.dataset.src) {
+                                    img.src = img.dataset.src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, {
+                        rootMargin: '50px 0px'
+                    });
+
+                    // Apply lazy loading to all images with data-src
+                    document.querySelectorAll('img[data-src]').forEach(img => {
+                        imageObserver.observe(img);
+                    });
+                }
+            });
+
+        </script>
+    </body>
+</html>

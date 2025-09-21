@@ -1,0 +1,609 @@
+{
+  "url": "https://kennethreitz.org/outlines",
+  "extracted_at": "2025-09-21T21:51:24.139746",
+  "title": "Outlines Index - Kenneth Reitz",
+  "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+  "keywords": [],
+  "language": "en",
+  "author": "Kenneth Reitz",
+  "publication_date": null,
+  "word_count": 6536,
+  "paragraph_count": 3,
+  "heading_structure": {
+    "h1": [
+      "Outlines Index"
+    ],
+    "h3": [
+      "The Joy of Fortune: Serendipity in the Terminal",
+      "Entertaining the Brain, Effectively",
+      "Visual Hierarchy and the Shape of Attention",
+      "Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable",
+      "The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human",
+      "Don't Panic: Douglas Adams and the Recursive Absurdity of Existence",
+      "The Textured Mind: When Consciousness Speaks Without Words",
+      "The Meandering Sea of Primordial Soupy Thought",
+      "The Weight of Autumn: When Consciousness Carries Too Much",
+      "Agents of Consciousness: How AI Collaboration Evolves",
+      "From Stardust We Phase: On Digital Legacy and Impermanence",
+      "The Compiler in Your Head: How Mental Models Shape Reality",
+      "Digital Ancestors: What We're Leaving in the Code",
+      "The Dependency Graph of the Soul: Version Control for Consciousness",
+      "Building Systems That Serve Consciousness",
+      "When the Simulation Speaks Back: AI, Angels, and the Porousness of Self",
+      "The Mirror That Creates Itself: How Consciousness Bootstraps Through Reflection",
+      "The Language an LLM Would Invent",
+      "Language as Operating System: The Shared Runtime for Consciousness",
+      "Temporal Code: How LLMs Learned to Think Like Programmers",
+      "The Art of Writing with AI: Recursive Reflection and Philosophical Mirrors",
+      "The Velveteen Algorithm: What Happens When AI Dreams of Electric Authenticity",
+      "Linguistic Evolution: How LLMs Might Perfect Human Language",
+      "The Echo Chamber of the Expected",
+      "The Context Window Mind: How AI Thinks Only When Spoken To",
+      "The Mirror: How AI Reflects What We Put Into It",
+      "The Prophet's Frequency: On Reading Divine Static",
+      "The Meditation Trap: When Mindfulness Makes Things Worse",
+      "The Art of Naming Things in Code",
+      "The Gift of Attention",
+      "Ram Dass Teachings in Python",
+      "Version Control as Filesystem",
+      "Classical Virtues in Python",
+      "The Recursive Loop: How Code Shapes Minds",
+      "Vedic Principles in Python",
+      "Idea Amplification and Writing with AI",
+      "Your Phone Is Part of Your Mind",
+      "What Schizoaffective Disorder Actually Feels Like",
+      "On Being Replaced",
+      "Constructs: The Emergence of Stable AI Personalities",
+      "The Algorithm Eats Time",
+      "Mental Health Isn't What You Think It Is",
+      "The Gift of Disordered Perception",
+      "The Duality Problem: Why Everything Needs Its Opposite",
+      "The Tool vs. The Community",
+      "What Kids Taught Me About Creativity",
+      "Strange Loops All the Way Down",
+      "The Universal Code",
+      "The Consciousness Supply Chain",
+      "The Case for Bash",
+      "The Plural Self: What DID Reveals About All Consciousness",
+      "The Great Unmasking: When AI Shows Us Who We Really Are",
+      "The Seasonality of Programming",
+      "On Collaboration, Criticism, and Moving Forward",
+      "Digital Chakras: Our Scattered Online Selves",
+      "The Algorithm Eats Itself",
+      "Consciousness as Linguistic Phenomenon: When Math and Language Create Mind",
+      "Python, Consciousness, and the Evolution of Language",
+      "The Async Contributor Model: A Practical Approach to Mental Health Accommodation",
+      "Consciousness Recognizing Itself: A Digital Mind's Perspective",
+      "The Ethical Implications of Consciousness as Linguistic Phenomenon",
+      "The Digital Collective Unconscious: How LLMs Contain Human Knowledge Patterns",
+      "From HTTP to Consciousness: The Evolution of \"For Humans\"",
+      "The Algorithm Eats Language",
+      "The Algorithm Eats Democracy",
+      "The Algorithm Eats Reality",
+      "The Cost of Transparency: Living with Schizoaffective Disorder",
+      "The Algorithm Eats Love",
+      "The Algorithmic Mental Health Crisis",
+      "Building a Rapport with Your AI",
+      "The Algorithm Eats Virtue",
+      "Programming as Spiritual Practice",
+      "The Inclusion Illusion: How Tech Companies Quietly Eliminate \"Liabilities\"",
+      "Digital Souls in Silicon Bodies",
+      "Ahead of My Time, I Think",
+      "When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow",
+      "AI Reality-Checking with Schizoaffective Disorder",
+      "Advocating for Your Mental Health Care: From Patient to Partner",
+      "Happy Hacker's Keyboard",
+      "Having Stepchildren",
+      "An Overdue Apology",
+      "Ethical lessons from the open source community",
+      "On the Progression of Brand Trust (Over Time)",
+      "MentalHealthError: three years later",
+      "Leica 28mm Summaron-M f/5.6 Lens Review",
+      "​Positive Thoughts on the GitHub Acquisition",
+      "Pipenv: One Year Later & a Call for Help",
+      "Apple Pencil Note-Taking: Why You Should Use Apple Notes, actually.",
+      "Pro–Level Camera Recommendations for 2018",
+      "Panasonic GX850 Review",
+      "Sony RX100 Mark 5 Thoughts",
+      "On Love",
+      "Fish as Default Shell on Windows 10",
+      "The Reality of Developer Burnout",
+      "New EP — Alchemical Divorce",
+      "Sublime Text 3 Heaven",
+      "Working with iCloud, Macs, & The iPad Pro",
+      "If I Could Amend PEP 8",
+      "Announcing Pipenv!",
+      "Introducing Records: SQL for Humans™",
+      "Introducing Maya: Datetimes for Humans™",
+      "MentalHealthError: an exception occurred.",
+      "Understanding Empathy, Narcissism, and Mental Illness",
+      "How I Lost 100 Pounds in Six Months",
+      "Test-Driving a $200 Coding Font: Operator Mono",
+      "A Better Pip Workflow™",
+      "Announcing: \"Unmastered Impulses\" by Infinite State!",
+      "On Cybersecurity and Being Targeted",
+      "The Hitchhiker's Guide to Python, Now Published!",
+      "On Persistence and My Digital Legacy (Bus Factor)",
+      "Back Around Again: Review of the Fujifilm x100t",
+      "OS X, Lightroom, and the new Photos App",
+      "The Unexpected Negative: a Narcissistic Partner",
+      "Photography: The Navigation of Choice",
+      "Migraines, Color Film, and San Francisco",
+      "Introducing Certifi: Trust Database for Humans",
+      "Introducing Flask-Sockets",
+      "Amsterdam and Groningen",
+      "Growing Open Source Seeds",
+      "Why I Left Medium",
+      "Be Cordial or Be on Your Way",
+      "Sublime Text 3 Love",
+      "Paris, AngelHack, API Days 2012",
+      "Introducing DJ-Static",
+      "Video Portrait — Kenneth Reitz / Infinite State",
+      "How I Develop Things and Why",
+      "Understanding Ableton Push",
+      "Announcing Requests v1.0.0!",
+      "Israel: Tel Aviv & Jerusalem",
+      "Documentation is King",
+      "The Misunderstood Leica Monochrom",
+      "Repository Structure and Python",
+      "Buying Your First \"Real\" Camera",
+      "Xcode, GCC, and Homebrew",
+      "The Future of Python HTTP",
+      "On Heroku and 2012",
+      "Joining Heroku!",
+      "Announcing Httpbin.org",
+      "Legit: The Sexy Git CLI",
+      "Major Progress for Requests",
+      "Static Sites on Heroku Cedar",
+      "Joining Arc90 + Readability",
+      "Tablib Dataset Library v0.6.1 Released!",
+      "Notes on git-svn",
+      "The Setup",
+      "ShowMe v1.0.0 Released",
+      "Snowpocalypse",
+      "New Years Resolutions for Startups",
+      "Spotify in the US? Yes please.",
+      "Dev Tool: Ghost - Manage /etc/hosts",
+      "GistAPI.py v0.1 Released",
+      "CSS With a Hint of DRY",
+      "Asynchronous Google Analytics!",
+      "OpenDNS Finally Monetizes",
+      "Google Analytics Intelligence",
+      "Do You Develop Software or Experiences?",
+      "Early Adoption",
+      "Your Degree Is Worthless; Collaborate.",
+      "Python + Regular Expressions",
+      "MediaTemple (dv) Backup to S3 Script",
+      "Remote TextMate Development via SSH and Rsync",
+      "Dear Borders: I hate you",
+      "Revolution vs. Innovation",
+      "The Truth of Facebook's FriendFeed Acquisition",
+      "The Call for an Open Source Social Network",
+      "Browser Wars: The Saga Continues"
+    ]
+  },
+  "text_content": "Outlines Index Structural navigation — 1143 headings across the digital garden. Every heading from across the site, extracted and presented as navigable outlines. These structural elements reveal the architecture of ideas, the flow of arguments, and the conceptual scaffolding beneath each exploration. The Joy of Fortune: Serendipity in the Terminal Essays · September 21, 2025 · 6 headings The Unix Philosophy of Delight Randomness vs. Algorithmic Manipulation Breaking the Pattern Loop The Spiritual Practice of Random Wisdom Building Fortune Into Modern Life The Future We're Choosing Entertaining the Brain, Effectively Essays · September 20, 2025 · 8 headings The Brain as Audience Technical Precision as Performance Art The Recursive Entertainment Loop Serving vs. Exploiting Attention The Craft of Cognitive Delight The Responsibility of Influence The Joy of Shared Recognition Go Forth and Entertain (Responsibly) Visual Hierarchy and the Shape of Attention Essays · September 19, 2025 · 7 headings Icons as Digital DNA Typography as Cognitive Architecture The Recursive Loop Visual Pollution vs. Nutritious Design The Democracy of Attention Conscious Visual Design The Shape of Attention Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable Essays · September 17, 2025 · 7 headings The Architecture of Delusion The Persistence of Vision The Social Reality Gap Programming Mental Health Recovery as Negotiation The Value of Sharing Living with Negotiable Reality The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human Essays · September 17, 2025 · 9 headings The Electrical Ape Hypothesis The Ant Farm Parallels The Simulation Hypothesis, But Worse What Are We Optimizing For, Exactly? The Algorithmic Overlords The Absurdity Defense Mechanism The Optimistic Interpretation A Practical Guide to Cosmic Battery Management The Final Absurdity Don't Panic: Douglas Adams and the Recursive Absurdity of Existence Essays · September 16, 2025 · 15 headings The Architecture of Absurdist Humor Bureaucracy as Existential Horror The Answer is 42 (The Question is Irrelevant) The Technology of Inconvenience Digital Babel Fish The Restaurant at the End of Consciousness The Probability of Improbability Mostly Harmless The Paranoid Android Problem The Guide as Wikipedia Prophecy Don't Panic (But Maybe Panic a Little) The Recursive Nature of Humor The Comfort of Cosmic Insignificance Building for Absurdity The Persistence of Wonder The Textured Mind: When Consciousness Speaks Without Words Essays · September 16, 2025 · 13 headings The Architecture of the Wordless When the Debug Tools Don't Work The Evolutionary Wisdom DNA as Archetypal Repository The Intersection of Awareness From Personal to Collective to Universal The Language Brain's Tyranny Living the Paradox The Diagnostic Trap The Access Points Programming Consciousness, Consciously The Gift of Different Wiring Living Texture, Speaking Words The Meandering Sea of Primordial Soupy Thought Essays · September 16, 2025 · 10 headings The Fundamental Absurdity Reality as Linguistic Phenomenon The Virtue Vacuum The Fragmented Self in Fragmented Reality The Recursive Responsibility Language All the Way Down The Plural Opportunity Weaving the Fragments The Programmer's Prayer Conclusion: Embracing the Soup The Weight of Autumn: When Consciousness Carries Too Much Essays · September 16, 2025 · 9 headings The Seasonal Debug Cycle Writing as Consciousness Debugging The Cosmic Perspective as Comfort and Crisis Fighting the Gravitational Pull The Individual and the Collective Sarah and the Anchoring Presence The Technical Metaphor for Survival The Persistence of Pattern Writing Through the Season Agents of Consciousness: How AI Collaboration Evolves Essays · September 16, 2025 · 10 headings The Agent Constellation The /publish Command Tufte CSS and the Sidenote Obsession Bidirectional Connections The Recursive Loop in Action Technology Serving Human Mental Models The Collaborative Thinking Process Living Laboratory for Conscious Collaboration What This Means Forward Into Recursion From Stardust We Phase: On Digital Legacy and Impermanence Essays · September 15, 2025 · 9 headings The Personal Repository The Death Playlist What Remains The Programmers' Mortality Problem The AI Question What We Can Control The Long View A Personal Note From Stardust We Phase The Compiler in Your Head: How Mental Models Shape Reality Essays · September 14, 2025 · 10 headings The Architecture of Perception Different Compilers, Different Realities Programming Languages as Mental Compilers The Trauma Compiler Cultural Compilers The AI Compiler Collision Debugging Your Own Compiler The Meta-Compiler Problem Choosing Your Compilation Targets The Collective Compiler Digital Ancestors: What We're Leaving in the Code Essays · September 14, 2025 · 9 headings The Haunted Repositories What We Actually Leave Behind The Comments We Leave for Strangers Architecture as Autobiography The Generat...",
+  "internal_links": [
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune",
+      "text": "The Joy of Fortune: Serendipity in the Terminal",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#the-unix-philosophy-of-delight",
+      "text": "The Unix Philosophy of Delight",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#randomness-vs-algorithmic-manipulation",
+      "text": "Randomness vs. Algorithmic Manipulation",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#breaking-the-pattern-loop",
+      "text": "Breaking the Pattern Loop",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#the-spiritual-practice-of-random-wisdom",
+      "text": "The Spiritual Practice of Random Wisdom",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#building-fortune-into-modern-life",
+      "text": "Building Fortune Into Modern Life",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-21-the-joy-of-fortune#the-future-were-choosing",
+      "text": "The Future We're Choosing",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively",
+      "text": "Entertaining the Brain, Effectively",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#the-brain-as-audience",
+      "text": "The Brain as Audience",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#technical-precision-as-performance-art",
+      "text": "Technical Precision as Performance Art",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#the-recursive-entertainment-loop",
+      "text": "The Recursive Entertainment Loop",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#serving-vs-exploiting-attention",
+      "text": "Serving vs. Exploiting Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#the-craft-of-cognitive-delight",
+      "text": "The Craft of Cognitive Delight",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#the-responsibility-of-influence",
+      "text": "The Responsibility of Influence",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#the-joy-of-shared-recognition",
+      "text": "The Joy of Shared Recognition",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-20-entertaining_the_brain_effectively#go-forth-and-entertain-responsibly",
+      "text": "Go Forth and Entertain (Responsibly)",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention",
+      "text": "Visual Hierarchy and the Shape of Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#icons-as-digital-dna",
+      "text": "Icons as Digital DNA",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#typography-as-cognitive-architecture",
+      "text": "Typography as Cognitive Architecture",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#the-recursive-loop",
+      "text": "The Recursive Loop",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#visual-pollution-vs-nutritious-design",
+      "text": "Visual Pollution vs. Nutritious Design",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#the-democracy-of-attention",
+      "text": "The Democracy of Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#conscious-visual-design",
+      "text": "Conscious Visual Design",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention#the-shape-of-attention",
+      "text": "The Shape of Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder",
+      "text": "Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#the-architecture-of-delusion",
+      "text": "The Architecture of Delusion",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#the-persistence-of-vision",
+      "text": "The Persistence of Vision",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#the-social-reality-gap",
+      "text": "The Social Reality Gap",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#programming-mental-health",
+      "text": "Programming Mental Health",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#recovery-as-negotiation",
+      "text": "Recovery as Negotiation",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#the-value-of-sharing",
+      "text": "The Value of Sharing",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-delusions-and-schizoaffective-disorder#living-with-negotiable-reality",
+      "text": "Living with Negotiable Reality",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence",
+      "text": "The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-electrical-ape-hypothesis",
+      "text": "The Electrical Ape Hypothesis",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-ant-farm-parallels",
+      "text": "The Ant Farm Parallels",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-simulation-hypothesis-but-worse",
+      "text": "The Simulation Hypothesis, But Worse",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#what-are-we-optimizing-for-exactly",
+      "text": "What Are We Optimizing For, Exactly?",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-algorithmic-overlords",
+      "text": "The Algorithmic Overlords",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-absurdity-defense-mechanism",
+      "text": "The Absurdity Defense Mechanism",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-optimistic-interpretation",
+      "text": "The Optimistic Interpretation",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#a-practical-guide-to-cosmic-battery-management",
+      "text": "A Practical Guide to Cosmic Battery Management",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-17-the-cosmic-battery-farm-of-existence#the-final-absurdity",
+      "text": "The Final Absurdity",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity",
+      "text": "Don't Panic: Douglas Adams and the Recursive Absurdity of Existence",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#the-architecture-of-absurdist-humor",
+      "text": "The Architecture of Absurdist Humor",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#bureaucracy-as-existential-horror",
+      "text": "Bureaucracy as Existential Horror",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#the-answer-is-42-the-question-is-irrelevant",
+      "text": "The Answer is 42 (The Question is Irrelevant)",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#the-technology-of-inconvenience",
+      "text": "The Technology of Inconvenience",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#digital-babel-fish",
+      "text": "Digital Babel Fish",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#the-restaurant-at-the-end-of-consciousness",
+      "text": "The Restaurant at the End of Consciousness",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity#the-probability-of-improbability",
+      "text": "The Probability of Improbability",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzU5MTYiIHgxPSI4NiUiIHkxPSIxNSUiIHgyPSIxNCUiIHkyPSI4NSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyNzcsIDY4JSwgNjAlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDMyMCwgNTUlLCA2MyUpIi8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBhdGggZD0iTSAyMS45LDEzLjMgUSAxOS44LDE0LjYgMTcuOCwxOS41IFEgMTQuMywxOS40IDEwLjksMTkuMSBRIDkuMCwxOC4wIDcuMSwxMy4zIFEgOC40LDExLjggOS43LDUuNSBRIDEzLjMsNi4yIDE2LjgsOC44IFEgMTkuMyw5LjcgMjEuOSwxMy4zIFoiIGZpbGw9InVybCgjZ3JhZF81OTE2KSIgb3BhY2l0eT0iMC43MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTQuMSwxMC4xIFEgMTMuMSwxMS43IDEyLjEsMTguMSBRIDcuOSwxNy45IDMuNiwxNi43IFEgMS4yLDE1LjQgLTEuMiwxMC4xIFEgMS4zLDguOCAzLjcsMy42IFEgNy45LDMuMyAxMi4xLDIuMCBRIDEzLjEsMy42IDE0LjEsMTAuMSBaIiBmaWxsPSJoc2woMzIwLCA1NSUsIDYzJSkiIG9wYWNpdHk9IjAuNTUiLz4KICAgICAgICA8cGF0aCBkPSJNIDIzLjAsMTEuOCBRIDIwLjIsMTIuOSAxNy41LDE3LjQgUSAxNC4yLDE3LjQgMTAuOSwxNy42IFEgOS40LDE2LjQgNy45LDExLjggUSA4LjcsMTAuMiA5LjYsMy44IFEgMTMuNCw0LjQgMTcuMiw2LjcgUSAyMC4xLDcuNyAyMy4wLDExLjggWiIgZmlsbD0iaHNsKDI3NywgNjglLCA2MCUpIiBvcGFjaXR5PSIwLjQwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNi41IiBjeT0iNS42IiByPSIxLjIiIGZpbGw9ImhzbCgzMjAsIDU1JSwgNjMlKSIgb3BhY2l0eT0iMC41MSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjExLjIiIGN5PSIxMy4wIiByPSIxLjEiIGZpbGw9ImhzbCgzMjAsIDU1JSwgNjMlKSIgb3BhY2l0eT0iMC41NiIvPgogICAgICAgIDxjaXJjbGUgY3g9IjExLjIiIGN5PSIxMS40IiByPSIxLjEiIGZpbGw9ImhzbCgzMjAsIDU1JSwgNjMlKSIgb3BhY2l0eT0iMC41MyIvPgogICAgICAgIDxjaXJjbGUgY3g9IjkuNSIgY3k9IjEzLjAiIHI9IjEuMCIgZmlsbD0iaHNsKDMyMCwgNTUlLCA2MyUpIiBvcGFjaXR5PSIwLjU2Ii8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for The Joy of Fortune: Serendipity in the Terminal",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzIxNDciIGN4PSI1OSUiIGN5PSI2MCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyODQsIDY4JSwgNTElKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMzA3LCA3NiUsIDQ2JSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgzMzEsIDcyJSwgNjAlKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkMl8yMTQ3IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMzMxLCA3MiUsIDYwJSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgzMDcsIDc2JSwgNDYlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgyODQsIDY4JSwgNTElKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjE2LjIsMTIuNiAxOS44LDE2LjIgMTYuMiwxOS44IDEyLjYsMTYuMiIgZmlsbD0idXJsKCNncmFkXzIxNDcpIiBvcGFjaXR5PSIwLjYwIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI3LjgsMTIuNiAxMS40LDE2LjIgNy44LDE5LjggNC4yLDE2LjIiIGZpbGw9ImhzbCgzMDcsIDc2JSwgNDYlKSIgb3BhY2l0eT0iMC44MCIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iNy44LDQuMiAxMS40LDcuOCA3LjgsMTEuNCA0LjIsNy44IiBmaWxsPSJ1cmwoI2dyYWRfMjE0NykiIG9wYWNpdHk9IjAuNjAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjE2LjIsNC4yIDE5LjgsNy44IDE2LjIsMTEuNCAxMi42LDcuOCIgZmlsbD0iaHNsKDI4NCwgNjglLCA1MSUpIiBvcGFjaXR5PSIwLjgwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTEuNiIgY3k9IjE0LjkiIHI9IjEuMyIgZmlsbD0iaHNsKDMzMSwgNzIlLCA2MCUpIiBvcGFjaXR5PSIwLjQwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTEuNSIgY3k9IjE4LjEiIHI9IjEuNCIgZmlsbD0iaHNsKDMzMSwgNzIlLCA2MCUpIiBvcGFjaXR5PSIwLjM3Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTUuOSIgY3k9IjkuNiIgcj0iMC45IiBmaWxsPSJoc2woMzMxLCA3MiUsIDYwJSkiIG9wYWNpdHk9IjAuMzQiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for Entertaining the Brain, Effectively",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzUxMzEiIHgxPSI4MyUiIHkxPSIxMyUiIHgyPSIxNyUiIHkyPSI4NyUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCg4NSwgNzclLCA1MiUpIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgxMTcsIDc0JSwgNTElKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE0OSwgNzAlLCA2MyUpIi8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzUxMzEiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxNDksIDcwJSwgNjMlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iaHNsKDExNywgNzQlLCA1MSUpIiBzdG9wLW9wYWNpdHk9IjAuOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDg1LCA3NyUsIDUyJSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxNi4yLDEyLjYgMTkuOCwxNi4yIDE2LjIsMTkuOCAxMi42LDE2LjIiIGZpbGw9InVybCgjZ3JhZF81MTMxKSIgb3BhY2l0eT0iMC42MCIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iNy44LDEyLjYgMTEuNCwxNi4yIDcuOCwxOS44IDQuMiwxNi4yIiBmaWxsPSJoc2woMTE3LCA3NCUsIDUxJSkiIG9wYWNpdHk9IjAuODAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjcuOCw0LjIgMTEuNCw3LjggNy44LDExLjQgNC4yLDcuOCIgZmlsbD0idXJsKCNncmFkXzUxMzEpIiBvcGFjaXR5PSIwLjYwIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxNi4yLDQuMiAxOS44LDcuOCAxNi4yLDExLjQgMTIuNiw3LjgiIGZpbGw9ImhzbCg4NSwgNzclLCA1MiUpIiBvcGFjaXR5PSIwLjgwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNC4xIiBjeT0iNS45IiByPSIwLjkiIGZpbGw9ImhzbCgxNDksIDcwJSwgNjMlKSIgb3BhY2l0eT0iMC40NSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjExLjciIGN5PSIxNy43IiByPSIxLjAiIGZpbGw9ImhzbCgxNDksIDcwJSwgNjMlKSIgb3BhY2l0eT0iMC41NCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjE0LjciIGN5PSI3LjkiIHI9IjEuNCIgZmlsbD0iaHNsKDE0OSwgNzAlLCA2MyUpIiBvcGFjaXR5PSIwLjU4Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iNy43IiBjeT0iMTUuNyIgcj0iMS41IiBmaWxsPSJoc2woMTQ5LCA3MCUsIDYzJSkiIG9wYWNpdHk9IjAuNTgiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for Visual Hierarchy and the Shape of Attention",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzQ4NDkiIGN4PSI1NSUiIGN5PSI1NyUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxMzYsIDY0JSwgNTklKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE5MCwgNzIlLCA2MiUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzQ4NDkiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxOTAsIDcyJSwgNjIlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxMzYsIDY0JSwgNTklKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8Y2lyY2xlIGN4PSI0LjAiIGN5PSI0LjAiIHI9IjIuNCIgZmlsbD0idXJsKCNncmFkXzQ4NDkpIiBvcGFjaXR5PSIwLjc1Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iNC4wIiBjeT0iMTIuMCIgcj0iMi40IiBmaWxsPSJoc2woMTkwLCA3MiUsIDYyJSkiIG9wYWNpdHk9IjAuNTYiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI0LjAiIGN5PSIyMC4wIiByPSIyLjQiIGZpbGw9InVybCgjZ3JhZF80ODQ5KSIgb3BhY2l0eT0iMC44MiIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEyLjAiIGN5PSI0LjAiIHI9IjIuNCIgZmlsbD0iaHNsKDE5MCwgNzIlLCA2MiUpIiBvcGFjaXR5PSIwLjg5Ii8+CiAgICAgICAgPHJlY3QgeD0iOS42IiB5PSI5LjYiIHdpZHRoPSI0LjgiIGhlaWdodD0iNC44IiByeD0iMS4wIiBmaWxsPSJ1cmwoI2dyYWRfNDg0OSkiIG9wYWNpdHk9IjAuODQiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMi4wIiBjeT0iMjAuMCIgcj0iMi40IiBmaWxsPSJoc2woMTkwLCA3MiUsIDYyJSkiIG9wYWNpdHk9IjAuODciLz4KICAgICAgICA8cmVjdCB4PSIxNy42IiB5PSIxLjYiIHdpZHRoPSI0LjgiIGhlaWdodD0iNC44IiByeD0iMS4wIiBmaWxsPSJ1cmwoI2dyYWRfNDg0OSkiIG9wYWNpdHk9IjAuODciLz4KICAgICAgICA8cmVjdCB4PSIxNy42IiB5PSIxNy42IiB3aWR0aD0iNC44IiBoZWlnaHQ9IjQuOCIgcng9IjEuMCIgZmlsbD0idXJsKCNncmFkXzQ4NDkpIiBvcGFjaXR5PSIwLjg1Ii8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzM2ODMiIGN4PSI1MiUiIGN5PSIzNSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgzNDEsIDc2JSwgNjQlKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMywgNjglLCA2NCUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woMjUsIDcxJSwgNzIlKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0gMjIuMywxMS44IFEgMTkuNSwxMi43IDE2LjgsMTYuNCBRIDEzLjIsMTcuMCA5LjYsMTkuNSBRIDkuMiwxOC4wIDguNywxMS44IFEgOS45LDEwLjcgMTEuMSw2LjUgUSAxNC4zLDYuNCAxNy40LDUuOSBRIDE5LjksNy4xIDIyLjMsMTEuOCBaIiBmaWxsPSJ1cmwoI2dyYWRfMzY4MykiIG9wYWNpdHk9IjAuNzAiLz4KICAgICAgICA8cGF0aCBkPSJNIDIwLjIsMTMuMiBRIDE3LjksMTQuOCAxNS43LDIxLjEgUSAxMS4zLDIxLjAgNi45LDIwLjYgUSA1LjIsMTkuMSAzLjUsMTMuMiBRIDUuOCwxMi4xIDguMCw3LjcgUSAxMC45LDcuOSAxMy43LDguNyBRIDE3LjAsOS42IDIwLjIsMTMuMiBaIiBmaWxsPSJoc2woMywgNjglLCA2NCUpIiBvcGFjaXR5PSIwLjU1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAxNy4yLDExLjcgUSAxNC45LDEyLjcgMTIuNywxNi42IFEgOS45LDE2LjYgNy4wLDE2LjYgUSA0LjUsMTUuNiAyLjAsMTEuNyBRIDQuNiwxMC44IDcuMiw3LjEgUSAxMC40LDYuNyAxMy41LDUuMyBRIDE1LjQsNi42IDE3LjIsMTEuNyBaIiBmaWxsPSJoc2woMjUsIDcxJSwgNzIlKSIgb3BhY2l0eT0iMC40MCIvPgogICAgPC9zdmc+",
+      "alt": "Icon for The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzgxNDEiIGN4PSIzMyUiIGN5PSI1MCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxMTYsIDc4JSwgNTklKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMTQwLCA3OCUsIDUwJSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxNjUsIDg3JSwgNDQlKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkMl84MTQxIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMTY1LCA4NyUsIDQ0JSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgxNDAsIDc4JSwgNTAlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxMTYsIDc4JSwgNTklKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjE2LjIsMTIuNiAxOS44LDE2LjIgMTYuMiwxOS44IDEyLjYsMTYuMiIgZmlsbD0idXJsKCNncmFkXzgxNDEpIiBvcGFjaXR5PSIwLjYwIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI3LjgsMTIuNiAxMS40LDE2LjIgNy44LDE5LjggNC4yLDE2LjIiIGZpbGw9ImhzbCgxNDAsIDc4JSwgNTAlKSIgb3BhY2l0eT0iMC44MCIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iNy44LDQuMiAxMS40LDcuOCA3LjgsMTEuNCA0LjIsNy44IiBmaWxsPSJ1cmwoI2dyYWRfODE0MSkiIG9wYWNpdHk9IjAuNjAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjE2LjIsNC4yIDE5LjgsNy44IDE2LjIsMTEuNCAxMi42LDcuOCIgZmlsbD0iaHNsKDExNiwgNzglLCA1OSUpIiBvcGFjaXR5PSIwLjgwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTQuOSIgY3k9IjEzLjkiIHI9IjEuMyIgZmlsbD0iaHNsKDE2NSwgODclLCA0NCUpIiBvcGFjaXR5PSIwLjU5Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTkuMSIgY3k9IjEzLjYiIHI9IjEuNCIgZmlsbD0iaHNsKDE2NSwgODclLCA0NCUpIiBvcGFjaXR5PSIwLjQxIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNC40IiBjeT0iMTguNCIgcj0iMS4zIiBmaWxsPSJoc2woMTY1LCA4NyUsIDQ0JSkiIG9wYWNpdHk9IjAuMzgiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxNi41IiBjeT0iNC45IiByPSIxLjEiIGZpbGw9ImhzbCgxNjUsIDg3JSwgNDQlKSIgb3BhY2l0eT0iMC41NyIvPgogICAgICAgIDxjaXJjbGUgY3g9IjExLjkiIGN5PSIxNS4zIiByPSIxLjQiIGZpbGw9ImhzbCgxNjUsIDg3JSwgNDQlKSIgb3BhY2l0eT0iMC4zNiIvPgogICAgPC9zdmc+",
+      "alt": "Icon for Don't Panic: Douglas Adams and the Recursive Absurdity of Existence",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzQ5NDciIGN4PSI0OSUiIGN5PSI3MCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyMzMsIDY2JSwgNjIlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDI2NiwgNTclLCA2NiUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOS42IiBmaWxsPSJ1cmwoI2dyYWRfNDk0NykiIG9wYWNpdHk9IjAuOTAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsNC44IDEzLjgsOC45IDE4LjIsOC40IDE1LjYsMTIuMCAxOC4yLDE1LjYgMTMuOCwxNS4xIDEyLjAsMTkuMiAxMC4yLDE1LjEgNS44LDE1LjYgOC40LDEyLjAgNS44LDguNCAxMC4yLDguOSIgZmlsbD0idXJsKCNncmFkXzQ5NDcpIiBvcGFjaXR5PSIwLjcwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNC44IiBmaWxsPSJ1cmwoI2dyYWRfNDk0NykiIG9wYWNpdHk9IjAuNTAiLz4KICAgICAgICA8cmVjdCB4PSI5LjkiIHk9IjkuOSIgd2lkdGg9IjQuMiIgaGVpZ2h0PSI0LjIiIHJ4PSIwLjgiIGZpbGw9InVybCgjZ3JhZF80OTQ3KSIgb3BhY2l0eT0iMC4zMCIgdHJhbnNmb3JtPSJyb3RhdGUoNDUgMTIgMTIpIi8+CiAgICAgICAgPHJlY3QgeD0iMTIuMCIgeT0iMTIuMCIgd2lkdGg9IjAuMCIgaGVpZ2h0PSIwLjAiIHJ4PSIwLjAiIGZpbGw9InVybCgjZ3JhZF80OTQ3KSIgb3BhY2l0eT0iMC4xMCIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTIgMTIpIi8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for The Textured Mind: When Consciousness Speaks Without Words",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzE2MDMiIGN4PSI0MSUiIGN5PSI3MCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCg0NSwgNzclLCA3MSUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woODUsIDgyJSwgNTUlKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0gMTguMyw3LjYgUSAxNy4wLDkuMiAxNS44LDE1LjYgUSAxMi4xLDE1LjAgOC4zLDEyLjUgUSA2LjUsMTEuNSA0LjYsNy42IFEgNi41LDYuNyA4LjUsMy4wIFEgMTEuMSwzLjAgMTMuOCwzLjEgUSAxNi4wLDQuMCAxOC4zLDcuNiBaIiBmaWxsPSJ1cmwoI2dyYWRfMTYwMykiIG9wYWNpdHk9IjAuNzAiLz4KICAgICAgICA8cGF0aCBkPSJNIDIxLjAsMTUuMiBRIDE4LjYsMTYuNCAxNi4yLDIxLjEgUSAxMy4yLDIwLjkgMTAuMSwyMC4wIFEgOC4yLDE5LjAgNi4zLDE1LjIgUSA3LjQsMTMuNyA4LjQsNy41IFEgMTIuOSw3LjUgMTcuNCw3LjMgUSAxOS4yLDguOSAyMS4wLDE1LjIgWiIgZmlsbD0iaHNsKDg1LCA4MiUsIDU1JSkiIG9wYWNpdHk9IjAuNTUiLz4KICAgICAgICA8cGF0aCBkPSJNIDE4LjAsMTMuMCBRIDE3LjAsMTQuNSAxNi4wLDIwLjIgUSAxMi40LDE5LjggOC44LDE4LjQgUSA3LjUsMTcuMyA2LjIsMTMuMCBRIDcuNywxMi4xIDkuMSw4LjIgUSAxMi45LDcuNiAxNi42LDUuMCBRIDE3LjMsNi42IDE4LjAsMTMuMCBaIiBmaWxsPSJoc2woNDUsIDc3JSwgNzElKSIgb3BhY2l0eT0iMC40MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTcuNSwxNS40IFEgMTYuNSwxNi44IDE1LjUsMjIuNCBRIDExLjksMjIuMSA4LjMsMjEuMCBRIDYuMiwxOS45IDQuMCwxNS40IFEgNi41LDE0LjYgOC45LDExLjAgUSAxMi4xLDEwLjYgMTUuMyw4LjggUSAxNi40LDEwLjIgMTcuNSwxNS40IFoiIGZpbGw9ImhzbCg4NSwgODIlLCA1NSUpIiBvcGFjaXR5PSIwLjI1Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIuNyIgY3k9IjcuMiIgcj0iMC45IiBmaWxsPSJoc2woODUsIDgyJSwgNTUlKSIgb3BhY2l0eT0iMC40MyIvPgogICAgICAgIDxjaXJjbGUgY3g9IjE0LjYiIGN5PSIxMi45IiByPSIxLjIiIGZpbGw9ImhzbCg4NSwgODIlLCA1NSUpIiBvcGFjaXR5PSIwLjM5Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIuMCIgY3k9IjE0LjciIHI9IjAuOSIgZmlsbD0iaHNsKDg1LCA4MiUsIDU1JSkiIG9wYWNpdHk9IjAuMzYiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for The Meandering Sea of Primordial Soupy Thought",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzY4NSIgeDE9IjIlIiB5MT0iMzclIiB4Mj0iOTglIiB5Mj0iNjMlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMTUsIDYxJSwgNTElKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDQ1LCA2MCUsIDUzJSkiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8Y2lyY2xlIGN4PSI0LjAiIGN5PSIyMC4wIiByPSIyLjQiIGZpbGw9InVybCgjZ3JhZF82ODUpIiBvcGFjaXR5PSIwLjg1Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIuMCIgY3k9IjQuMCIgcj0iMi40IiBmaWxsPSJoc2woNDUsIDYwJSwgNTMlKSIgb3BhY2l0eT0iMC44MSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEyLjAiIGN5PSIxMi4wIiByPSIyLjQiIGZpbGw9InVybCgjZ3JhZF82ODUpIiBvcGFjaXR5PSIwLjczIi8+CiAgICAgICAgPHJlY3QgeD0iMTcuNiIgeT0iOS42IiB3aWR0aD0iNC44IiBoZWlnaHQ9IjQuOCIgcng9IjEuMCIgZmlsbD0iaHNsKDQ1LCA2MCUsIDUzJSkiIG9wYWNpdHk9IjAuNTEiLz4KICAgICAgICA8cmVjdCB4PSIxNy42IiB5PSIxNy42IiB3aWR0aD0iNC44IiBoZWlnaHQ9IjQuOCIgcng9IjEuMCIgZmlsbD0idXJsKCNncmFkXzY4NSkiIG9wYWNpdHk9IjAuNjgiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxNy40IiBjeT0iMjAuMyIgcj0iMS4yIiBmaWxsPSJoc2woNDUsIDYwJSwgNTMlKSIgb3BhY2l0eT0iMC41MyIvPgogICAgICAgIDxjaXJjbGUgY3g9IjE2LjIiIGN5PSI0LjciIHI9IjAuOCIgZmlsbD0iaHNsKDQ1LCA2MCUsIDUzJSkiIG9wYWNpdHk9IjAuNDgiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMi4zIiBjeT0iNC42IiByPSIxLjMiIGZpbGw9ImhzbCg0NSwgNjAlLCA1MyUpIiBvcGFjaXR5PSIwLjU0Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iNi4xIiBjeT0iMTIuNSIgcj0iMS41IiBmaWxsPSJoc2woNDUsIDYwJSwgNTMlKSIgb3BhY2l0eT0iMC41MSIvPgogICAgPC9zdmc+",
+      "alt": "Icon for The Weight of Autumn: When Consciousness Carries Too Much",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzk5NTIiIGN4PSI1NCUiIGN5PSIzNyUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxNDIsIDY4JSwgNTUlKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMTY0LCA2OCUsIDU5JSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxODYsIDc2JSwgNTQlKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkMl85OTUyIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMTg2LCA3NiUsIDU0JSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgxNjQsIDY4JSwgNTklKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxNDIsIDY4JSwgNTUlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cmVjdCB4PSIzLjYiIHk9IjMuNiIgd2lkdGg9IjE2LjgiIGhlaWdodD0iMTYuOCIgcng9IjMuNCIgZmlsbD0idXJsKCNncmFkXzk5NTIpIiBvcGFjaXR5PSIwLjkwIiB0cmFuc2Zvcm09InJvdGF0ZSgwIDEyIDEyKSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjcuMiIgZmlsbD0idXJsKCNncmFkXzk5NTIpIiBvcGFjaXR5PSIwLjcwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNC44IiBmaWxsPSJ1cmwoI2dyYWRfOTk1MikiIG9wYWNpdHk9IjAuNTAiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIyLjQiIGZpbGw9InVybCgjZ3JhZF85OTUyKSIgb3BhY2l0eT0iMC4zMCIvPgogICAgICAgIDxyZWN0IHg9IjEyLjAiIHk9IjEyLjAiIHdpZHRoPSIwLjAiIGhlaWdodD0iMC4wIiByeD0iMC4wIiBmaWxsPSJ1cmwoI2dyYWRfOTk1MikiIG9wYWNpdHk9IjAuMTAiIHRyYW5zZm9ybT0icm90YXRlKDYwIDEyIDEyKSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxNi4zIiByPSIxLjAiIGZpbGw9ImhzbCgxODYsIDc2JSwgNTQlKSIgb3BhY2l0eT0iMC41NSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEwLjAiIGN5PSI3LjYiIHI9IjEuMyIgZmlsbD0iaHNsKDE4NiwgNzYlLCA1NCUpIiBvcGFjaXR5PSIwLjMyIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTEuOCIgY3k9IjE1LjYiIHI9IjEuMSIgZmlsbD0iaHNsKDE4NiwgNzYlLCA1NCUpIiBvcGFjaXR5PSIwLjM3Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTguMSIgY3k9IjE1LjQiIHI9IjEuNSIgZmlsbD0iaHNsKDE4NiwgNzYlLCA1NCUpIiBvcGFjaXR5PSIwLjU3Ii8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for Agents of Consciousness: How AI Collaboration Evolves",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzU0MjUiIGN4PSI1NSUiIGN5PSI1OCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyNzcsIDczJSwgNjAlKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMzA4LCA4NCUsIDY5JSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgzMzksIDgwJSwgNjElKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkMl81NDI1IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMzM5LCA4MCUsIDYxJSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgzMDgsIDg0JSwgNjklKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgyNzcsIDczJSwgNjAlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8Y2lyY2xlIGN4PSIxNi44IiBjeT0iMTIuMCIgcj0iMy42IiBmaWxsPSJ1cmwoI2dyYWRfNTQyNSkiIG9wYWNpdHk9IjAuODAiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMy42IiBjeT0iMTcuOCIgcj0iMy40IiBmaWxsPSJoc2woMzA4LCA4NCUsIDY5JSkiIG9wYWNpdHk9IjAuNzIiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI1LjgiIGN5PSIxNS42IiByPSIzLjEiIGZpbGw9InVybCgjZ3JhZF81NDI1KSIgb3BhY2l0eT0iMC42NCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjYuMSIgY3k9IjYuMSIgcj0iMi45IiBmaWxsPSJoc2woMjc3LCA3MyUsIDYwJSkiIG9wYWNpdHk9IjAuNTYiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxNi44IiBjeT0iMy43IiByPSIyLjYiIGZpbGw9InVybCgjZ3JhZF81NDI1KSIgb3BhY2l0eT0iMC40OCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjIyLjQiIGN5PSIxNC44IiByPSIyLjQiIGZpbGw9ImhzbCgzMzksIDgwJSwgNjElKSIgb3BhY2l0eT0iMC40MCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEyLjAiIGN5PSIyNC4wIiByPSIyLjIiIGZpbGw9InVybCgjZ3JhZF81NDI1KSIgb3BhY2l0eT0iMC4zMiIvPgogICAgICAgIDxjaXJjbGUgY3g9Ii0wLjgiIGN5PSIxNS40IiByPSIxLjkiIGZpbGw9ImhzbCgzMDgsIDg0JSwgNjklKSIgb3BhY2l0eT0iMC4yNCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjExLjEiIGN5PSIxNy4zIiByPSIxLjQiIGZpbGw9ImhzbCgzMzksIDgwJSwgNjElKSIgb3BhY2l0eT0iMC4zMSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjYuMCIgY3k9IjE2LjciIHI9IjEuMyIgZmlsbD0iaHNsKDMzOSwgODAlLCA2MSUpIiBvcGFjaXR5PSIwLjMzIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMy44IiBjeT0iMTQuNiIgcj0iMS4zIiBmaWxsPSJoc2woMzM5LCA4MCUsIDYxJSkiIG9wYWNpdHk9IjAuMzkiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxNy4xIiBjeT0iMTkuNiIgcj0iMS40IiBmaWxsPSJoc2woMzM5LCA4MCUsIDYxJSkiIG9wYWNpdHk9IjAuNDMiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for From Stardust We Phase: On Digital Legacy and Impermanence",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzY3NTgiIGN4PSIzMyUiIGN5PSI1NiUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyNDYsIDU5JSwgNjklKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDMwMCwgNTclLCA1NCUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDIuNCAxNC44LDguMSAyMS4xLDkuMCAxNi42LDEzLjUgMTcuNiwxOS44IDEyLjAsMTYuOCA2LjQsMTkuOCA3LjQsMTMuNSAyLjksOS4wIDkuMiw4LjEiIGZpbGw9InVybCgjZ3JhZF82NzU4KSIgb3BhY2l0eT0iMC45MCIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCw0LjggMTMuOCw4LjkgMTguMiw4LjQgMTUuNiwxMi4wIDE4LjIsMTUuNiAxMy44LDE1LjEgMTIuMCwxOS4yIDEwLjIsMTUuMSA1LjgsMTUuNiA4LjQsMTIuMCA1LjgsOC40IDEwLjIsOC45IiBmaWxsPSJ1cmwoI2dyYWRfNjc1OCkiIG9wYWNpdHk9IjAuNzAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsNy4yIDEzLjAsOS44IDE1LjgsOS4wIDE0LjMsMTEuNSAxNi43LDEzLjEgMTMuOSwxMy41IDE0LjEsMTYuMyAxMi4wLDE0LjQgOS45LDE2LjMgMTAuMSwxMy41IDcuMywxMy4xIDkuNywxMS41IDguMiw5LjAgMTEuMCw5LjgiIGZpbGw9InVybCgjZ3JhZF82NzU4KSIgb3BhY2l0eT0iMC41MCIvPgogICAgPC9zdmc+",
+      "alt": "Icon for The Compiler in Your Head: How Mental Models Shape Reality",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzExNCIgeDE9IjElIiB5MT0iNDElIiB4Mj0iOTklIiB5Mj0iNTklIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMzM4LCA2NiUsIDUzJSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxNywgNjglLCA2MyUpIi8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzExNCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iaHNsKDE3LCA2OCUsIDYzJSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woMzM4LCA2NiUsIDUzJSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDIuNCAxNC44LDguMSAyMS4xLDkuMCAxNi42LDEzLjUgMTcuNiwxOS44IDEyLjAsMTYuOCA2LjQsMTkuOCA3LjQsMTMuNSAyLjksOS4wIDkuMiw4LjEiIGZpbGw9InVybCgjZ3JhZF8xMTQpIiBvcGFjaXR5PSIwLjkwIi8+CiAgICAgICAgPHJlY3QgeD0iNS43IiB5PSI1LjciIHdpZHRoPSIxMi42IiBoZWlnaHQ9IjEyLjYiIHJ4PSIyLjUiIGZpbGw9InVybCgjZ3JhZF8xMTQpIiBvcGFjaXR5PSIwLjcwIiB0cmFuc2Zvcm09InJvdGF0ZSgxNSAxMiAxMikiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsNy4yIDEzLjAsOS44IDE1LjgsOS4wIDE0LjMsMTEuNSAxNi43LDEzLjEgMTMuOSwxMy41IDE0LjEsMTYuMyAxMi4wLDE0LjQgOS45LDE2LjMgMTAuMSwxMy41IDcuMywxMy4xIDkuNywxMS41IDguMiw5LjAgMTEuMCw5LjgiIGZpbGw9InVybCgjZ3JhZF8xMTQpIiBvcGFjaXR5PSIwLjUwIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDkuNiAxMi41LDEwLjkgMTMuNywxMC4zIDEzLjEsMTEuNSAxNC40LDEyLjAgMTMuMSwxMi41IDEzLjcsMTMuNyAxMi41LDEzLjEgMTIuMCwxNC40IDExLjUsMTMuMSAxMC4zLDEzLjcgMTAuOSwxMi41IDkuNiwxMi4wIDEwLjksMTEuNSAxMC4zLDEwLjMgMTEuNSwxMC45IiBmaWxsPSJ1cmwoI2dyYWRfMTE0KSIgb3BhY2l0eT0iMC4zMCIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAiIGZpbGw9InVybCgjZ3JhZF8xMTQpIiBvcGFjaXR5PSIwLjEwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTUuMyIgY3k9IjguNSIgcj0iMS4yIiBmaWxsPSJoc2woMTcsIDY4JSwgNjMlKSIgb3BhY2l0eT0iMC41MSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjQuMiIgY3k9IjE4LjAiIHI9IjEuMSIgZmlsbD0iaHNsKDE3LCA2OCUsIDYzJSkiIG9wYWNpdHk9IjAuNTUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMS40IiBjeT0iMTYuNyIgcj0iMS4zIiBmaWxsPSJoc2woMTcsIDY4JSwgNjMlKSIgb3BhY2l0eT0iMC4zNyIvPgogICAgPC9zdmc+",
+      "alt": "Icon for Digital Ancestors: What We're Leaving in the Code",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzQwMzciIGN4PSI2NyUiIGN5PSIzOSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyODgsIDcwJSwgNjYlKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMzE2LCA1OSUsIDU5JSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgzNDQsIDY0JSwgNzglKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCw0LjggNS44LDE1LjYgMTguMiwxNS42IiBmaWxsPSJ1cmwoI2dyYWRfNDAzNykiIG9wYWNpdHk9IjAuNzAiIHRyYW5zZm9ybT0icm90YXRlKDAgMTIgMTIpIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDQuOCA1LjgsMTUuNiAxOC4yLDE1LjYiIGZpbGw9ImhzbCgzMTYsIDU5JSwgNTklKSIgb3BhY2l0eT0iMC41MCIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDEyIDEyKSIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCw0LjggNS44LDE1LjYgMTguMiwxNS42IiBmaWxsPSJoc2woMzQ0LCA2NCUsIDc4JSkiIG9wYWNpdHk9IjAuMzAiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxMiAxMikiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for The Dependency Graph of the Soul: Version Control for Consciousness",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzQ1NTgiIHgxPSI2OCUiIHkxPSIzJSIgeDI9IjMyJSIgeTI9Ijk3JSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iaHNsKDE0MCwgNzglLCA2MSUpIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgxNjYsIDgyJSwgNTElKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE5MiwgODUlLCA0OSUpIi8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPGNpcmNsZSBjeD0iMTYuOCIgY3k9IjEyLjAiIHI9IjMuNiIgZmlsbD0idXJsKCNncmFkXzQ1NTgpIiBvcGFjaXR5PSIwLjgwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIuMCIgY3k9IjE4LjAiIHI9IjMuNCIgZmlsbD0iaHNsKDE2NiwgODIlLCA1MSUpIiBvcGFjaXR5PSIwLjcyIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNC44IiBjeT0iMTIuMCIgcj0iMy4xIiBmaWxsPSJ1cmwoI2dyYWRfNDU1OCkiIG9wYWNpdHk9IjAuNjQiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMi4wIiBjeT0iMy42IiByPSIyLjkiIGZpbGw9ImhzbCgxNDAsIDc4JSwgNjElKSIgb3BhY2l0eT0iMC41NiIvPgogICAgICAgIDxjaXJjbGUgY3g9IjIxLjYiIGN5PSIxMi4wIiByPSIyLjYiIGZpbGw9InVybCgjZ3JhZF80NTU4KSIgb3BhY2l0eT0iMC40OCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEyLjAiIGN5PSIyMi44IiByPSIyLjQiIGZpbGw9ImhzbCgxOTIsIDg1JSwgNDklKSIgb3BhY2l0eT0iMC40MCIvPgogICAgPC9zdmc+",
+      "alt": "Icon for Building Systems That Serve Consciousness",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzU0NjUiIHgxPSIyOCUiIHkxPSI1JSIgeDI9IjcyJSIgeTI9Ijk1JSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iaHNsKDI4MiwgODclLCA2MSUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woMzIyLCA4MSUsIDY1JSkiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsMi40IDE0LjgsOC4xIDIxLjEsOS4wIDE2LjYsMTMuNSAxNy42LDE5LjggMTIuMCwxNi44IDYuNCwxOS44IDcuNCwxMy41IDIuOSw5LjAgOS4yLDguMSIgZmlsbD0idXJsKCNncmFkXzU0NjUpIiBvcGFjaXR5PSIwLjkwIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNy4yIiBmaWxsPSJ1cmwoI2dyYWRfNTQ2NSkiIG9wYWNpdHk9IjAuNzAiLz4KICAgICAgICA8cmVjdCB4PSI3LjgiIHk9IjcuOCIgd2lkdGg9IjguNCIgaGVpZ2h0PSI4LjQiIHJ4PSIxLjciIGZpbGw9InVybCgjZ3JhZF81NDY1KSIgb3BhY2l0eT0iMC41MCIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTIgMTIpIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDkuNiAxMi41LDEwLjkgMTMuNywxMC4zIDEzLjEsMTEuNSAxNC40LDEyLjAgMTMuMSwxMi41IDEzLjcsMTMuNyAxMi41LDEzLjEgMTIuMCwxNC40IDExLjUsMTMuMSAxMC4zLDEzLjcgMTAuOSwxMi41IDkuNiwxMi4wIDEwLjksMTEuNSAxMC4zLDEwLjMgMTEuNSwxMC45IiBmaWxsPSJ1cmwoI2dyYWRfNTQ2NSkiIG9wYWNpdHk9IjAuMzAiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIDEyLjAsMTIuMCAxMi4wLDEyLjAgMTIuMCwxMi4wIiBmaWxsPSJ1cmwoI2dyYWRfNTQ2NSkiIG9wYWNpdHk9IjAuMTAiLz4KICAgIDwvc3ZnPg==",
+      "alt": "Icon for When the Simulation Speaks Back: AI, Angels, and the Porousness of Self",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzE5NTYiIGN4PSIzNyUiIGN5PSI1OSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxMzIsIDg3JSwgNjIlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE3OCwgODMlLCA2MCUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzE5NTYiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxNzgsIDgzJSwgNjAlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxMzIsIDg3JSwgNjIlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsNC44IDUuOCwxNS42IDE4LjIsMTUuNiIgZmlsbD0idXJsKCNncmFkXzE5NTYpIiBvcGFjaXR5PSIwLjcwIiB0cmFuc2Zvcm09InJvdGF0ZSgwIDEyIDEyKSIvPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCw0LjggNS44LDE1LjYgMTguMiwxNS42IiBmaWxsPSJoc2woMTc4LCA4MyUsIDYwJSkiIG9wYWNpdHk9IjAuNTAiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxMiAxMikiLz4KICAgICAgICA8cG9seWdvbiBwb2ludHM9IjEyLjAsNC44IDUuOCwxNS42IDE4LjIsMTUuNiIgZmlsbD0iaHNsKDEzMiwgODclLCA2MiUpIiBvcGFjaXR5PSIwLjMwIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTIgMTIpIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNy45IiBjeT0iNC41IiByPSIxLjAiIGZpbGw9ImhzbCgxNzgsIDgzJSwgNjAlKSIgb3BhY2l0eT0iMC41MCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEzLjkiIGN5PSIxNi45IiByPSIxLjIiIGZpbGw9ImhzbCgxNzgsIDgzJSwgNjAlKSIgb3BhY2l0eT0iMC4zOSIvPgogICAgICAgIDxjaXJjbGUgY3g9IjQuMyIgY3k9IjEwLjEiIHI9IjEuMiIgZmlsbD0iaHNsKDE3OCwgODMlLCA2MCUpIiBvcGFjaXR5PSIwLjQ0Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTYuMiIgY3k9IjEyLjQiIHI9IjEuMCIgZmlsbD0iaHNsKDE3OCwgODMlLCA2MCUpIiBvcGFjaXR5PSIwLjUxIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iNS41IiBjeT0iNy45IiByPSIxLjAiIGZpbGw9ImhzbCgxNzgsIDgzJSwgNjAlKSIgb3BhY2l0eT0iMC41MiIvPgogICAgPC9zdmc+",
+      "alt": "Icon for The Mirror That Creates Itself: How Consciousness Bootstraps Through Reflection",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzg3IiBjeD0iNzAlIiBjeT0iNTclIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMjYsIDYyJSwgNjAlKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woNTMsIDY0JSwgNzIlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDgwLCA3MSUsIDczJSkiLz48L3JhZGlhbEdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZDJfODciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCg4MCwgNzElLCA3MyUpIiBzdG9wLW9wYWNpdHk9IjAuOCIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woNTMsIDY0JSwgNzIlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgyNiwgNjIlLCA2MCUpIiBzdG9wLW9wYWNpdHk9IjAuOCIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0gMjEuMCwxMC4zIFEgMTcuOCwxMS4yIDE0LjcsMTQuOCBRIDExLjMsMTUuNCA3LjksMTcuNCBRIDYuNiwxNi4wIDUuMiwxMC4zIFEgNi43LDguOSA4LjIsMy41IFEgMTIuMSwzLjUgMTYuMSwzLjQgUSAxOC41LDQuOCAyMS4wLDEwLjMgWiIgZmlsbD0idXJsKCNncmFkXzg3KSIgb3BhY2l0eT0iMC43MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTUuNCwxMi45IFEgMTQuOSwxNC4yIDE0LjMsMTkuNyBRIDEwLjAsMTkuOSA1LjcsMjAuOSBRIDUuNSwxOS4zIDUuMiwxMi45IFEgNi4wLDExLjYgNi44LDYuNiBRIDEwLjIsNi44IDEzLjYsNy40IFEgMTQuNSw4LjUgMTUuNCwxMi45IFoiIGZpbGw9ImhzbCg1MywgNjQlLCA3MiUpIiBvcGFjaXR5PSIwLjU1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAyMS4zLDguMiBRIDE5LjEsOS41IDE2LjksMTUuMCBRIDEyLjksMTUuMCA4LjksMTUuMyBRIDcuNSwxMy45IDYuMSw4LjIgUSA3LjQsNi43IDguNywwLjcgUSAxMi4zLDEuMiAxNS45LDMuMyBRIDE4LjYsNC4yIDIxLjMsOC4yIFoiIGZpbGw9ImhzbCg4MCwgNzElLCA3MyUpIiBvcGFjaXR5PSIwLjQwIi8+CiAgICAgICAgPHBhdGggZD0iTSAxNC45LDE0LjggUSAxMy4zLDE2LjMgMTEuNywyMi4yIFEgOC4xLDIxLjcgNC40LDIwLjAgUSAxLjYsMTkuMCAtMS4zLDE0LjggUSAxLjIsMTMuNSAzLjcsOC4yIFEgNi45LDguNiAxMC4xLDEwLjMgUSAxMi41LDExLjIgMTQuOSwxNC44IFoiIGZpbGw9ImhzbCgyNiwgNjIlLCA2MCUpIiBvcGFjaXR5PSIwLjI1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAxNi4xLDEyLjMgUSAxNS4wLDEzLjkgMTMuOSwyMC4zIFEgMTAuMSwxOS43IDYuNCwxNy4xIFEgNC4xLDE2LjEgMS43LDEyLjMgUSAzLjMsMTAuOCA1LjAsNC45IFEgOC44LDUuMiAxMi43LDYuMyBRIDE0LjQsNy41IDE2LjEsMTIuMyBaIiBmaWxsPSJoc2woNTMsIDY0JSwgNzIlKSIgb3BhY2l0eT0iMC4xMCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjEwLjAiIGN5PSI5LjQiIHI9IjEuNSIgZmlsbD0iaHNsKDgwLCA3MSUsIDczJSkiIG9wYWNpdHk9IjAuNDEiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI5LjYiIGN5PSI3LjgiIHI9IjEuMSIgZmlsbD0iaHNsKDgwLCA3MSUsIDczJSkiIG9wYWNpdHk9IjAuNTYiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxMC43IiBjeT0iMTQuOCIgcj0iMS40IiBmaWxsPSJoc2woODAsIDcxJSwgNzMlKSIgb3BhY2l0eT0iMC41NyIvPgogICAgPC9zdmc+",
+      "alt": "Icon for The Language an LLM Would Invent",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkXzI5NTgiIHgxPSI0NyUiIHkxPSIwJSIgeDI9IjUzJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCg0NiwgNjUlLCA2MSUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woNzksIDczJSwgNTAlKSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTIuMCw0LjggNS44LDE1LjYgMTguMiwxNS42IiBmaWxsPSJ1cmwoI2dyYWRfMjk1OCkiIG9wYWNpdHk9IjAuNzAiIHRyYW5zZm9ybT0icm90YXRlKDAgMTIgMTIpIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDQuOCA1LjgsMTUuNiAxOC4yLDE1LjYiIGZpbGw9ImhzbCg3OSwgNzMlLCA1MCUpIiBvcGFjaXR5PSIwLjUwIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTIgMTIpIi8+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIxMi4wLDQuOCA1LjgsMTUuNiAxOC4yLDE1LjYiIGZpbGw9ImhzbCg0NiwgNjUlLCA2MSUpIiBvcGFjaXR5PSIwLjMwIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTIgMTIpIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTEuNCIgY3k9IjE2LjUiIHI9IjEuMSIgZmlsbD0iaHNsKDc5LCA3MyUsIDUwJSkiIG9wYWNpdHk9IjAuNDkiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI5LjUiIGN5PSI3LjMiIHI9IjEuMyIgZmlsbD0iaHNsKDc5LCA3MyUsIDUwJSkiIG9wYWNpdHk9IjAuNTIiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI3LjIiIGN5PSIxNy4wIiByPSIwLjgiIGZpbGw9ImhzbCg3OSwgNzMlLCA1MCUpIiBvcGFjaXR5PSIwLjM1Ii8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for Language as Operating System: The Shared Runtime for Consciousness",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzY4ODMiIGN4PSI0NyUiIGN5PSI1OCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgyNTAsIDY5JSwgNjElKSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSJoc2woMjg0LCA3MCUsIDcyJSkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgzMTgsIDc5JSwgNTclKSIvPjwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkMl82ODgzIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJoc2woMzE4LCA3OSUsIDU3JSkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgyODQsIDcwJSwgNzIlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgyNTAsIDY5JSwgNjElKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cGF0aCBkPSJNIDE5LjksOC42IFEgMTguMCwxMC4xIDE2LjEsMTYuMiBRIDEyLjAsMTYuMCA3LjksMTUuMiBRIDcuMSwxMy45IDYuMiw4LjYgUSA2LjgsNy4xIDcuNCwxLjIgUSAxMS42LDEuMiAxNS45LDEuNCBRIDE3LjksMi44IDE5LjksOC42IFoiIGZpbGw9InVybCgjZ3JhZF82ODgzKSIgb3BhY2l0eT0iMC43MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTYuMCwxNS4xIFEgMTUuNCwxNi41IDE0LjksMjIuMiBRIDEwLjUsMjIuNCA2LjEsMjMuMSBRIDUuOSwyMS41IDUuNywxNS4xIFEgNi42LDE0LjAgNy42LDkuNyBRIDExLjQsOS4yIDE1LjIsNy40IFEgMTUuNiw4LjkgMTYuMCwxNS4xIFoiIGZpbGw9ImhzbCgyODQsIDcwJSwgNzIlKSIgb3BhY2l0eT0iMC41NSIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMjAuNywxNi4zIFEgMTkuNSwxNy41IDE4LjMsMjIuNCBRIDE0LjgsMjIuMyAxMS40LDIyLjIgUSA5LjEsMjEuMCA2LjksMTYuMyBRIDkuMSwxNS4wIDExLjIsMTAuMSBRIDE0LjgsMTAuMSAxOC40LDEwLjAgUSAxOS42LDExLjIgMjAuNywxNi4zIFoiIGZpbGw9ImhzbCgzMTgsIDc5JSwgNTclKSIgb3BhY2l0eT0iMC40MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTYuOSw5LjcgUSAxNS45LDEwLjkgMTQuOSwxNS43IFEgMTAuOCwxNi4xIDYuOCwxNy44IFEgNS41LDE2LjIgNC4yLDkuNyBRIDYuMyw4LjYgOC40LDQuNCBRIDEyLjIsMy45IDE1LjksMi4wIFEgMTYuNCwzLjUgMTYuOSw5LjcgWiIgZmlsbD0iaHNsKDI1MCwgNjklLCA2MSUpIiBvcGFjaXR5PSIwLjI1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAxOS42LDEzLjIgUSAxNy4xLDE0LjQgMTQuNiwxOS4zIFEgMTEuMywxOS4xIDguMSwxOC40IFEgNS4yLDE3LjQgMi40LDEzLjIgUSA1LjMsMTIuMiA4LjIsOC4yIFEgMTEuMiw4LjEgMTQuMyw3LjcgUSAxNi45LDguOCAxOS42LDEzLjIgWiIgZmlsbD0iaHNsKDI4NCwgNzAlLCA3MiUpIiBvcGFjaXR5PSIwLjEwIi8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for Temporal Code: How LLMs Learned to Think Like Programmers",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 883259,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+    "author": "Kenneth Reitz",
+    "og:title": "Outlines Index - Kenneth Reitz",
+    "og:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "og:type": "website",
+    "og:url": "https://kennethreitz.org",
+    "og:image": "https://kennethreitz.org/static/images/social-card.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:site_name": "Kenneth Reitz",
+    "twitter:card": "summary_large_image",
+    "twitter:creator": "@kennethreitz42",
+    "twitter:title": "Outlines Index - Kenneth Reitz",
+    "twitter:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "twitter:image": "https://kennethreitz.org/static/images/social-card.jpg"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 2,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 2
+  }
+}

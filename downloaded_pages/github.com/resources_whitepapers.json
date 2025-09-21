@@ -1,0 +1,357 @@
+{
+  "url": "https://github.com/resources/whitepapers",
+  "extracted_at": "2025-09-21T21:58:50.175406",
+  "title": "Ebooks & Whitepapers · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 956,
+  "paragraph_count": 16,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Ebooks & Whitepapers"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Filters",
+      "Content Type",
+      "Category",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants",
+      "Agentic AI, Security, and DevOps: Meet GitHub",
+      "Turn developer workflows into a security powerhouse with GitHub",
+      "Unlock 376% ROI with GitHub Enterprise Cloud",
+      "How agentic AI is accelerating DevOps",
+      "GitHub recognized as a Leader by IDC MarketScape",
+      "GitHub recognized in The Forrester Wave™: DevOps Platforms, Q2 2025",
+      "Training and onboarding developers on GitHub Copilot",
+      "6 common pitfalls for DevOps teams and how to avoid them",
+      "The engineering leader’s guide to AI",
+      "Detecting and Preventing Secret Leaks in Code",
+      "GitHub case study: Enhancing customer support with AI",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "Ebooks & Whitepapers Browse our collection of Ebooks and Whitepapers for valuable industry knowledge, trends, and strategies to help you stay ahead and make informed decisions. Filters Open Filters Content Type Content Type Whitepapers Ebooks Category Category AI Cloud DevOps GitHub Actions GitHub Advanced Security GitHub Enterprise Innersource Open Source Security Software Development Clear all Apply GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants Whitepaper Learn why Gartner positioned GitHub as a Leader for the second year in a row—highest and furthest in both Ability to Execute and Completeness of Vision. Learn more Agentic AI, Security, and DevOps: Meet GitHub Ebook Explore strategies on how to use GitHub tools to help your teams be more productive, efficient, and happy at work. Learn more Turn developer workflows into a security powerhouse with GitHub Whitepaper The Forrester Industry Spotlight on GitHub Advanced Security shows how enterprises achieve measurable gains in security efficiency, risk reduction, and developer productivity. Learn more Unlock 376% ROI with GitHub Enterprise Cloud Whitepaper Read the full Forrester TEI study and use the interactive ROI calculator to model results for your organization. Learn more How agentic AI is accelerating DevOps Ebook Discover what AI agents can really do for your organization — and how they’re already reshaping the way software gets built. Learn more GitHub recognized as a Leader by IDC MarketScape Whitepaper GitHub was named a Leader in the IDC MarketScape for AI Coding and Software Engineering Technologies. Learn more GitHub recognized in The Forrester Wave™: DevOps Platforms, Q2 2025 Whitepaper Forrester has named Microsoft, recognizing both GitHub and Azure DevOps, a Leader in The Forrester Wave™: DevOps Platforms, Q2 2025 report. Learn more Training and onboarding developers on GitHub Copilot Whitepaper Developers work alongside Copilot to write code, generate tests, fix bugs, create documentation, and much more. To fully realize Copilot’s potential, entire teams, not just individual developers, must adopt new skills. While Copilot may be a tool like any other, generative AI presents unique adoption challenges that require specific solutions. Learn more 6 common pitfalls for DevOps teams and how to avoid them Ebook DevOps is a transformative practice—and not only because it helps to build better software. It also aligns teams, from IT to engineering to security, removing siloed workstreams and promoting collaboration. As great as this sounds, pulling together your DevOps processes and tools requires some practice to make your strategy perfect. Learn more The engineering leader’s guide to AI Ebook AI coding is here. Developers have embraced it and already use various tools for AI code generation to augment their coding capabilities and offload some of their more mundane tasks. Learn more Detecting and Preventing Secret Leaks in Code Ebook In today’s interconnected digital landscape, safeguarding access to systems and sensitive data is more critical—and more challenging—than ever. With the increasing footprint of code and rapid software development cycles, malicious actors have an expanding array of opportunities to exploit vulnerabilities. Learn more GitHub case study: Enhancing customer support with AI Ebook GitHub Copilot empowers engineers to help their organizations achieve better business outcomes for their customers. But AI doesn't simply help engineers do the same work more quickly; it can help them get to places they haven't been able to get to before! We're excited to share how our GitHub customer success team has been using AI to better serve our customers. Learn more",
+  "internal_links": [
+    {
+      "url": "https://github.com/resources/whitepapers#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Fwhitepapers",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Fwhitepapers",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Fwhitepapers&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers",
+      "text": "Clear all",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/gartner-magic-quadrant-and-critical-capabilities-for-ai-code-assistants",
+      "text": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/agentic-ai-security-and-devops",
+      "text": "Agentic AI, Security, and DevOps: Meet GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/forrester-industry-spotlight-github-advanced-security",
+      "text": "Turn developer workflows into a security powerhouse with GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/forrester",
+      "text": "Unlock 376% ROI with GitHub Enterprise Cloud",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/how-agentic-ai-is-accelerating-devops",
+      "text": "How agentic AI is accelerating DevOps",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/idc-marketscape-ai-coding-software-engineering-2025",
+      "text": "GitHub recognized as a Leader by IDC MarketScape",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/forrester-wave-2025",
+      "text": "GitHub recognized in The Forrester Wave™: DevOps Platforms, Q2 2025",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/training-and-onboarding-developers-on-github-copilot",
+      "text": "Training and onboarding developers on GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/6-devops-pitfalls",
+      "text": "6 common pitfalls for DevOps teams and how to avoid them",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/engineering-leaders-guide-to-ai",
+      "text": "The engineering leader’s guide to AI",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/secret-scanning-a-key-to-your-cybersecurity-strategy",
+      "text": "Detecting and Preventing Secret Leaks in Code",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/whitepapers/enhancing-customer-support-with-ai",
+      "text": "GitHub case study: Enhancing customer support with AI",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6aEF0LnKI9Tjgv81ggzpCD/b1af8fd613a72ba9644ec3a1650d8b79/github-logo-productivity-theme.webp?w=1000&fm=jpg&fl=progressive",
+      "alt": "GitHub logo surrounded by green and purple abstract oblong shapes.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/64zOtfCTpqVGgOD0y4gwtd/faa54625f46dc4f2612e9392c5d83758/19515b04c68b26819473f8cd42e325f28043ff83e98e55a8a42f6714c1aa217d-1200x630.webp?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark-themed image with GitHub-inspired shapes and illustrations scattered across the background. Foreground text reads: \"Generative AI, Security, and DevOps: Meet GitHub,\" followed by a subheading that says, \"Empower your developer teams with the tools they need to work smarter, faster, and more collaboratively.\" The design emphasizes innovation and teamwork.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4F7PnMB0jjGzf2XajUtuqp/dd04e6977c59d9dba7bab719daa0d89a/github-whitepaper-forrester.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark background with purple gradient and GitHub logo + Forrester logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4F7PnMB0jjGzf2XajUtuqp/dd04e6977c59d9dba7bab719daa0d89a/github-whitepaper-forrester.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark background with purple gradient and GitHub logo + Forrester logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5FrAEcZncWxGHBLPxAIVzH/ddcc1939016319ffbd0549736772b15e/ed8a42434fac3ceab5ba03e12c08e179cc41d89ff0de4632f48b68a5f6744b4d-1200x630.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark-themed landscape image with GitHub-inspired shapes and illustrations scattered in the background. Bold foreground text reads, \"How agentic AI is accelerating DevOps,\" followed by smaller text that says, \"What AI agents mean for your team—and how they’re already changing how software gets built.\" The design combines a sleek, modern aesthetic with a focus on AI and software development themes.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4F7PnMB0jjGzf2XajUtuqp/dd04e6977c59d9dba7bab719daa0d89a/github-whitepaper-forrester.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark background with purple gradient and GitHub logo + Forrester logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5LDAumu4sOt8eWl67QjCt7/eb780aa0d754de847d47bea2d97049d5/8d9de925c2b20bf6c859565986473101e042322230f0520510ad107c4c17418f-1200x630.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "Dark background with various AI themed shapes and illustrations, blurred to create a soft effect. In the foreground, white text reads, \"Training and onboarding developers on GitHub Copilot.\"",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5QXwdBXJO9y0Tvzn3J5nL6/6fd84a19db91d8183d29c0a9ac6a6d0a/5e76928ef118227cb95bf1173010992d972dc1e42cf615265420d0ea4be17158-1200x630.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "A dark background with a blurred filter features an assortment of productivity-themed shapes and illustrations behind the text. The foreground text reads \"6 common pitfalls for DevOps teams and how to avoid them.\"",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/7xkz9pY5ARFw4t3kX7I47w/51970446df1e74e05996922abaf7f309/4a85a4b2a9ddbdd6bf7792df3faff9a9ac8815bddedad95f64d88ac0587eae60-1200x630.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "The alt text for this image is as follows: A dark background with an assortment of Enterprise themed shapes and illustrations are positioned behind the text. The foreground text reads \"The engineering leader's guide to AI. Ask these questions to find the right AI solution for your team.\" A blur filter is applied to the background.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/49XzJHQ6rD9u2RQL5k1P52/2ba4de2d70bae85c4ef1bd90dfc48893/d91d75f16fc0109c13c234a79efcf1356ff07cb0310d27d01fb775c9abaf5624-1200x630.png?w=1000&fm=jpg&fl=progressive",
+      "alt": "In this image with a dark blurred background, an assortment of Security-themed shapes and illustrations are positioned behind the text, which reads \"Secret Scanning\" followed by \"A Key to Your Cybersecurity Strategy.\"",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/resources/whitepapers/engineering-leaders-guide-to-ai",
+    "https://github.com/resources/whitepapers/secret-scanning-a-key-to-your-cybersecurity-strategy",
+    "https://github.com/resources/whitepapers/6-devops-pitfalls",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/resources/whitepapers/training-and-onboarding-developers-on-github-copilot",
+    "https://github.com/resources/whitepapers/how-agentic-ai-is-accelerating-devops",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Fwhitepapers",
+    "https://github.com/resources/whitepapers/gartner-magic-quadrant-and-critical-capabilities-for-ai-code-assistants",
+    "https://github.com/resources/whitepapers/agentic-ai-security-and-devops",
+    "https://github.com/resources/whitepapers/enhancing-customer-support-with-ai",
+    "https://github.com/resources/whitepapers/forrester",
+    "https://github.com/resources/whitepapers/forrester-wave-2025",
+    "https://github.com/resources/whitepapers/idc-marketscape-ai-coding-software-engineering-2025",
+    "https://github.com/resources/whitepapers/forrester-industry-spotlight-github-advanced-security"
+  ],
+  "page_size_bytes": 430412,
+  "meta_tags": {
+    "route-pattern": "/resources/whitepapers(.:format)",
+    "route-controller": "site_resources_whitepapers",
+    "route-action": "index",
+    "fetch-nonce": "v2:eadaba25-703e-5e8b-ef2b-7067749b4e42",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE4EE4:11F58D3:68D00497",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNEVFNDoxMUY1OEQzOjY4RDAwNDk3IiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "394cc1e165efb1880c011cd827048443987750fde1b674c533303b5254dcd72e",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/resources/whitepapers",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "Ebooks & Whitepapers",
+    "og:url": "https://github.com/resources/whitepapers",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive header-dark",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 1,
+    "footer": 0,
+    "header": 1
+  }
+}

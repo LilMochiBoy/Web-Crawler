@@ -1,0 +1,400 @@
+{
+  "url": "https://techcrunch.com/newsletters/",
+  "extracted_at": "2025-09-21T21:41:52.663557",
+  "title": "Newsletters Archive | TechCrunch",
+  "description": "Latest",
+  "keywords": [],
+  "language": "en-US",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 270,
+  "paragraph_count": 54,
+  "heading_structure": {
+    "h1": [
+      "TechCrunch Newsletters"
+    ],
+    "h2": [
+      "Daily and Weekly",
+      "Events and Marketing"
+    ],
+    "h3": [
+      "Topics",
+      "More from TechCrunch"
+    ],
+    "h5": [
+      "TechCrunch Daily News",
+      "Startups Weekly",
+      "TechCrunch Mobility",
+      "TechCrunch Week in Review",
+      "StrictlyVC",
+      "Promotions",
+      "Event Updates",
+      "Startup Battlefield 200",
+      "Advertising & Partnerships"
+    ]
+  },
+  "text_content": "TechCrunch Newsletters Get more from TechCrunch. Select your topics of interest, you can unsubscribe at any time. Select All Daily and Weekly TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. Learn More Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. Learn More TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Learn More TechCrunch Week in Review Get the best of our coverage, delivered to your inbox every Saturday. Learn More StrictlyVC Provides movers and shakers with the info they need to start their day. Learn More Promotions Emails, deals, and alerts from TechCrunch’s trusted partners. Learn More Events and Marketing Event Updates Get the latest event announcements, special discounts and other event offers. Learn More Startup Battlefield 200 Startup Battlefield news and updates, for new companies and alumni alike. Learn More Advertising & Partnerships Learn more about TechCrunch partnerships online and IRL Learn More",
+  "internal_links": [
+    {
+      "url": "https://techcrunch.com",
+      "text": "TechCrunch Desktop Logo",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com",
+      "text": "TechCrunch Mobile Logo",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/latest/",
+      "text": "Latest",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "text": "AI",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/amazon/",
+      "text": "Amazon",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/apps/",
+      "text": "Apps",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/biotech-health/",
+      "text": "Biotech & Health",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/climate/",
+      "text": "Climate",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/cloud-computing/",
+      "text": "Cloud Computing",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/commerce/",
+      "text": "Commerce",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/cryptocurrency/",
+      "text": "Crypto",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/enterprise/",
+      "text": "Enterprise",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/evs/",
+      "text": "EVs",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/fintech/",
+      "text": "Fintech",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/fundraising/",
+      "text": "Fundraising",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/gadgets/",
+      "text": "Gadgets",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/gaming/",
+      "text": "Gaming",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/google/",
+      "text": "Google",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/government-policy/",
+      "text": "Government & Policy",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/hardware/",
+      "text": "Hardware",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/instagram/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/layoffs/",
+      "text": "Layoffs",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/media-entertainment/",
+      "text": "Media & Entertainment",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/meta/",
+      "text": "Meta",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/microsoft/",
+      "text": "Microsoft",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/privacy/",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/robotics/",
+      "text": "Robotics",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/security/",
+      "text": "Security",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/social/",
+      "text": "Social",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/space/",
+      "text": "Space",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/startups/",
+      "text": "Startups",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/tiktok/",
+      "text": "TikTok",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/transportation/",
+      "text": "Transportation",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/venture/",
+      "text": "Venture",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/about-techcrunch/",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/events/",
+      "text": "Events",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/startup-battlefield/",
+      "text": "Startup Battlefield",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/",
+      "text": "Newsletters",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/podcasts/",
+      "text": "Podcasts",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/video/",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/sponsored/",
+      "text": "Partner Content",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/brand-studio/",
+      "text": "TechCrunch Brand Studio",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/contact-us/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/techcrunch-daily-news/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/startups-weekly/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/techcrunch-mobility/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/techcrunch-week-in-review/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/strictlyvc/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/promotions/",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/event-updates/",
+      "text": "Learn More",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://strictlyvc.com/",
+      "text": "StrictlyVC",
+      "title": ""
+    },
+    {
+      "url": "https://www.crunchboard.com/",
+      "text": "Crunchboard",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/techcrunch",
+      "text": "X",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/techcrunch",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/techcrunch",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://instagram.com/techcrunch",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/techcrunch",
+      "text": "youTube",
+      "title": ""
+    },
+    {
+      "url": "https://mstdn.social/@TechCrunch",
+      "text": "Mastodon",
+      "title": ""
+    },
+    {
+      "url": "https://www.threads.net/@techcrunch",
+      "text": "Threads",
+      "title": ""
+    },
+    {
+      "url": "https://bsky.app/profile/techcrunch.com",
+      "text": "Bluesky",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/09/tc-lockup.svg",
+      "alt": "",
+      "title": "",
+      "width": "149",
+      "height": "16"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/09/tc-logo-mobile.svg",
+      "alt": "",
+      "title": "",
+      "width": "47",
+      "height": "24"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/themes/tc-24/dist/svg/tc-logo.svg",
+      "alt": "TechCrunch Logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://twitter.com/techcrunch",
+    "https://www.linkedin.com/company/techcrunch",
+    "https://www.youtube.com/user/techcrunch",
+    "https://www.facebook.com/techcrunch",
+    "https://instagram.com/techcrunch"
+  ],
+  "page_size_bytes": 131746,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "Newsletters Archive",
+    "og:url": "https://techcrunch.com/newsletters/",
+    "og:site_name": "TechCrunch",
+    "og:image": "https://techcrunch.com/wp-content/uploads/2018/02/tc-backlight-e1689786273147.png?w=1200",
+    "og:image:width": "1200",
+    "og:image:height": "486",
+    "og:image:type": "image/png",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@TechCrunch",
+    "generator": "WordPress 6.7.3",
+    "parsely-title": "tc_newsletter",
+    "parsely-link": "https://techcrunch.com/newsletters/",
+    "parsely-type": "index",
+    "msapplication-TileImage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

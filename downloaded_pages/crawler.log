@@ -393,3 +393,645 @@
 2025-09-21 21:37:57,578 - INFO - [DB ERRORS] Logged Errors: 0
 2025-09-21 21:37:57,578 - INFO - ==================================================
 2025-09-21 21:37:57,578 - INFO - 
+2025-09-21 21:41:40,837 - INFO - Starting concurrent crawl from: https://techcrunch.com (3 workers)
+2025-09-21 21:41:41,539 - INFO - Fetching: https://techcrunch.com
+2025-09-21 21:41:42,282 - INFO - Extracted data: downloaded_pages\techcrunch.com\index_2.json
+2025-09-21 21:41:42,291 - INFO - Saved: downloaded_pages\techcrunch.com\index_2.html
+2025-09-21 21:41:42,540 - INFO - Fetching: https://techcrunch.com/latest/
+2025-09-21 21:41:42,730 - INFO - Extracted data: downloaded_pages\techcrunch.com\latest_2.json
+2025-09-21 21:41:42,740 - INFO - Saved: downloaded_pages\techcrunch.com\latest_2.html
+2025-09-21 21:41:43,540 - INFO - Fetching: https://techcrunch.com/category/startups/
+2025-09-21 21:41:43,750 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_startups_2.json
+2025-09-21 21:41:43,763 - INFO - Saved: downloaded_pages\techcrunch.com\category_startups_2.html
+2025-09-21 21:41:44,540 - INFO - Fetching: https://techcrunch.com/category/venture/
+2025-09-21 21:41:44,761 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_venture_2.json
+2025-09-21 21:41:44,770 - INFO - Saved: downloaded_pages\techcrunch.com\category_venture_2.html
+2025-09-21 21:41:45,540 - INFO - Fetching: https://techcrunch.com/tag/apple/
+2025-09-21 21:41:45,765 - INFO - Extracted data: downloaded_pages\techcrunch.com\tag_apple_1.json
+2025-09-21 21:41:45,775 - INFO - Saved: downloaded_pages\techcrunch.com\tag_apple_1.html
+2025-09-21 21:41:46,541 - INFO - Fetching: https://techcrunch.com/category/security/
+2025-09-21 21:41:46,749 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_security_1.json
+2025-09-21 21:41:46,759 - INFO - Saved: downloaded_pages\techcrunch.com\category_security_1.html
+2025-09-21 21:41:47,541 - INFO - Fetching: https://techcrunch.com/category/artificial-intelligence/
+2025-09-21 21:41:47,747 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_artificial-intelligence_2.json
+2025-09-21 21:41:47,758 - INFO - Saved: downloaded_pages\techcrunch.com\category_artificial-intelligence_2.html
+2025-09-21 21:41:48,541 - INFO - Fetching: https://techcrunch.com/category/apps/
+2025-09-21 21:41:48,753 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_apps_2.json
+2025-09-21 21:41:48,763 - INFO - Saved: downloaded_pages\techcrunch.com\category_apps_2.html
+2025-09-21 21:41:49,541 - INFO - Fetching: https://techcrunch.com/events/tc-disrupt-2025/
+2025-09-21 21:41:49,795 - INFO - Extracted data: downloaded_pages\techcrunch.com\events_tc-disrupt-2025_2.json
+2025-09-21 21:41:49,806 - INFO - Saved: downloaded_pages\techcrunch.com\events_tc-disrupt-2025_2.html
+2025-09-21 21:41:50,541 - INFO - Fetching: https://techcrunch.com/events/
+2025-09-21 21:41:50,714 - INFO - Extracted data: downloaded_pages\techcrunch.com\events_2.json
+2025-09-21 21:41:50,725 - INFO - Saved: downloaded_pages\techcrunch.com\events_2.html
+2025-09-21 21:41:51,541 - INFO - Fetching: https://techcrunch.com/podcasts/
+2025-09-21 21:41:51,686 - INFO - Extracted data: downloaded_pages\techcrunch.com\podcasts_2.json
+2025-09-21 21:41:51,695 - INFO - Saved: downloaded_pages\techcrunch.com\podcasts_2.html
+2025-09-21 21:41:52,541 - INFO - Fetching: https://techcrunch.com/newsletters/
+2025-09-21 21:41:52,693 - INFO - Extracted data: downloaded_pages\techcrunch.com\newsletters_2.json
+2025-09-21 21:41:52,703 - INFO - Saved: downloaded_pages\techcrunch.com\newsletters_2.html
+2025-09-21 21:41:53,542 - INFO - Fetching: https://techcrunch.com/tag/amazon/
+2025-09-21 21:41:53,756 - INFO - Extracted data: downloaded_pages\techcrunch.com\tag_amazon_2.json
+2025-09-21 21:41:53,770 - INFO - Saved: downloaded_pages\techcrunch.com\tag_amazon_2.html
+2025-09-21 21:41:54,542 - INFO - Fetching: https://techcrunch.com/category/biotech-health/
+2025-09-21 21:41:54,786 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_biotech-health.json
+2025-09-21 21:41:54,797 - INFO - Saved: downloaded_pages\techcrunch.com\category_biotech-health.html
+2025-09-21 21:41:55,543 - INFO - Fetching: https://techcrunch.com/category/climate/
+2025-09-21 21:41:55,746 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_climate_1.json
+2025-09-21 21:41:55,760 - INFO - Saved: downloaded_pages\techcrunch.com\category_climate_1.html
+2025-09-21 21:41:56,543 - INFO - Fetching: https://techcrunch.com/tag/cloud-computing/
+2025-09-21 21:41:56,748 - INFO - Extracted data: downloaded_pages\techcrunch.com\tag_cloud-computing_2.json
+2025-09-21 21:41:56,759 - INFO - Saved: downloaded_pages\techcrunch.com\tag_cloud-computing_2.html
+2025-09-21 21:41:57,543 - INFO - Fetching: https://techcrunch.com/category/commerce/
+2025-09-21 21:41:57,754 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_commerce_1.json
+2025-09-21 21:41:57,764 - INFO - Saved: downloaded_pages\techcrunch.com\category_commerce_1.html
+2025-09-21 21:41:58,544 - INFO - Fetching: https://techcrunch.com/category/cryptocurrency/
+2025-09-21 21:41:58,753 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_cryptocurrency_1.json
+2025-09-21 21:41:58,768 - INFO - Saved: downloaded_pages\techcrunch.com\category_cryptocurrency_1.html
+2025-09-21 21:41:59,544 - INFO - Fetching: https://techcrunch.com/category/enterprise/
+2025-09-21 21:41:59,752 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_enterprise_1.json
+2025-09-21 21:41:59,766 - INFO - Saved: downloaded_pages\techcrunch.com\category_enterprise_1.html
+2025-09-21 21:42:00,544 - INFO - Fetching: https://techcrunch.com/tag/evs/
+2025-09-21 21:42:00,750 - INFO - Extracted data: downloaded_pages\techcrunch.com\tag_evs_1.json
+2025-09-21 21:42:00,760 - INFO - Saved: downloaded_pages\techcrunch.com\tag_evs_1.html
+2025-09-21 21:42:01,544 - INFO - Fetching: https://techcrunch.com/category/fintech/
+2025-09-21 21:42:01,753 - INFO - Extracted data: downloaded_pages\techcrunch.com\category_fintech_1.json
+2025-09-21 21:42:01,764 - INFO - Saved: downloaded_pages\techcrunch.com\category_fintech_1.html
+2025-09-21 21:42:01,765 - INFO - Crawling completed. Downloaded 21 pages.
+2025-09-21 21:42:01,772 - INFO - ==================================================
+2025-09-21 21:42:01,772 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:42:01,772 - INFO - ==================================================
+2025-09-21 21:42:01,772 - INFO - [DURATION] Duration: 20.9 seconds (0.3 minutes)
+2025-09-21 21:42:01,772 - INFO - [URLS] URLs Found: 3344
+2025-09-21 21:42:01,772 - INFO - [DOWNLOADED] Pages Downloaded: 21
+2025-09-21 21:42:01,772 - INFO - [EXTRACTED] Content Extracted: 21
+2025-09-21 21:42:01,773 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:42:01,773 - INFO - [DOMAINS] Domains Crawled: 1
+2025-09-21 21:42:01,773 - INFO - [DATA] Data Downloaded: 5.16 MB
+2025-09-21 21:42:01,773 - INFO - [RESPONSE] Average Response Time: 0.14s
+2025-09-21 21:42:01,773 - INFO - [RATE] Pages/minute: 60.2
+2025-09-21 21:42:01,773 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:42:01,773 - INFO - ==================================================
+2025-09-21 21:42:01,775 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:42:01,775 - INFO - [SESSION] Session ID: 7
+2025-09-21 21:42:01,775 - INFO - [STORED] Pages in Database: 21
+2025-09-21 21:42:01,775 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:42:01,775 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:42:01,775 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:42:01,775 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:42:01,775 - INFO - ==================================================
+2025-09-21 21:42:01,775 - INFO - 
+2025-09-21 21:51:14,517 - INFO - Starting concurrent crawl from: https://httpbin.org (2 workers)
+2025-09-21 21:51:16,239 - INFO - Fetching: https://httpbin.org
+2025-09-21 21:51:17,877 - INFO - Extracted data: downloaded_pages\httpbin.org\index_5.json
+2025-09-21 21:51:17,889 - INFO - Saved: downloaded_pages\httpbin.org\index_5.html
+2025-09-21 21:51:18,463 - INFO - Fetching: https://github.com/requests/httpbin
+2025-09-21 21:51:18,883 - INFO - Fetching: https://kennethreitz.org
+2025-09-21 21:51:19,960 - INFO - Extracted data: downloaded_pages\kennethreitz.org\index_4.json
+2025-09-21 21:51:19,974 - INFO - Saved: downloaded_pages\kennethreitz.org\index_4.html
+2025-09-21 21:51:19,979 - INFO - Fetching: https://github.com/rochacbruno/flasgger
+2025-09-21 21:51:20,295 - INFO - Extracted data: downloaded_pages\github.com\requests_httpbin_5.json
+2025-09-21 21:51:20,305 - INFO - Saved: downloaded_pages\github.com\requests_httpbin_5.html
+2025-09-21 21:51:20,336 - INFO - Fetching: https://httpbin.org/forms/post
+2025-09-21 21:51:21,008 - INFO - Extracted data: downloaded_pages\httpbin.org\forms_post_3.json
+2025-09-21 21:51:21,018 - INFO - Saved: downloaded_pages\httpbin.org\forms_post_3.html
+2025-09-21 21:51:21,019 - INFO - Fetching: https://kennethreitz.org/
+2025-09-21 21:51:21,401 - INFO - Extracted data: downloaded_pages\kennethreitz.org\index_5.json
+2025-09-21 21:51:21,413 - INFO - Saved: downloaded_pages\kennethreitz.org\index_5.html
+2025-09-21 21:51:21,519 - INFO - Fetching: https://kennethreitz.org/archive
+2025-09-21 21:51:21,863 - INFO - Extracted data: downloaded_pages\github.com\rochacbruno_flasgger_3.json
+2025-09-21 21:51:21,877 - INFO - Saved: downloaded_pages\github.com\rochacbruno_flasgger_3.html
+2025-09-21 21:51:22,020 - INFO - Fetching: https://kennethreitz.org/themes
+2025-09-21 21:51:22,569 - INFO - Extracted data: downloaded_pages\kennethreitz.org\archive.json
+2025-09-21 21:51:22,580 - INFO - Saved: downloaded_pages\kennethreitz.org\archive.html
+2025-09-21 21:51:22,580 - INFO - Fetching: https://kennethreitz.org/sidenotes
+2025-09-21 21:51:23,211 - INFO - Extracted data: downloaded_pages\kennethreitz.org\themes.json
+2025-09-21 21:51:23,225 - INFO - Saved: downloaded_pages\kennethreitz.org\themes.html
+2025-09-21 21:51:23,225 - INFO - Fetching: https://kennethreitz.org/outlines
+2025-09-21 21:51:23,595 - INFO - Extracted data: downloaded_pages\kennethreitz.org\sidenotes.json
+2025-09-21 21:51:23,607 - INFO - Saved: downloaded_pages\kennethreitz.org\sidenotes.html
+2025-09-21 21:51:23,726 - INFO - Fetching: https://kennethreitz.org/connections
+2025-09-21 21:51:24,427 - INFO - Extracted data: downloaded_pages\kennethreitz.org\outlines.json
+2025-09-21 21:51:24,492 - INFO - Saved: downloaded_pages\kennethreitz.org\outlines.html
+2025-09-21 21:51:25,094 - INFO - Fetching: https://kennethreitz.org/quotes
+2025-09-21 21:51:25,519 - INFO - Extracted data: downloaded_pages\kennethreitz.org\connections.json
+2025-09-21 21:51:25,531 - INFO - Saved: downloaded_pages\kennethreitz.org\connections.html
+2025-09-21 21:51:25,594 - INFO - Fetching: https://kennethreitz.org/terms
+2025-09-21 21:51:25,817 - INFO - Extracted data: downloaded_pages\kennethreitz.org\quotes.json
+2025-09-21 21:51:25,828 - INFO - Saved: downloaded_pages\kennethreitz.org\quotes.html
+2025-09-21 21:51:26,095 - INFO - Fetching: https://kennethreitz.org/graph
+2025-09-21 21:51:26,407 - INFO - Extracted data: downloaded_pages\kennethreitz.org\graph.json
+2025-09-21 21:51:26,417 - INFO - Saved: downloaded_pages\kennethreitz.org\graph.html
+2025-09-21 21:51:26,595 - INFO - Fetching: https://kennethreitz.org/search
+2025-09-21 21:51:27,310 - INFO - Extracted data: downloaded_pages\kennethreitz.org\search.json
+2025-09-21 21:51:27,515 - INFO - Saved: downloaded_pages\kennethreitz.org\search.html
+2025-09-21 21:51:27,593 - INFO - Fetching: https://kennethreitz.org/random
+2025-09-21 21:51:28,828 - INFO - Extracted data: downloaded_pages\kennethreitz.org\terms.json
+2025-09-21 21:51:28,857 - INFO - Extracted data: downloaded_pages\kennethreitz.org\random.json
+2025-09-21 21:51:28,864 - INFO - Saved: downloaded_pages\kennethreitz.org\terms.html
+2025-09-21 21:51:28,876 - INFO - Saved: downloaded_pages\kennethreitz.org\random.html
+2025-09-21 21:51:28,877 - INFO - Crawling completed. Downloaded 16 pages.
+2025-09-21 21:51:28,896 - INFO - ==================================================
+2025-09-21 21:51:28,896 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:51:28,896 - INFO - ==================================================
+2025-09-21 21:51:28,896 - INFO - [DURATION] Duration: 14.4 seconds (0.2 minutes)
+2025-09-21 21:51:28,896 - INFO - [URLS] URLs Found: 549
+2025-09-21 21:51:28,896 - INFO - [DOWNLOADED] Pages Downloaded: 16
+2025-09-21 21:51:28,896 - INFO - [EXTRACTED] Content Extracted: 16
+2025-09-21 21:51:28,896 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:51:28,897 - INFO - [DOMAINS] Domains Crawled: 3
+2025-09-21 21:51:28,897 - INFO - [DATA] Data Downloaded: 12.07 MB
+2025-09-21 21:51:28,897 - INFO - [RESPONSE] Average Response Time: 0.96s
+2025-09-21 21:51:28,897 - INFO - [RATE] Pages/minute: 66.8
+2025-09-21 21:51:28,897 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:51:28,897 - INFO - ==================================================
+2025-09-21 21:51:28,899 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:51:28,899 - INFO - [SESSION] Session ID: 8
+2025-09-21 21:51:28,899 - INFO - [STORED] Pages in Database: 16
+2025-09-21 21:51:28,899 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:51:28,899 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:51:28,899 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:51:28,899 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:51:28,899 - INFO - ==================================================
+2025-09-21 21:51:28,900 - INFO - 
+2025-09-21 21:52:11,258 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 21:52:12,958 - INFO - Fetching: https://example.com
+2025-09-21 21:52:14,066 - INFO - Extracted data: downloaded_pages\example.com\index_4.json
+2025-09-21 21:52:14,076 - INFO - Saved: downloaded_pages\example.com\index_4.html
+2025-09-21 21:52:15,118 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 21:52:16,663 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_example_3.json
+2025-09-21 21:52:16,675 - INFO - Saved: downloaded_pages\www.iana.org\domains_example_3.html
+2025-09-21 21:52:16,678 - INFO - Fetching: https://www.iana.org/
+2025-09-21 21:52:16,922 - INFO - Extracted data: downloaded_pages\www.iana.org\index_2.json
+2025-09-21 21:52:16,931 - INFO - Saved: downloaded_pages\www.iana.org\index_2.html
+2025-09-21 21:52:17,678 - INFO - Fetching: https://www.iana.org/domains
+2025-09-21 21:52:17,932 - INFO - Extracted data: downloaded_pages\www.iana.org\domains.json
+2025-09-21 21:52:17,941 - INFO - Saved: downloaded_pages\www.iana.org\domains.html
+2025-09-21 21:52:18,678 - INFO - Fetching: https://www.iana.org/protocols
+2025-09-21 21:52:21,524 - INFO - Extracted data: downloaded_pages\www.iana.org\protocols.json
+2025-09-21 21:52:21,536 - INFO - Saved: downloaded_pages\www.iana.org\protocols.html
+2025-09-21 21:52:21,536 - INFO - Fetching: https://www.iana.org/numbers
+2025-09-21 21:52:22,526 - INFO - Extracted data: downloaded_pages\www.iana.org\numbers.json
+2025-09-21 21:52:22,536 - INFO - Saved: downloaded_pages\www.iana.org\numbers.html
+2025-09-21 21:52:22,537 - INFO - Fetching: https://www.iana.org/about
+2025-09-21 21:52:22,790 - INFO - Extracted data: downloaded_pages\www.iana.org\about.json
+2025-09-21 21:52:22,799 - INFO - Saved: downloaded_pages\www.iana.org\about.html
+2025-09-21 21:52:23,537 - INFO - Fetching: https://www.iana.org/go/rfc2606
+2025-09-21 21:52:24,686 - INFO - Extracted data: downloaded_pages\www.iana.org\go_rfc2606.json
+2025-09-21 21:52:24,695 - INFO - Saved: downloaded_pages\www.iana.org\go_rfc2606.html
+2025-09-21 21:52:24,696 - INFO - Fetching: https://www.iana.org/go/rfc6761
+2025-09-21 21:52:25,086 - INFO - Extracted data: downloaded_pages\www.iana.org\go_rfc6761.json
+2025-09-21 21:52:25,096 - INFO - Saved: downloaded_pages\www.iana.org\go_rfc6761.html
+2025-09-21 21:52:25,696 - INFO - Fetching: https://www.iana.org/domains/reserved
+2025-09-21 21:52:25,958 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_reserved.json
+2025-09-21 21:52:25,968 - INFO - Saved: downloaded_pages\www.iana.org\domains_reserved.html
+2025-09-21 21:52:25,977 - INFO - Crawling completed. Downloaded 10 pages.
+2025-09-21 21:52:25,993 - INFO - ==================================================
+2025-09-21 21:52:25,993 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:52:25,993 - INFO - ==================================================
+2025-09-21 21:52:25,993 - INFO - [DURATION] Duration: 14.7 seconds (0.2 minutes)
+2025-09-21 21:52:25,993 - INFO - [URLS] URLs Found: 29
+2025-09-21 21:52:25,993 - INFO - [DOWNLOADED] Pages Downloaded: 10
+2025-09-21 21:52:25,994 - INFO - [EXTRACTED] Content Extracted: 10
+2025-09-21 21:52:25,994 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:52:25,994 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 21:52:25,994 - INFO - [DATA] Data Downloaded: 1.27 MB
+2025-09-21 21:52:25,994 - INFO - [RESPONSE] Average Response Time: 0.66s
+2025-09-21 21:52:25,994 - INFO - [RATE] Pages/minute: 40.7
+2025-09-21 21:52:25,994 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:52:25,994 - INFO - ==================================================
+2025-09-21 21:52:25,996 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:52:25,997 - INFO - [SESSION] Session ID: 9
+2025-09-21 21:52:25,997 - INFO - [STORED] Pages in Database: 10
+2025-09-21 21:52:25,997 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:52:25,997 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:52:25,997 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:52:25,997 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:52:25,997 - INFO - ==================================================
+2025-09-21 21:52:25,997 - INFO - 
+2025-09-21 21:53:05,440 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 21:53:06,584 - INFO - Fetching: https://example.com
+2025-09-21 21:53:07,666 - INFO - Extracted data: downloaded_pages\example.com\index_5.json
+2025-09-21 21:53:07,676 - INFO - Saved: downloaded_pages\example.com\index_5.html
+2025-09-21 21:53:08,657 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 21:53:10,237 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_example_4.json
+2025-09-21 21:53:10,246 - INFO - Saved: downloaded_pages\www.iana.org\domains_example_4.html
+2025-09-21 21:53:10,657 - INFO - Fetching: https://www.iana.org/
+2025-09-21 21:53:10,908 - INFO - Extracted data: downloaded_pages\www.iana.org\index_3.json
+2025-09-21 21:53:10,917 - INFO - Saved: downloaded_pages\www.iana.org\index_3.html
+2025-09-21 21:53:10,918 - INFO - Crawling completed. Downloaded 3 pages.
+2025-09-21 21:53:10,933 - INFO - ==================================================
+2025-09-21 21:53:10,933 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:53:10,933 - INFO - ==================================================
+2025-09-21 21:53:10,934 - INFO - [DURATION] Duration: 5.5 seconds (0.1 minutes)
+2025-09-21 21:53:10,934 - INFO - [URLS] URLs Found: 29
+2025-09-21 21:53:10,934 - INFO - [DOWNLOADED] Pages Downloaded: 3
+2025-09-21 21:53:10,934 - INFO - [EXTRACTED] Content Extracted: 3
+2025-09-21 21:53:10,934 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:53:10,934 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 21:53:10,935 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 21:53:10,935 - INFO - [RESPONSE] Average Response Time: 0.96s
+2025-09-21 21:53:10,935 - INFO - [RATE] Pages/minute: 32.8
+2025-09-21 21:53:10,935 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:53:10,935 - INFO - ==================================================
+2025-09-21 21:53:10,937 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:53:10,937 - INFO - [SESSION] Session ID: 10
+2025-09-21 21:53:10,937 - INFO - [STORED] Pages in Database: 3
+2025-09-21 21:53:10,937 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:53:10,937 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:53:10,937 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:53:10,937 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:53:10,937 - INFO - ==================================================
+2025-09-21 21:53:10,938 - INFO - 
+2025-09-21 21:53:26,487 - INFO - Starting sequential crawl from: https://httpbin.org
+2025-09-21 21:53:28,274 - INFO - Fetching: https://httpbin.org
+2025-09-21 21:53:30,099 - INFO - Extracted data: downloaded_pages\httpbin.org\index_6.json
+2025-09-21 21:53:30,107 - INFO - Saved: downloaded_pages\httpbin.org\index_6.html
+2025-09-21 21:53:30,790 - INFO - Fetching: https://github.com/requests/httpbin
+2025-09-21 21:53:32,461 - INFO - Extracted data: downloaded_pages\github.com\requests_httpbin_6.json
+2025-09-21 21:53:32,471 - INFO - Saved: downloaded_pages\github.com\requests_httpbin_6.html
+2025-09-21 21:53:33,491 - INFO - Fetching: https://kennethreitz.org
+2025-09-21 21:53:34,661 - INFO - Extracted data: downloaded_pages\kennethreitz.org\index_6.json
+2025-09-21 21:53:34,670 - INFO - Saved: downloaded_pages\kennethreitz.org\index_6.html
+2025-09-21 21:53:34,675 - INFO - Fetching: https://github.com/rochacbruno/flasgger
+2025-09-21 21:53:36,105 - INFO - Extracted data: downloaded_pages\github.com\rochacbruno_flasgger_4.json
+2025-09-21 21:53:36,114 - INFO - Saved: downloaded_pages\github.com\rochacbruno_flasgger_4.html
+2025-09-21 21:53:36,180 - INFO - Fetching: https://httpbin.org/forms/post
+2025-09-21 21:53:36,696 - INFO - Extracted data: downloaded_pages\httpbin.org\forms_post_4.json
+2025-09-21 21:53:36,704 - INFO - Saved: downloaded_pages\httpbin.org\forms_post_4.html
+2025-09-21 21:53:37,675 - INFO - Fetching: https://github.com/
+2025-09-21 21:53:37,991 - INFO - Extracted data: downloaded_pages\github.com\index.json
+2025-09-21 21:53:38,000 - INFO - Saved: downloaded_pages\github.com\index.html
+2025-09-21 21:53:40,675 - INFO - Fetching: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin
+2025-09-21 21:53:41,037 - INFO - Extracted data: downloaded_pages\github.com\login.json
+2025-09-21 21:53:41,049 - INFO - Saved: downloaded_pages\github.com\login.html
+2025-09-21 21:53:43,675 - INFO - Fetching: https://github.com/features/copilot
+2025-09-21 21:53:44,288 - INFO - Extracted data: downloaded_pages\github.com\features_copilot.json
+2025-09-21 21:53:44,298 - INFO - Saved: downloaded_pages\github.com\features_copilot.html
+2025-09-21 21:53:46,676 - INFO - Fetching: https://github.com/features/spark
+2025-09-21 21:53:47,267 - INFO - Extracted data: downloaded_pages\github.com\features_spark.json
+2025-09-21 21:53:47,276 - INFO - Saved: downloaded_pages\github.com\features_spark.html
+2025-09-21 21:53:49,676 - INFO - Fetching: https://github.com/features/models
+2025-09-21 21:53:50,186 - INFO - Extracted data: downloaded_pages\github.com\features_models.json
+2025-09-21 21:53:50,195 - INFO - Saved: downloaded_pages\github.com\features_models.html
+2025-09-21 21:53:52,676 - INFO - Fetching: https://github.com/security/advanced-security
+2025-09-21 21:53:53,192 - INFO - Extracted data: downloaded_pages\github.com\security_advanced-security.json
+2025-09-21 21:53:53,209 - INFO - Saved: downloaded_pages\github.com\security_advanced-security.html
+2025-09-21 21:53:55,676 - INFO - Fetching: https://github.com/features/actions
+2025-09-21 21:53:56,153 - INFO - Extracted data: downloaded_pages\github.com\features_actions.json
+2025-09-21 21:53:56,167 - INFO - Saved: downloaded_pages\github.com\features_actions.html
+2025-09-21 21:53:57,211 - INFO - Crawling interrupted by user
+2025-09-21 21:53:57,211 - INFO - Saving crawl state for resume...
+2025-09-21 21:53:57,236 - INFO - Session 11 marked as interrupted. Use --resume 11 to continue.
+2025-09-21 21:53:57,237 - INFO - Crawling completed. Downloaded 12 pages.
+2025-09-21 21:53:57,257 - INFO - ==================================================
+2025-09-21 21:53:57,257 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:53:57,257 - INFO - ==================================================
+2025-09-21 21:53:57,257 - INFO - [DURATION] Duration: 30.8 seconds (0.5 minutes)
+2025-09-21 21:53:57,258 - INFO - [URLS] URLs Found: 521
+2025-09-21 21:53:57,258 - INFO - [DOWNLOADED] Pages Downloaded: 12
+2025-09-21 21:53:57,258 - INFO - [EXTRACTED] Content Extracted: 12
+2025-09-21 21:53:57,258 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:53:57,258 - INFO - [DOMAINS] Domains Crawled: 3
+2025-09-21 21:53:57,258 - INFO - [DATA] Data Downloaded: 3.64 MB
+2025-09-21 21:53:57,258 - INFO - [RESPONSE] Average Response Time: 0.73s
+2025-09-21 21:53:57,258 - INFO - [RATE] Pages/minute: 23.4
+2025-09-21 21:53:57,259 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:53:57,259 - INFO - ==================================================
+2025-09-21 21:53:57,261 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:53:57,262 - INFO - [SESSION] Session ID: 11
+2025-09-21 21:53:57,262 - INFO - [STORED] Pages in Database: 12
+2025-09-21 21:53:57,262 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:53:57,263 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:53:57,264 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:53:57,264 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:53:57,264 - INFO - ==================================================
+2025-09-21 21:53:57,264 - INFO - 
+2025-09-21 21:55:54,816 - INFO - Starting sequential crawl from: https://httpbin.org
+2025-09-21 21:55:56,238 - INFO - Fetching: https://httpbin.org
+2025-09-21 21:55:57,497 - INFO - Extracted data: downloaded_pages\httpbin.org\index_7.json
+2025-09-21 21:55:57,507 - INFO - Saved: downloaded_pages\httpbin.org\index_7.html
+2025-09-21 21:55:58,293 - INFO - Fetching: https://github.com/requests/httpbin
+2025-09-21 21:55:59,876 - INFO - Extracted data: downloaded_pages\github.com\requests_httpbin_7.json
+2025-09-21 21:55:59,891 - INFO - Saved: downloaded_pages\github.com\requests_httpbin_7.html
+2025-09-21 21:56:00,910 - INFO - Fetching: https://kennethreitz.org
+2025-09-21 21:56:01,980 - INFO - Extracted data: downloaded_pages\kennethreitz.org\index_7.json
+2025-09-21 21:56:01,989 - INFO - Saved: downloaded_pages\kennethreitz.org\index_7.html
+2025-09-21 21:56:01,994 - INFO - Fetching: https://github.com/rochacbruno/flasgger
+2025-09-21 21:56:03,554 - INFO - Extracted data: downloaded_pages\github.com\rochacbruno_flasgger_5.json
+2025-09-21 21:56:03,564 - INFO - Saved: downloaded_pages\github.com\rochacbruno_flasgger_5.html
+2025-09-21 21:56:03,624 - INFO - Fetching: https://httpbin.org/forms/post
+2025-09-21 21:56:06,233 - INFO - Extracted data: downloaded_pages\httpbin.org\forms_post_5.json
+2025-09-21 21:56:06,241 - INFO - Saved: downloaded_pages\httpbin.org\forms_post_5.html
+2025-09-21 21:56:06,243 - INFO - Fetching: https://github.com/
+2025-09-21 21:56:06,542 - INFO - Extracted data: downloaded_pages\github.com\index_1.json
+2025-09-21 21:56:06,553 - INFO - Saved: downloaded_pages\github.com\index_1.html
+2025-09-21 21:56:08,243 - INFO - Fetching: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin
+2025-09-21 21:56:08,636 - INFO - Extracted data: downloaded_pages\github.com\login_1.json
+2025-09-21 21:56:08,644 - INFO - Saved: downloaded_pages\github.com\login_1.html
+2025-09-21 21:56:10,243 - INFO - Fetching: https://github.com/features/copilot
+2025-09-21 21:56:10,898 - INFO - Extracted data: downloaded_pages\github.com\features_copilot_1.json
+2025-09-21 21:56:10,911 - INFO - Saved: downloaded_pages\github.com\features_copilot_1.html
+2025-09-21 21:56:12,243 - INFO - Fetching: https://github.com/features/spark
+2025-09-21 21:56:12,789 - INFO - Extracted data: downloaded_pages\github.com\features_spark_1.json
+2025-09-21 21:56:12,799 - INFO - Saved: downloaded_pages\github.com\features_spark_1.html
+2025-09-21 21:56:14,243 - INFO - Fetching: https://github.com/features/models
+2025-09-21 21:56:14,804 - INFO - Extracted data: downloaded_pages\github.com\features_models_1.json
+2025-09-21 21:56:14,815 - INFO - Saved: downloaded_pages\github.com\features_models_1.html
+2025-09-21 21:56:16,244 - INFO - Fetching: https://github.com/security/advanced-security
+2025-09-21 21:56:16,810 - INFO - Extracted data: downloaded_pages\github.com\security_advanced-security_1.json
+2025-09-21 21:56:16,828 - INFO - Saved: downloaded_pages\github.com\security_advanced-security_1.html
+2025-09-21 21:56:18,244 - INFO - Fetching: https://github.com/features/actions
+2025-09-21 21:56:18,714 - INFO - Extracted data: downloaded_pages\github.com\features_actions_1.json
+2025-09-21 21:56:18,725 - INFO - Saved: downloaded_pages\github.com\features_actions_1.html
+2025-09-21 21:56:20,244 - INFO - Fetching: https://github.com/features/codespaces
+2025-09-21 21:56:20,728 - INFO - Extracted data: downloaded_pages\github.com\features_codespaces.json
+2025-09-21 21:56:20,741 - INFO - Saved: downloaded_pages\github.com\features_codespaces.html
+2025-09-21 21:56:22,245 - INFO - Fetching: https://github.com/features/issues
+2025-09-21 21:56:22,813 - INFO - Extracted data: downloaded_pages\github.com\features_issues.json
+2025-09-21 21:56:22,822 - INFO - Saved: downloaded_pages\github.com\features_issues.html
+2025-09-21 21:56:23,846 - INFO - Crawling interrupted by user
+2025-09-21 21:56:23,846 - INFO - Saving crawl state for resume...
+2025-09-21 21:56:23,866 - INFO - Session 12 marked as interrupted. Use --resume 12 to continue.
+2025-09-21 21:56:23,866 - INFO - Crawling interrupted. Downloaded 14 pages.
+2025-09-21 21:56:23,866 - INFO - ==================================================
+2025-09-21 21:56:23,867 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:56:23,867 - INFO - ==================================================
+2025-09-21 21:56:23,867 - INFO - [DURATION] Duration: 29.1 seconds (0.5 minutes)
+2025-09-21 21:56:23,867 - INFO - [URLS] URLs Found: 549
+2025-09-21 21:56:23,867 - INFO - [DOWNLOADED] Pages Downloaded: 14
+2025-09-21 21:56:23,867 - INFO - [EXTRACTED] Content Extracted: 14
+2025-09-21 21:56:23,867 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:56:23,867 - INFO - [DOMAINS] Domains Crawled: 3
+2025-09-21 21:56:23,867 - INFO - [DATA] Data Downloaded: 4.32 MB
+2025-09-21 21:56:23,867 - INFO - [RESPONSE] Average Response Time: 0.79s
+2025-09-21 21:56:23,867 - INFO - [RATE] Pages/minute: 28.9
+2025-09-21 21:56:23,868 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:56:23,868 - INFO - ==================================================
+2025-09-21 21:56:23,869 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:56:23,869 - INFO - [SESSION] Session ID: 12
+2025-09-21 21:56:23,870 - INFO - [STORED] Pages in Database: 14
+2025-09-21 21:56:23,870 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:56:23,870 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:56:23,870 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:56:23,870 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:56:23,870 - INFO - ==================================================
+2025-09-21 21:56:23,871 - INFO - 
+2025-09-21 21:57:56,908 - INFO - [RESUME] Loaded session 12
+2025-09-21 21:57:56,908 - INFO - [RESUME] Visited URLs: 15
+2025-09-21 21:57:56,908 - INFO - [RESUME] Pages downloaded: 0
+2025-09-21 21:57:56,908 - INFO - [RESUME] Pending URLs in queue: 459
+2025-09-21 21:57:56,909 - INFO - Resuming crawl session 12 from: https://httpbin.org (3 workers)
+2025-09-21 21:57:57,698 - INFO - Fetching: https://github.com/why-github
+2025-09-21 21:57:58,940 - INFO - Extracted data: downloaded_pages\github.com\why-github.json
+2025-09-21 21:57:58,953 - INFO - Saved: downloaded_pages\github.com\why-github.html
+2025-09-21 21:57:59,698 - INFO - Fetching: https://github.com/features/code-search
+2025-09-21 21:58:00,206 - INFO - Extracted data: downloaded_pages\github.com\features_code-search.json
+2025-09-21 21:58:00,215 - INFO - Saved: downloaded_pages\github.com\features_code-search.html
+2025-09-21 21:58:01,698 - INFO - Fetching: https://github.com/features/discussions
+2025-09-21 21:58:02,202 - INFO - Extracted data: downloaded_pages\github.com\features_discussions.json
+2025-09-21 21:58:02,215 - INFO - Saved: downloaded_pages\github.com\features_discussions.html
+2025-09-21 21:58:02,414 - INFO - Fetching: https://docs.github.com
+2025-09-21 21:58:02,790 - INFO - Fetching: https://skills.github.com
+2025-09-21 21:58:03,045 - INFO - Fetching: https://github.blog
+2025-09-21 21:58:03,456 - INFO - Extracted data: downloaded_pages\docs.github.com\index.json
+2025-09-21 21:58:03,468 - INFO - Saved: downloaded_pages\docs.github.com\index.html
+2025-09-21 21:58:03,706 - INFO - Fetching: https://github.com/marketplace
+2025-09-21 21:58:03,708 - INFO - Extracted data: downloaded_pages\github.blog\index.json
+2025-09-21 21:58:03,719 - INFO - Saved: downloaded_pages\github.blog\index.html
+2025-09-21 21:58:03,807 - INFO - Extracted data: downloaded_pages\skills.github.com\index.json
+2025-09-21 21:58:03,817 - INFO - Saved: downloaded_pages\skills.github.com\index.html
+2025-09-21 21:58:05,297 - INFO - Extracted data: downloaded_pages\github.com\marketplace.json
+2025-09-21 21:58:05,309 - INFO - Saved: downloaded_pages\github.com\marketplace.html
+2025-09-21 21:58:05,707 - INFO - Fetching: https://github.com/mcp
+2025-09-21 21:58:06,518 - INFO - Extracted data: downloaded_pages\github.com\mcp.json
+2025-09-21 21:58:06,533 - INFO - Saved: downloaded_pages\github.com\mcp.html
+2025-09-21 21:58:07,707 - INFO - Fetching: https://github.com/features
+2025-09-21 21:58:08,294 - INFO - Extracted data: downloaded_pages\github.com\features.json
+2025-09-21 21:58:08,305 - INFO - Saved: downloaded_pages\github.com\features.html
+2025-09-21 21:58:09,708 - INFO - Fetching: https://github.com/enterprise
+2025-09-21 21:58:10,665 - INFO - Extracted data: downloaded_pages\github.com\enterprise.json
+2025-09-21 21:58:10,676 - INFO - Saved: downloaded_pages\github.com\enterprise.html
+2025-09-21 21:58:11,708 - INFO - Fetching: https://github.com/team
+2025-09-21 21:58:12,228 - INFO - Extracted data: downloaded_pages\github.com\team.json
+2025-09-21 21:58:12,239 - INFO - Saved: downloaded_pages\github.com\team.html
+2025-09-21 21:58:13,708 - INFO - Fetching: https://github.com/enterprise/startups
+2025-09-21 21:58:15,093 - INFO - Extracted data: downloaded_pages\github.com\enterprise_startups.json
+2025-09-21 21:58:15,106 - INFO - Saved: downloaded_pages\github.com\enterprise_startups.html
+2025-09-21 21:58:15,708 - INFO - Fetching: https://github.com/solutions/industry/nonprofits
+2025-09-21 21:58:16,277 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry_nonprofits.json
+2025-09-21 21:58:16,290 - INFO - Saved: downloaded_pages\github.com\solutions_industry_nonprofits.html
+2025-09-21 21:58:17,709 - INFO - Fetching: https://github.com/solutions/use-case/devsecops
+2025-09-21 21:58:18,230 - INFO - Extracted data: downloaded_pages\github.com\solutions_use-case_devsecops.json
+2025-09-21 21:58:18,241 - INFO - Saved: downloaded_pages\github.com\solutions_use-case_devsecops.html
+2025-09-21 21:58:19,709 - INFO - Fetching: https://github.com/solutions/use-case/devops
+2025-09-21 21:58:20,304 - INFO - Extracted data: downloaded_pages\github.com\solutions_use-case_devops.json
+2025-09-21 21:58:20,313 - INFO - Saved: downloaded_pages\github.com\solutions_use-case_devops.html
+2025-09-21 21:58:21,709 - INFO - Fetching: https://github.com/solutions/use-case/ci-cd
+2025-09-21 21:58:22,248 - INFO - Extracted data: downloaded_pages\github.com\solutions_use-case_ci-cd.json
+2025-09-21 21:58:22,262 - INFO - Saved: downloaded_pages\github.com\solutions_use-case_ci-cd.html
+2025-09-21 21:58:23,710 - INFO - Fetching: https://github.com/solutions/use-case
+2025-09-21 21:58:24,237 - INFO - Extracted data: downloaded_pages\github.com\solutions_use-case.json
+2025-09-21 21:58:24,251 - INFO - Saved: downloaded_pages\github.com\solutions_use-case.html
+2025-09-21 21:58:25,710 - INFO - Fetching: https://github.com/solutions/industry/healthcare
+2025-09-21 21:58:26,307 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry_healthcare.json
+2025-09-21 21:58:26,321 - INFO - Saved: downloaded_pages\github.com\solutions_industry_healthcare.html
+2025-09-21 21:58:27,710 - INFO - Fetching: https://github.com/solutions/industry/financial-services
+2025-09-21 21:58:28,383 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry_financial-services.json
+2025-09-21 21:58:28,397 - INFO - Saved: downloaded_pages\github.com\solutions_industry_financial-services.html
+2025-09-21 21:58:29,711 - INFO - Fetching: https://github.com/solutions/industry/manufacturing
+2025-09-21 21:58:30,304 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry_manufacturing.json
+2025-09-21 21:58:30,321 - INFO - Saved: downloaded_pages\github.com\solutions_industry_manufacturing.html
+2025-09-21 21:58:31,711 - INFO - Fetching: https://github.com/solutions/industry/government
+2025-09-21 21:58:32,235 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry_government.json
+2025-09-21 21:58:32,246 - INFO - Saved: downloaded_pages\github.com\solutions_industry_government.html
+2025-09-21 21:58:33,711 - INFO - Fetching: https://github.com/solutions/industry
+2025-09-21 21:58:34,228 - INFO - Extracted data: downloaded_pages\github.com\solutions_industry.json
+2025-09-21 21:58:34,238 - INFO - Saved: downloaded_pages\github.com\solutions_industry.html
+2025-09-21 21:58:35,711 - INFO - Fetching: https://github.com/solutions
+2025-09-21 21:58:36,251 - INFO - Extracted data: downloaded_pages\github.com\solutions.json
+2025-09-21 21:58:36,262 - INFO - Saved: downloaded_pages\github.com\solutions.html
+2025-09-21 21:58:37,712 - INFO - Fetching: https://github.com/resources/articles/ai
+2025-09-21 21:58:38,236 - INFO - Extracted data: downloaded_pages\github.com\resources_articles_ai.json
+2025-09-21 21:58:38,245 - INFO - Saved: downloaded_pages\github.com\resources_articles_ai.html
+2025-09-21 21:58:39,712 - INFO - Fetching: https://github.com/resources/articles/devops
+2025-09-21 21:58:40,215 - INFO - Extracted data: downloaded_pages\github.com\resources_articles_devops.json
+2025-09-21 21:58:40,225 - INFO - Saved: downloaded_pages\github.com\resources_articles_devops.html
+2025-09-21 21:58:41,713 - INFO - Fetching: https://github.com/resources/articles/security
+2025-09-21 21:58:42,221 - INFO - Extracted data: downloaded_pages\github.com\resources_articles_security.json
+2025-09-21 21:58:42,232 - INFO - Saved: downloaded_pages\github.com\resources_articles_security.html
+2025-09-21 21:58:43,713 - INFO - Fetching: https://github.com/resources/articles/software-development
+2025-09-21 21:58:44,164 - INFO - Extracted data: downloaded_pages\github.com\resources_articles_software-development.json
+2025-09-21 21:58:44,174 - INFO - Saved: downloaded_pages\github.com\resources_articles_software-development.html
+2025-09-21 21:58:45,713 - INFO - Fetching: https://github.com/resources/articles
+2025-09-21 21:58:46,314 - INFO - Extracted data: downloaded_pages\github.com\resources_articles.json
+2025-09-21 21:58:46,327 - INFO - Saved: downloaded_pages\github.com\resources_articles.html
+2025-09-21 21:58:47,713 - INFO - Fetching: https://github.com/resources/events
+2025-09-21 21:58:47,714 - INFO - Fetching: https://resources.github.com/learn/pathways
+2025-09-21 21:58:48,202 - INFO - Extracted data: downloaded_pages\github.com\resources_events.json
+2025-09-21 21:58:48,212 - INFO - Saved: downloaded_pages\github.com\resources_events.html
+2025-09-21 21:58:48,973 - INFO - Extracted data: downloaded_pages\resources.github.com\learn_pathways.json
+2025-09-21 21:58:48,982 - INFO - Saved: downloaded_pages\resources.github.com\learn_pathways.html
+2025-09-21 21:58:49,714 - INFO - Fetching: https://github.com/resources/whitepapers
+2025-09-21 21:58:50,248 - INFO - Extracted data: downloaded_pages\github.com\resources_whitepapers.json
+2025-09-21 21:58:50,262 - INFO - Saved: downloaded_pages\github.com\resources_whitepapers.html
+2025-09-21 21:58:50,263 - INFO - Crawling interrupted by user
+2025-09-21 21:58:50,263 - INFO - Saving crawl state for resume...
+2025-09-21 21:58:50,275 - INFO - Session 12 marked as interrupted. Use --resume 12 to continue.
+2025-09-21 21:58:50,275 - INFO - Crawling interrupted. Downloaded 31 pages.
+2025-09-21 21:58:50,275 - INFO - ==================================================
+2025-09-21 21:58:50,276 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 21:58:50,276 - INFO - ==================================================
+2025-09-21 21:58:50,276 - INFO - [DURATION] Duration: 53.4 seconds (0.9 minutes)
+2025-09-21 21:58:50,276 - INFO - [URLS] URLs Found: 0
+2025-09-21 21:58:50,276 - INFO - [DOWNLOADED] Pages Downloaded: 31
+2025-09-21 21:58:50,276 - INFO - [EXTRACTED] Content Extracted: 31
+2025-09-21 21:58:50,276 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 21:58:50,276 - INFO - [DOMAINS] Domains Crawled: 5
+2025-09-21 21:58:50,276 - INFO - [DATA] Data Downloaded: 11.50 MB
+2025-09-21 21:58:50,276 - INFO - [RESPONSE] Average Response Time: 0.60s
+2025-09-21 21:58:50,277 - INFO - [RATE] Pages/minute: 34.9
+2025-09-21 21:58:50,277 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 21:58:50,277 - INFO - ==================================================
+2025-09-21 21:58:50,278 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 21:58:50,278 - INFO - [SESSION] Session ID: 12
+2025-09-21 21:58:50,278 - INFO - [STORED] Pages in Database: 45
+2025-09-21 21:58:50,278 - INFO - [LINKS] Links Stored: 0
+2025-09-21 21:58:50,278 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 21:58:50,278 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 21:58:50,278 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 21:58:50,278 - INFO - ==================================================
+2025-09-21 21:58:50,279 - INFO - 
+2025-09-21 22:07:37,705 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 22:09:15,266 - INFO - Crawling interrupted by user
+2025-09-21 22:09:15,266 - INFO - Saving crawl state for resume...
+2025-09-21 22:09:15,284 - INFO - Session 13 marked as interrupted. Use --resume 13 to continue.
+2025-09-21 22:09:15,285 - INFO - Crawling interrupted. Downloaded 0 pages.
+2025-09-21 22:09:15,285 - INFO - ==================================================
+2025-09-21 22:09:15,285 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:09:15,285 - INFO - ==================================================
+2025-09-21 22:09:15,285 - INFO - [DURATION] Duration: 97.6 seconds (1.6 minutes)
+2025-09-21 22:09:15,285 - INFO - [URLS] URLs Found: 0
+2025-09-21 22:09:15,285 - INFO - [DOWNLOADED] Pages Downloaded: 0
+2025-09-21 22:09:15,285 - INFO - [EXTRACTED] Content Extracted: 0
+2025-09-21 22:09:15,285 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 22:09:15,285 - INFO - [DOMAINS] Domains Crawled: 0
+2025-09-21 22:09:15,286 - INFO - ==================================================
+2025-09-21 22:09:15,287 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:09:15,287 - INFO - [SESSION] Session ID: 13
+2025-09-21 22:09:15,288 - INFO - [STORED] Pages in Database: 0
+2025-09-21 22:09:15,288 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:09:15,288 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:09:15,288 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:09:15,288 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:09:15,288 - INFO - ==================================================
+2025-09-21 22:09:15,288 - INFO - 
+2025-09-21 22:13:23,914 - INFO - Starting sequential crawl from: https://httpbin.org
+2025-09-21 22:13:25,877 - INFO - Fetching: https://httpbin.org
+2025-09-21 22:13:28,165 - INFO - Content filtered: https://httpbin.org - Content too long (9591 > 5000)
+2025-09-21 22:13:33,176 - INFO - Crawling completed. Downloaded 0 pages.
+2025-09-21 22:13:33,192 - INFO - ==================================================
+2025-09-21 22:13:33,192 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:13:33,192 - INFO - ==================================================
+2025-09-21 22:13:33,192 - INFO - [DURATION] Duration: 9.3 seconds (0.2 minutes)
+2025-09-21 22:13:33,193 - INFO - [URLS] URLs Found: 0
+2025-09-21 22:13:33,193 - INFO - [DOWNLOADED] Pages Downloaded: 0
+2025-09-21 22:13:33,193 - INFO - [EXTRACTED] Content Extracted: 0
+2025-09-21 22:13:33,193 - INFO - [SKIPPED] Pages Skipped: 1
+2025-09-21 22:13:33,193 - INFO - [FILTERED] URLs Filtered: 0
+2025-09-21 22:13:33,193 - INFO - [FILTERED] Content Filtered: 1
+2025-09-21 22:13:33,193 - INFO - [DOMAINS] Domains Crawled: 0
+2025-09-21 22:13:33,193 - INFO - [SUCCESS] Success Rate: 0.0%
+2025-09-21 22:13:33,193 - INFO - ==================================================
+2025-09-21 22:13:33,196 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:13:33,196 - INFO - [SESSION] Session ID: 14
+2025-09-21 22:13:33,196 - INFO - [STORED] Pages in Database: 0
+2025-09-21 22:13:33,197 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:13:33,197 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:13:33,197 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:13:33,197 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:13:33,197 - INFO - ==================================================
+2025-09-21 22:13:33,197 - INFO - 
+2025-09-21 22:14:27,571 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 22:14:28,837 - INFO - Fetching: https://example.com
+2025-09-21 22:14:29,984 - INFO - Content filtered: https://example.com - Content doesn't contain any include keywords: ['example,internet,domain']
+2025-09-21 22:14:34,988 - INFO - Crawling completed. Downloaded 0 pages.
+2025-09-21 22:14:35,005 - INFO - ==================================================
+2025-09-21 22:14:35,005 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:14:35,005 - INFO - ==================================================
+2025-09-21 22:14:35,005 - INFO - [DURATION] Duration: 7.4 seconds (0.1 minutes)
+2025-09-21 22:14:35,006 - INFO - [URLS] URLs Found: 0
+2025-09-21 22:14:35,006 - INFO - [DOWNLOADED] Pages Downloaded: 0
+2025-09-21 22:14:35,006 - INFO - [EXTRACTED] Content Extracted: 0
+2025-09-21 22:14:35,006 - INFO - [SKIPPED] Pages Skipped: 1
+2025-09-21 22:14:35,006 - INFO - [FILTERED] URLs Filtered: 0
+2025-09-21 22:14:35,006 - INFO - [FILTERED] Content Filtered: 1
+2025-09-21 22:14:35,006 - INFO - [DOMAINS] Domains Crawled: 0
+2025-09-21 22:14:35,006 - INFO - [SUCCESS] Success Rate: 0.0%
+2025-09-21 22:14:35,006 - INFO - ==================================================
+2025-09-21 22:14:35,008 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:14:35,008 - INFO - [SESSION] Session ID: 15
+2025-09-21 22:14:35,009 - INFO - [STORED] Pages in Database: 0
+2025-09-21 22:14:35,009 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:14:35,009 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:14:35,009 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:14:35,009 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:14:35,009 - INFO - ==================================================
+2025-09-21 22:14:35,009 - INFO - 
+2025-09-21 22:14:54,321 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 22:14:55,437 - INFO - Fetching: https://example.com
+2025-09-21 22:14:56,610 - INFO - Extracted data: downloaded_pages\example.com\index_6.json
+2025-09-21 22:14:56,621 - INFO - Saved: downloaded_pages\example.com\index_6.html
+2025-09-21 22:14:58,265 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 22:14:59,873 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_example_5.json
+2025-09-21 22:14:59,936 - INFO - Saved: downloaded_pages\www.iana.org\domains_example_5.html
+2025-09-21 22:15:04,940 - INFO - Crawling completed. Downloaded 2 pages.
+2025-09-21 22:15:04,961 - INFO - ==================================================
+2025-09-21 22:15:04,961 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:15:04,962 - INFO - ==================================================
+2025-09-21 22:15:04,962 - INFO - [DURATION] Duration: 10.6 seconds (0.2 minutes)
+2025-09-21 22:15:04,962 - INFO - [URLS] URLs Found: 1
+2025-09-21 22:15:04,962 - INFO - [DOWNLOADED] Pages Downloaded: 2
+2025-09-21 22:15:04,962 - INFO - [EXTRACTED] Content Extracted: 2
+2025-09-21 22:15:04,962 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 22:15:04,963 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 22:15:04,963 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 22:15:04,963 - INFO - [RESPONSE] Average Response Time: 1.36s
+2025-09-21 22:15:04,963 - INFO - [RATE] Pages/minute: 11.3
+2025-09-21 22:15:04,963 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 22:15:04,963 - INFO - ==================================================
+2025-09-21 22:15:04,966 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:15:04,966 - INFO - [SESSION] Session ID: 16
+2025-09-21 22:15:04,966 - INFO - [STORED] Pages in Database: 2
+2025-09-21 22:15:04,966 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:15:04,966 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:15:04,967 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:15:04,967 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:15:04,967 - INFO - ==================================================
+2025-09-21 22:15:04,967 - INFO - 
+2025-09-21 22:18:52,994 - INFO - Starting concurrent crawl from: https://docs.github.com (2 workers)
+2025-09-21 22:18:53,758 - INFO - Fetching: https://docs.github.com
+2025-09-21 22:18:54,739 - INFO - Content filtered: https://docs.github.com - Content doesn't contain any include keywords: ['github,documentation']
+2025-09-21 22:18:59,749 - INFO - Crawling completed. Downloaded 0 pages.
+2025-09-21 22:18:59,777 - INFO - ==================================================
+2025-09-21 22:18:59,777 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:18:59,777 - INFO - ==================================================
+2025-09-21 22:18:59,777 - INFO - [DURATION] Duration: 6.8 seconds (0.1 minutes)
+2025-09-21 22:18:59,777 - INFO - [URLS] URLs Found: 0
+2025-09-21 22:18:59,777 - INFO - [DOWNLOADED] Pages Downloaded: 0
+2025-09-21 22:18:59,778 - INFO - [EXTRACTED] Content Extracted: 0
+2025-09-21 22:18:59,778 - INFO - [SKIPPED] Pages Skipped: 1
+2025-09-21 22:18:59,778 - INFO - [FILTERED] URLs Filtered: 0
+2025-09-21 22:18:59,779 - INFO - [FILTERED] Content Filtered: 1
+2025-09-21 22:18:59,779 - INFO - [DOMAINS] Domains Crawled: 0
+2025-09-21 22:18:59,779 - INFO - [SUCCESS] Success Rate: 0.0%
+2025-09-21 22:18:59,779 - INFO - ==================================================
+2025-09-21 22:18:59,781 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:18:59,781 - INFO - [SESSION] Session ID: 17
+2025-09-21 22:18:59,782 - INFO - [STORED] Pages in Database: 0
+2025-09-21 22:18:59,782 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:18:59,782 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:18:59,782 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:18:59,782 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:18:59,782 - INFO - ==================================================
+2025-09-21 22:18:59,782 - INFO - 

@@ -1,0 +1,231 @@
+{
+  "url": "https://skills.github.com",
+  "extracted_at": "2025-09-21T21:58:03.793494",
+  "title": "GitHub Skills",
+  "description": "Learn how to use GitHub with interactive courses designed for beginners\n        and experts.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 314,
+  "paragraph_count": 22,
+  "heading_structure": {
+    "h1": [
+      "GitHub Skills"
+    ],
+    "h2": [
+      "Our courses"
+    ],
+    "h3": [
+      "First day on GitHub",
+      "First week on GitHub",
+      "Automate workflows with GitHub Actions",
+      "Code security and analysis"
+    ],
+    "h4": [
+      "Introduction to GitHub",
+      "Communicate using Markdown",
+      "GitHub Pages",
+      "Review pull requests",
+      "Resolve merge conflicts",
+      "Release-based workflow",
+      "Connect the dots",
+      "Code with Codespaces",
+      "Code with Copilot",
+      "Hello GitHub Actions",
+      "Test with Actions",
+      "Publish packages",
+      "Deploy to Azure",
+      "Write JavaScript actions",
+      "Reusable workflows",
+      "Secure your repository supply chain",
+      "Secure code game",
+      "Introduction to CodeQL",
+      "Change commit history",
+      "Introduction to secret scanning"
+    ]
+  },
+  "text_content": "GitHub Skills Learn how to use GitHub with interactive courses designed for beginners and experts. Start with Introduction to GitHub Our courses First day on GitHub Introduction to GitHub Get started using GitHub in less than an hour. Communicate using Markdown Organize ideas and collaborate using Markdown, a lightweight language for text formatting. GitHub Pages Create a site or blog from your GitHub repositories with GitHub Pages. First week on GitHub Review pull requests Collaborate and work together on GitHub. Resolve merge conflicts Learn why conflicts happen and how to resolve them. Release-based workflow Practice a release-based workflow and explore branching strategies. Connect the dots Find relevant conversations, commits, and projects in a repository. Code with Codespaces Develop code using GitHub Codespaces and Visual Studio Code. Code with Copilot Develop with AI-powered code suggestions using GitHub Copilot, Codespaces, and VS Code. Automate workflows with GitHub Actions Hello GitHub Actions Create a GitHub Action and use it in a workflow. Test with Actions Create workflows that enable you to use Continuous Integration (CI) for your projects. Publish packages Use GitHub Actions to publish your project to a Docker image. Deploy to Azure Create a deployment workflow using GitHub Actions and Microsoft Azure. Write JavaScript actions Write your own GitHub JavaScript Action. Reusable workflows Make a workflow reusable in other workflows. Code security and analysis Secure your repository supply chain Secure your supply chain, patch dependency vulnerabilities. Secure code game Learn about software security in a fun, educational environment. Introduction to CodeQL Learn how to enable CodeQL to secure your code. Change commit history A skills course on changing the commit history with Git. Introduction to secret scanning Enable secret scanning and take a feature tour. Have an idea for a course? Build your own with our quickstart guide. View quickstart guide",
+  "internal_links": [
+    {
+      "url": "https://skills.github.com/",
+      "text": "Skills",
+      "title": ""
+    },
+    {
+      "url": "https://skills.github.com#first-day-on-github",
+      "text": "First day on GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://skills.github.com#first-week-on-github",
+      "text": "First week on GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://skills.github.com#automate-workflows-with-github-actions",
+      "text": "Automate workflows with GitHub Actions",
+      "title": ""
+    },
+    {
+      "url": "https://skills.github.com#code-security-and-analysis",
+      "text": "Code security and analysis",
+      "title": ""
+    },
+    {
+      "url": "https://skills.github.com/quickstart",
+      "text": "View quickstart guide",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://github.com/skills/introduction-to-github",
+      "text": "Start with Introduction to GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/introduction-to-github",
+      "text": "Introduction to GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/communicate-using-markdown",
+      "text": "Communicate using Markdown",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/github-pages",
+      "text": "GitHub Pages",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/review-pull-requests",
+      "text": "Review pull requests",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/resolve-merge-conflicts",
+      "text": "Resolve merge conflicts",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/release-based-workflow",
+      "text": "Release-based workflow",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/connect-the-dots",
+      "text": "Connect the dots",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/code-with-codespaces",
+      "text": "Code with Codespaces",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/copilot-codespaces-vscode",
+      "text": "Code with Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/hello-github-actions",
+      "text": "Hello GitHub Actions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/test-with-actions",
+      "text": "Test with Actions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/publish-packages",
+      "text": "Publish packages",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/deploy-to-azure",
+      "text": "Deploy to Azure",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/write-javascript-actions",
+      "text": "Write JavaScript actions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/reusable-workflows",
+      "text": "Reusable workflows",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/secure-repository-supply-chain",
+      "text": "Secure your repository supply chain",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/secure-code-game",
+      "text": "Secure code game",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/introduction-to-codeql",
+      "text": "Introduction to CodeQL",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/change-commit-history",
+      "text": "Change commit history",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/skills/introduction-to-secret-scanning",
+      "text": "Introduction to secret scanning",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://user-images.githubusercontent.com/1221423/156894097-ff2d6566-7b6a-4488-950e-f4ebe990965a.svg",
+      "alt": "",
+      "title": "",
+      "width": "320",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/skills/introduction-to-secret-scanning",
+    "https://github.com/skills/communicate-using-markdown",
+    "https://github.com/skills/review-pull-requests",
+    "https://github.com/skills/reusable-workflows",
+    "https://github.com/skills/code-with-codespaces",
+    "https://github.com/skills/introduction-to-codeql",
+    "https://github.com/skills/release-based-workflow",
+    "https://github.com/skills/secure-repository-supply-chain",
+    "https://github.com/skills/connect-the-dots",
+    "https://github.com/skills/github-pages",
+    "https://github.com/skills/publish-packages",
+    "https://github.com/skills/deploy-to-azure",
+    "https://github.com/skills/write-javascript-actions",
+    "https://github.com/skills/hello-github-actions",
+    "https://github.com/skills/introduction-to-github",
+    "https://github.com/skills/resolve-merge-conflicts",
+    "https://github.com/skills/change-commit-history",
+    "https://github.com/skills/secure-code-game",
+    "https://github.com/skills/test-with-actions",
+    "https://github.com/skills/copilot-codespaces-vscode"
+  ],
+  "page_size_bytes": 13162,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 2
+  }
+}

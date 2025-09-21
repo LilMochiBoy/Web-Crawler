@@ -1,0 +1,358 @@
+{
+  "url": "https://github.com/resources/articles/software-development",
+  "extracted_at": "2025-09-21T21:58:44.099942",
+  "title": "Software Development · GitHub",
+  "description": "Gallery of articles for the topic Software Development",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 760,
+  "paragraph_count": 15,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Software Development"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Topics",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "How to improve code with code reviews",
+      "What is an API?",
+      "What is a CLI (command-line interface)?",
+      "What is open source AI?",
+      "What is the SDLC?",
+      "What is Platform engineering?",
+      "What are code repositories?",
+      "What is cloud native?",
+      "What is an SDK?",
+      "What is Open Source Software (OSS)?",
+      "What is software architecture?",
+      "What is Version Control?",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "Software Development Topics How to improve code with code reviews Boost code quality with effective code reviews. Learn best practices to catch bugs, automate code review, and improve software development efficiency. Learn more What is an API? APIs act as bridges between different pieces of software, enabling them to communicate, share data, and work together. Learn more What is a CLI (command-line interface)? Learn how CLIs streamline tasks, automate workflows, and boost precision in your work. Learn more What is open source AI? Open source AI offers more control, clarity, and room to build the way you want. Learn more What is the SDLC? Learn about the software development lifecycle (SDLC) and gain valuable insights into its essential phases, methodologies, and best practices. Enhance your understanding of this crucial process to drive successful software development projects. Learn more What is Platform engineering? Learn what platform engineering is and how it empowers developers by creating internal developer platforms, improving workflows, and reducing operational bottlenecks. Explore the benefits for developers and IT managers alike. Learn more What are code repositories? Ever wonder where all that code you write actually lives? Welcome to the world of code repositories. Learn more What is cloud native? Cloud native is an approach to building and running scalable applications in dynamic environments like public, private, or hybrid clouds, using containers, microservices, and DevOps practices. Learn more What is an SDK? Discover what SDKs are, how they work, their purpose, benefits, common tools, and use cases. Get insights into how SDKs help streamline the development process and enhance application functionality. Learn more What is Open Source Software (OSS)? Get an overview of open source software (OSS) with this guide—and explore tips for getting started. Learn more What is software architecture? Learn how software architecture helps developers build scalable, efficient systems using best practices, key components, and common styles and patterns. Learn more What is Version Control? Learn how version control systems and software help track changes, support collaboration, and ensure code integrity throughout the development process. Learn more",
+  "internal_links": [
+    {
+      "url": "https://github.com/resources/articles/software-development#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsoftware-development",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsoftware-development",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles%2Fsoftware-development&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews",
+      "text": "How to improve code with code reviews",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-an-api",
+      "text": "What is an API?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-a-cli",
+      "text": "What is a CLI (command-line interface)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-open-source-ai",
+      "text": "What is open source AI?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-sdlc",
+      "text": "What is the SDLC?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-platform-engineering",
+      "text": "What is Platform engineering?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-are-code-repositories",
+      "text": "What are code repositories?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-cloud-native",
+      "text": "What is cloud native?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-an-sdk",
+      "text": "What is an SDK?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-open-source-software",
+      "text": "What is Open Source Software (OSS)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-software-architecture",
+      "text": "What is software architecture?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-version-control",
+      "text": "What is Version Control?",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/resources/articles/software-development/what-is-platform-engineering",
+    "https://github.com/resources/articles/software-development/what-are-code-repositories",
+    "https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews",
+    "https://github.com/resources/articles/software-development/what-is-cloud-native",
+    "https://github.com/resources/articles/software-development/what-is-an-api",
+    "https://github.com/resources/articles/software-development/what-is-an-sdk",
+    "https://github.com/resources/articles/software-development/what-is-version-control",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/resources/articles/software-development/what-is-a-cli",
+    "https://github.com/resources/articles/software-development/what-is-software-architecture",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsoftware-development",
+    "https://github.com/resources/articles/software-development/what-is-sdlc",
+    "https://github.com/resources/articles/software-development/what-is-open-source-software",
+    "https://github.com/resources/articles/software-development/what-is-open-source-ai"
+  ],
+  "page_size_bytes": 294900,
+  "meta_tags": {
+    "route-pattern": "/resources/articles/:topic(.:format)",
+    "route-controller": "site_resources_articles",
+    "route-action": "index",
+    "fetch-nonce": "v2:a7913da0-e586-1199-a7c0-fe50f47344e2",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE4C2A:11F554A:68D00491",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNEMyQToxMUY1NTRBOjY4RDAwNDkxIiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "54c5f0805ec810a89bcdf30e13d0218419dddd8d21d8c933f5e303b90128d4e6",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Gallery of articles for the topic Software Development",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/resources/articles/software-development",
+    "twitter:image": "https://github.com/opengraph.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Software Development",
+    "twitter:description": "Gallery of articles for the topic Software Development",
+    "og:image": "https://github.com/opengraph.png",
+    "og:image:alt": "Gallery of articles for the topic Software Development",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "Software Development",
+    "og:url": "https://github.com/resources/articles/software-development",
+    "og:description": "Gallery of articles for the topic Software Development",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

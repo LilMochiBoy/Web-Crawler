@@ -1,0 +1,358 @@
+{
+  "url": "https://github.com/resources/articles/security",
+  "extracted_at": "2025-09-21T21:58:42.153688",
+  "title": "Security · GitHub",
+  "description": "Gallery of articles for the topic Security",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 769,
+  "paragraph_count": 15,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Security"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Topics",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "What is Code Scanning?",
+      "What is secret scanning?",
+      "What is a software bill of materials (SBOM)?",
+      "Application security posture management (ASPM)",
+      "What is shift left?",
+      "What is software supply chain security?",
+      "What is security testing?",
+      "What is vulnerability scanning?",
+      "What is threat modeling?",
+      "What is runtime application self-protection (RASP)?",
+      "What Is Incident Response?",
+      "What is SAST?",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "Security Topics What is Code Scanning? Code scanning is essential because it helps developers and security teams find security vulnerabilities and errors. Keep reading for an overview of what code scanning is, how it works, and the benefits it provides. Plus, take a closer look at some code scanning tools and explore ways to enhance software security. Learn more What is secret scanning? In today's digital landscape, protecting sensitive information is crucial for maintaining the integrity and security of an organization’s software systems. Learn more What is a software bill of materials (SBOM)? Software is built in layers. An SBOM shows what’s inside—so you can secure it. Learn more Application security posture management (ASPM) Learn more about application security posture management for insights and explore best practices to increase protection against evolving cyber threats. Learn more What is shift left? Explore the benefits of shift left in software development, like early testing and efficient scanning strategies within the software development lifecycle. Learn more What is software supply chain security? Learn how software supply chain security helps organizations protect the safety, reliability, and integrity of their software supply chains from cybersecurity threats. Learn more What is security testing? Learn about security testing with our guide to security testing types, tools, and scanning methods, and best practices and trends for greater software security. Learn more What is vulnerability scanning? Discover the importance of vulnerability scanning in software development. Learn about vulnerability assessment, analysis, mitigation, and scanning tools. Learn more What is threat modeling? Threat modeling is a structured process that identifies security threats across systems during the design and planning phases of software production. Learn more What is runtime application self-protection (RASP)? Learn how runtime application self-protection (RASP) protects software against attacks with real-time detection & prevention for application security. Learn more What Is Incident Response? In today’s evolving threat landscape, a robust incident response plan is essential to minimize damage, protect sensitive data, and ensure business continuity. Learn more What is SAST? Discover benefits, scanning tools, & best practices of Static Application Security Testing (SAST) to enhance code security and mitigate vulnerabilities. Learn more",
+  "internal_links": [
+    {
+      "url": "https://github.com/resources/articles/security#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsecurity",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsecurity",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles%2Fsecurity&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-code-scanning",
+      "text": "What is Code Scanning?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-secret-scanning",
+      "text": "What is secret scanning?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-an-sbom-software-bill-of-materials",
+      "text": "What is a software bill of materials (SBOM)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/application-security-posture-management",
+      "text": "Application security posture management (ASPM)",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-shift-left-testing",
+      "text": "What is shift left?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-software-supply-chain-security",
+      "text": "What is software supply chain security?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-security-testing",
+      "text": "What is security testing?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-vulnerability-scanning",
+      "text": "What is vulnerability scanning?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-threat-modeling",
+      "text": "What is threat modeling?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-rasp",
+      "text": "What is runtime application self-protection (RASP)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-incident-response",
+      "text": "What Is Incident Response?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-sast",
+      "text": "What is SAST?",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/resources/articles/security/what-is-rasp",
+    "https://github.com/resources/articles/security/what-is-threat-modeling",
+    "https://github.com/resources/articles/security/what-is-software-supply-chain-security",
+    "https://github.com/resources/articles/security/what-is-an-sbom-software-bill-of-materials",
+    "https://github.com/resources/articles/security/what-is-vulnerability-scanning",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/resources/articles/security/what-is-security-testing",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fsecurity",
+    "https://github.com/resources/articles/security/what-is-secret-scanning",
+    "https://github.com/resources/articles/security/what-is-sast",
+    "https://github.com/resources/articles/security/what-is-incident-response",
+    "https://github.com/resources/articles/security/what-is-shift-left-testing",
+    "https://github.com/resources/articles/security/application-security-posture-management",
+    "https://github.com/resources/articles/security/what-is-code-scanning"
+  ],
+  "page_size_bytes": 290997,
+  "meta_tags": {
+    "route-pattern": "/resources/articles/:topic(.:format)",
+    "route-controller": "site_resources_articles",
+    "route-action": "index",
+    "fetch-nonce": "v2:ae35a096-d587-7f50-adb5-20198740babc",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE4B26:11F5411:68D0048F",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNEIyNjoxMUY1NDExOjY4RDAwNDhGIiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "21eef72ebd56cab3213a2df0caacd5dfcf5048cf32451266a94b6d5a430ca73e",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Gallery of articles for the topic Security",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/resources/articles/security",
+    "twitter:image": "https://github.com/opengraph.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Security",
+    "twitter:description": "Gallery of articles for the topic Security",
+    "og:image": "https://github.com/opengraph.png",
+    "og:image:alt": "Gallery of articles for the topic Security",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "Security",
+    "og:url": "https://github.com/resources/articles/security",
+    "og:description": "Gallery of articles for the topic Security",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

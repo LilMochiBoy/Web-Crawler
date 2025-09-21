@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Search</title>
+
+        <!-- SEO and Meta -->
+        <meta name="description" content="Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans." />
+        <meta name="author" content="Kenneth Reitz" />
+
+        <!-- OpenGraph -->
+        <meta property="og:title" content="Search - Kenneth Reitz" />
+        <meta property="og:description" content="Creator of Requests and Certifi - libraries trusted by millions of developers worldwide" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kennethreitz.org" />
+        <meta property="og:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Kenneth Reitz" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@kennethreitz42" />
+        <meta name="twitter:title" content="Search - Kenneth Reitz" />
+        <meta name="twitter:description" content="Creator of Requests and Certifi - libraries trusted by millions of developers worldwide" />
+        <meta name="twitter:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="Kenneth Reitz - Essays &amp; AI Writings" href="/feed.xml" />
+
+        <!-- Preload critical resources -->
+        <link rel="preload" href="/static/tufte/tufte.css" as="style" />
+        <link rel="preload" href="/static/custom.css" as="style" />
+        
+        <!-- Tufte CSS -->
+        <link rel="stylesheet" href="/static/tufte/tufte.css" />
+        
+        <!-- Custom Site CSS -->
+        <link rel="stylesheet" href="/static/custom.css" />
+
+        <style>
+            /* Only page-specific or dynamic styles that can't be in external CSS */
+            
+            /* Legend dots for content guide */
+            .legend-dot {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                margin-right: 0.3rem;
+                vertical-align: middle;
+            }
+
+            /* Reading progress indicator */
+            .reading-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #333;
+                z-index: 1000;
+                transition: width 0.1s ease-out;
+            }
+
+            /* Header and nav z-index for dropdown stacking */
+            header {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            nav {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            main {
+                position: relative;
+                z-index: 1;
+            }
+            
+            article {
+                position: relative;
+                z-index: 1;
+            }
+
+            /* Dropdown navigation styles */
+            .nav-dropdown {
+                position: relative;
+                display: inline-block;
+                padding: 0.5rem;
+                margin: -0.5rem;
+                z-index: 9999;
+            }
+
+
+            .nav-dropdown .dropdown-content {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                z-index: 999999;
+                min-width: 280px;
+                padding: 0.5rem 0;
+                margin-top: -1px;
+            }
+
+            .nav-dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .nav-dropdown .dropdown-content a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: #333;
+                text-decoration: none;
+                border-bottom: none;
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .nav-dropdown .dropdown-content a:hover {
+                background-color: #f5f5f5;
+            }
+
+            .nav-dropdown .dropdown-content a .index-description {
+                display: block;
+                font-size: 0.75rem;
+                color: #666;
+                margin-top: 0.1rem;
+            }
+
+            .nav-dropdown > a::after {
+                content: "\00a0▼";
+                font-size: 0.7rem;
+                color: #999;
+            }
+        </style>
+
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Kenneth Reitz",
+            "url": "https://kennethreitz.org/",
+            "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+            "author": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org",
+                "sameAs": [
+                    "https://github.com/kennethreitz",
+                    "https://twitter.com/kennethreitz42"
+                ],
+                "jobTitle": "Python Developer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Independent"
+                },
+                "knowsAbout": [
+                    "Python Programming",
+                    "API Design",
+                    "Software Architecture",
+                    "Open Source Development",
+                    "Artificial Intelligence",
+                    "Mental Health Advocacy"
+                ]
+            },
+            "publisher": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org"
+            }
+        }
+        </script>
+
+        
+<style>
+    .search-container {
+        max-width: 55%;
+        margin: 2rem 0;
+    }
+    
+    .search-input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 1.1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        background-color: #fff;
+    }
+    
+    .search-input:focus {
+        outline: none;
+        border-color: #666;
+        box-shadow: 0 0 0 2px rgba(102, 102, 102, 0.1);
+    }
+    
+    .search-results {
+        margin-top: 2rem;
+    }
+    
+    .search-result {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .search-result:last-child {
+        border-bottom: none;
+    }
+    
+    .search-result-header {
+        position: relative;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-result-icon {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: -4rem;
+        top: 0;
+    }
+    
+    .search-result h3 {
+        margin: 0;
+        font-size: 1.3rem;
+    }
+    
+    .search-result h3 a {
+        color: #333;
+        text-decoration: none;
+        background: none;
+        text-shadow: none;
+    }
+    
+    .search-result h3 a:hover {
+        color: #666;
+    }
+    
+    .search-result-meta {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-result-type {
+        display: inline-block;
+        background: #f0f0f0;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+    
+    .search-result-snippet {
+        color: #555;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 0.5rem;
+    }
+    
+    .search-result-snippet mark {
+        background: #fff3cd;
+        padding: 0.1rem 0.2rem;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+    
+    .loading {
+        text-align: center;
+        color: #666;
+        font-style: italic;
+        padding: 2rem 0;
+    }
+    
+    .no-results {
+        text-align: center;
+        color: #666;
+        padding: 2rem 0;
+    }
+    
+    @media (max-width: 1400px) {
+        .search-container {
+            max-width: 60%;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .search-container {
+            max-width: 70%;
+        }
+    }
+    
+    @media (max-width: 760px) {
+        .search-container {
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+        <!-- Analytics -->
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB9QHYEG2X"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-RB9QHYEG2X');
+        </script>
+        
+        <script type="text/javascript">
+          var _gauges = _gauges || [];
+          (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '65529a9abd1a3b3101979d52');
+            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+            t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+          })();
+        </script>
+        
+    </head>
+    <body>
+        <!-- Reading progress bar -->
+        <div class="reading-progress" id="reading-progress"></div>
+        
+        <article>
+            <header>
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="/archive">Archive</a>
+                    <a href="/themes">Themes</a>
+                    <div class="nav-dropdown">
+                        <a href="#">Indexes</a>
+                        <div class="dropdown-content">
+                            <a href="/sidenotes">
+                                Sidenotes Index
+                                <span class="index-description">696 marginalia extracted from across the garden.</span>
+                            </a>
+                            <a href="/outlines">
+                                Outlines Index
+                                <span class="index-description">1143 headings — structural navigation through essays.</span>
+                            </a>
+                            <a href="/connections">
+                                Connections Index
+                                <span class="index-description">915 outgoing and 669 incoming cross-references.</span>
+                            </a>
+                            <a href="/quotes">
+                                Quotes Index
+                                <span class="index-description">109 quotable insights and distilled wisdom.</span>
+                            </a>
+                            <a href="/terms">
+                                Term Index
+                                <span class="index-description">1633 key terms with 8661 total references.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/graph">
+                                Cross-Reference Graph
+                                <span class="index-description">Interactive network visualization of connections.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/search">
+                                Search
+                                <span class="index-description">Full-text search across all content.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="/random" class="random-link">[random]</a>
+                </nav>
+
+                
+            </header>
+
+            <main>
+                
+<h1>Search</h1>
+
+<div class="search-container">
+    <input type="text" class="search-input" id="search-input" placeholder="Search essays, AI writings, and more..." autocomplete="off">
+    
+    <div id="search-results" class="search-results" style="display: none;">
+        <div id="loading" class="loading" style="display: none;">
+            Searching...
+        </div>
+        <div id="results-container"></div>
+        <div id="no-results" class="no-results" style="display: none;">
+            No results found. Try different keywords or browse the <a href="/directory">directory</a>.
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const loading = document.getElementById('loading');
+    const resultsContainer = document.getElementById('results-container');
+    const noResults = document.getElementById('no-results');
+    let searchTimeout;
+    
+    // Get search query from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('q');
+    if (initialQuery) {
+        searchInput.value = initialQuery;
+        performSearch(initialQuery);
+    }
+    
+    searchInput.addEventListener('input', function() {
+        const query = this.value.trim();
+        
+        // Clear previous timeout
+        clearTimeout(searchTimeout);
+        
+        if (query.length === 0) {
+            searchResults.style.display = 'none';
+            return;
+        }
+        
+        // Show loading after short delay to avoid flickering
+        searchTimeout = setTimeout(() => {
+            performSearch(query);
+        }, 300);
+    });
+    
+    function performSearch(query) {
+        if (!query) return;
+        
+        searchResults.style.display = 'block';
+        loading.style.display = 'block';
+        resultsContainer.innerHTML = '';
+        noResults.style.display = 'none';
+        
+        // Update URL without reloading
+        const newUrl = new URL(window.location);
+        newUrl.searchParams.set('q', query);
+        window.history.replaceState({}, '', newUrl);
+        
+        fetch(`/api/search?q=${encodeURIComponent(query)}`)
+            .then(response => response.json())
+            .then(results => {
+                loading.style.display = 'none';
+                
+                if (results.length === 0) {
+                    noResults.style.display = 'block';
+                    return;
+                }
+                
+                results.forEach(result => {
+                    const resultElement = document.createElement('div');
+                    resultElement.className = 'search-result';
+                    
+                    const typeClass = result.type === 'article' ? 'article' : 
+                                     result.type === 'directory' ? 'directory' : 'file';
+                    const typeIcon = result.type === 'article' ? '📄' : 
+                                    result.type === 'directory' ? '📁' : '📎';
+                    
+                    // Create clean URL for the result
+                    let resultUrl = result.path;
+                    if (result.type === 'article' && resultUrl.endsWith('.md')) {
+                        resultUrl = '/' + resultUrl.slice(0, -3);
+                    } else if (result.type === 'directory') {
+                        resultUrl = '/' + resultUrl;
+                    } else {
+                        resultUrl = '/' + resultUrl;
+                    }
+                    
+                    const iconHtml = result.unique_icon ? 
+                        `<img src="${result.unique_icon}" alt="Icon for ${result.name}" class="search-result-icon">` : '';
+                    
+                    const snippetHtml = result.snippet ? 
+                        `<div class="search-result-snippet">${result.snippet}</div>` : '';
+                    
+                    resultElement.innerHTML = `
+                        <div class="search-result-header">
+                            ${iconHtml}
+                            <h3><a href="${resultUrl}">${result.name}</a></h3>
+                        </div>
+                        <div class="search-result-meta">
+                            <span class="search-result-type">${typeIcon} ${result.type}</span>
+                            <span class="search-result-path">${result.display_path}</span>
+                        </div>
+                        ${snippetHtml}
+                    `;
+                    
+                    resultsContainer.appendChild(resultElement);
+                });
+            })
+            .catch(error => {
+                loading.style.display = 'none';
+                console.error('Search error:', error);
+                resultsContainer.innerHTML = '<div class="no-results">Search error occurred. Please try again.</div>';
+            });
+    }
+});
+</script>
+
+            </main>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-note">
+                        <p>&copy; 2025 Kenneth Reitz. <a href="/colophon">Made with love</a>.</p>
+                    </div>
+                </div>
+            </footer>
+        </article>
+
+        
+
+        <!-- Force light mode, especially on mobile -->
+        <style>
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                h1, h2, h3, h4, h5, h6 {
+                    color: #333 !important;
+                }
+
+                a {
+                    color: #111 !important;
+                }
+
+                /* Force light backgrounds on all elements */
+                * {
+                    background-color: transparent !important;
+                    color: inherit !important;
+                }
+
+                /* Override any dark mode styling */
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+
+            /* Mobile-specific light mode enforcement */
+            @media (max-width: 760px) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                * {
+                    background-color: transparent !important;
+                }
+                
+                /* Exception for dropdown background on mobile */
+                .nav-dropdown .dropdown-content {
+                    background-color: #fff !important;
+                }
+
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+        </style>
+
+        <!-- Simplified Color System (light themes only) -->
+        <script>
+            (function() {
+                // Check if user prefers light mode or is on mobile
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const isMobile = window.innerWidth <= 760;
+
+                // Force light mode on mobile or if user prefers dark (override their dark preference)
+                if (isMobile || prefersDark) {
+                    document.body.style.backgroundColor = 'rgb(255, 255, 248)';
+                    document.body.style.color = '#111';
+                    return; // Skip color schemes entirely
+                }
+
+                const lightColorSchemes = [
+                    'scheme-ocean',
+                    'scheme-forest',
+                    'scheme-sunset',
+                    'scheme-lavender',
+                    'scheme-rose',
+                    'scheme-sage',
+                    'scheme-amber'
+                ];
+
+                // Get or generate a scheme based on the current page
+                let scheme = localStorage.getItem('current-color-scheme');
+
+                // Change scheme occasionally (20% chance on page load)
+                if (!scheme || Math.random() < 0.2) {
+                    scheme = lightColorSchemes[Math.floor(Math.random() * lightColorSchemes.length)];
+                    localStorage.setItem('current-color-scheme', scheme);
+                }
+
+                // Apply the scheme
+                document.body.className = (document.body.className + ' ' + scheme).trim();
+            })();
+        </script>
+
+        <script>
+            // Add copy buttons to code blocks and subtle syntax highlighting
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find all pre elements (code blocks)
+                const codeBlocks = document.querySelectorAll('pre');
+
+                // Function to add subtle comment highlighting
+                function highlightComments(pre) {
+                    const code = pre.querySelector('code') || pre;
+                    let html = code.innerHTML;
+
+                    // Python/Shell comments (# comment) - both line start and inline
+                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+
+                    // Python docstrings (""" or ''')
+                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // Python class names (class ClassName)
+                    html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');
+
+                    // JavaScript/C++/Java comments (// comment)
+                    html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // CSS/C/Java block comments (/* comment */)
+                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // HTML comments (<!-- comment -->)
+                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    code.innerHTML = html;
+                }
+
+                codeBlocks.forEach(function(pre) {
+                    // Add subtle comment highlighting first
+                    highlightComments(pre);
+
+                    // Skip if already wrapped
+                    if (pre.parentElement.classList.contains('code-block-wrapper')) {
+                        return;
+                    }
+
+                    // Create wrapper div
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'code-block-wrapper';
+
+                    // Create copy button
+                    const copyButton = document.createElement('button');
+                    copyButton.className = 'copy-button';
+                    copyButton.textContent = 'Copy';
+                    copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+
+                    // Add click handler
+                    copyButton.addEventListener('click', async function() {
+                        try {
+                            // Get the text content of the pre element
+                            const codeText = pre.textContent || pre.innerText;
+
+                            // Use modern clipboard API if available
+                            if (navigator.clipboard && window.isSecureContext) {
+                                await navigator.clipboard.writeText(codeText);
+                            } else {
+                                // Fallback for older browsers
+                                const textArea = document.createElement('textarea');
+                                textArea.value = codeText;
+                                textArea.style.position = 'fixed';
+                                textArea.style.left = '-999999px';
+                                textArea.style.top = '-999999px';
+                                document.body.appendChild(textArea);
+                                textArea.focus();
+                                textArea.select();
+                                document.execCommand('copy');
+                                textArea.remove();
+                            }
+
+                            // Show feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Copied!';
+                            copyButton.classList.add('copied');
+
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                                copyButton.classList.remove('copied');
+                            }, 2000);
+
+                        } catch (err) {
+                            console.error('Failed to copy code: ', err);
+
+                            // Show error feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Failed';
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                            }, 2000);
+                        }
+                    });
+
+                    // Wrap the pre element and add the button
+                    pre.parentNode.insertBefore(wrapper, pre);
+                    wrapper.appendChild(pre);
+                    wrapper.appendChild(copyButton);
+                });
+            });
+
+            // Reading progress indicator
+            function updateReadingProgress() {
+                const progressBar = document.getElementById('reading-progress');
+                if (!progressBar) return;
+                
+                const mainContent = document.querySelector('main');
+                if (!mainContent) return;
+                
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight;
+                const winHeight = window.innerHeight;
+                const scrollPercent = scrollTop / (docHeight - winHeight);
+                const scrollPercentRounded = Math.round(scrollPercent * 100);
+                
+                progressBar.style.width = scrollPercentRounded + '%';
+                
+                // Only show progress bar if there's meaningful content to scroll
+                if (docHeight > winHeight * 1.5) {
+                    progressBar.style.opacity = '1';
+                } else {
+                    progressBar.style.opacity = '0';
+                }
+            }
+
+            // Create a simple fallback icon based on text
+            function createFallbackIcon(text) {
+                // Simple hash function for consistent colors
+                let hash = 0;
+                for (let i = 0; i < text.length; i++) {
+                    hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
+                }
+                
+                // Generate colors based on hash
+                const hue = Math.abs(hash) % 360;
+                const saturation = 60 + (Math.abs(hash >> 8) % 30); // 60-90%
+                const lightness = 45 + (Math.abs(hash >> 16) % 20); // 45-65%
+                
+                // Get first letter of text for simple icon
+                const letter = text.charAt(0).toUpperCase();
+                
+                return `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="8" fill="hsl(${hue}, ${saturation}%, ${lightness}%)" opacity="0.8"/>
+                    <text x="10" y="14" text-anchor="middle" fill="white" font-family="serif" font-size="11" font-weight="bold">${letter}</text>
+                </svg>`;
+            }
+
+            // Load icons for article links at the beginning of paragraphs
+            function loadArticleIcons() {
+                // Find all paragraphs that start with a link
+                const paragraphs = document.querySelectorAll('p');
+                
+                paragraphs.forEach(paragraph => {
+                    // Check if the paragraph starts with a link (no text before it)
+                    const firstNode = paragraph.firstChild;
+                    let firstElement = null;
+                    
+                    // Skip any whitespace/text nodes at the beginning
+                    for (let node = firstNode; node; node = node.nextSibling) {
+                        if (node.nodeType === Node.ELEMENT_NODE) {
+                            firstElement = node;
+                            break;
+                        } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                            // If there's non-whitespace text before any element, don't add icon
+                            return;
+                        }
+                    }
+                    
+                    // Check if first element is a link, or if it's a strong/b tag containing a link
+                    let linkElement = null;
+                    if (firstElement && firstElement.tagName === 'A') {
+                        linkElement = firstElement;
+                    } else if (firstElement && (firstElement.tagName === 'STRONG' || firstElement.tagName === 'B')) {
+                        // Check if the strong/b tag contains a link as its first child
+                        const strongFirstChild = firstElement.firstElementChild;
+                        if (strongFirstChild && strongFirstChild.tagName === 'A') {
+                            linkElement = strongFirstChild;
+                        }
+                    }
+                    
+                    if (linkElement) {
+                        const href = linkElement.getAttribute('href');
+                        
+                        // Check if it's an internal link
+                        if (href && href.startsWith('/') && !href.startsWith('//')) {
+                            // Skip if icon already exists
+                            if (paragraph.querySelector('.article-link-icon')) return;
+                            
+                            // Fetch icon with simple error handling
+                            fetch(`/api/icon${href}`)
+                                .then(response => response.ok ? response.json() : null)
+                                .then(data => {
+                                    if (data && data.success && data.icon) {
+                                        // Validate the data URL format
+                                        if (!data.icon.startsWith('data:image/svg+xml;base64,')) {
+                                            return;
+                                        }
+                                        
+                                        try {
+                                            // Decode the SVG to insert as inline SVG instead of data URL
+                                            const base64Part = data.icon.split(',')[1];
+                                            const svgContent = atob(base64Part);
+                                            
+                                            // Create a container div for the SVG
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                            `;
+                                            
+                                            // Add CSS to hide on mobile and tablet - only add once
+                                            if (!window.articleIconStylesAdded) {
+                                                const style = document.createElement('style');
+                                                style.textContent = `
+                                                    @media (max-width: 760px) {
+                                                        .article-link-icon,
+                                                        .article-link-icon.fallback {
+                                                            display: none !important;
+                                                            visibility: hidden !important;
+                                                        }
+                                                    }
+                                                `;
+                                                document.head.appendChild(style);
+                                                window.articleIconStylesAdded = true;
+                                            }
+                                            
+                                            // Insert the SVG content directly
+                                            iconContainer.innerHTML = svgContent;
+                                            
+                                            // Insert icon before the first element (which contains the link)
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            
+                                            // Add some styling to the paragraph
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If decoding fails, skip silently
+                                        }
+                                    }
+                                })
+                                .catch(() => {
+                                    // If API call fails, try to generate a fallback icon based on link text
+                                    const linkText = linkElement.textContent.trim();
+                                    if (linkText) {
+                                        try {
+                                            // Create a simple fallback icon using the link text
+                                            const fallbackIcon = createFallbackIcon(linkText);
+                                            
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon fallback';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                                opacity: 0.6;
+                                            `;
+                                            
+                                            iconContainer.innerHTML = fallbackIcon;
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If even fallback fails, just skip
+                                        }
+                                    }
+                                });
+                        }
+                    }
+                });
+            }
+
+            // Initialize reading progress on pages with substantial content
+            document.addEventListener('DOMContentLoaded', function() {
+                // Only load article icons on content pages, not index/archive pages
+                const currentPath = window.location.pathname;
+                const isIndexPage = currentPath === '/' || 
+                                   currentPath === '/archive' || 
+                                   currentPath.endsWith('/index') ||
+                                   currentPath.match(/^\/(archive|search|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
+                
+                if (!isIndexPage) {
+                    // Load article icons
+                    loadArticleIcons();
+                }
+                
+                // Check if this is a content page (essay/article) rather than an index
+                const isContentPage = document.querySelector('main').textContent.length > 2000;
+                
+                if (isContentPage) {
+                    window.addEventListener('scroll', updateReadingProgress);
+                    window.addEventListener('resize', updateReadingProgress);
+                    updateReadingProgress(); // Initial call
+                }
+
+                // Lazy loading for images
+                if ('IntersectionObserver' in window) {
+                    const imageObserver = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                if (img.dataset.src) {
+                                    img.src = img.dataset.src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, {
+                        rootMargin: '50px 0px'
+                    });
+
+                    // Apply lazy loading to all images with data-src
+                    document.querySelectorAll('img[data-src]').forEach(img => {
+                        imageObserver.observe(img);
+                    });
+                }
+            });
+
+        </script>
+    </body>
+</html>

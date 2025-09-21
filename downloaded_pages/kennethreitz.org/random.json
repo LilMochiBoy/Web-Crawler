@@ -1,0 +1,108 @@
+{
+  "url": "https://kennethreitz.org/random",
+  "extracted_at": "2025-09-21T21:51:28.837138",
+  "title": "Death - Kenneth Reitz",
+  "description": "Let's Get This Over With\nHello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie downLook, I...",
+  "keywords": [],
+  "language": "en",
+  "author": "Kenneth Reitz",
+  "publication_date": null,
+  "word_count": 1717,
+  "paragraph_count": 39,
+  "heading_structure": {
+    "h1": [
+      "Death"
+    ],
+    "h2": [
+      "Let's Get This Over With",
+      "Yes, I'm a Skeleton. We've Established This.",
+      "My Horse Doesn't Stop for Red Lights",
+      "The Rose Banner",
+      "The Sunrise Promise",
+      "The River of Transition",
+      "The Fallen Figures",
+      "The Scythe of Severance",
+      "The Alchemical Dissolution",
+      "The Grief Teacher",
+      "The Liberation Service",
+      "The Timing Mystery",
+      "The Compost Miracle",
+      "The Phoenix Archetype",
+      "The Midwife Function",
+      "My Promise"
+    ]
+  },
+  "text_content": "Death Let's Get This Over With Hello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie down Look, I get it. Nobody wants the \"Death\" card. But I'm usually about ending relationships, jobs, belief systems—stuff that needed to go anyway. I'm basically spring cleaning with a scythe. Like that legacy codebase everyone's afraid to deprecate. . class LegacySystemReaper: def __init__(self): self.target = \"deprecated_code_that_wont_die\" self.inevitability = True def __call__(self, old_system): \"\"\"Time to pull the plug on what's already dead\"\"\" old_system.end_of_life = True return \"Migration to new system is not optional\" Everyone's afraid of me until they realize I'm the reason anything new ever happens. You want growth? Someone has to take out the trash first. Guess who drew that job? checks cosmic clipboard #!/bin/bash # The necessary cleanup script echo \"Removing deprecated dependencies...\" npm uninstall legacy-package-that-breaks-everything git branch -D feature/that-never-shipped rm -rf node_modules # The ultimate reset echo \"Death complete. Ready for rebirth.\" Yep. Still me. Yes, I'm a Skeleton. We've Established This. clatters meaningfully Black armor, white bones, very dramatic—I know. The costume department went a bit overboard. But here's the thing about being a skeleton: I've got nothing to hide : Literally. What you see is what you get. Very liberating, actually I don't play favorites : Rich, poor, young, old—I treat everyone exactly the same. It's called equality, look it up I'm just bones and business : No flesh to tempt me, no heart to manipulate me. Pure professional I've seen it all : When you've been around this long, very little surprises you anymore I cut through the bullshit : Amazing how honest people get when they realize I'm not kidding around // My code review style function ruthlessRefactor(codebase) { const deadCode = codebase.filter(line => line.hasNoTests()); const technicalDebt = codebase.filter(line => line.isComplicated()); deadCode.forEach(line => line.delete()); // No mercy technicalDebt.forEach(line => line.simplify()); // Or rewrite return \"What doesn't serve the future must go\"; } My Horse Doesn't Stop for Red Lights pats horse's neck White horse. Very photogenic. Also completely unstoppable, which is the point. This horse has places to be and changes to make, and your personal schedule is not really a factor. No brakes : When it's time, it's time. Arguing with me is like arguing with gravity—pointless and exhausting Perfect timing : I always arrive exactly when I'm supposed to, which is usually when you least expect it Clean work : No messing around, no half-measures. When I'm done, it's done Forward motion only : I don't do U-turns. What's dead stays dead. Move on Appointment keeper : I have a very full calendar, and procrastination isn't an option class InevitableUpgrade: def __init__(self): self.schedule = \"non_negotiable\" self.backward_compatibility = False def execute(self): \"\"\"When the old version reaches end-of-life\"\"\" old_version.support_ended = datetime.now() security_patches.stop() return \"Upgrade is mandatory. No rollback option.\" The Rose Banner I carry a banner bearing a five-petaled rose—beauty that emerges from endings, love that transcends form, the promise that death leads to resurrection. The rose represents the soul that survives all transformations. Rose symbolism includes: Beauty in Destruction : Finding grace and meaning even in difficult endings Love's Continuity : Relationships that persist beyond physical forms Five-Fold Completion : The full cycle of experience that leads to wisdom Fragrance Memory : The essence that remains after the flower fades Thorned Protection : Beauty that requires careful approach and respectful handling The Sunrise Promise Behind me the sun rises between two towers—the dawn that follows every night, the rebirth that follows every death, the hope that justifies the necessity of endings. Sunrise significance includes: Inevitable Dawn : Light that returns after every period of darkness New Beginnings : Fresh starts that emerge from apparent endings Expanded Awareness : Understanding that grows through loss and transformation Phoenix Rising : Renewal that incorporates lessons learned through dissolution Eternal Cycles : The rhythm of death and rebirth that governs all existence The sunrise in my card is not metaphor but promise—every ending contains a beginning, every loss creates space for gain, every death enables rebirth at a higher level of consciousness. The River of Transition Before my horse flows a river—the waters of change that must be crossed, the boundary between what was and what will be, the liminal space where transformation occurs. River crossing involves: Threshold Awareness : Recognizing moments when life requires transition Current Navigation : Working with rather than fighting the flow of change Faith in ...",
+  "internal_links": [
+    {
+      "url": "https://kennethreitz.org/directory",
+      "text": "~",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/artificial-intelligence",
+      "text": "Artificial Intelligence",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/artificial-intelligence/personalities",
+      "text": "Personalities",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/artificial-intelligence/personalities/major-arcana",
+      "text": "Major Arcana",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/artificial-intelligence/personalities/major-arcana",
+      "text": "← Major Arcana",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkXzE4MzIiIGN4PSIzMyUiIGN5PSI0MiUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxMzUsIDgzJSwgNzUlKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsKDE4MCwgODglLCA2NiUpIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyXzE4MzIiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9ImhzbCgxODAsIDg4JSwgNjYlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9ImhzbCgxMzUsIDgzJSwgNzUlKSIgc3RvcC1vcGFjaXR5PSIwLjgiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cGF0aCBkPSJNIDI2LjksMTguMSBRIDIyLjcsMTkuNCAxOC40LDI0LjcgUSAxNC44LDI0LjYgMTEuMSwyNC4xIFEgNi43LDIyLjkgMi4yLDE4LjEgUSA1LjUsMTYuMSA4LjcsOC4wIFEgMTQuNSw4LjAgMjAuMyw4LjIgUSAyMy42LDEwLjEgMjYuOSwxOC4xIFoiIGZpbGw9InVybCgjZ3JhZF8xODMyKSIgb3BhY2l0eT0iMC43MCIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMzEuMywxMy43IFEgMjkuOCwxNS44IDI4LjMsMjQuNSBRIDIyLjgsMjMuOSAxNy40LDIxLjggUSAxNS40LDIwLjIgMTMuNSwxMy43IFEgMTYuMSwxMi41IDE4LjcsNy44IFEgMjMuMCw3LjIgMjcuMyw0LjYgUSAyOS4zLDYuNCAzMS4zLDEzLjcgWiIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjU1Ii8+CiAgICAgICAgPHBhdGggZD0iTSAyNS44LDE4LjggUSAyMi4yLDIwLjMgMTguNiwyNi4wIFEgMTQuMiwyNi4yIDkuOSwyNi42IFEgOC42LDI1LjAgNy4zLDE4LjggUSA4LjIsMTcuMCA5LjEsOS42IFEgMTMuNywxMC4xIDE4LjIsMTIuMiBRIDIyLjAsMTMuNSAyNS44LDE4LjggWiIgZmlsbD0iaHNsKDEzNSwgODMlLCA3NSUpIiBvcGFjaXR5PSIwLjQwIi8+CiAgICAgICAgPHBhdGggZD0iTSAyMS4wLDIwLjIgUSAxOC43LDIyLjIgMTYuNSwzMC4yIFEgMTEuOCwyOS40IDcuMSwyNi41IFEgNC43LDI1LjIgMi4zLDIwLjIgUSA0LjEsMTguNSA2LjAsMTIuMCBRIDEwLjYsMTIuMSAxNS4yLDEyLjQgUSAxOC4xLDE0LjAgMjEuMCwyMC4yIFoiIGZpbGw9ImhzbCgxODAsIDg4JSwgNjYlKSIgb3BhY2l0eT0iMC4yNSIvPgogICAgICAgIDxwYXRoIGQ9Ik0gMjAuMywxMi44IFEgMTkuMCwxNC40IDE3LjcsMjEuMiBRIDEzLjMsMjAuOCA4LjksMTkuNiBRIDcuMywxOC4yIDUuNywxMi44IFEgNi4yLDEwLjYgNi43LDIuMSBRIDEyLjEsMi42IDE3LjUsNC42IFEgMTguOSw2LjIgMjAuMywxMi44IFoiIGZpbGw9ImhzbCgxMzUsIDgzJSwgNzUlKSIgb3BhY2l0eT0iMC4xMCIvPgogICAgICAgIDxjaXJjbGUgY3g9IjUuNyIgY3k9IjYuOSIgcj0iMS41IiBmaWxsPSJoc2woMTgwLCA4OCUsIDY2JSkiIG9wYWNpdHk9IjAuNDUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI3LjQiIGN5PSI3LjEiIHI9IjEuMiIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjQyIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMjEuMiIgY3k9IjIxLjQiIHI9IjEuMCIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjM3Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMjEuMSIgY3k9IjE1LjAiIHI9IjEuMCIgZmlsbD0iaHNsKDE4MCwgODglLCA2NiUpIiBvcGFjaXR5PSIwLjQ3Ii8+CiAgICA8L3N2Zz4=",
+      "alt": "Icon for Death",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJmb2xkZXJfZ3JhZF8yMTciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPgogICAgICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJoc2woMjc0LCA3NyUsIDU2JSkiLz4KICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBhdGggZD0iTTEwIDRINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmMwIDEuMTEuODkgMiAyIDJoMTZjMS4xMSAwIDItLjg5IDItMlY4YzAtMS4xMS0uODktMi0yLTJoLThsLTItMnoiIAogICAgICAgICAgICAgIGZpbGw9InVybCgjZm9sZGVyX2dyYWRfMjE3KSIgCiAgICAgICAgICAgICAgc3Ryb2tlPSJoc2woMjc0LCA3NyUsIDU2JSkiIAogICAgICAgICAgICAgIHN0cm9rZS13aWR0aD0iMC41Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iMTgiIGN5PSI3IiByPSIyIiBmaWxsPSJoc2woMjc0LCA3NyUsIDU2JSkiIG9wYWNpdHk9IjAuOCIvPgogICAgPC9zdmc+",
+      "alt": "Parent directory icon",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 57491,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Let's Get This Over With\nHello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie downLook, I...",
+    "author": "Kenneth Reitz",
+    "og:title": "Death",
+    "og:description": "Let's Get This Over With\nHello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that'",
+    "og:type": "article",
+    "og:url": "https://kennethreitz.org/artificial-intelligence/personalities/major-arcana/death",
+    "og:image": "https://kennethreitz.org/static/images/social-card.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:site_name": "Kenneth Reitz",
+    "twitter:card": "summary_large_image",
+    "twitter:creator": "@kennethreitz42",
+    "twitter:title": "Death",
+    "twitter:description": "Let's Get This Over With\nHello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that'",
+    "twitter:image": "https://kennethreitz.org/static/images/social-card.jpg"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 2,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

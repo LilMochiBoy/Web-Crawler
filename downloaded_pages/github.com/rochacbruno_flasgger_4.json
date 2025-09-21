@@ -1,0 +1,667 @@
+{
+  "url": "https://github.com/rochacbruno/flasgger",
+  "extracted_at": "2025-09-21T21:53:35.886774",
+  "title": "GitHub - flasgger/flasgger: Easy OpenAPI specs and Swagger UI for your Flask API",
+  "description": "Easy OpenAPI specs and Swagger UI for your Flask API - flasgger/flasgger",
+  "keywords": [],
+  "language": "en",
+  "author": "flasgger",
+  "publication_date": null,
+  "word_count": 3352,
+  "paragraph_count": 88,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "flasgger/flasgger",
+      "Flasgger",
+      "Table of Contents",
+      "Top Contributors",
+      "Examples and demo app",
+      "Installation",
+      "Getting started",
+      "Use the same data to validate your API POST body.",
+      "Get defined schemas as python dictionaries",
+      "HTML sanitizer",
+      "Swagger UI and templates",
+      "OpenAPI 3.0 Support",
+      "Initializing Flasgger with default data.",
+      "Customize default configurations"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Folders and files",
+      "Latest commit",
+      "History",
+      "Repository files navigation",
+      "Easy Swagger UI for your Flask API",
+      "Docker",
+      "How to run tests",
+      "Using docstrings as specification",
+      "Using external YAML files",
+      "Using dictionaries as raw specs",
+      "Using Marshmallow Schemas",
+      "Using Flask RESTful Resources",
+      "Auto-parsing external YAML docs and MethodViews",
+      "Handling multiple http methods and routes for a single function",
+      "Externally loading Swagger UI and jQuery JS/CSS",
+      "Getting default data at runtime",
+      "Behind a reverse proxy",
+      "Extracting Definitions",
+      "Python2 Compatibility",
+      "About",
+      "Releases\n      24",
+      "Packages\n      0",
+      "Used by 19.1k",
+      "Contributors\n      93",
+      "Languages",
+      "Footer"
+    ],
+    "h3": [
+      "License",
+      "Uh oh!",
+      "Custom validation",
+      "Validation Error handling",
+      "Topics",
+      "Resources",
+      "License",
+      "Code of conduct",
+      "Uh oh!",
+      "Stars",
+      "Watchers",
+      "Forks",
+      "Uh oh!",
+      "Footer navigation"
+    ]
+  },
+  "text_content": "flasgger / flasgger Public Notifications You must be signed in to change notification settings Fork 527 Star 3.7k Easy OpenAPI specs and Swagger UI for your Flask API flasgger.pythonanywhere.com/ License MIT license 3.7k stars 527 forks Branches Tags Activity Star Notifications You must be signed in to change notification settings flasgger/flasgger master Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 563 Commits .github .github demo_app demo_app docs docs etc etc examples examples flasgger flasgger scripts scripts tests tests .coveragerc .coveragerc .dockerignore .dockerignore .gitattributes .gitattributes .gitignore .gitignore .landscape.yaml .landscape.yaml .python-version .python-version .travis.yml .travis.yml CODE_OF_CONDUCT.md CODE_OF_CONDUCT.md Dockerfile Dockerfile HISTORY HISTORY LICENSE LICENSE MANIFEST.in MANIFEST.in Makefile Makefile README.md README.md README.zh.md README.zh.md requirements-dev.txt requirements-dev.txt requirements.txt requirements.txt setup.cfg setup.cfg setup.py setup.py tox.ini tox.ini trivial trivial View all files Repository files navigation Flasgger Easy Swagger UI for your Flask API Flasgger is a Flask extension to extract OpenAPI-Specification from all Flask views registered in your API. Flasgger also comes with SwaggerUI embedded so you can access http://localhost:5000/apidocs and visualize and interact with your API resources. Flasgger also provides validation of the incoming data, using the same specification it can validates if the data received as a POST, PUT, PATCH is valid against the schema defined using YAML , Python dictionaries or Marshmallow Schemas . Flasgger can work with simple function views or MethodViews using docstring as specification, or using @swag_from decorator to get specification from YAML or dict and also provides SwaggerView which can use Marshmallow Schemas as specification. Flasgger is compatible with Flask-RESTful so you can use Resources and swag specifications together, take a look at restful example. Flasgger also supports Marshmallow APISpec as base template for specification, if you are using APISPec from Marshmallow take a look at apispec example. Table of Contents Top Contributors Examples and demo app Docker Installation Getting started Using docstrings as specification Using external YAML files Using dictionaries as raw specs Using Marshmallow Schemas Using Flask RESTful Resources Auto-parsing external YAML docs and MethodViews Handling multiple http methods and routes for a single function Use the same data to validate your API POST body. Custom validation Validation Error handling Get defined schemas as python dictionaries HTML sanitizer Swagger UI and templates OpenAPI 3.0 Support Externally loading Swagger UI and jQuery JS/CSS Initializing Flasgger with default data. Getting default data at runtime Behind a reverse proxy Customize default configurations Extracting Definitions Python2 Compatibility Created by gh-md-toc Top Contributors Examples and demo app There are some example applications and you can also play with examples in Flasgger demo app NOTE: all the examples apps are also test cases and run automatically in Travis CI to ensure quality and coverage. Docker The examples and demo app can also be built and run as a Docker image/container: docker build -t flasgger . docker run -it --rm -p 5000:5000 --name flasgger flasgger Then access the Flasgger demo app at http://localhost:5000 . Installation under your virtualenv do: Ensure you have latest setuptools pip install -U setuptools then install beta version (recommended) pip install flasgger==0.9.7b2 or (latest stable for legacy apps) pip install flasgger==0.9.5 or (dev version) pip install https://github.com/flasgger/flasgger/tarball/master NOTE: If you want to use Marshmallow Schemas you also need to run pip install marshmallow apispec How to run tests (You may see the command in .travis.yml for before_install part) In your virtualenv: pip install -r requirements.txt pip install -r requirements-dev.txt make test Getting started Using docstrings as specification Create a file called for example colors.py from flask import Flask , jsonify from flasgger import Swagger app = Flask ( __name__ ) swagger = Swagger ( app ) @ app . route ( '/colors/<palette>/' ) def colors ( palette ): \"\"\"Example endpoint returning a list of colors by palette This is using docstrings for specifications. --- parameters: - name: palette in: path type: string enum: ['all', 'rgb', 'cmyk'] required: true default: all definitions: Palette: type: object properties: palette_name: type: array items: $ref: '#/definitions/Color' Color: type: string responses: 200: description: A list of colors (may be filtered by palette) schema: $ref: '#/definitions/Palette' examples: rgb: ['red', 'green', 'blue'] \"\"\" all_colors = { 'cmyk' : [ 'cyan' , 'magenta' , 'yellow' , 'black' ], 'rgb' : [ 'red' , 'green' , 'blue' ] } if pa...",
+  "internal_links": [
+    {
+      "url": "https://github.com/rochacbruno/flasgger#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fflasgger%2Fflasgger",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fflasgger%2Fflasgger",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=flasgger%2Fflasgger",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/rochacbruno/flasgger",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/rochacbruno/flasgger",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/rochacbruno/flasgger",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger",
+      "text": "flasgger",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger",
+      "text": "flasgger",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fflasgger%2Fflasgger",
+      "text": "Notifications",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fflasgger%2Fflasgger",
+      "text": "Fork\n    527",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fflasgger%2Fflasgger",
+      "text": "Star\n 3.7k",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/LICENSE",
+      "text": "MIT license",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/stargazers",
+      "text": "3.7k\n          stars",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/forks",
+      "text": "527\n          forks",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/branches",
+      "text": "Branches",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tags",
+      "text": "Tags",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/activity",
+      "text": "Activity",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fflasgger%2Fflasgger",
+      "text": "Star",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fflasgger%2Fflasgger",
+      "text": "Notifications",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/branches",
+      "text": "Branches",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tags",
+      "text": "Tags",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/branches",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tags",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/commits/master/",
+      "text": "563 Commits",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/commits/master/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/.github",
+      "text": ".github",
+      "title": ".github"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/.github",
+      "text": ".github",
+      "title": ".github"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/demo_app",
+      "text": "demo_app",
+      "title": "demo_app"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/demo_app",
+      "text": "demo_app",
+      "title": "demo_app"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/docs",
+      "text": "docs",
+      "title": "docs"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/docs",
+      "text": "docs",
+      "title": "docs"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/etc",
+      "text": "etc",
+      "title": "etc"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/etc",
+      "text": "etc",
+      "title": "etc"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/examples",
+      "text": "examples",
+      "title": "examples"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/examples",
+      "text": "examples",
+      "title": "examples"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/flasgger",
+      "text": "flasgger",
+      "title": "flasgger"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/flasgger",
+      "text": "flasgger",
+      "title": "flasgger"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/scripts",
+      "text": "scripts",
+      "title": "scripts"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/scripts",
+      "text": "scripts",
+      "title": "scripts"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/tests",
+      "text": "tests",
+      "title": "tests"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/tree/master/tests",
+      "text": "tests",
+      "title": "tests"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.coveragerc",
+      "text": ".coveragerc",
+      "title": ".coveragerc"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.coveragerc",
+      "text": ".coveragerc",
+      "title": ".coveragerc"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.dockerignore",
+      "text": ".dockerignore",
+      "title": ".dockerignore"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.dockerignore",
+      "text": ".dockerignore",
+      "title": ".dockerignore"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.gitattributes",
+      "text": ".gitattributes",
+      "title": ".gitattributes"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.gitattributes",
+      "text": ".gitattributes",
+      "title": ".gitattributes"
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/blob/master/.gitignore",
+      "text": ".gitignore",
+      "title": ".gitignore"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "http://flasgger.pythonanywhere.com/",
+      "text": "flasgger.pythonanywhere.com/",
+      "title": "http://flasgger.pythonanywhere.com/"
+    },
+    {
+      "url": "https://travis-ci.com/flasgger/flasgger",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://landscape.io/github/rochacbruno/flasgger/master",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://coveralls.io/github/rochacbruno/flasgger?branch=master",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://pypi.python.org/pypi/flasgger",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=rochacbruno%40gmail%2ecom&lc=BR&item_name=Flasgger&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "http://swagger.io/swagger-ui/",
+      "text": "SwaggerUI",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/0",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/1",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/2",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/3",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/4",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/5",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/6",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://sourcerer.io/fame/rochacbruno/rochacbruno/flasgger/links/7",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "http://flasgger.pythonanywhere.com/",
+      "text": "Flasgger demo app",
+      "title": ""
+    },
+    {
+      "url": "http://localhost:5000",
+      "text": "http://localhost:5000",
+      "title": ""
+    },
+    {
+      "url": "http://localhost:5000/apidocs/",
+      "text": "http://localhost:5000/apidocs/",
+      "title": ""
+    },
+    {
+      "url": "http://json-schema.org/latest/json-schema-validation.html",
+      "text": "http://json-schema.org/latest/json-schema-validation.html",
+      "title": ""
+    },
+    {
+      "url": "https://python-jsonschema.readthedocs.io/en/latest/",
+      "text": "python-jsonschema",
+      "title": ""
+    },
+    {
+      "url": "http://flask.pocoo.org/snippets/35/",
+      "text": "Flask guidance",
+      "title": ""
+    },
+    {
+      "url": "http://flasgger.pythonanywhere.com/",
+      "text": "flasgger.pythonanywhere.com/",
+      "title": "http://flasgger.pythonanywhere.com/"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://camo.githubusercontent.com/afd56593004eea3f66a7896861b647e25e05c3f08b3ce4fe159cdc0f195d8660/68747470733a2f2f7472617669732d63692e636f6d2f666c6173676765722f666c6173676765722e7376673f6272616e63683d6d6173746572",
+      "alt": "Build Status",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/b24125ea3f79b359e79e11d833bc212887dff2051399e304a10edaeb1eed1ed2/68747470733a2f2f6c616e6473636170652e696f2f6769746875622f726f636861636272756e6f2f666c6173676765722f6d61737465722f6c616e6473636170652e7376673f7374796c653d666c6174",
+      "alt": "Code Health",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/ba47bcf744864b9cc636b7b72a7717588caf435ec0dbf9bfd9e7afe25bf74015/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f726f636861636272756e6f2f666c6173676765722f62616467652e7376673f6272616e63683d6d6173746572",
+      "alt": "Coverage Status",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/3826c882aa2b82d8ff8099b88e8e698c8a87d2cf0f01bd36f507dd35c1c5baec/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f666c6173676765722e737667",
+      "alt": "PyPI",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/87f7e57622618e558110c96b321ec67155ddfe5a0669dd7f1205a02db5ea8f99/687474703a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e6174655f534d2e676966",
+      "alt": "Donate with Paypal",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/raw/master/docs/flasgger.png",
+      "alt": "flasgger",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/1f1b733a014e59a1dfa11b1a8e2c63baa4f9453ad44739f2eaeaa37129066864/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f30",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/f12a0c23d7192959c9505d02353572dc126b23450aeb79e9dcd80983489da9df/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f31",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/202ed30217e30efed95db7b2da739e2579bb3630b2f382e5c70d48551885237c/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f32",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/fe449742c381a76d5dfd0398664e316470322653281bdafda63339d8a5a4db47/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f33",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/40f4456a10261c4a93b0bfc20d2ebb25d84a1e0726a10cee4b09c28818535a27/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f34",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/d73f0fe1f096249b3be48ede74fc209ebfc79133f62dff6dff15ca98547f3d55/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f35",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/41a49bcdb989be7df01bffe6665d2cae4171f9c21e0bf39d6e054e26213d7690/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f36",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/03e9dad4df51632c317ce9ec1ce91d4fdcf0e50104232a398914221c2cb6cc66/68747470733a2f2f736f757263657265722e696f2f66616d652f726f636861636272756e6f2f726f636861636272756e6f2f666c6173676765722f696d616765732f37",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/flasgger/flasgger/raw/master/docs/colors.png",
+      "alt": "colors",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/35722892?s=64&v=4",
+      "alt": "@internauticos",
+      "title": "",
+      "width": "32",
+      "height": "32"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/221175365?s=64&v=4",
+      "alt": "@JoseLFernandez",
+      "title": "",
+      "width": "32",
+      "height": "32"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/67136805?s=64&v=4",
+      "alt": "@shakenfist",
+      "title": "",
+      "width": "32",
+      "height": "32"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/196737955?s=64&v=4",
+      "alt": "@panacea-icono",
+      "title": "",
+      "width": "32",
+      "height": "32"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/68156619?s=64&v=4",
+      "alt": "@iiAlmightii",
+      "title": "",
+      "width": "32",
+      "height": "32"
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/ekalinin/github-markdown-toc",
+    "https://github.com/flasgger/flasgger/issues/399",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fflasgger%2Fflasgger",
+    "https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#operation-object",
+    "/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fflasgger%2Fflasgger&report=flasgger+%28user%29",
+    "https://github.com/rochacbruno/flasgger/blob/aaef05c17cc559d01b7436211093463642eb6ae2/examples/parsed_view_func.py#L16"
+  ],
+  "page_size_bytes": 580602,
+  "meta_tags": {
+    "route-pattern": "/:user_id/:repository",
+    "route-controller": "files",
+    "route-action": "disambiguate",
+    "fetch-nonce": "v2:6be0b3df-e28f-7b72-977e-ba7b38e2e492",
+    "current-catalog-service-hash": "f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb",
+    "request-id": "9FCE:2F59A6:CF92C7:12074D8:68D0035E",
+    "html-safe-nonce": "859631f5b5e6dfdf802eef0ce50a25ed34b873d2d738faddf0814b091d4ae3a8",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5RkNFOjJGNTlBNjpDRjkyQzc6MTIwNzREODo2OEQwMDM1RSIsInZpc2l0b3JfaWQiOiI1ODYxNDA5OTU0NDMxMjM5MDAyIiwicmVnaW9uX2VkZ2UiOiJqYXBhbmVhc3QiLCJyZWdpb25fcmVuZGVyIjoiamFwYW5lYXN0In0=",
+    "visitor-hmac": "6000339a59adffc2f1475b12f3a048310e2eeb58ce23ee506c55e17765317492",
+    "hovercard-subject-tag": "repository:39790596",
+    "github-keyboard-shortcuts": "repository,copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "analytics-location": "/<user-name>/<repo-name>",
+    "viewport": "width=device-width",
+    "description": "Easy OpenAPI specs and Swagger UI for your Flask API - flasgger/flasgger",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/flasgger/flasgger",
+    "twitter:image": "https://opengraph.githubassets.com/c0f3bf2cb8d9ad0d7faf7bb153bc7e7c3d76417883195e8e9c00b9a44326bbc1/flasgger/flasgger",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub - flasgger/flasgger: Easy OpenAPI specs and Swagger UI for your Flask API",
+    "twitter:description": "Easy OpenAPI specs and Swagger UI for your Flask API - flasgger/flasgger",
+    "og:image": "https://opengraph.githubassets.com/c0f3bf2cb8d9ad0d7faf7bb153bc7e7c3d76417883195e8e9c00b9a44326bbc1/flasgger/flasgger",
+    "og:image:alt": "Easy OpenAPI specs and Swagger UI for your Flask API - flasgger/flasgger",
+    "og:image:width": "1200",
+    "og:image:height": "600",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub - flasgger/flasgger: Easy OpenAPI specs and Swagger UI for your Flask API",
+    "og:url": "https://github.com/flasgger/flasgger",
+    "og:description": "Easy OpenAPI specs and Swagger UI for your Flask API - flasgger/flasgger",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-preview",
+    "go-import": "github.com/flasgger/flasgger git https://github.com/flasgger/flasgger.git",
+    "octolytics-dimension-user_id": "54032826",
+    "octolytics-dimension-user_login": "flasgger",
+    "octolytics-dimension-repository_id": "39790596",
+    "octolytics-dimension-repository_nwo": "flasgger/flasgger",
+    "octolytics-dimension-repository_public": "true",
+    "octolytics-dimension-repository_is_fork": "false",
+    "octolytics-dimension-repository_network_root_id": "39790596",
+    "octolytics-dimension-repository_network_root_nwo": "flasgger/flasgger",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

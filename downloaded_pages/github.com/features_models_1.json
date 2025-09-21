@@ -1,0 +1,313 @@
+{
+  "url": "https://github.com/features/models",
+  "extracted_at": "2025-09-21T21:56:14.726454",
+  "title": "GitHub Models | Build AI-powered projects with industry-leading · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 1038,
+  "paragraph_count": 22,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Your AI toolbox built into GitHub"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Pick the right model, fast",
+      "Manage prompts like code",
+      "Secure by design",
+      "Building with AI, made easy",
+      "/ai/models - logos",
+      "Get started with GitHub Models",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "One API key, limitless possibilities",
+      "Prompt engineering meets version control",
+      "No more guessing",
+      "Collaborate in natural language",
+      "Spark your next build",
+      "Turn your AI vision into reality with GitHub Models",
+      "GitHub Models documentation",
+      "Learn about billing on GitHub",
+      "Explore models",
+      "Frequently asked questions",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ],
+    "h4": [
+      "What is GitHub Models?",
+      "Is GitHub Models different from GitHub Copilot?",
+      "What is the Models playground?",
+      "Can I bring my own model key?",
+      "How does GitHub Models billing work on GitHub?"
+    ]
+  },
+  "text_content": "Your AI toolbox built into GitHub Models, prompts, evals, and more. Everything you need to go from idea to shipped—without ever leaving GitHub. Get started Pause Pick the right model, fast Run side-by-side evaluations to compare outputs from industry-leading models in real time. No guesswork, just better results. Manage prompts like code Version, share, and reuse your prompts across projects. Treat AI inputs as first-class development assets, just like your source code. Secure by design Control which models your team can use, keep data and prompts private, and ensure everything runs within GitHub and Azure infrastructure. Building with AI, made easy One API key, limitless possibilities Build, test, and ship AI—right from your GitHub workflow. Make direct API calls or integrate with the Azure AI SDK or any supported model SDK. Learn more Instantly access 40+ popular open source and proprietary models Start building fast with plug-and-play code snippets Stay in GitHub—no context switching required /ai/models - logos OpenAI AI21 Labs Mistral AI Microsoft Meta DeepSeek Cohere xAI OpenAI AI21 Labs Mistral AI Microsoft Meta DeepSeek Cohere xAI Prompt engineering meets version control Store, manage, and collaborate on AI prompts just like code, with built-in tools to track changes, preview diffs, and roll back anytime. No more guessing Build faster with structured evaluations. Score outputs on quality, relevance, or any metric you define, using custom evaluators or LLMs as judges. Collaborate in natural language Turn prompt editing into a team sport. Built on trusted pull request workflows, the natural language prompt editor makes it easy for anyone to improve prompt quality. Spark your next build From idea to deployment, GitHub Spark and GitHub Models let you move fast with the right model for the job. Try GitHub Spark Turn your AI vision into reality with GitHub Models Go from prototype to production in a snap. Learn more Get started with GitHub Models GitHub Models documentation Learn how to set up, test, compare, and securely deploy with GitHub Models. View GitHub Models documentation Learn about billing on GitHub If you want to use GitHub Models beyond the free usage included in your account, you can choose to opt-in to paid usage. Learn about billing for GitHub Models Explore models Browse and try out different models from top providers. Discover models Frequently asked questions What is GitHub Models? GitHub Models brings AI directly into the developer workflow by providing access to multiple leading models through a single API key. It allows teams to manage prompts as code, run side-by-side model evaluations, and move from testing to production within the same environment they already use. Is GitHub Models different from GitHub Copilot? Yes, GitHub Models is a separate product, outside of GitHub Copilot. GitHub Models is free for everyone to get started building AI with and can be leveraged directly within GitHub. What is the Models playground? GitHub Models includes a playground where you can explore a curated selection of AI models from providers like OpenAI, Meta, and Microsoft. There you can experiment with prompts, tweak parameters (such as temperature or max tokens), and see how different models respond, all in real time. Can I bring my own model key? Yes, you can bring your own API keys (BYOK) from different providers, such as OpenAI or Azure AI. Model inference runs directly through your provider, and usage is billed and tracked through your provider account. View the GitHub BYOK documentation. How does GitHub Models billing work on GitHub? Billing for GitHub Models is designed to be flexible and to allow you to use your preferred model providers, while also providing the ability to control your spending. Model usage is powered by the Azure OpenAI Service and billed through GitHub using the same global pay-as-you-go pricing as Azure OpenAI Service . Learn more about billing for GitHub Models .",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/models#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fmodels",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fmodels",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fmodels&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/models",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/models",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/models",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "http://github.com/features/spark?locale=en-US",
+      "text": "Try GitHub Spark",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace?type=models&locale=en-US",
+      "text": "Explore models",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-models?ref_cta=Get+started&ref_loc=hero&ref_page=%2Ffeatures_models",
+      "text": "Get started",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-models/about-github-models",
+      "text": "Learn more",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-models?ref_cta=Learn+more&ref_loc=footer&ref_page=%2Ffeatures_models",
+      "text": "Learn more",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-models",
+      "text": "GitHub Models documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/billing/managing-billing-for-your-products/about-billing-for-github-models",
+      "text": "Learn about billing on GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-models/github-models-at-scale/set-up-custom-model-integration-models-byok",
+      "text": "View the GitHub BYOK documentation.",
+      "title": ""
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+      "text": "Azure OpenAI Service",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/billing/managing-billing-for-your-products/about-billing-for-github-models",
+      "text": "Learn more about billing for GitHub Models",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4vJTbcxVY2zW1h3iLlcFB6/5266bf25fa03bc5f004d968e99d5e57e/ai_category_hero_img.webp?w=2400&fm=jpg&fl=progressive",
+      "alt": "",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/7azkrKDxprh768piq6DzQ5/c5530aeb967b6ed65e397f2273d93d82/github-models-river-breakout.webp",
+      "alt": "GitHub Models UI with GPT-4o shows prompt testing. Left panel has config options like system prompt, schema format, grounding data, token/temperature settings. Right panel shows a Paris Q&A, ending with Eiffel Tower’s height in baguettes.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1Q9LHnBYXMvyi1Gd8cdnru/b041bc6a1eab76aa2db631da2a06ea1d/github-models-prompt-management.webp",
+      "alt": "A GitHub diff showing a prompt.md file indicating the model and system prompt have changed.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3gT0EC5Otc88Qvemwhg7KQ/4585145167c18223f477614af4097c25/Compare.webp",
+      "alt": "GitHub Models comparison view shows evaluation results for two models. Metrics like categorization, calibration, and JSON validation are scored, highlighting output differences and quality assessment using custom evaluators.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/2bYrdQmkwgbZ01VfvKz0t0/71b946e91570883cb5d188a37cf3e94d/github-models-prompt-editor.webp",
+      "alt": "GitHub Models interface displaying a configuration for the 'OpenAI GPT-4o Mini' model. There’s a system prompt and a form field that allows you to select the output format, followed by a button that reads 'Create prompt.md file.'",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1yBsiuS9ONvKvIQDpJVqre/64d9a4dc0b83d951aaff3d82eb131959/spark-and-models.webp",
+      "alt": "Dark-themed interface with a highlighted 'AI' tab and a description for 'Search bar recommendations' detailing an intelligent restaurant search assistant based on friends' ratings.",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://docs.github.com/github-models/about-github-models",
+    "http://github.com/features/spark?locale=en-US",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fmodels",
+    "https://docs.github.com/github-models?ref_cta=Get+started&ref_loc=hero&ref_page=%2Ffeatures_models",
+    "https://docs.github.com/github-models?ref_cta=Learn+more&ref_loc=footer&ref_page=%2Ffeatures_models",
+    "https://docs.github.com/github-models/github-models-at-scale/set-up-custom-model-integration-models-byok",
+    "https://github.com/marketplace?type=models&locale=en-US",
+    "https://docs.github.com/billing/managing-billing-for-your-products/about-billing-for-github-models",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://docs.github.com/github-models"
+  ],
+  "page_size_bytes": 406922,
+  "meta_tags": {
+    "route-pattern": "/features/models(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:36f217b1-c243-1e17-212e-7c43ce72839e",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "C43E:F2068:D1F917:12300EA:68D003FB",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRjkxNzoxMjMwMEVBOjY4RDAwM0ZCIiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "56d287ffacaa0c7c986def800baa9af0c43423bc29aa0ea9673b8d642542a90d",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/models",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/1gjR3RoaD1clkZrYtqnd4I/11988f4fd182af075ba90a8688b61dd6/github-models-social-img.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Models | Build AI-powered projects with industry-leading",
+    "twitter:description": "GitHub Models brings top-tier AI models into your workflow—securely and at scale. Compare outputs, manage prompts like code, and build AI-powered apps with ease.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/1gjR3RoaD1clkZrYtqnd4I/11988f4fd182af075ba90a8688b61dd6/github-models-social-img.png",
+    "og:image:alt": "GitHub Models brings top-tier AI models into your workflow—securely and at scale. Compare outputs, manage prompts like code, and build AI-powered apps with ease.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Models | Build AI-powered projects with industry-leading",
+    "og:url": "https://github.com/features/models",
+    "og:description": "GitHub Models brings top-tier AI models into your workflow—securely and at scale. Compare outputs, manage prompts like code, and build AI-powered apps with ease.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "AI",
+    "turbo-body-classes": "logged-out env-production page-responsive header-dark",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 3
+  }
+}

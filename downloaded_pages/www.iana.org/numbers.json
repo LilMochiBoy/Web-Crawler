@@ -1,0 +1,283 @@
+{
+  "url": "https://www.iana.org/numbers",
+  "extracted_at": "2025-09-21T21:52:22.512407",
+  "title": "Number Resources",
+  "description": "We are responsible for global coordination of the Internet Protocol addressing systems, as well as the Autonomous\n    System Numbers used for routing Internet traffic.",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 599,
+  "paragraph_count": 5,
+  "heading_structure": {
+    "h1": [
+      "Number Resources"
+    ],
+    "h2": [
+      "IP Address Allocations",
+      "Autonomous System Number Allocations",
+      "Procedures",
+      "Regional Internet Registry Creation",
+      "Technical Documentation",
+      "Number Resources"
+    ],
+    "h3": [
+      "Internet Protocol Version 4 (IPv4)",
+      "Internet Protocol Version 6 (IPv6)"
+    ]
+  },
+  "text_content": "Number Resources We are responsible for global coordination of the Internet Protocol addressing systems, as well as the Autonomous System Numbers used for routing Internet traffic. Currently there are two types of Internet Protocol (IP) addresses in active use: IP version 4 (IPv4) and IP version 6 (IPv6). IPv4 was initially deployed on 1 January 1983 and is still the most commonly used version. IPv4 addresses are 32-bit numbers often expressed as 4 octets in “dotted decimal” notation (for example, 192.0.2.53 ). Deployment of the IPv6 protocol began in 1999. IPv6 addresses are 128-bit numbers and are conventionally expressed using hexadecimal strings (for example, 2001:0db8:582:ae33::29 ). Both IPv4 and IPv6 addresses are generally assigned in a hierarchical manner. Users are assigned IP addresses by Internet service providers (ISPs). ISPs obtain allocations of IP addresses from a local Internet registry (LIR) or National Internet Registry (NIR), or from their appropriate Regional Internet Registry (RIR): Registry Area Covered AFRINIC Africa Region APNIC Asia/Pacific Region ARIN Canada, USA, and some Caribbean Islands LACNIC Latin America and some Caribbean Islands RIPE NCC Europe, the Middle East, and Central Asia Our primary role for IP addresses is to allocate pools of unallocated addresses to the RIRs according to their needs as described by global policy and to document protocol assignments made by the IETF . When an RIR requires more IP addresses for allocation or assignment within its region, we make an additional allocation to the RIR. We do not make allocations directly to ISPs or end users except in specific circumstances, such as allocations of multicast addresses or other protocol specific needs. IP Address Allocations Internet Protocol Version 4 (IPv4) IPv4 Address Space IPv4 Multicast Address Assignments IPv4 Special Purpose Address Registry IPv4 Recovered Address Space Registry Bootstrap Service Registry for IPv4 Address Space Internet Protocol Version 6 (IPv6) IPv6 Address Space IPv6 Global Unicast Allocations IPv6 Parameters (Parameters described for IPv6, including header types, action codes, etc.) IPv6 Anycast Address Allocations IPv6 Multicast Address Allocations IPv6 Sub-TLA Assignments (DEPRECATED) IANA IPv6 Special Registry Bootstrap Service Registry for IPv6 Address Space Announcement of Worldwide Deployment of IPv6 (14 July 1999) RIR Comparative Policy Overview Autonomous System Number Allocations Autonomous System Numbers Special-Purpose AS Number Assignments Bootstrap Service Registry for AS Number Space Procedures Internet Number Resource Request Procedure Regional Internet Registry Creation Criteria for Establishment of New Regional Internet Registries (ICP-2) (4 June 2001) IANA Report on Recognition of LACNIC as a Regional Internet Registry (7 November 2002) IANA Report on Recognition of AfriNIC as a Regional Internet Registry (8 April 2005) Technical Documentation RFC 4632 — Classless Inter-domain Routing (CIDR): The Internet Address Assignment and Aggregation Plan RFC 1918 — Address Allocation for Private Internets RFC 5737 — IPv4 Address Blocks Reserved for Documentation RFC 4291 — Internet Protocol Version 6 (IPv6) Addressing Architecture RFC 3587 — IPv6 Global Unicast Address Format RFC 6177 — IPv6 Address Assignment to End Sites RFC 6890 — Special-Purpose IP Address Registries RFC 7020 — The Internet Numbers Registry System RFC 7249 — Internet Numbers Registries Locally Served DNS Zones",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains",
+      "text": "Domains",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocols",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv4-address-space",
+      "text": "IPv4 Address Space",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/multicast-addresses",
+      "text": "IPv4 Multicast Address Assignments",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry",
+      "text": "IPv4 Special Purpose Address Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv4-recovered-address-space",
+      "text": "IPv4 Recovered Address Space Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/rdap-ipv4",
+      "text": "Bootstrap Service Registry for IPv4 Address Space",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-address-space",
+      "text": "IPv6 Address Space",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-unicast-address-assignments",
+      "text": "IPv6 Global Unicast Allocations",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-parameters",
+      "text": "IPv6 Parameters",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-anycast-addresses",
+      "text": "IPv6 Anycast Address Allocations",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-multicast-addresses",
+      "text": "IPv6 Multicast Address Allocations",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ipv6-tla-assignments",
+      "text": "IPv6 Sub-TLA Assignments",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry",
+      "text": "IANA IPv6 Special Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/rdap-ipv6",
+      "text": "Bootstrap Service Registry for IPv6 Address Space",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/reports/1999/ipv6-announcement.html",
+      "text": "Announcement of Worldwide Deployment of IPv6",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/as-numbers",
+      "text": "Autonomous System Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/iana-as-numbers-special-registry",
+      "text": "Special-Purpose AS Number Assignments",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/rdap-asn",
+      "text": "Bootstrap Service Registry for AS Number Space",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/help/inr-request-procedure",
+      "text": "Internet Number Resource Request Procedure",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/icp2",
+      "text": "Criteria for Establishment of New Regional Internet Registries (ICP-2)",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/reports/2002/lacnic-report-07nov02.html",
+      "text": "IANA Report on Recognition of LACNIC as a Regional Internet Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/reports/2005/afrinic-report-05aug2005.pdf",
+      "text": "IANA Report on Recognition of AfriNIC as a Regional Internet Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc4632",
+      "text": "RFC 4632",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1918",
+      "text": "RFC 1918",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5737",
+      "text": "RFC 5737",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc4291",
+      "text": "RFC 4291",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc3587",
+      "text": "RFC 3587",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6177",
+      "text": "RFC 6177",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6890",
+      "text": "RFC 6890",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc7020",
+      "text": "RFC 7020",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc7249",
+      "text": "RFC 7249",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/locally-served-dns-zones",
+      "text": "Locally Served DNS Zones",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "http://www.afrinic.net/",
+      "text": "AFRINIC",
+      "title": ""
+    },
+    {
+      "url": "http://www.apnic.net/",
+      "text": "APNIC",
+      "title": ""
+    },
+    {
+      "url": "http://www.arin.net/",
+      "text": "ARIN",
+      "title": ""
+    },
+    {
+      "url": "http://www.lacnic.net/",
+      "text": "LACNIC",
+      "title": ""
+    },
+    {
+      "url": "http://www.ripe.net/",
+      "text": "RIPE NCC",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/general/global-addressing-policies.html",
+      "text": "global policy",
+      "title": ""
+    },
+    {
+      "url": "http://www.ietf.org/",
+      "text": "IETF",
+      "title": ""
+    },
+    {
+      "url": "http://www.nro.net/documents/",
+      "text": "RIR Comparative Policy Overview",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.iana.org/_img/2025.01/iana-logo-header.svg",
+      "alt": "Homepage",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://www.iana.org/_img/2022/rir-map.svg",
+      "alt": "Map of RIRs",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 11497,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 1,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

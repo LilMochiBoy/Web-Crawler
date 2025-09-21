@@ -1,0 +1,698 @@
+{
+  "url": "https://github.com/features/copilot",
+  "extracted_at": "2025-09-21T21:56:10.733390",
+  "title": "GitHub Copilot · Your AI pair programmer · GitHub",
+  "description": "GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 8214,
+  "paragraph_count": 205,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "AI that builds with you"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Companies using Copilot",
+      "Delegate like a boss",
+      "Take flight with GitHub Copilot",
+      "Get the most out of GitHub Copilot",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Because two brains are better than one",
+      "Get speed when you need it. Depth when you don’t.",
+      "Make one change. GitHub Copilot handles the rest.",
+      "Your code’s guardian angel",
+      "Free",
+      "Pro",
+      "Pro+",
+      "Preview the latest features",
+      "Explore the GitHub Blog",
+      "Visit the GitHub Copilot Trust Center",
+      "Frequently asked questions",
+      "General",
+      "Plans & pricing",
+      "Privacy",
+      "Responsible AI",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ],
+    "h4": [
+      "What's included:",
+      "Everything in Free and:",
+      "Everything in Pro and:",
+      "General",
+      "What is GitHub Copilot?",
+      "Who is eligible to access GitHub Copilot for free?",
+      "What languages, IDEs, and platforms does GitHub Copilot support?",
+      "Does GitHub Copilot “copy/paste”?",
+      "What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?",
+      "What data has GitHub Copilot been trained on?",
+      "Which plan includes GitHub Copilot Autofix?",
+      "What if I do not want GitHub Copilot?",
+      "How do I control access to GitHub Copilot in my company?",
+      "Plans & pricing",
+      "What are the differences between the Free, Pro, Business, and Enterprise plans?",
+      "How can I upgrade my GitHub Copilot Free license to Copilot Pro?",
+      "What is included in GitHub Copilot Free?",
+      "Which plan includes GitHub Copilot Autofix?",
+      "Privacy",
+      "What personal data does GitHub Copilot process?",
+      "Does GitHub use Copilot Business or Enterprise data to train GitHub’s model?",
+      "How does GitHub use the Copilot data?",
+      "How long does GitHub retain Copilot data for Business and Enterprise customers?",
+      "Why do some Copilot features retain prompts and suggestions?",
+      "Does GitHub Copilot support compliance with the GDPR and other data protection laws?",
+      "Does GitHub Copilot ever output personal data?",
+      "How does Copilot allow users to access, alter or delete personal data?",
+      "Responsible AI",
+      "What are the intellectual property considerations when using GitHub Copilot?",
+      "Does GitHub Copilot include a filtering mechanism to mitigate risk?",
+      "Does GitHub Copilot include features to make it easier for users to identify potentially relevant open source licenses for matching suggestions?",
+      "Who owns the suggestions provided by GitHub Copilot?",
+      "Can GitHub Copilot introduce insecure code in its suggestions?",
+      "Is GitHub Copilot intended to fully automate code generation and replace developers?",
+      "Can GitHub Copilot users simply use suggestions without concern?",
+      "Does GitHub Copilot support accessibility features?",
+      "Does GitHub Copilot produce offensive outputs?",
+      "Will GitHub Copilot work as well using languages other than English?",
+      "What data has GitHub Copilot been trained on?",
+      "What is GitHub Copilot?",
+      "Who is eligible to access GitHub Copilot for free?",
+      "What languages, IDEs, and platforms does GitHub Copilot support?",
+      "Does GitHub Copilot “copy/paste”?",
+      "What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?",
+      "What data has GitHub Copilot been trained on?",
+      "Which plan includes GitHub Copilot Autofix?",
+      "What if I do not want GitHub Copilot?",
+      "How do I control access to GitHub Copilot in my company?",
+      "What are the differences between the Free, Pro, Business, and Enterprise plans?",
+      "How can I upgrade my GitHub Copilot Free license to Copilot Pro?",
+      "What is included in GitHub Copilot Free?",
+      "Which plan includes GitHub Copilot Autofix?",
+      "What personal data does GitHub Copilot process?",
+      "Does GitHub use Copilot Business or Enterprise data to train GitHub’s model?",
+      "How does GitHub use the Copilot data?",
+      "How long does GitHub retain Copilot data for Business and Enterprise customers?",
+      "Why do some Copilot features retain prompts and suggestions?",
+      "Does GitHub Copilot support compliance with the GDPR and other data protection laws?",
+      "Does GitHub Copilot ever output personal data?",
+      "How does Copilot allow users to access, alter or delete personal data?",
+      "What are the intellectual property considerations when using GitHub Copilot?",
+      "Does GitHub Copilot include a filtering mechanism to mitigate risk?",
+      "Does GitHub Copilot include features to make it easier for users to identify potentially relevant open source licenses for matching suggestions?",
+      "Who owns the suggestions provided by GitHub Copilot?",
+      "Can GitHub Copilot introduce insecure code in its suggestions?",
+      "Is GitHub Copilot intended to fully automate code generation and replace developers?",
+      "Can GitHub Copilot users simply use suggestions without concern?",
+      "Does GitHub Copilot support accessibility features?",
+      "Does GitHub Copilot produce offensive outputs?",
+      "Will GitHub Copilot work as well using languages other than English?",
+      "What data has GitHub Copilot been trained on?"
+    ]
+  },
+  "text_content": "Now supercharged with agent mode AI that builds with you Get started for free See plans & pricing Pause Companies using Copilot Coyote Logistics Duolingo General Motors Mercado Libre Shopify Stripe CocaCola Coyote Logistics Duolingo General Motors Mercado Libre Shopify Stripe CocaCola Features Delegate like a boss Pause Your backlog doesn’t stand a chance. Delegate open issues to GitHub Copilot and let your coding agent write, run, and test code in the background. Preview GitHub Copilot coding agent Deals with your issues. When assigned issues, GitHub Copilot plans, writes, tests, and iterates—using GitHub Actions to run code and deliver ready-to-review pull requests. Codes like an insider. GitHub Copilot hooks into MCP servers to draw on data from your repositories and external resources—working like an onboarded team member from day one. Human and agent in the loop. Comment to guide GitHub Copilot, polish your code for merge, or take over locally in your IDE. Because two brains are better than one Agent mode helps make sweeping changes by analyzing code, proposing edits, running tests, and validating results across multiple files. Try agent mode Get speed when you need it. Depth when you don’t. In Copilot Chat, swap between models like OpenAI GPT-5, Anthropic Claude Opus 4.1, and Google Gemini 2.0 Flash to crush coding tasks fast or go deep when it counts. Make one change. GitHub Copilot handles the rest. Next edit suggestions reveal the ripple effects of your changes across your project—helping you keep everything consistent. Try next edit suggestions Your code’s guardian angel Code review analyzes your work, uncovers hidden bugs, fixes mistakes, and more—before a human ever sees it. Discover code review Plans Take flight with GitHub Copilot For individuals For businesses Free A fast way to get started with GitHub Copilot. $ 0 USD Get started Open in VS Code What's included: 50 agent mode or chat requests per month 2,000 completions per month Access to Claude Sonnet 3.5, GPT-4.1, and more Pro Most popular Unlimited completions and chats with access to more models. $ 10 USD per month or $100 per year Try for 30 days free Everything in Free and: Unlimited agent mode and chats with GPT-5 mini Unlimited code completions Access to code review, Claude Sonnet 4, GPT-5, Gemini 2.5 Pro, and more 6x more premium requests than Copilot Free to use the latest models, with the option to buy more Coding agent (preview) Free for verified students, teachers, and maintainers of popular open source projects. Learn more Pro+ Maximum flexibility and model choice. $ 39 USD per month or $390 per year Get started Everything in Pro and: Access to all models, including Claude Opus 4.1, o3, and more 30x more premium requests than Copilot Free to use the latest models, with the option to buy more Access to GitHub Spark GitHub Copilot is available on your favorite platforms: GitHub GitHub VS Code VS Code Visual Studio Visual Studio Xcode Xcode JetBrains IDEs JetBrains IDEs Neovim Neovim Azure Data Studio Azure Data Studio Eclipse Eclipse Raycast Raycast Compare all plan features Get the most out of GitHub Copilot Preview the latest features Be the first to explore what’s next for GitHub Copilot. See previews Explore the GitHub Blog Discover the latest in software development with insights, best practices, and more. Read Blog Visit the GitHub Copilot Trust Center Gain peace of mind with our security, privacy, and responsible AI policies. Go to Trust Center Frequently asked questions General What is GitHub Copilot? GitHub Copilot transforms the developer experience. Backed by the leaders in AI, GitHub Copilot provides contextualized assistance throughout the software development lifecycle, from code completions and chat assistance in the IDE to code explanations and answers to docs in GitHub and more. With GitHub Copilot elevating their workflow, developers can focus on: value, innovation, and happiness. GitHub Copilot enables developers to focus more energy on problem solving and collaboration and spend less effort on the mundane and boilerplate. That’s why developers who use GitHub Copilot report up to 75% higher satisfaction with their jobs than those who don’t and are up to 55% more productive at writing code without sacrifice to quality, which all adds up to engaged developers shipping great software faster. GitHub Copilot integrates with leading editors, including Visual Studio Code, Visual Studio, JetBrains IDEs, and Neovim, and, unlike other AI coding assistants, is natively built into GitHub. Growing to millions of individual users and tens of thousands of business customers, GitHub Copilot is the world’s most widely adopted AI developer tool and the competitive advantage developers ask for by name. Who is eligible to access GitHub Copilot for free? GitHub Copilot Free is a new free pricing tier with limited functionality for individual developers. Users assigned a Copilot Business or Copilot Enterprise seat are not eligible ...",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/copilot#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcopilot",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcopilot",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fcopilot&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-copilot/pro",
+      "text": "Get started for free",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot/plans?cft=copilot_lo.features_copilot",
+      "text": "See plans & pricing",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/copilot",
+      "text": "Get started",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-copilot/pro?cft=copilot_li.copilot_plans.cfi",
+      "text": "Try for 30 days free",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/education",
+      "text": "Learn more",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-copilot/pro-plus?cft=copilot_li.copilot_plans.cpp",
+      "text": "Get started",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/spark?locale=en-US",
+      "text": "GitHub Spark",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/copilot",
+      "text": "GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github/CopilotForXcode",
+      "text": "Xcode",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github/copilot.vim",
+      "text": "Neovim",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot/plans#compare",
+      "text": "Compare all plan features",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/preview?locale=en-US",
+      "text": "Preview the latest features",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/advanced-security?locale=en-US",
+      "text": "GitHub Advanced Security",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/settings/copilot?locale=en-US",
+      "text": "Copilot settings page",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot?locale=en-US",
+      "text": "Copilot marketing page",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-terms/github-data-protection-agreement?locale=en-US",
+      "text": "DPA)",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-terms/github-data-protection-agreement?locale=en-US",
+      "text": "Data Protection Agreement",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-community/community/discussions/categories/copilot?locale=en-US",
+      "text": "feedback forum",
+      "title": ""
+    },
+    {
+      "url": "mailto:copilot-safety@github.com",
+      "text": "copilot-safety@github.com",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/advanced-security?locale=en-US",
+      "text": "GitHub Advanced Security",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/settings/copilot?locale=en-US",
+      "text": "Copilot settings page",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot?locale=en-US",
+      "text": "Copilot marketing page",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-terms/github-data-protection-agreement?locale=en-US",
+      "text": "DPA)",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-terms/github-data-protection-agreement?locale=en-US",
+      "text": "Data Protection Agreement",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-community/community/discussions/categories/copilot?locale=en-US",
+      "text": "feedback forum",
+      "title": ""
+    },
+    {
+      "url": "mailto:copilot-safety@github.com",
+      "text": "copilot-safety@github.com",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "http://gh.io/copilot-coding-agent-docs",
+      "text": "Preview GitHub Copilot coding agent",
+      "title": ""
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode",
+      "text": "Try agent mode",
+      "title": ""
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_next-edit-suggestions",
+      "text": "Try next edit suggestions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/copilot/using-github-copilot/code-review/using-copilot-code-review",
+      "text": "Discover code review",
+      "title": ""
+    },
+    {
+      "url": "vscode://github.copilot-chat",
+      "text": "Open in VS Code",
+      "title": ""
+    },
+    {
+      "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
+      "text": "VS Code",
+      "title": ""
+    },
+    {
+      "url": "https://visualstudio.microsoft.com/github-copilot",
+      "text": "Visual Studio",
+      "title": ""
+    },
+    {
+      "url": "https://plugins.jetbrains.com/plugin/17718-github-copilot",
+      "text": "JetBrains IDEs",
+      "title": ""
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure-data-studio/extensions/github-copilot-extension-overview",
+      "text": "Azure Data Studio",
+      "title": ""
+    },
+    {
+      "url": "https://marketplace.eclipse.org/content/github-copilot#details",
+      "text": "Eclipse",
+      "title": ""
+    },
+    {
+      "url": "https://gh.io/copilot-raycast-docs",
+      "text": "Raycast",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog",
+      "text": "Explore the GitHub Blog",
+      "title": ""
+    },
+    {
+      "url": "https://copilot.github.trust.page",
+      "text": "Visit the GitHub Copilot Trust Center",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "text": "GitHub Privacy Statement",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#your-privacy-rights",
+      "text": "GitHub Privacy Statement",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code",
+      "text": "Configuring GitHub Copilot settings on GitHub.com",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/2023-08-03-introducing-code-referencing-for-github-copilot/",
+      "text": "code referencing feature",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/798.html",
+      "text": "hardcoded credentials",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/89.html",
+      "text": "SQL injections",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/22.html",
+      "text": "path injections",
+      "title": ""
+    },
+    {
+      "url": "https://blogs.microsoft.com/on-the-issues/2023/09/07/copilot-copyright-commitment-ai-legal-concerns/",
+      "text": "Microsoft's Copilot Copyright Commitment",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/news-insights/research/the-economic-impact-of-the-ai-powered-developer-lifecycle-and-lessons-from-github-copilot/",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "text": "GitHub Privacy Statement",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#your-privacy-rights",
+      "text": "GitHub Privacy Statement",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code",
+      "text": "Configuring GitHub Copilot settings on GitHub.com",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/2023-08-03-introducing-code-referencing-for-github-copilot/",
+      "text": "code referencing feature",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/798.html",
+      "text": "hardcoded credentials",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/89.html",
+      "text": "SQL injections",
+      "title": ""
+    },
+    {
+      "url": "https://cwe.mitre.org/data/definitions/22.html",
+      "text": "path injections",
+      "title": ""
+    },
+    {
+      "url": "https://blogs.microsoft.com/on-the-issues/2023/09/07/copilot-copyright-commitment-ai-legal-concerns/",
+      "text": "Microsoft's Copilot Copyright Commitment",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/news-insights/research/the-economic-impact-of-the-ai-powered-developer-lifecycle-and-lessons-from-github-copilot/",
+      "text": "here",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/hero-bg-desktop-6cb381873ba2.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.githubassets.com/assets/hero-bg-mobile-b65c4e4cee99.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3xm4YeFKwKXwae8Me6KaN/c5f8071727f93aab5509fdbe9b1e1449/Agent_mode.png",
+      "alt": "",
+      "title": "",
+      "width": "708",
+      "height": "472"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/SZzlMX8i6u1JBI497nKNL/04f2fe4db4565aa8509adb06eaccb09b/github-copilot-model-picker.webp",
+      "alt": "A dropdown menu lists some of GitHub Copilot Chat’s available models like Claude Sonnet 4, Claude Opus 4.1 (Preview), Gemini 2.0 Flash, Gemini 2.5 Pro, GPT-5, GPT-4.1, o3-mini, and o4-mini (Preview).",
+      "title": "",
+      "width": "708",
+      "height": "472"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/11f2wKcDICAdlSFayGMnLn/a36db611e0d2050610450a4fe2cb38e3/github-copilot-next-edit-suggestions.webp",
+      "alt": "An active Copilot Next Edit Suggestion popover shows next to a highlighted snippet of code in a code editor. The popover lists the following: ‘Go To/Accept (Tab key),’ ‘Reject (Escape key),’ and ‘Show Collapsed.’",
+      "title": "",
+      "width": "708",
+      "height": "472"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3rJsQY9gZvpJclmyFa8UFb/58d010b0ea1e2ddea3c703c342917909/github-copilot-code-review.webp",
+      "alt": "GitHub Copilot performing a code review. In an active popover where reviewers can be requested, Copilot is selected.",
+      "title": "",
+      "width": "708",
+      "height": "472"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/github-dae1693fc0e0.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/vscode-41ed661450e9.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/visualstudio-7b2c255a778e.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/xcode-b8ad451a19a6.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/jetbrains-logo-f47fa4bb0b1d.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/neovim-c63bac91528a.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/azure-e978ccb08351.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/eclipse-b96fa7bd534b.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/raycast-logo-cf00bf33d8fc.svg?v=1",
+      "alt": "",
+      "title": "",
+      "width": "70",
+      "height": "70"
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/github/CopilotForXcode",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcopilot",
+    "https://github.com/customer-terms/github-data-protection-agreement?locale=en-US",
+    "https://docs.github.com/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code",
+    "https://github.com/copilot",
+    "https://github.com/features/copilot?locale=en-US",
+    "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#your-privacy-rights",
+    "https://github.com/settings/copilot?locale=en-US",
+    "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization",
+    "https://github.com/github-community/community/discussions/categories/copilot?locale=en-US",
+    "https://docs.github.com/copilot/using-github-copilot/code-review/using-copilot-code-review",
+    "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "https://github.com/features/preview?locale=en-US",
+    "https://github.com/enterprise/advanced-security?locale=en-US",
+    "mailto:copilot-safety@github.com",
+    "https://github.com/github/copilot.vim",
+    "https://github.com/features/spark?locale=en-US",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+  ],
+  "page_size_bytes": 831990,
+  "meta_tags": {
+    "route-pattern": "/features/copilot(.:format)",
+    "route-controller": "site_features_copilot",
+    "route-action": "index",
+    "fetch-nonce": "v2:5e40a8d5-1856-48b7-253f-9413d35dd5a7",
+    "current-catalog-service-hash": "79cf51f992068789f17556b35146105313c98e5893e538d4903986cbf7e2509a",
+    "request-id": "C43E:F2068:D1F7C2:122FF13:68D003F7",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRjdDMjoxMjJGRjEzOjY4RDAwM0Y3IiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "7ab657ea43e7eee521ceb31335367d191bc5520153d359763d60a1f8be50068c",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/copilot",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/5IdZ8KizWhMOGixAmVSw0g/f81f5f263a88eabe5d3e102300d44a88/github-copilot-social-img.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Copilot · Your AI pair programmer",
+    "twitter:description": "GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/5IdZ8KizWhMOGixAmVSw0g/f81f5f263a88eabe5d3e102300d44a88/github-copilot-social-img.png",
+    "og:image:alt": "GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Copilot · Your AI pair programmer",
+    "og:url": "https://github.com/features/copilot",
+    "og:description": "GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "AI",
+    "turbo-body-classes": "logged-out env-production page-responsive header-overlay",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 4
+  }
+}

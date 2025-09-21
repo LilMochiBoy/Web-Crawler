@@ -1,0 +1,303 @@
+{
+  "url": "https://github.com/solutions/use-case/devsecops",
+  "extracted_at": "2025-09-21T21:58:18.161228",
+  "title": "Unified DevSecOps Solutions Built for Security | GitHub · GitHub",
+  "description": "GitHub offers comprehensive security tools to build, secure, and ship software on an AI-powered DevSecOps platform, boosting DevOps with integrated security.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 784,
+  "paragraph_count": 18,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "The AI-powered DevSecOps platform"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Integrate AI-powered security features directlyinto your development workflow, eliminatingthe need for third-party tools.",
+      "Logos for EY Mercado Libre 3M KPMG TELUS",
+      "Additional Resources",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Code scanning",
+      "Secret scanning",
+      "Supply chain security",
+      "Give AI the heavy lifting",
+      "Found means fixed",
+      "Pump your team’s security prowess",
+      "Your workflows, your way",
+      "Application security made simpler",
+      "DevSecOps explained",
+      "Meet the companies who build with unified DevSecOps",
+      "Discover how AI is changing the security landscape",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "GitHub DevSecOps The AI-powered DevSecOps platform With comprehensive security tools built into the developer workflow, you can build, secure, and ship all in one place. Request a demo See plans & pricing Integrate AI-powered security features directly into your development workflow, eliminating the need for third-party tools. Code scanning Find and fix security issues before production with static application security testing (SAST). Secret scanning Hunt, revoke, and prevent leaked secrets with automatic push protection. Supply chain security Keep vulnerable dependencies out of your applications with software composition analysis (SCA). Logos for EY Mercado Libre 3M KPMG TELUS Ernst and Young Mercado Libre 3M KPMG Telus Give AI the heavy lifting Organizations struggle to fix their backlog of vulnerabilities, despite the risks. Coming next, security managers can burn down years of security debt in one simple sprint. Discover GitHub Copilot Found means fixed Don’t just find vulnerable code, fix it. GitHub Advanced Security flags problems and suggests AI-powered solutions, freeing teams to ship more secure software faster. Explore AI-powered security Pump your team’s security prowess Developers aren’t security professionals. With GitHub Advanced Security, you can offload the technical complexity and give them the freedom to build and ship great software. Discover code scanning autofix Your workflows, your way With support for more than 17,000 app integrations, GitHub Advanced Security accommodates your team’s tooling preferences. Explore GitHub Marketplace 7x faster vulnerabilities fixes 2.4 fewer false positives than the industry standard 20M repositories that have enabled secret scanning “ We prefer to have security that leverages what developers are already using rather than trying to force them to use some other tool. Jim Jacobs Chief Analyst, Gartner Application security made simpler Eliminate toolchain cost and complexity with native security tools for GitHub Enterprise and Azure DevOps customers. Request a demo See plans & pricing Additional Resources DevSecOps explained Explore how DevSecOps builds on the ideas of DevOps by applying security practices throughout the SDLC. Learn more Meet the companies who build with unified DevSecOps Leading organizations choose GitHub to plan, build, secure, and ship software. Read customer stories Discover how AI is changing the security landscape From prevention to remediation, see how AI can help fix issues instantly. Watch webinar",
+  "internal_links": [
+    {
+      "url": "https://github.com/solutions/use-case/devsecops#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsolutions%2Fuse-case%2Fdevsecops",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsolutions%2Fuse-case%2Fdevsecops",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsolutions%2Fuse-case%2Fdevsecops&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/solutions/use-case/devsecops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/solutions/use-case/devsecops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/solutions/use-case/devsecops",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security/demo?utm_campaign=Demo_utmroutercampaign&ref_cta=Request%20demo&ref_loc=hero&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+      "text": "Request a demo",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/plans?ref_cta=pricing&ref_loc=hero&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+      "text": "See plans & pricing",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Discover GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Explore GitHub Marketplace",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security/demo?utm_campaign=Demo_utmroutercampaign&ref_cta=Request%20demo&ref_loc=hero&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+      "text": "Request a demo",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/plans?ref_cta=pricing&ref_loc=footer&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+      "text": "See plans & pricing",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-devsecops",
+      "text": "DevSecOps explained",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories/enterprise?feature=GitHub%2BAdvanced%2BSecurity#browse",
+      "text": "Meet the companies who build with unified DevSecOps",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://resources.github.com/security/ai-powered-devsecops-checklist/",
+      "text": "Explore AI-powered security",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/2024-03-20-found-means-fixed-introducing-code-scanning-autofix-powered-by-github-copilot-and-codeql/",
+      "text": "Discover code scanning autofix",
+      "title": ""
+    },
+    {
+      "url": "https://resources.github.com/security/transforming-application-security-with-ai/",
+      "text": "Discover how AI is changing the security landscape",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/bOTn7PNGlUzb4Vra2ZNXI/59c1667fb4ec2229aba2050de9b179f0/section-security-illo.webp?fm=webp",
+      "alt": "Chart displaying decreasing security incidents and highlighted code with a suggested AI fix.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6gbXLvWV2SKHPcKFcPcUJ1/68ff2a5381da67968a98b387f588563e/ai-suggested-fix2.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/2HTQXiXvkVKJz4SMuntu3l/6925935829f9e4cb1432556a40da95ea/ai-suggested-fix.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/2yTbRI9UPgLLRTewsJL8dG/a2230f0c55eec37f16be203f18a0e515/codeql-warning.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/35MGk5wBo8n5z6Ut7THgIq/de520feaf2b590da2ddf5bfb03605a9c/pyyaml-validation.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/security/plans?ref_cta=pricing&ref_loc=hero&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fsolutions%2Fuse-case%2Fdevsecops",
+    "https://github.com/resources/articles/devops/what-is-devsecops",
+    "https://github.com/customer-stories/enterprise?feature=GitHub%2BAdvanced%2BSecurity#browse",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/security/plans?ref_cta=pricing&ref_loc=footer&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github",
+    "https://github.com/features/copilot",
+    "https://github.com/marketplace",
+    "https://resources.github.com/security/ai-powered-devsecops-checklist/",
+    "https://resources.github.com/security/transforming-application-security-with-ai/",
+    "https://github.com/security/advanced-security/demo?utm_campaign=Demo_utmroutercampaign&ref_cta=Request%20demo&ref_loc=hero&ref_page=%2Fsolutions_usecase_devsecops&scid=adv-security&utm_campaign=Security&utm_contentsite&utm_medium=github"
+  ],
+  "page_size_bytes": 298417,
+  "meta_tags": {
+    "route-pattern": "/solutions/:category/:solution(.:format)",
+    "route-controller": "site_solutions",
+    "route-action": "show",
+    "fetch-nonce": "v2:e4b714f6-1477-10e7-90da-1349695e705c",
+    "current-catalog-service-hash": "79cf51f992068789f17556b35146105313c98e5893e538d4903986cbf7e2509a",
+    "request-id": "E176:FB39A:CE4102:11F46A0:68D00477",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNDEwMjoxMUY0NkEwOjY4RDAwNDc3IiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "4bf0a8675cb5897dfe76f59b76b7a1e3981117dee1382ff7a2ba94f17931c4b5",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub offers comprehensive security tools to build, secure, and ship software on an AI-powered DevSecOps platform, boosting DevOps with integrated security.\n",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/solutions/use-case/devsecops",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/3IRsWf9VzrmgE90A1T3rDg/5e724967f97075c42ba660c63a227859/fdb535fdfac20d0b031ca1630e54229640674dd8b1ee1cfda23506c9d2380a32-1200x630.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Unified DevSecOps Solutions Built for Security | GitHub",
+    "twitter:description": "GitHub offers comprehensive security tools to build, secure, and ship software on an AI-powered DevSecOps platform, boosting DevOps with integrated security.\n",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/3IRsWf9VzrmgE90A1T3rDg/5e724967f97075c42ba660c63a227859/fdb535fdfac20d0b031ca1630e54229640674dd8b1ee1cfda23506c9d2380a32-1200x630.png",
+    "og:image:alt": "GitHub offers comprehensive security tools to build, secure, and ship software on an AI-powered DevSecOps platform, boosting DevOps with integrated security.\n",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "Unified DevSecOps Solutions Built for Security | GitHub",
+    "og:url": "https://github.com/solutions/use-case/devsecops",
+    "og:description": "GitHub offers comprehensive security tools to build, secure, and ship software on an AI-powered DevSecOps platform, boosting DevOps with integrated security.\n",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "Security",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 3
+  }
+}

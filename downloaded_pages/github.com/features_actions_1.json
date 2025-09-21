@@ -1,0 +1,276 @@
+{
+  "url": "https://github.com/features/actions",
+  "extracted_at": "2025-09-21T21:56:18.652094",
+  "title": "GitHub Actions · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 946,
+  "paragraph_count": 16,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Automate your workflow from idea to production"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Kick off workflows on any GitHub event to automate tasks",
+      "The future of workflow automation is now",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Hosted runners",
+      "Matrix builds",
+      "Any language",
+      "Live logs",
+      "Built in secret store",
+      "Multi-container testing",
+      "Run a workflow  on any event",
+      "Actions marketplace",
+      "Secure package registry for code and workflows",
+      "GitHub Actions is free for public repositories",
+      "Host your own runners or use GitHub-hosted runners",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "GitHub Actions Automate your workflow from idea to production GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want. Get started with actions Contact sales Kick off workflows on any GitHub event to automate tasks Hosted runners Linux, macOS, Windows, ARM, GPU, and containers make it easy to build and test all your projects. Run directly on a VM or inside a container. Use your own VMs, in the cloud or on-prem, with self-hosted runners. Matrix builds Save time with matrix workflows that simultaneously test across multiple operating systems and versions of your runtime. Any language GitHub Actions supports Node.js, Python, Java, Ruby, PHP, Go, Rust, .NET, and more. Build, test, and deploy applications in your language of choice. Live logs See your workflow run in realtime with color and emoji. It’s one click to copy a link that highlights a specific line number to share a CI/CD failure. Built in secret store Automate your software development practices with workflow files embracing the Git flow by codifying it in your repository. Multi-container testing Test your web service and its DB in your workflow by simply adding some docker-compose to your workflow file. Run a workflow on any event Whether you want to build a container, deploy a web service, or automate welcoming new users to your open source projects—there's an action for that. Pair GitHub Packages with Actions to simplify package management, including version updates, fast distribution with our global CDN, and dependency resolution, using your existing GITHUB_TOKEN. Actions marketplace GitHub Actions connects all of your tools to automate every step of your development workflow. Explore the actions marketplace Easily deploy to any cloud, create tickets in Jira, or publish a package to npm. Want to venture off the beaten path? Use the millions of open source libraries available on GitHub to create your own actions. Write them in JavaScript or create a container action—both can interact with the full GitHub API and any other public API. Secure package registry for code and workflows Securely store and manage your code and packages with GitHub credentials, integrated into your workflows via APIs and webhooks. Enjoy fast, reliable downloads through a global CDN for optimized performance. Read the docs “ Actions is an exciting development and unlocks so much potential beyond CI/CD. It promises to streamline our workflows for a variety of tasks, from deploying our websites to querying the GitHub API for custom status reports to standard CI builds. Ralf Gommers SciPy maintainer GitHub Actions is free for public repositories We take pride in our Open Source legacy, and are happy to provide free CI/CD for public repositories. Check out the doc to see which runners are included. View docs Host your own runners or use GitHub-hosted runners Check out plan details to see how many minutes are included and the pricing table below to see which runners you can use your free minutes on. View pricing The future of workflow automation is now Get started with actions",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/actions#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Factions&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?ref_cta=Contact+Sales&ref_loc=hero&ref_page=%2Ffeatures%2Factions&scid=&utm_campaign=Actions_feature_page_contact_sales_cta_utmroutercampaign&utm_content=Actions&utm_medium=site&utm_source=github",
+      "text": "Contact sales",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace?type=actions",
+      "text": "Explore the actions marketplace",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions",
+      "text": "Get started with actions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/packages",
+      "text": "Read the docs",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions#included-storage-and-minutes",
+      "text": "GitHub Actions is free for public repositories",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions#per-minute-rates",
+      "text": "Host your own runners or use GitHub-hosted runners",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions",
+      "text": "Get started with actions",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/KiQBgcnMQg6dALaS6erGk/f8d49c0cc5a461b903e52d08c3c3b8f6/actions-hero.webp?fm=webp",
+      "alt": "Screenshot of a GitHub Actions workflow titled 'matrix-build-deploy.yml' displaying a pipeline with three stages: Build, Test, and Publish. The Build stage has completed successfully in 1 minute and 42 seconds. The Test stage includes builds for Linux, macOS, and Windows, all of which have also completed successfully with their respective durations. The final stage, Publish, shows that the publishing steps for Linux, macOS, and Windows are pending and waiting for approval. The background features a gradient transitioning from green to blue to turquoise.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1e4I96ILCuSCaiFUQMeLLW/a78a371df7b10914a8f2099a0c95ab0b/features-action-river-event.webp",
+      "alt": "Screenshot showing the results of a successful GitHub Actions workflow. The header indicates that 'All checks have passed,' with three successful checks listed below. The checks include 'Build,' which completed successfully in 42 seconds, 'Test,' which completed in 5 minutes, and 'Code scanning / CodeQL,' which completed in 30 seconds. Each check has a corresponding 'Details' link. At the bottom, there is a green 'Merge pull request' button, indicating that the pull request is ready to be merged. The background features a gradient from green to teal.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5kVxaacutdvGyusbgk64iw/23fa8c76260945d6a8f28327e9910397/actions-river-breakout.webp",
+      "alt": "Screenshot of a GitHub Actions workflow file being edited. The cursor is in the 'on' section of the YAML file, with a dropdown menu showing various triggers such as push, issue_creation, new_release, workflow_dispatch, and others. The code includes steps to set up a Node.js environment and run tests. On the right side of the screen, there is a 'Marketplace' panel displaying featured actions like 'Setup Node.js environment,' 'Setup Java JDK,' 'Setup .NET Core SDK,' and 'Download a Build Artifact.' The background features a gradient from green to teal.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5bJQIKYC1XFeiaFhaSntpl/a92c481c614fc07271fae1ac065d6190/features-actions-river-package.webp",
+      "alt": "Screenshot of a terminal window showing Docker commands to log in to GitHub's container registry (ghcr.io), tag an application image, and push the image version (1.0.0) to the repository, with a successful login and digest confirmation. The background features a gradient from green to teal.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5vDlrv5PtZzaKDrVf3TC1y/be8f7092607fa26b2db6a7034244ca1c/ralf-gommers.webp?fm=webp&w=120&q=90",
+      "alt": "Ralph Gommers",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://docs.github.com/packages",
+    "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions#per-minute-rates",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://docs.github.com/actions",
+    "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions#included-storage-and-minutes"
+  ],
+  "page_size_bytes": 300412,
+  "meta_tags": {
+    "route-pattern": "/features/actions(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:e8fd1344-069f-2a9e-028d-3291a7513546",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "C43E:F2068:D1FAB3:123031D:68D003FF",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRkFCMzoxMjMwMzFEOjY4RDAwM0ZGIiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "315d329ff55e11d607aa4bf4fe7c8379c0a37d48a0e23f5007b05c69c217c999",
+    "github-keyboard-shortcuts": "actions,copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/actions",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/63gHnduk1FaJfdjcP9gGKe/3b7a9634823e54957e885a25b0e5ebc1/features-actions-social.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Actions",
+    "twitter:description": "Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/63gHnduk1FaJfdjcP9gGKe/3b7a9634823e54957e885a25b0e5ebc1/features-actions-social.jpg",
+    "og:image:alt": "Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Actions",
+    "og:url": "https://github.com/features/actions",
+    "og:description": "Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive header-dark",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 2
+  }
+}

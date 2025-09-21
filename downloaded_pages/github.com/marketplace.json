@@ -1,0 +1,459 @@
+{
+  "url": "https://github.com/marketplace",
+  "extracted_at": "2025-09-21T21:58:05.202114",
+  "title": "Marketplace · Tools to improve your workflow · GitHub",
+  "description": "Find the tools that help your team build better, together.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 910,
+  "paragraph_count": 36,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Enhance your workflow with extensions"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Models for your every use case",
+      "Discover apps with Copilot extensions",
+      "View recommended or recent marketplace listings navigation",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "OpenAI gpt-5",
+      "DeepSeek-V3-0324",
+      "Llama 4 Scout 17B 16E Instruct",
+      "PerplexityAI",
+      "Microsoft 365 Agents Toolkit",
+      "Docker for GitHub Copilot",
+      "Models (GitHub)",
+      "Stack Overflow",
+      "Mermaid Chart",
+      "Codacy",
+      "Zenhub",
+      "Codecov | Code Coverage",
+      "CircleCI",
+      "Qlty Cloud",
+      "Rewind Backups for GitHub",
+      "Imgbot",
+      "CodeFactor",
+      "Azure Pipelines",
+      "Zube",
+      "Ranger",
+      "gitpod.io",
+      "PullApprove v3",
+      "DeepSource",
+      "Check Run Reporter",
+      "Azure Boards",
+      "Honeybadger.io",
+      "CommitCheck",
+      "BuildPulse",
+      "Create Issue Branch",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "Enhance your workflow with extensions Tools from the community and partners to simplify tasks and automate processes Search Marketplace Search Menu Models for your every use case Try, test, and deploy from a wide range of model types, sizes, and specializations. OpenAI gpt-5 by OpenAI gpt-5 is designed for logic-heavy and multi-step tasks. Model DeepSeek-V3-0324 by DeepSeek DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including enhanced reasoning, improved function calling, and superior code generation capabilities. Model Llama 4 Scout 17B 16E Instruct by Meta Llama 4 Scout 17B 16E Instruct is great at multi-document summarization, parsing extensive user activity for personalized tasks, and reasoning over vast codebases. Model Discover apps with Copilot extensions Your favorite tools now work with GitHub Copilot. PerplexityAI Perplexity answers questions as you code by searching the web Copilot Microsoft 365 Agents Toolkit Chats with GitHub Copilot extension for Microsoft 365 Agents Toolkit to build applications and agents for Microsoft 365 Copilot Docker for GitHub Copilot Learn about containerization, generate Docker assets and analyze project vulnerabilities in GitHub Copilot Copilot Models (GitHub) Copilot Extension to connect and chat with GitHub Models Copilot Stack Overflow Get answers to your most complex coding questions right where you’re already working Copilot Mermaid Chart Provides advanced and powerful diagramming and visualization to GitHub Copilot Chat Copilot View recommended or recent marketplace listings navigation Codacy App Codacy helps to build effortless code quality and security for developers Zenhub App Project management that's seamlessly integrated with GitHub’s data & interface, builds powerful insights & automates tasks Codecov | Code Coverage App Automatic test report merging for all CI and languages into a single code coverage report directly into your pull request CircleCI App Automatically build, test, and deploy your project in minutes Qlty Cloud App Code quality and coverage done right Rewind Backups for GitHub App Automated GitHub backups so you can recover fast, stay compliant, and never lose a line of code Imgbot App A GitHub app that optimizes your images CodeFactor App Automated code review for GitHub Azure Pipelines App Continuously build, test, and deploy to any platform and cloud Zube App An Agile project management tool that seamlessly integrates with GitHub Issues Ranger App A sidekick for repository maintainers gitpod.io App Always ready to code - Spin up fresh cloud development environments for each task, fully automated, in seconds PullApprove v3 App Code review assignment and custom workflows for teams DeepSource App The Code Health platform - Everything you need to build maintainable and secure software Check Run Reporter App See your test and style results without leaving GitHub. Works with any CI service. Supports JUnit, Checkstyle, and more Azure Boards App Connects Azure Boards with GitHub to plan, track, and discuss work across your teams Honeybadger.io App The web developer's secret weapon CommitCheck App CommitCheck ensures your commit messages are consistent and contain all required information BuildPulse App Automatically detect, track, and rank flaky tests so you can regain trust in your test suite Create Issue Branch App Bot that creates an issue branch after assigning an issue",
+  "internal_links": [
+    {
+      "url": "https://github.com/marketplace#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmarketplace",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmarketplace",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fmarketplace&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/models/azure-openai/gpt-5",
+      "text": "OpenAI gpt-5",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/models/azureml-deepseek/DeepSeek-V3-0324",
+      "text": "DeepSeek-V3-0324",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/models/azureml-meta/Llama-4-Scout-17B-16E-Instruct",
+      "text": "Llama 4 Scout 17B 16E Instruct",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/perplexityai",
+      "text": "PerplexityAI",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/teamsapp",
+      "text": "Microsoft 365 Agents Toolkit",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/docker-for-github-copilot",
+      "text": "Docker for GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/models-github",
+      "text": "Models (GitHub)",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/stack-overflow-extension-for-github-copilot",
+      "text": "Stack Overflow",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/mermaid-chart",
+      "text": "Mermaid Chart",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/codacy",
+      "text": "Codacy",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/zenhub",
+      "text": "Zenhub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/codecov",
+      "text": "Codecov | Code Coverage",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/circleci",
+      "text": "CircleCI",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/code-climate",
+      "text": "Qlty Cloud",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/backhub",
+      "text": "Rewind Backups for GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/imgbot",
+      "text": "Imgbot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/codefactor",
+      "text": "CodeFactor",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/azure-pipelines",
+      "text": "Azure Pipelines",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/zube",
+      "text": "Zube",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/ranger",
+      "text": "Ranger",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/gitpod-io",
+      "text": "gitpod.io",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/pullapprove",
+      "text": "PullApprove v3",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/deepsource-io",
+      "text": "DeepSource",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/check-run-reporter",
+      "text": "Check Run Reporter",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/azure-boards",
+      "text": "Azure Boards",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/honeybadger-io",
+      "text": "Honeybadger.io",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/commitcheck",
+      "text": "CommitCheck",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/buildpulse",
+      "text": "BuildPulse",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace/create-issue-branch",
+      "text": "Create Issue Branch",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/arrow.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/donut.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/semicircles.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/workflow.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/models.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/sparklesmall.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/sparklelarge.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/header/light/copilot.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/models/families/openai.svg",
+      "alt": "OpenAI logo",
+      "title": "",
+      "width": "36",
+      "height": "36"
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/models/families/deepseek.svg",
+      "alt": "DeepSeek logo",
+      "title": "",
+      "width": "36",
+      "height": "36"
+    },
+    {
+      "url": "https://github.com/images/modules/marketplace/models/families/meta.svg",
+      "alt": "Meta logo",
+      "title": "",
+      "width": "36",
+      "height": "36"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/19346?s=400&v=4",
+      "alt": "PerplexityAI logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/18102?s=400&v=4",
+      "alt": "Microsoft 365 Agents Toolkit logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/18106?s=400&v=4",
+      "alt": "Docker for GitHub Copilot logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/19336?s=400&v=4",
+      "alt": "Models (GitHub) logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/19397?s=400&v=4",
+      "alt": "Stack Overflow logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/19169?s=400&v=4",
+      "alt": "Mermaid Chart logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/43?s=400&v=4",
+      "alt": "Codacy logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/9?s=400&v=4",
+      "alt": "Zenhub logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/ml/30?s=400&v=4",
+      "alt": "Codecov | Code Coverage logo",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fmarketplace",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+  ],
+  "page_size_bytes": 1323162,
+  "meta_tags": {
+    "route-pattern": "/marketplace(.:format)",
+    "route-controller": "marketplaces",
+    "route-action": "show",
+    "fetch-nonce": "v2:a74963f9-711e-722d-7189-d917959d4cb4",
+    "current-catalog-service-hash": "bd6a962b2d5b5048ba1c14749f3d3e77a48c2f1774b2cd2959cf08b8f5988483",
+    "request-id": "E176:FB39A:CE3BE5:11F3F88:68D00469",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFM0JFNToxMUYzRjg4OjY4RDAwNDY5IiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "03dedaf7444dc93f1c8ab71150864a567224a29159aa690e88ab6e0f5d1b6f2b",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Find the tools that help your team build better, together.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/marketplace",
+    "twitter:image": "https://github.githubassets.com/assets/marketplace-c9f4f4136a4c.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Marketplace: tools to improve your workflow",
+    "twitter:description": "Find the tools that help your team build better, together.",
+    "og:image": "https://github.githubassets.com/assets/marketplace-c9f4f4136a4c.png",
+    "og:image:alt": "Find the tools that help your team build better, together.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Marketplace: tools to improve your workflow",
+    "og:url": "https://github.com/marketplace",
+    "og:description": "Find the tools that help your team build better, together.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 2
+  }
+}

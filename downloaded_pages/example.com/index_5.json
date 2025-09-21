@@ -1,0 +1,40 @@
+{
+  "url": "https://example.com",
+  "extracted_at": "2025-09-21T21:53:07.663561",
+  "title": "Example Domain",
+  "description": "This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 30,
+  "paragraph_count": 2,
+  "heading_structure": {
+    "h1": [
+      "Example Domain"
+    ]
+  },
+  "text_content": "Example Domain This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission. More information...",
+  "internal_links": [],
+  "external_links": [
+    {
+      "url": "https://www.iana.org/domains/example",
+      "text": "More information...",
+      "title": ""
+    }
+  ],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 1256,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 0
+  }
+}

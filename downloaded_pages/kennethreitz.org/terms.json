@@ -1,0 +1,328 @@
+{
+  "url": "https://kennethreitz.org/terms",
+  "extracted_at": "2025-09-21T21:51:27.457988",
+  "title": "Term Index - Kenneth Reitz",
+  "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+  "keywords": [],
+  "language": "en",
+  "author": "Kenneth Reitz",
+  "publication_date": null,
+  "word_count": 61941,
+  "paragraph_count": 3,
+  "heading_structure": {
+    "h1": [
+      "Term Index"
+    ],
+    "h2": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ]
+  },
+  "text_content": "Term Index Book-style index — 1633 key terms and concepts with 8661 total references across the digital garden. An alphabetical index of significant terms, concepts, and ideas appearing throughout the essays. Like the back of a book, this maps where each concept is discussed, weighted by frequency and importance. A ADHD (9 articles, 9 occurrences) The Algorithmic Mental Health Crisis , The Gift of Disordered Perception , Visual Hierarchy and the Shape of Attention , The Textured Mind: When Consciousness Speaks Without Words , The Meditation Trap: When Mindfulness Makes Things Worse , The Ethical Implications of Consciousness as Linguistic Phenomenon , The Inclusion Illusion: How Tech Companies Quietly Eliminate \"Liabilities\" , Ahead of My Time, I Think , Idea Amplification and Writing with AI APIs (23 articles, 23 occurrences) From HTTP to Consciousness: The Evolution of \"For Humans\" , Python, Consciousness, and the Evolution of Language , Do You Develop Software or Experiences? , The Unexpected Negative: a Narcissistic Partner , Building a Rapport with Your AI , Visual Hierarchy and the Shape of Attention , Language as Operating System: The Shared Runtime for Consciousness , Apple + Developers = Earnings , Introducing Maya: Datetimes for Humans™ , The Recursive Loop: How Code Shapes Minds , Joining Heroku! , How I Develop Things and Why , Apple Pencil Note-Taking: Why You Should Use Apple Notes, actually. , Aesthetics: More Than Meets the Eye , A New Spin to Software Platform Design , GitHub + Strategy , The Seasonality of Programming , Documentation is King , Repository Structure and Python , Facebook Plugin for WordPress , Digital Souls in Silicon Bodies , Ahead of My Time, I Think , Mint.com: Money Management 2.0 Aaron (3 articles, 3 occurrences) The Async Contributor Model: A Practical Approach to Mental Health Accommodation , Facebook Plugin for WordPress , On Persistence and My Digital Legacy (Bus Factor) Ableton (2 articles, 2 occurrences) Understanding Ableton Push , Working with iCloud, Macs, & The iPad Pro About (15 articles, 15 occurrences) The Plural Self: What DID Reveals About All Consciousness , MentalHealthError: three years later , Terminal Productivity App: AutoJump , Django ORM for Online Payment Systems? , What Kids Taught Me About Creativity , AI Reality-Checking with Schizoaffective Disorder , Strange Loops All the Way Down , The Great Unmasking: When AI Shows Us Who We Really Are , Israel: Tel Aviv & Jerusalem , What Schizoaffective Disorder Actually Feels Like , The Inclusion Illusion: How Tech Companies Quietly Eliminate \"Liabilities\" , MentalHealthError: an exception occurred. , On Mania , The Call for an Open Source Social Network , On Love Absurd (2 articles, 2 occurrences) The Meandering Sea of Primordial Soupy Thought , The Echo Chamber of the Expected Absurdity (3 articles, 3 occurrences) Don't Panic: Douglas Adams and the Recursive Absurdity of Existence , The Meandering Sea of Primordial Soupy Thought , The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human Academic (2 articles, 2 occurrences) When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow , The Consciousness Supply Chain Accept (2 articles, 2 occurrences) The Meandering Sea of Primordial Soupy Thought , Announcing Httpbin.org Acceptance (2 articles, 2 occurrences) AI Reality-Checking with Schizoaffective Disorder , On Mania Access (6 articles, 6 occurrences) Python, Consciousness, and the Evolution of Language , The Async Contributor Model: A Practical Approach to Mental Health Accommodation , The Textured Mind: When Consciousness Speaks Without Words , Linguistic Evolution: How LLMs Might Perfect Human Language , Advocating for Your Mental Health Care: From Patient to Partner , Ethical lessons from the open source community Accessibility (3 articles, 3 occurrences) Visual Hierarchy and the Shape of Attention , Linguistic Evolution: How LLMs Might Perfect Human Language , The Call for an Open Source Social Network Accommodation (3 articles, 3 occurrences) Mental Health Isn't What You Think It Is , The Async Contributor Model: A Practical Approach to Mental Health Accommodation , The Cost of Transparency: Living with Schizoaffective Disorder Account (3 articles, 3 occurrences) Reflections on Windows 7 , Spotify in the US? Yes please. , On Cybersecurity and Being Targeted Accurate (2 articles, 2 occurrences) The Art of Naming Things in Code , The Gift of Disordered Perception Ackoff (2 articles, 2 occurrences) The Echo Chamber of the Expected , Idea Amplification and Writing with AI Acquisition (2 articles, 2 occurrences) ​Positive Thoughts on the GitHub Acquisition , The Truth of Facebook's FriendFeed Acquisition Action (5 articles, 5 occurrences) Ram Dass Teachings in Python , Pipenv: One Year Later & a Call for Help , The Algorithm Eats Virtue , Vedic Principles in Python , Agents of Consciousness: How AI Collaboration Evolves Actions (2 articles, 2 occurrences...",
+  "internal_links": [
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-algorithmic_mental_health_crisis",
+      "text": "The Algorithmic Mental Health Crisis",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-01-the_gift_of_disordered_perception",
+      "text": "The Gift of Disordered Perception",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention",
+      "text": "Visual Hierarchy and the Shape of Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words",
+      "text": "The Textured Mind: When Consciousness Speaks Without Words",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse",
+      "text": "The Meditation Trap: When Mindfulness Makes Things Worse",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-28-the-ethical-implications-of-consciousness-as-linguistic-phenomenon",
+      "text": "The Ethical Implications of Consciousness as Linguistic Phenomenon",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-the_inclusion_illusion",
+      "text": "The Inclusion Illusion: How Tech Companies Quietly Eliminate \"Liabilities\"",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-ahead_of_my_time_i_think",
+      "text": "Ahead of My Time, I Think",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-05-idea_amplification_and_writing_with_ai",
+      "text": "Idea Amplification and Writing with AI",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-27-from_http_to_consciousness",
+      "text": "From HTTP to Consciousness: The Evolution of \"For Humans\"",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-28-python-consciousness-and-the-evolution-of-language",
+      "text": "Python, Consciousness, and the Evolution of Language",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-do_you_develop_software_or_experiences",
+      "text": "Do You Develop Software or Experiences?",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2015-01-the_unexpected_negative_a_narcissistic_partner",
+      "text": "The Unexpected Negative: a Narcissistic Partner",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-building_rapport_with_your_ai",
+      "text": "Building a Rapport with Your AI",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention",
+      "text": "Visual Hierarchy and the Shape of Attention",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-11-language_as_operating_system_the_shared_runtime_for_consciousness",
+      "text": "Language as Operating System: The Shared Runtime for Consciousness",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-apple_developers_earnings",
+      "text": "Apple + Developers = Earnings",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2016-01-introducing_maya_datetimes_for_humanstm",
+      "text": "Introducing Maya: Datetimes for Humans™",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds",
+      "text": "The Recursive Loop: How Code Shapes Minds",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2011-01-joining_heroku",
+      "text": "Joining Heroku!",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2013-01-how_i_develop_things_and_why",
+      "text": "How I Develop Things and Why",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2018-01-apple_pencil_note-taking:_why_you_should_use_apple_notes,_actually.",
+      "text": "Apple Pencil Note-Taking: Why You Should Use Apple Notes, actually.",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-aesthetics_more_than_meets_the_eye",
+      "text": "Aesthetics: More Than Meets the Eye",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2008-01-a_new_spin_to_software_platform_design",
+      "text": "A New Spin to Software Platform Design",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-github_strategy",
+      "text": "GitHub + Strategy",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-30-the-seasonality-of-programming",
+      "text": "The Seasonality of Programming",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2013-01-documentation_is_king",
+      "text": "Documentation is King",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2013-01-repository_structure_and_python",
+      "text": "Repository Structure and Python",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-facebook_plugin_for_wordpress",
+      "text": "Facebook Plugin for WordPress",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-digital_souls_in_silicon_bodies",
+      "text": "Digital Souls in Silicon Bodies",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-ahead_of_my_time_i_think",
+      "text": "Ahead of My Time, I Think",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-mintcom_money_management_20",
+      "text": "Mint.com: Money Management 2.0",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-28-responding-to-the-conversation",
+      "text": "The Async Contributor Model: A Practical Approach to Mental Health Accommodation",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-facebook_plugin_for_wordpress",
+      "text": "Facebook Plugin for WordPress",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2016-01-on_persistence_and_my_digital_legacy_bus_factor",
+      "text": "On Persistence and My Digital Legacy (Bus Factor)",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2013-01-understanding_ableton_push",
+      "text": "Understanding Ableton Push",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2017-01-working_with_icloud_macs_amp_the_ipad_pro",
+      "text": "Working with iCloud, Macs, & The iPad Pro",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness",
+      "text": "The Plural Self: What DID Reveals About All Consciousness",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2019-01-mentalhealtherror_three_years_later",
+      "text": "MentalHealthError: three years later",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2010-01-terminal_productivity_app_autojump",
+      "text": "Terminal Productivity App: AutoJump",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2009-01-django_orm_for_online_payment_systems",
+      "text": "Django ORM for Online Payment Systems?",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-what_kids_taught_me_about_creativity",
+      "text": "What Kids Taught Me About Creativity",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder",
+      "text": "AI Reality-Checking with Schizoaffective Disorder",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-01-strange_loops_all_the_way_down",
+      "text": "Strange Loops All the Way Down",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are",
+      "text": "The Great Unmasking: When AI Shows Us Who We Really Are",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2013-01-israel_tel_aviv_amp_jerusalem",
+      "text": "Israel: Tel Aviv & Jerusalem",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like",
+      "text": "What Schizoaffective Disorder Actually Feels Like",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2025-08-26-the_inclusion_illusion",
+      "text": "The Inclusion Illusion: How Tech Companies Quietly Eliminate \"Liabilities\"",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2016-01-mentalhealtherror_an_exception_occurred",
+      "text": "MentalHealthError: an exception occurred.",
+      "title": ""
+    },
+    {
+      "url": "https://kennethreitz.org/essays/2024-01-on-mania",
+      "text": "On Mania",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 7486024,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+    "author": "Kenneth Reitz",
+    "og:title": "Term Index - Kenneth Reitz",
+    "og:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "og:type": "website",
+    "og:url": "https://kennethreitz.org",
+    "og:image": "https://kennethreitz.org/static/images/social-card.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:site_name": "Kenneth Reitz",
+    "twitter:card": "summary_large_image",
+    "twitter:creator": "@kennethreitz42",
+    "twitter:title": "Term Index - Kenneth Reitz",
+    "twitter:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "twitter:image": "https://kennethreitz.org/static/images/social-card.jpg"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 2,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 2
+  }
+}

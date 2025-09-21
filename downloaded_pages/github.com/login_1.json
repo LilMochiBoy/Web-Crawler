@@ -1,0 +1,143 @@
+{
+  "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin",
+  "extracted_at": "2025-09-21T21:56:08.615017",
+  "title": "Sign in to GitHub · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 106,
+  "paragraph_count": 4,
+  "heading_structure": {
+    "h1": [
+      "Sign in to GitHub"
+    ],
+    "h3": [
+      "Uh oh!"
+    ]
+  },
+  "text_content": "Sign in to GitHub Username or email address Password Forgot password? Uh oh! There was an error while loading. Please reload this page . New to GitHub? Create an account Sign in with a passkey",
+  "internal_links": [
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/password_reset",
+      "text": "Forgot password?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin",
+      "text": "Please reload this page",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin&source=login",
+      "text": "Create an account",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "text": "Terms",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com",
+      "text": "Docs",
+      "title": ""
+    },
+    {
+      "url": "https://support.github.com",
+      "text": "Contact GitHub Support",
+      "title": ""
+    }
+  ],
+  "images": [],
+  "social_media_links": [
+    "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+    "https://docs.github.com",
+    "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+    "https://support.github.com",
+    "/signup?return_to=https%3A%2F%2Fgithub.com%2Fpostmanlabs%2Fhttpbin&source=login"
+  ],
+  "page_size_bytes": 44167,
+  "meta_tags": {
+    "route-pattern": "/login(.:format)",
+    "route-controller": "sessions",
+    "route-action": "new",
+    "fetch-nonce": "v2:60fdc4e9-e658-e9bc-5507-428b8d1fa4dd",
+    "current-catalog-service-hash": "701273d4944fb23919c770da2da3f33b6da9ed8e668f7249090e3e9f429343b5",
+    "request-id": "C43E:F2068:D1F6E7:122FE0A:68D003F5",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRjZFNzoxMjJGRTBBOjY4RDAwM0Y1IiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "3cb36a8b7fd998d511aadfab0f22913bf3502c5cbfca4119a147b71031a3a54a",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "analytics-location-query-strip": "true",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "og:url": "https://github.com",
+    "og:site_name": "GitHub",
+    "og:title": "Build software better, together",
+    "og:description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "og:image": "https://github.githubassets.com/assets/github-octocat-13c86b8b336d.png",
+    "og:image:type": "image/png",
+    "og:image:width": "1200",
+    "og:image:height": "620",
+    "twitter:site": "github",
+    "twitter:site:id": "13334762",
+    "twitter:creator": "github",
+    "twitter:creator:id": "13334762",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub",
+    "twitter:description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "twitter:image": "https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png",
+    "twitter:image:width": "1200",
+    "twitter:image:height": "1200",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-preview",
+    "turbo-body-classes": "logged-out env-production page-responsive session-authentication",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 0
+  }
+}

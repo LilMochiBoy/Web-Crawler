@@ -1,0 +1,574 @@
+{
+  "url": "https://techcrunch.com",
+  "extracted_at": "2025-09-21T21:41:42.133454",
+  "title": "TechCrunch | Startup and Technology News",
+  "description": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+  "keywords": [],
+  "language": "en-US",
+  "author": "Unknown",
+  "publication_date": "2025-09-20T12:13:20-07:00",
+  "word_count": 2090,
+  "paragraph_count": 67,
+  "heading_structure": {
+    "h2": [
+      "Latest News",
+      "Most Popular",
+      "Storylines",
+      "Upcoming Events",
+      "Newsletters",
+      "The Road to Disrupt",
+      "AI",
+      "Startups",
+      "Video",
+      "Meta’s AR ambitions meet reality, and California gets serious about AI safety … again",
+      "Security",
+      "Venture",
+      "Apps",
+      "Transportation",
+      "In Brief",
+      "Podcasts"
+    ],
+    "h3": [
+      "Topics",
+      "More from TechCrunch",
+      "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+      "How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia",
+      "Google isn’t kidding around about cost cutting, even slashing its FT subscription",
+      "Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US",
+      "Lincoln Center’s Collider Fellows explore how tech could transform the performing arts",
+      "Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube",
+      "Meta CTO explains why the smart glasses demos failed at Meta Connect — and it wasn’t the Wi-Fi",
+      "TechCrunch’s Equity podcast is on video, starting today",
+      "White House offers more details about potential TikTok deal",
+      "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+      "Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US",
+      "How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia",
+      "Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube",
+      "Lincoln Center’s Collider Fellows explore how tech could transform the performing arts",
+      "Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now",
+      "Google isn’t kidding around about cost cutting, even slashing its FT subscription",
+      "Why California’s SB 53 might provide a meaningful check on big AI companies",
+      "Nvidia eyes $500M investment into self-driving tech startup Wayve",
+      "Google isn’t kidding around about cost cutting, even slashing its FT subscription",
+      "Meta CTO explains why the smart glasses demos failed at Meta Connect — and it wasn’t the Wi-Fi",
+      "OpenAI’s research on AI models deliberately lying is wild",
+      "How AI startups are fueling Google’s booming cloud business",
+      "The 9 most sought-after startups from YC Demo Day",
+      "Apple’s iOS 26 with the new Liquid Glass design is now available to everyone",
+      "Spotify will now let free users pick and play tracks",
+      "WWDC 2025 live updates: iOS 26, Liquid Glass, Apple Intelligence updates, and everything else revealed",
+      "Google I/O 2025 live coverage: Google AI Ultra, Project Mariner, Gemini app updates, and more",
+      "Tesla earnings wrap up: Elon Musk talks DOGE, Trump and tariffs, robotaxis, AI, and cheap EVs",
+      "Nvidia GTC 2025 live updates: Blackwell Ultra, GM partnerships, and two ‘personal AI supercomputers’",
+      "SXSW 2025 live coverage: Health tips from Bryan Johnson, concerns about Elon Musk, and what it’s like to actually ride a Waymo Uber on the conference’s final day",
+      "Alphabet earnings live updates: AI, Gemini 2.0, Google Cloud, and more",
+      "Tesla earnings live updates: Promising ‘return to growth’ and cheaper cars",
+      "Samsung Unpacked 2025 live updates: Galaxy S25, new AI features, and more",
+      "TechCrunch Disrupt 2025",
+      "StrictlyVC Palo Alto",
+      "",
+      "One week left: Lock in discounted pricing for TechCrunch Disrupt 2025",
+      "From Startup Battlefield to the Disrupt Stage: Discord founder Jason Citron returns to TechCrunch Disrupt 2025",
+      "Building the future of Open AI with Thomas Wolf at TechCrunch Disrupt 2025",
+      "Lovable co-founder and CEO Anton Osika on building one of the fastest-growing startups in history at TechCrunch Disrupt 2025",
+      "Waymo’s Tekedra Mawakana on Scaling Self-Driving Beyond the Hype",
+      "Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube",
+      "Lincoln Center’s Collider Fellows explore how tech could transform the performing arts",
+      "Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now",
+      "Why California’s SB 53 might provide a meaningful check on big AI companies",
+      "Cracking product-market fit: Lessons from founders and investors at TechCrunch Disrupt 2025",
+      "Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now",
+      "Nvidia eyes $500M investment into self-driving tech startup Wayve",
+      "Cracking product-market fit: Lessons from founders and investors at TechCrunch Disrupt 2025",
+      "TechCrunch’s Equity podcast is on video, starting today",
+      "Live demo fails, AI safety wins, and the golden age of robotics",
+      "Meta’s AR ambitions meet reality, and California gets serious about AI safety … again",
+      "Apple’s new Center Stage Camera always keeps you in frame",
+      "iPhone Air is Apple’s thinnest, lightest iPhone yet",
+      "Watch Apple’s AirPod Pro 3 live translation feature in action",
+      "Slate Auto’s fully customizable EVs are nixing the bells and whistles",
+      "Nothing releases its first over-the-ear headphones",
+      "What the next generation of AI natives mean for founders and funders",
+      "Advice on making early bets from an investor who’s backed 60 successes",
+      "Why Robinhood’s co-founder is betting on solar power from space",
+      "Katie Haun makes the case for tokenizing more of the world",
+      "US government charges British teenager accused of at least 120 ‘Scattered Spider’ hacks",
+      "Here’s the tech powering ICE’s deportation crackdown",
+      "ICE unit signs new $3M contract for phone-hacking tech",
+      "Irregular raises $80 million to secure frontier AI models",
+      "Jaguar Land Rover to pause production for third week due to cyberattack",
+      "How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia",
+      "Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now",
+      "Cracking product-market fit: Lessons from founders and investors at TechCrunch Disrupt 2025",
+      "Final hours to apply: Be the life of TechCrunch Disrupt 2025 by hosting your own Side Event",
+      "Meet the latest VC judges joining Startup Battlefield 200 at TechCrunch Disrupt 2025",
+      "One week left: Lock in discounted pricing for TechCrunch Disrupt 2025",
+      "Raising Series A in 2026: Insights from top early-stage VCs at TechCrunch Disrupt 2025",
+      "Numeral raises $35M to automate sales tax with AI",
+      "White House offers more details about potential TikTok deal",
+      "Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube",
+      "Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now",
+      "Best Apple Watch apps for boosting your productivity",
+      "Trump and ByteDance tout TikTok deal approval, but no official details yet",
+      "Nvidia eyes $500M investment into self-driving tech startup Wayve",
+      "Final hours to apply: Be the life of TechCrunch Disrupt 2025 by hosting your own Side Event",
+      "One week left: Lock in discounted pricing for TechCrunch Disrupt 2025",
+      "Uber is trying drone delivery again",
+      "EV Realty is betting the missing link in electric trucking is real estate",
+      "White House offers more details about potential TikTok deal",
+      "Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US",
+      "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
+      "Uber is trying drone delivery again",
+      "Google now lets you share your custom Gemini AI assistants known as Gems",
+      "Google and PayPal team up on agentic commerce",
+      "Equity",
+      "StrictlyVC Download"
+    ],
+    "h5": [
+      "TechCrunch Daily News",
+      "Startups Weekly",
+      "TechCrunch Week in Review",
+      "TechCrunch Mobility"
+    ]
+  },
+  "text_content": "Government & Policy Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram Connie Loizos 18 hours ago Venture How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia Dominic-Madori Davis 22 hours ago Media & Entertainment Google isn’t kidding around about cost cutting, even slashing its FT subscription Connie Loizos 1 day ago Top Headlines Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US Anthony Ha Lincoln Center’s Collider Fellows explore how tech could transform the performing arts Anthony Ha Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube Karyne Levy Meta CTO explains why the smart glasses demos failed at Meta Connect — and it wasn’t the Wi-Fi Sarah Perez TechCrunch’s Equity podcast is on video, starting today Theresa Loconsolo Latest News See More In Brief White House offers more details about potential TikTok deal Anthony Ha 17 hours ago Government & Policy Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram Connie Loizos 18 hours ago In Brief Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US Anthony Ha 18 hours ago Venture How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia Dominic-Madori Davis 22 hours ago Commerce Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube Karyne Levy 23 hours ago Media & Entertainment Lincoln Center’s Collider Fellows explore how tech could transform the performing arts Anthony Ha 23 hours ago TechCrunch Disrupt 2025 Only 7 days left to save on TechCrunch Disrupt 2025 tickets — lock in Regular Bird pricing now TechCrunch Events 24 hours ago Media & Entertainment Google isn’t kidding around about cost cutting, even slashing its FT subscription Connie Loizos 1 day ago AI Why California’s SB 53 might provide a meaningful check on big AI companies Anthony Ha 2 days ago Transportation Nvidia eyes $500M investment into self-driving tech startup Wayve Kirsten Korosec 2 days ago Next October 27-29, 2025 San Francisco Founders: land your investor and sharpen your pitch. Investors: discover your next breakout startup. Innovators: claim a front-row seat to the future. Join 10,000+ tech leaders at the epicenter of innovation. Register now and save up to $668. Regular Bird rates end September 26 Register Now Most Popular Google isn’t kidding around about cost cutting, even slashing its FT subscription Connie Loizos Meta CTO explains why the smart glasses demos failed at Meta Connect — and it wasn’t the Wi-Fi Sarah Perez OpenAI’s research on AI models deliberately lying is wild Julie Bort How AI startups are fueling Google’s booming cloud business Maxwell Zeff The 9 most sought-after startups from YC Demo Day Marina Temkin Apple’s iOS 26 with the new Liquid Glass design is now available to everyone Ivan Mehta Spotify will now let free users pick and play tracks Sarah Perez Storylines See More Catch up on trending topics Apps WWDC 2025 live updates: iOS 26, Liquid Glass, Apple Intelligence updates, and everything else revealed 29 Stories Jun 9, 2025 Enterprise Google I/O 2025 live coverage: Google AI Ultra, Project Mariner, Gemini app updates, and more 62 Stories May 20, 2025 Transportation Tesla earnings wrap up: Elon Musk talks DOGE, Trump and tariffs, robotaxis, AI, and cheap EVs 27 Stories Apr 22, 2025 AI Nvidia GTC 2025 live updates: Blackwell Ultra, GM partnerships, and two ‘personal AI supercomputers’ 33 Stories Mar 17, 2025 AI SXSW 2025 live coverage: Health tips from Bryan Johnson, concerns about Elon Musk, and what it’s like to actually ride a Waymo Uber on the conference’s final day 36 Stories Mar 7, 2025 Enterprise Alphabet earnings live updates: AI, Gemini 2.0, Google Cloud, and more 12 Stories Feb 4, 2025 Transportation Tesla earnings live updates: Promising ‘return to growth’ and cheaper cars 35 Stories Jan 29, 2025 Hardware Samsung Unpacked 2025 live updates: Galaxy S25, new AI features, and more 8 Stories Jan 22, 2025 Upcoming Events See More TechCrunch Disrupt 2025 San Francisco, CA October 27 – 29, 2025 Register Now Book Exhibit Table StrictlyVC Palo Alto Palo Alto, CA December 3, 2025 Presented by Get on Waitlist Get on waitlist to get exclusive early access to limited tickets! Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. TechCrunch Week in Review Get the best of our coverage, delivered to your inbox every Saturday. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . The Road to Disrupt See More TechCrunch Disrupt 2025 One wee...",
+  "internal_links": [
+    {
+      "url": "https://techcrunch.com",
+      "text": "TechCrunch Desktop Logo",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com",
+      "text": "TechCrunch Mobile Logo",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/latest/",
+      "text": "Latest",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "text": "AI",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/amazon/",
+      "text": "Amazon",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/apps/",
+      "text": "Apps",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/biotech-health/",
+      "text": "Biotech & Health",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/climate/",
+      "text": "Climate",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/cloud-computing/",
+      "text": "Cloud Computing",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/commerce/",
+      "text": "Commerce",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/cryptocurrency/",
+      "text": "Crypto",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/enterprise/",
+      "text": "Enterprise",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/evs/",
+      "text": "EVs",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/fintech/",
+      "text": "Fintech",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/fundraising/",
+      "text": "Fundraising",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/gadgets/",
+      "text": "Gadgets",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/gaming/",
+      "text": "Gaming",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/google/",
+      "text": "Google",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/government-policy/",
+      "text": "Government & Policy",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/hardware/",
+      "text": "Hardware",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/instagram/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/layoffs/",
+      "text": "Layoffs",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/media-entertainment/",
+      "text": "Media & Entertainment",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/meta/",
+      "text": "Meta",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/microsoft/",
+      "text": "Microsoft",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/privacy/",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/robotics/",
+      "text": "Robotics",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/security/",
+      "text": "Security",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/social/",
+      "text": "Social",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/space/",
+      "text": "Space",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/startups/",
+      "text": "Startups",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/tag/tiktok/",
+      "text": "TikTok",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/transportation/",
+      "text": "Transportation",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/venture/",
+      "text": "Venture",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/about-techcrunch/",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/events/",
+      "text": "Events",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/startup-battlefield/",
+      "text": "Startup Battlefield",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/newsletters/",
+      "text": "Newsletters",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/podcasts/",
+      "text": "Podcasts",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/video/",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/sponsored/",
+      "text": "Partner Content",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/brand-studio/",
+      "text": "TechCrunch Brand Studio",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/contact-us/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/government-policy/",
+      "text": "Government & Policy",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
+      "text": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/author/connie-loizos/",
+      "text": "Connie Loizos",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/category/venture/",
+      "text": "Venture",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/2025/09/20/how-phoebe-gates-and-sophia-kianni-used-gen-z-methods-to-raise-8m-for-phia/",
+      "text": "How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia",
+      "title": ""
+    },
+    {
+      "url": "https://techcrunch.com/author/dominic-madori-davis/",
+      "text": "Dominic-Madori Davis",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://strictlyvc.com/",
+      "text": "StrictlyVC",
+      "title": ""
+    },
+    {
+      "url": "https://www.crunchboard.com/",
+      "text": "Crunchboard",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/09/tc-lockup.svg",
+      "alt": "",
+      "title": "",
+      "width": "149",
+      "height": "16"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/09/tc-logo-mobile.svg",
+      "alt": "",
+      "title": "",
+      "width": "47",
+      "height": "24"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/10/desktop-logo.svg",
+      "alt": "logo",
+      "title": "",
+      "width": "502",
+      "height": "53"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2217126338.jpg?w=668",
+      "alt": "Elon Musk",
+      "title": "",
+      "width": "668",
+      "height": "446"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/09/Credit-is-Zhamak-Fullad-co-Phia-e1758387615163.jpg?w=668",
+      "alt": "Sophia Kianni and Phoebe Gates",
+      "title": "",
+      "width": "668",
+      "height": "587"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2023/12/newspapers-pile.jpg?w=668",
+      "alt": "A person holding a pile of newspapers.",
+      "title": "",
+      "width": "668",
+      "height": "445"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2193244774.jpg?w=562",
+      "alt": "The TikTok app and logo are seen on a mobile device in front of a US flag",
+      "title": "",
+      "width": "562",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2217126338.jpg?w=562",
+      "alt": "Elon Musk",
+      "title": "",
+      "width": "562",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227934246.jpg?w=562",
+      "alt": "",
+      "title": "",
+      "width": "562",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/09/Credit-is-Zhamak-Fullad-co-Phia-e1758387615163.jpg?w=427",
+      "alt": "Sophia Kianni and Phoebe Gates",
+      "title": "",
+      "width": "427",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/09/youtube-studio.jpeg?w=659",
+      "alt": "",
+      "title": "",
+      "width": "659",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/09/UtopianHotline_2.jpg?w=562",
+      "alt": "Photo of Utopian Hotline performance",
+      "title": "",
+      "width": "562",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-1178810867.jpg?w=562",
+      "alt": "Kate Clark, DocSend Co-founder & CEO Russ Heddleston, Precursor Ventures Founder & Managing Partner Charles Hudson, and Redpoint Managing Director Annie Kadavy speak onstage during TechCrunch Disrupt San Francisco 2019",
+      "title": "",
+      "width": "562",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2023/12/newspapers-pile.jpg?w=563",
+      "alt": "A person holding a pile of newspapers.",
+      "title": "",
+      "width": "563",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-950173010.jpg?w=523",
+      "alt": "dome of California State Capitol Building, Sacramento",
+      "title": "",
+      "width": "523",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/09/Wayve_Ride_Nvidia_01.jpg?w=500",
+      "alt": "Wayve Nvidia Jensen",
+      "title": "",
+      "width": "500",
+      "height": "375"
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/07/TC25_Disrupt-Color.png",
+      "alt": "Event Logo",
+      "title": "",
+      "width": "99",
+      "height": ""
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198049873.jpg?w=668",
+      "alt": "",
+      "title": "",
+      "width": "668",
+      "height": "446"
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 440599,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "description": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "TechCrunch | Startup and Technology News",
+    "og:description": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "og:url": "https://techcrunch.com/",
+    "og:site_name": "TechCrunch",
+    "og:image": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@TechCrunch",
+    "generator": "WordPress 6.7.3",
+    "parsely-title": "TechCrunch",
+    "parsely-link": "https://techcrunch.com",
+    "parsely-type": "index",
+    "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2193244774.jpg?w=150",
+    "parsely-pub-date": "2025-09-20T20:09:32Z",
+    "parsely-section": "Apps",
+    "parsely-author": "Anthony Ha",
+    "msapplication-TileImage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 23,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

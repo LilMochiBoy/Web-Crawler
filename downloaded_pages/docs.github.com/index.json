@@ -1,0 +1,362 @@
+{
+  "url": "https://docs.github.com",
+  "extracted_at": "2025-09-21T21:58:03.417233",
+  "title": "GitHub Docs",
+  "description": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub's products.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 331,
+  "paragraph_count": 11,
+  "heading_structure": {
+    "h1": [
+      "GitHub Docs"
+    ],
+    "h2": [
+      "Get started",
+      "Collaborative coding",
+      "GitHub Copilot",
+      "CI/CD and DevOps",
+      "Security",
+      "Client apps",
+      "Project management",
+      "Enterprise and Teams",
+      "Developers",
+      "Community",
+      "More docs",
+      "Getting started",
+      "Popular",
+      "Help and support",
+      "Get quick answers!",
+      "Legal"
+    ],
+    "h3": [
+      "Set up Git",
+      "Connecting to GitHub with SSH",
+      "Creating and managing repositories",
+      "Basic writing and formatting syntax",
+      "About pull requests",
+      "Authentication documentation",
+      "Getting code suggestions in your IDE with GitHub Copilot",
+      "Managing remote repositories",
+      "Did you find what you needed?",
+      "Help us make these docs great!",
+      "Still need help?"
+    ]
+  },
+  "text_content": "GitHub Docs Help for wherever you are on your GitHub journey. Get started Get started Migrations Account and profile Subscriptions & notifications Authentication Billing and payments Site policy Collaborative coding Codespaces Repositories Pull requests GitHub Discussions GitHub Copilot GitHub Copilot Plans Get IDE code suggestions GitHub Copilot Chat Cookbook Coding agent Configure custom instructions CI/CD and DevOps GitHub Actions GitHub Packages GitHub Pages Security Secure coding Secret scanning Supply chain security Dependabot Code scanning Security advisories Client apps GitHub CLI GitHub Mobile GitHub Desktop Project management GitHub Issues Projects Search on GitHub Enterprise and Teams Organizations Secure your organization Enterprise onboarding Enterprise administrators GitHub Well-Architected Developers Apps REST API GraphQL API Webhooks Build Copilot Extensions GitHub Models Community Building communities GitHub Sponsors GitHub Education GitHub for Nonprofits GitHub Support Contribute to GitHub Docs More docs CodeQL query writing Electron npm GitHub Well-Architected Getting started Set up Git At the heart of GitHub is an open-source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer. Connecting to GitHub with SSH You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network. Creating and managing repositories You can create a repository on GitHub to store and collaborate on your project's files, then manage the repository's name and location. Basic writing and formatting syntax Create sophisticated formatting for your prose and code on GitHub with simple syntax. Popular About pull requests Learn about pull requests and draft pull requests on GitHub. Pull requests communicate changes to a branch in a repository. Once a pull request is opened, you can review changes with collaborators and add follow-up commits. Authentication documentation Keep your account and data secure with features like two-factor authentication, SSH, and commit signature verification. Getting code suggestions in your IDE with GitHub Copilot Use GitHub Copilot to get code suggestions in your editor. Managing remote repositories Learn to work with your local repositories on your computer and remote repositories hosted on GitHub.",
+  "internal_links": [
+    {
+      "url": "https://docs.github.com#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "text": "GitHub Docs",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/get-started",
+      "text": "Get started",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/migrations",
+      "text": "Migrations",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/account-and-profile",
+      "text": "Account and profile",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/subscriptions-and-notifications",
+      "text": "Subscriptions & notifications",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/authentication",
+      "text": "Authentication",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/billing",
+      "text": "Billing and payments",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy",
+      "text": "Site policy",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/codespaces",
+      "text": "Codespaces",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/repositories",
+      "text": "Repositories",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/pull-requests",
+      "text": "Pull requests",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/discussions",
+      "text": "GitHub Discussions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot",
+      "text": "GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/get-started/plans",
+      "text": "Plans",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions",
+      "text": "Get IDE code suggestions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook",
+      "text": "GitHub Copilot Chat Cookbook",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent",
+      "text": "Coding agent",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/configure-custom-instructions",
+      "text": "Configure custom instructions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/actions",
+      "text": "GitHub Actions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/packages",
+      "text": "GitHub Packages",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/pages",
+      "text": "GitHub Pages",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security",
+      "text": "Secure coding",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/secret-scanning",
+      "text": "Secret scanning",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/supply-chain-security",
+      "text": "Supply chain security",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/dependabot",
+      "text": "Dependabot",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/code-scanning",
+      "text": "Code scanning",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/security-advisories",
+      "text": "Security advisories",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/github-cli",
+      "text": "GitHub CLI",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/get-started/using-github/github-mobile",
+      "text": "GitHub Mobile",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/desktop",
+      "text": "GitHub Desktop",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/issues",
+      "text": "GitHub Issues",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/issues/planning-and-tracking-with-projects",
+      "text": "Projects",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/search-github",
+      "text": "Search on GitHub",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/organizations",
+      "text": "Organizations",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/securing-your-organization",
+      "text": "Secure your organization",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/enterprise-onboarding",
+      "text": "Enterprise onboarding",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/admin",
+      "text": "Enterprise administrators",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/apps",
+      "text": "Apps",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/rest",
+      "text": "REST API",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/graphql",
+      "text": "GraphQL API",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/webhooks",
+      "text": "Webhooks",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/use-copilot-extensions",
+      "text": "Build Copilot Extensions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/github-models",
+      "text": "GitHub Models",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/communities",
+      "text": "Building communities",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors",
+      "text": "GitHub Sponsors",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/education",
+      "text": "GitHub Education",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/nonprofit",
+      "text": "GitHub for Nonprofits",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/support",
+      "text": "GitHub Support",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/contributing",
+      "text": "Contribute to GitHub Docs",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://wellarchitected.github.com/",
+      "text": "GitHub Well-Architected",
+      "title": ""
+    },
+    {
+      "url": "https://codeql.github.com/docs",
+      "text": "CodeQL query writing",
+      "title": ""
+    },
+    {
+      "url": "https://electronjs.org/docs/latest",
+      "text": "Electron",
+      "title": ""
+    },
+    {
+      "url": "https://docs.npmjs.com/",
+      "text": "npm",
+      "title": ""
+    },
+    {
+      "url": "https://wellarchitected.github.com/",
+      "text": "GitHub Well-Architected",
+      "title": ""
+    }
+  ],
+  "images": [],
+  "social_media_links": [
+    "https://codeql.github.com/docs",
+    "https://wellarchitected.github.com/"
+  ],
+  "page_size_bytes": 96721,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "google-site-verification": "c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY",
+    "description": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub's products.",
+    "path-language": "en",
+    "path-version": "free-pro-team@latest",
+    "path-article": "index",
+    "page-document-type": "homepage",
+    "status": "200",
+    "og:site_name": "GitHub Docs",
+    "og:title": "GitHub.com Help Documentation",
+    "og:type": "article",
+    "og:url": "https://docs-internal.github.com/en",
+    "og:image": "https://docs.github.com/assets/cb-345/images/social-cards/default.png",
+    "twitter:card": "summary",
+    "twitter:domain": "docs-internal.github.com",
+    "twitter:url": "https://docs-internal.github.com/en",
+    "twitter:title": "GitHub.com Help Documentation",
+    "twitter:image": "https://docs.github.com/assets/cb-345/images/social-cards/default.png"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

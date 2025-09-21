@@ -1,0 +1,287 @@
+{
+  "url": "https://github.com/features/discussions",
+  "extracted_at": "2025-09-21T21:58:02.142562",
+  "title": "GitHub Discussions · Developer Collaboration & Communication Tool · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 690,
+  "paragraph_count": 16,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "The home for  developer communities"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Dedicated space for conversations",
+      "Customize",
+      "Monitor insights",
+      "Start the conversation with your community",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Highlight quality responses and make the best answer more discoverable.",
+      "Keep context in-tact and conversations on track with threaded comments.",
+      "Ask your community directly with custom polls.",
+      "Leverage GraphQL API and webhooks to meet your teams wherever they are.",
+      "Give your open ended conversations the room they need outside of issues.",
+      "Contribution activity",
+      "Discussion page view",
+      "Discussions daily contributors",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "GitHub Discussions The home for developer communities Ask questions, share ideas, and build connections with each other—all right next to your code. GitHub Discussions enables healthy and productive software collaboration. Try now Contact sales Dedicated space for conversations Decrease the burden of managing active work in issues and pull requests by providing a separate space to host ongoing discussions, questions, and ideas. Highlight quality responses and make the best answer more discoverable. Keep context in-tact and conversations on track with threaded comments. Ask your community directly with custom polls. Leverage GraphQL API and webhooks to meet your teams wherever they are. Give your open ended conversations the room they need outside of issues. Customize Personalize for your community and team with any ways to make your space unique for you and your collaborators. Custom categories. Create discussion categories that fit your community's needs. Label and organize. Keep your discussions tidy and make it easy for your community to filter topics. Pin discussions. Make announcements and the most important discussions more visible for contributors. Monitor insights Track the health and growth of your community with a dashboard full of actionable data. Contribution activity Count of total contribution activity to Discussions, Issues, and PRs. Discussion page view Total page views to Discussions segmented by logged in vs anonymous users. Discussions daily contributors Count of unique users who have reacted, upvoted, marked an answer, commented, or posted in the selected period. Start the conversation with your community Try now",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/discussions#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fdiscussions",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fdiscussions",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fdiscussions&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/discussions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/discussions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/discussions",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?ref_cta=Contact+sales&ref_loc=hero&ref_page=%2Ffeatures%2Fdiscussions&utm_content=Platform&utm_medium=site&utm_source=github",
+      "text": "Contact sales",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/discussions/quickstart",
+      "text": "Try now",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/discussions/quickstart",
+      "text": "Try now",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/8ancmxwVvvSBuGiVfZCQ0/0e08bafd454ff1c993977c892581065d/discussions-hero.webp?fm=webp",
+      "alt": "Screenshot of a GitHub Discussions page for the ’octoinvaders’ project, showing categorized discussion threads with tags like ’answered’ and ’Long term.’ The interface features playful elements like a mona emjoi and a rocket icon, highlighting community interaction.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4owJgldb0AvYVKIanfYCj5/bab01c1957dde037925fbe2ab922206c/features-discussions-responses.webp",
+      "alt": "The image is a screenshot of a forum discussion. The first comment, posted by \"khayrizen\" on March 22, 2022, asks for brainstorming new power-up ideas for a character named Mona. This comment has received 8 thumbs-up reactions and 5 up votes. Below it, \"pavbez\" responds, suggesting that a character named Hubot could deliver the power-ups, giving Mona superpowers similar to those provided by GitHub. The discussion highlights community engagement with reactions and replies.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/19Cv8BaonIft8PvbWmgheg/a573c95ad5a9ae354b68166e0afb8559/features-discussions-threads.webp",
+      "alt": "The image is a screenshot of a conversation thread on a social media platform. The first comment is from \"hankzolo\" 20 minutes ago, suggesting that a power-up could call Hubot to reveal the path and protect Mona for a set period of time. This comment has received 5 likes and 5 replies. The second comment is from \"pavbez\" 18 minutes ago, proposing that Hubot could provide different types of power-ups or objects depending on levels. The third comment is from \"hsiaohype\" 15 minutes ago, expressing appreciation for the collaboration idea and stating it is perfect for the characters.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3V5N6SdHyw1xegg4yidXqo/c1f7dac9ca6b9204fbcec36d2552fb9f/features-discussions-polls.webp",
+      "alt": "The image is a screenshot of a poll created by a user named \"khayrizen\" in the Feedback section, 10 minutes ago. The poll is titled \"Power-up contest\" and includes the following message: \"I got a bunch of really cool ideas from y'all about how Hubot will help Mona in her quest. Now we need to choose the one we'll implement in the game. Pick your favorite!\" Below this message, there are three options for what Mona needs: \"Magic portals\" with 24% of votes, \"Her sidekick Hubot\" with 51% of votes, and \"A jetpack\" with 25% of votes. The background is pink with rounded corners on the image.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/750LH2FtBAsNgA7dkTg9vI/05be9f0444228fdd9ece1b381bb42ee9/features-discussions-api.webp",
+      "alt": "The image is a screenshot of a Slack channel named \"#community\" within the \"OctoSlack\" workspace, which is part of the \"Octoinvader-community.\" The background is pink with rounded corners. There are two messages from a user named \"Robotocat.\" The first message announces a new poll created by another user, khayrizen, and includes a link to the \"#1238 Power-up contest\" discussion on GitHub. The second message indicates that glebosonic voted in the Power-up contest. The interface displays options for viewing pinned items, searching within the channel, and seeing member details.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/NPuKmt3jdmhBD0rPB44Q9/ec64c61915fc2bb8cd0aef8c95a3ed6f/features-discussions-convert.webp",
+      "alt": "The image is a screenshot of a discussion thread titled \"Gameplay improvements #1192\" marked as \"Closed.\" Two comments are visible in the thread. The first comment is by a user named semyonrush, posted 10 minutes ago, saying, \"Thanks for all the work on the latest updates to our game. This got me thinking, should we think about adding power-ups?\" The second comment is by a user named khayrizen, posted 8 minutes ago, saying, \"Let's move this conversation out of our mechanics work and ask the community.\" There are reaction icons below khayrizen's comment showing 5 thumbs up and 2 eyes emojis.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6N1qnz1g47gQEXzr5x7HBm/7f1d16f33429db518a8738de75357c0a/features-discussions-preview.webp",
+      "alt": "This image shows an organized discussion board interface for game development topics. It highlights different areas of interest within game development and showcases an active community engaging in various discussions.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/sHry5tLj2LCJWiVfWI68f/229af12c6c79a48fbb094b52e6507f6d/discussions-pillar-1.webp?fm=webp",
+      "alt": "The image is a line graph showing data trends over time for issues, discussions, and pull requests. The x-axis represents dates from March 4th to April 4th, and the y-axis represents the number of occurrences ranging from 0 to 15. The graph includes a solid blue line for issues, a green dotted line for discussions, and a purple dashed line for pull requests.\n\n",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1G7GmYPUVjmPO0gxtDH280/47a985058cce2dfd7d5780c3f6d92660/discussions-pillar-2.webp?fm=webp",
+      "alt": "The image is a bar chart showing user activity over several dates. The x-axis represents dates (3/8, 3/14, 3/20, 3/26, 4/1, and 4/7), and the y-axis represents the number of users ranging from 0 to 30. Only blue bars, representing \"logged in\" users, are present. The heights of the blue bars vary: around 5 on 3/8, around 15 on 3/14, around 30 on 3/20, around 20 on both 3/26 and 4/1, and around 15 on 4/7.\n\n",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1JRASVVZrnyDiqy6MOdpRh/5a01e94caf2fe3473db1da48bea3b74d/discussions-pillar-3.webp?fm=webp",
+      "alt": "The image is a line graph showing data points over time from March 4th to April 4th. The x-axis represents dates, and the y-axis represents numerical values from 0 to 20. The blue line starts at approximately 16 on March 4th, dips to around 14 on March 10th, rises slightly to about 15 on March 17th, drops to roughly 9 on March 23rd and March 29th, and then sharply increases to a peak value of around 20 on April 4th.\n\n",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    }
+  ],
+  "social_media_links": [
+    "https://docs.github.com/discussions/quickstart",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fdiscussions",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+  ],
+  "page_size_bytes": 291960,
+  "meta_tags": {
+    "route-pattern": "/features/discussions(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:c5e12e05-b7fb-1963-b369-9f205f0b4059",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE3B03:11F3E6B:68D00467",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFM0IwMzoxMUYzRTZCOjY4RDAwNDY3IiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "550719a84e6b86bcc3b17754f16ec06ec066f90d27cbddc8368945eabd922d44",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/discussions",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/32InH4P5z3WyathfoVLZQC/1915356ba14e6c6dd9fc7bc7129ac37c/features-discussions-social.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Discussions · Developer Collaboration & Communication Tool",
+    "twitter:description": "Learn about GitHub Discussions, a collaboration tool & forum connecting the developer community. Collaborate on code, ask questions, share ideas, & build connections",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/32InH4P5z3WyathfoVLZQC/1915356ba14e6c6dd9fc7bc7129ac37c/features-discussions-social.jpg",
+    "og:image:alt": "Learn about GitHub Discussions, a collaboration tool & forum connecting the developer community. Collaborate on code, ask questions, share ideas, & build connections",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Discussions · Developer Collaboration & Communication Tool",
+    "og:url": "https://github.com/features/discussions",
+    "og:description": "Learn about GitHub Discussions, a collaboration tool & forum connecting the developer community. Collaborate on code, ask questions, share ideas, & build connections",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 3
+  }
+}

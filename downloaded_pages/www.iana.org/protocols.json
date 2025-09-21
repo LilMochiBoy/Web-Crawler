@@ -1,0 +1,327 @@
+{
+  "url": "https://www.iana.org/protocols",
+  "extracted_at": "2025-09-21T21:52:19.613431",
+  "title": "Protocol Registries",
+  "description": "Protocol parameter registries represent the authoritative record of many of the codes and numbers contained in a variety of Internet protocols. We maintain these records in compliance with the associa...",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 39221,
+  "paragraph_count": 4,
+  "heading_structure": {
+    "h1": [
+      "Protocol Registries"
+    ],
+    "h2": [
+      "Protocol Registries"
+    ]
+  },
+  "text_content": "Protocol Registries Protocol parameter registries represent the authoritative record of many of the codes and numbers contained in a variety of Internet protocols. We maintain these records in compliance with the associated technical standards and allocation policies, and we provide this service in coordination with the Internet Engineering Task Force (IETF). To view or download individual protocol registries, navigate to the individual registries through the index below. Registry data is available for bulk retrieval via Rsync (recommended) or FTP . To obtain a registration in an existing registry, or to modify existing registrations, consult the relevant application form . For information on creating new registries, please see RFC 8126 for guidance. A B C D E F G H I J K L M N O P Q R S T U V W X Y Protocol/Registry Defining Document/Comments A Access Node Control Protocol (ANCP) ANCP Capability Types RFC 6320 Standards Action ANCP Command Codes RFC 6320 Standards Action ANCP Message Types RFC 6320 Standards Action ANCP Port Management Functions RFC 6320 Standards Action ANCP Result Codes RFC 6320 0x0-0xFFF: IETF Review. 0x1000-0xFFFFFF: Specification Required. (Expert: Unassigned) ANCP Technology Types RFC 6320 Expert Review (Expert: Unassigned) ANCP TLV Types RFC 6320 0x0000-0x1FFF: IETF Review. 0x2000-0xFFFF: Specification Required. (Expert: Unassigned) Joint GSMP / ANCP Version Registry RFC 6320 Standards Action ACL TLS ACL (D)TLS Parameters RFC 9761 Expert Review (Expert: Dan Wing, Per Andersson) ACL DTLS Version Codes RFC 9761 Expert Review (Expert: Dan Wing, Per Andersson) ACL TLS Version Codes RFC 9761 Expert Review (Expert: Dan Wing, Per Andersson) Ad Hoc On Demand Distance Vector (AODV) Parameters AODV Extension Types RFC 3561 Standards Action AODV Message Types (for messages sent to port 654) RFC 3561 Standards Action Address Family Numbers Address Family Numbers RFC 2453 , RFC 2677 , RFC 2858 1-16383: Standards Action. 16384-32767: First Come First Served. Address Resolution Protocol (ARP) Parameters Hardware Types RFC 826 , RFC 5494 requests for values below 256: Expert Review. requests for more than one value: Expert Review. requests for one value greater than 255: First Come First Served. requests for one value, no value specified: First Come First Served. (Expert: Carlos Pignataro) Operation Codes RFC 826 , RFC 5494 IETF Review or IESG Approval Protocol Type RFC 826 , RFC 5494 , RFC 5342 The Ethertype space is administered as described in [RFC5342]. APEX Parameters Applicable Exchange Core (APEX) Endpoint Applications RFC 3340 Expert Review (Expert: Unassigned) Applicable Exchange Core (APEX) Options RFC 3340 Expert Review (Expert: Unassigned) Applicable Exchange Core (APEX) Services RFC 3340 Expert Review (Expert: Unassigned) Application Access Protocol (ACAP) Numbers ACAP Capabilities RFC 2244 Specification Required (Expert: Unassigned) ACAP Response Codes RFC 2244 First Come First Served Dataset Classes RFC 2244 Standards Action or IESG-Approved Experimental RFC Vendor Subtrees RFC 2244 , RFC 6075 First Come First Served Application Bridging for Federated Access Beyond Web (ABFAB) Parameters ABFAB URN Parameters RFC 7833 IETF Review or Expert Review (Expert: Unassigned) Application-Layer Traffic Optimization (ALTO) Protocol ALTO Address Types RFC 7285 IETF Review ALTO Cost Metrics RFC 7285 IETF Review ALTO Cost Modes RFC 9274 IETF Review ALTO Cost Source Types RFC 9439 IETF Review ALTO Endpoint Property Types RFC 7285 IETF Review ALTO Entity Domain Types RFC 9240 IETF Review ALTO Entity Property Types RFC 9240 IETF Review ALTO Error Codes RFC 7285 IETF Review Authenticated Encryption with Associated Data (AEAD) Parameters AEAD Algorithms RFC 5116 1-32767: Specification Required. 32768-65535: Private Use. (Expert: David McGrew, Bjoern Tackmann, Stanislav Smyshlyaev) Authentication and Authorization for Constrained Environments (ACE) ACE Authorization Server Request Creation Hints RFC 9200 less than -65536: Private Use. -65536 to -257: Specification Required. -256 to 255: Standards Action. 256 to 65535: Specification Required. greater than 65535: Expert Review. (Expert: Göran Selander, Cigdem Sengul) ACE Groupcomm Errors RFC 9594 less than -65536: Private Use. -65536 to -257: Specification Required. -256 to 255: Standards Action With Expert Review. 256 to 65535: Specification Required. greater than 65535: Expert Review. (Expert: Francesca Palombini, Marco Tiloca, Rikard Höglund) ACE Groupcomm Key Types RFC 9594 less than -65536: Private Use. -65536 to -257: Specification Required. -256 to 255: Standards Action With Expert Review. 256 to 65535: Specification Required. greater than 65535: Expert Review. Strings of length 1: Standards Action With Expert Review. Strings of length 2: Specification Required. Strings of length greater than 2: Expert Review. (Expert: Francesca Palombini, Marco Tiloca, Rikard Höglund) ACE Groupcomm Parameters RFC 9594 less than -65536: Private Use. -65536 to -257: ...",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains",
+      "text": "Domains",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocols",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols/apply",
+      "text": "consult the relevant application form",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc8126",
+      "text": "RFC 8126",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_A",
+      "text": "A",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_B",
+      "text": "B",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_C",
+      "text": "C",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_D",
+      "text": "D",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_E",
+      "text": "E",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_F",
+      "text": "F",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_G",
+      "text": "G",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_H",
+      "text": "H",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_I",
+      "text": "I",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_J",
+      "text": "J",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_K",
+      "text": "K",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_L",
+      "text": "L",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_M",
+      "text": "M",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_N",
+      "text": "N",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_O",
+      "text": "O",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_P",
+      "text": "P",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_Q",
+      "text": "Q",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_R",
+      "text": "R",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_S",
+      "text": "S",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_T",
+      "text": "T",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_U",
+      "text": "U",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_V",
+      "text": "V",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_W",
+      "text": "W",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_X",
+      "text": "X",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols#index_Y",
+      "text": "Y",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#capability-types",
+      "text": "ANCP Capability Types",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#command-codes",
+      "text": "ANCP Command Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#message-types",
+      "text": "ANCP Message Types",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#port-management-functions",
+      "text": "ANCP Port Management Functions",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#result-codes",
+      "text": "ANCP Result Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#technology-types",
+      "text": "ANCP Technology Types",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#tlv-types",
+      "text": "ANCP TLV Types",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/ancp/ancp.xhtml#joint-version",
+      "text": "Joint GSMP / ANCP Version Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6320",
+      "text": "RFC 6320",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/assignments/acl-tls/acl-tls.xhtml#acl-dtls-parameters",
+      "text": "ACL (D)TLS Parameters",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc9761",
+      "text": "RFC 9761",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "rsync://rsync.iana.org/assignments",
+      "text": "Rsync",
+      "title": ""
+    },
+    {
+      "url": "ftp://ftp.iana.org/assignments",
+      "text": "FTP",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/resources/policy/global-addressing",
+      "text": "http://www.icann.org/en/resources/policy/global-addressing",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/resources/policy/global-addressing",
+      "text": "http://www.icann.org/en/resources/policy/global-addressing",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/resources/policy/global-addressing",
+      "text": "http://www.icann.org/en/resources/policy/global-addressing",
+      "title": ""
+    },
+    {
+      "url": "http://www.icann.org/en/resources/policy/global-addressing",
+      "text": "http://www.icann.org/en/resources/policy/global-addressing",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.iana.org/_img/2025.01/iana-logo-header.svg",
+      "alt": "Homepage",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 1224161,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 1,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

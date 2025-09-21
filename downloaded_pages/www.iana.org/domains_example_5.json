@@ -1,0 +1,86 @@
+{
+  "url": "https://www.iana.org/domains/example",
+  "extracted_at": "2025-09-21T22:14:59.864978",
+  "title": "Example Domains",
+  "description": "As described in RFC 2606 and RFC 6761, a\nnumber of domains such as example.com and example.org are maintained\nfor documentation purposes. These domains may be used as illustrative\nexamples in document...",
+  "keywords": [],
+  "language": "unknown",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 175,
+  "paragraph_count": 3,
+  "heading_structure": {
+    "h1": [
+      "Example Domains"
+    ],
+    "h2": [
+      "Further Reading"
+    ]
+  },
+  "text_content": "Example Domains As described in RFC 2606 and RFC 6761 , a number of domains such as example.com and example.org are maintained for documentation purposes. These domains may be used as illustrative examples in documents without prior coordination with us. They are not available for registration or transfer. We provide a web service on the example domain hosts to provide basic information on the purpose of the domain. These web services are provided as best effort, but are not designed to support production applications. While incidental traffic for incorrectly configured applications is expected, please do not design applications that require the example domains to have operating HTTP service. Further Reading IANA-managed Reserved Domains Last revised 2017-05-13.",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains",
+      "text": "Domains",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/protocols",
+      "text": "Protocols",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/numbers",
+      "text": "Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "RFC 2606",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/domains/reserved",
+      "text": "IANA-managed Reserved Domains",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://www.iana.org/_img/2025.01/iana-logo-header.svg",
+      "alt": "Homepage",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [],
+  "page_size_bytes": 4651,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 1,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

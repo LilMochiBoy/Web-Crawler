@@ -1,0 +1,378 @@
+{
+  "url": "https://github.com/features/codespaces",
+  "extracted_at": "2025-09-21T21:56:20.656858",
+  "title": "GitHub Codespaces · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 1365,
+  "paragraph_count": 30,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Secure development  made simple"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Secure by design",
+      "Collaborate  where you code",
+      "Your space, your way. Codespaces is a home away from home for your code that feels just like your usual machine.",
+      "Browser preview  and port forwarding",
+      "Onboard faster",
+      "What you can do with Codespaces",
+      "Start coding in seconds with Codespaces",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Learn how GitHub’s Engineering Team builds with Codespaces",
+      "Frequently asked questions",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ],
+    "h4": [
+      "How does Codespaces work?",
+      "How do I use Codespaces?",
+      "Is Codespaces available for individual developers?",
+      "Is Codespaces available for teams and companies?",
+      "How much does Codespaces cost?",
+      "Can I self-host Codespaces?",
+      "How do I access Codespaces with LinkedIn Learning?",
+      "How do I enable Codespaces on GitHub?",
+      "Is Codespaces available for students?",
+      "Is Codespaces available for open source maintainers?"
+    ]
+  },
+  "text_content": "GitHub Codespaces Secure development made simple GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub. Get started for free Contact Sales Secure by design Created with security in mind, Codespaces provides a secure development environment through its built-in capabilities and native integration with GitHub. Collaborate where you code Codespaces provides a shared development environment and removes the need for complex, time consuming setups. Your space, your way. Codespaces is a home away from home for your code that feels just like your usual machine. Your space, your way. Codespaces is a home away from home for your code that feels just like your usual machine. Start coding instantly from anywhere in the world. Switching projects? Grab a new machine from the cloud that’s preconfigured for that project. Your settings travel with you. Tabs or spaces? Monokai or Solarized? Prettier or Beautify? It’s up to you. Control every nerdy detail only you care about with your own dotfiles repository. Browser preview and port forwarding Preview your changes and get feedback from teammates by sharing ports within the scope allowed by policy. Onboard faster Quickly spin up a codespace with only an IDE or browser and a GitHub account. With a few configuration files, you can give your developers an instant, fully configured, and secure development environment so they can start coding immediately. What you can do with Codespaces Code from any device. Want to code on an iPad? Go for it. Spin up Codespaces from any device with internet access. Don’t worry if your device is powerful enough—Codespaces lives in the cloud. Onboard at the speed of thought. No more building your dev environment while you onboard. Codespaces launches instantly from any repository on GitHub with pre-configured, secure environments. Fix bugs right from a pull request. Got a pull request detailing a bug or security issue? Open Codespaces right from the pull request without waiting for your dev environment to load. Learn how GitHub’s Engineering Team builds with Codespaces Read more “ What used to be a 15-step process is just one step: open Codespaces and you’re off and running. Clint Chester Developer Lead, Synergy “ Codespaces lets developers skip the tedious, error-prone stuff that normally stands between them and getting started on real work. Keith Annette Cloud Capability Lead, KPMG, UK Start coding in seconds with Codespaces Get started for free Frequently asked questions How does Codespaces work? A codespace is a development environment that's hosted in the cloud. Customize your project for GitHub Codespaces by configuring dev container files to your repository (often known as configuration-as-code), which creates a repeatable codespace configuration for all users of your project. GitHub Codespaces run on a various VM-based compute options hosted by GitHub.com, which you can configure from 2 core machines up to 32 core machines. Connect to your codespaces from the browser or locally using an IDE like Visual Studio Code or IntelliJ. How do I use Codespaces? There are a number of entry points to spin up a Codespaces environment, including: A template . Your repository for new feature work An open pull request to explore work-in-progress A commit in the repository's history to investigate a bug at a specific point in time Visual Studio Code In beta, can you also use your JetBrains IDE or JupyterLab Learn more about how to use Codespaces in our documentation . Is Codespaces available for individual developers? Codespaces is available for developers in every organization, and under the control of the organization who pays for the user's codespace. All personal (individual) GitHub.com accounts include a quota of free usage each month, which organizations can enable (see the next question) for their private and internal repositories. GitHub will provide users in the free plan 120 core hours or 60 hours of run time on a 2 core codespace, plus 15 GB of storage each month. See how it's balanced on the billing page . Is Codespaces available for teams and companies? Codespaces is available for teams and companies, but needs to be enabled first in an organization’s settings. Teams and companies can select which repositories and users have access to Codespaces for added security and permissioning control. Learn how to enable Codespaces in an organization in our docs . How much does Codespaces cost? Codespaces is free for individual use up to 60 hours a month and comes with simple, pay-as-you-go pricing after that. It’s also available for organizations with pay-as-you-go pricing and has pricing controls so any company or team can determine how much they want to spend a month. Learn more about Codespaces pricing for organizations here . Can I self-host Codespaces? Codespaces cannot be self-hosted. How do I access Codespaces with LinkedIn Learning? You can use Codespaces directly through Lin...",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/codespaces#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcodespaces",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcodespaces",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fcodespaces&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/codespaces",
+      "text": "Get started for free",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?ref_cta=Contact+sales&ref_loc=hero&ref_page=%2Ffeatures%2Fcodespaces&utm_content=Platform&utm_medium=site&utm_source=github",
+      "text": "Contact Sales",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/codespaces",
+      "text": "Get started for free",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/settings/billing?locale=en-US",
+      "text": "billing page",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://github.blog/engineering/githubs-engineering-team-moved-codespaces",
+      "text": "Read more",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project",
+      "text": "configuring dev container files",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/getting-started/quickstart",
+      "text": "template",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/developing-in-codespaces/creating-a-codespace#creating-a-codespace",
+      "text": "Your repository",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests#opening-a-pull-request-in-codespaces",
+      "text": "open pull request",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code#creating-a-codespace-in-vs-code",
+      "text": "Visual Studio Code",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/developing-in-a-codespace/using-github-codespaces-in-your-jetbrains-ide",
+      "text": "JetBrains IDE",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/developing-in-a-codespace/getting-started-with-github-codespaces-for-machine-learning",
+      "text": "JupyterLab",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/overview",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization",
+      "text": "enable Codespaces in an organization in our docs",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "url": "https://learning.linkedin.com/product/hands-on-practice",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "url": "https://education.github.com/pack",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts",
+      "text": "generous free monthly usage",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/301u29BCKZVbXYLhQR1hu3/16eb65f687a079d79a0255d3ebabfdbb/features-codespaces-hero.webp?fm=webp",
+      "alt": "The image shows a code editor with an HTML file on the left and a webpage preview on the right. The preview features \"Mona Sans. A Variable Font\" as the main heading, followed by a description: \"Mona Sans is a strong and versatile typeface. Designed with Degasrim and inspired by industrial-era grotesques.\" Below this text, there is an illustration of a character resembling an octopus holding various tools. The image demonstrates real-time editing and previewing of web content, useful for developers working on web design or front-end development projects.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6rtXyA9e0XasJ5c8QGhYyT/acf043f9616b2d0ae79de90ab15ee598/features-codespaces-secure-design.webp",
+      "alt": "The image features a gradient background transitioning from green at the top to blue at the bottom. There are three black rectangular boxes with rounded corners, each containing a green checkmark icon on the left and white text. The first box reads \"Isolated Environments,\" the second box reads \"Access Control,\" and the third box reads \"Cost Control.\" This image appears to be highlighting key features or benefits, possibly related to a software or service that emphasizes isolation, access management, and cost efficiency.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "alt": "The image displays a JSON configuration file for setting up a development environment. It includes settings for forwarding ports (80, 2222, 3003, 3033, 3040, 28081), installing dependencies with the command \"npm install,\" and enabling Visual Studio Code extensions. The terminal setting is configured to use \"/bin/bash\".\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5kQRGLt3dEgZqraqssC3kL/368efb01e151493475985a0e194abfff/codespaces-river-breakout.webp",
+      "alt": "The image shows a GitHub Codespaces demo interface with a file explorer on the left and a CSS file open on the right. The CSS code styles elements like containers and headers. At the top right, there are options for different core configurations.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/aGwuMiJ99BFm0IZOx7aBc/9d524ffddfa0091447b6f00d6d5d6473/features-codespaces-port-forwarding.webp",
+      "alt": "The image shows a computer screen with three overlapping windows. The main window displays a web browser with the URL \"mono-github-g95jq2w5wf7.github.dev\" on the Inbox page with the text \"Howdy Mona\" in the body of the page. There is text below \"Howdy Mona\" that says \"You have 6 tasks and 3 messages\" Two smaller windows are overlaid on top of this main window. One is a context menu with options such as \"Open in Browser,\" \"Set Port Label,\" \"Set label and update devcontainer.json\", \"Copy local address\", \"Make Public\", \"Change Port Protocol\", \"Stop Forwarding Port\", and \"Forward a port\" with \"Make Public\" being hovered. The other is a ports panel listing four ports: web (3000), hmr (55306), mysql (3306), and api (3001).",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/773hA7Thq95Os9yihvzhOV/33820b40b48553bbb0101968fd3bf068/codespaces-onboarding.webp",
+      "alt": "The image displays a user interface with three project cards, each showcasing the project's name, branch, and status. The first card is titled \"mn-webgl-sandbox\" with the branch \"webgl-changes\" and has 6 downvotes and 6 upvotes. It is marked as \"Active\" with a green dot indicator. The second card is titled \"ui refactoring\" with the branch \"layout-refactor\" and has 2 downvotes and 4 upvotes. It is also marked as \"Active\" with a green dot indicator. The third card is titled \"psychic space doodle\" with the branch \"node-extensions\" and has 5 downvotes and 1 upvote. This card too is marked as \"Active\" with a green dot indicator.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/65cuXMkXYkmCbiEKP1MRbD/e4806d994e38d2a30f2551cbba14cbc0/Learn_how_GitHub_builds.webp",
+      "alt": "The image shows the GitHub logo, which is a white silhouette of an octocat (a cat with octopus-like arms) inside a white circle. The background consists of abstract blue shapes and gradients, creating a dynamic and modern design. This image is relevant as it represents GitHub, a popular platform for version control and collaboration in software development.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6mZk7KigW57H3tA1tUxy4p/84b689360072a4c3e1530f3f88faf377/image.webp?fm=webp&w=120&q=90",
+      "alt": "Clint Chester",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/58pD4rXB4Ydg0WgxuC3clC/a777e92c0ce0a4b17e603e2596725bee/testimonials-avatar-keith.png?fm=webp&w=120&q=90",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcodespaces",
+    "https://docs.github.com/codespaces/overview",
+    "https://docs.github.com/codespaces/developing-in-a-codespace/getting-started-with-github-codespaces-for-machine-learning",
+    "https://education.github.com/pack",
+    "https://docs.github.com/codespaces/developing-in-a-codespace/using-github-codespaces-in-your-jetbrains-ide",
+    "https://docs.github.com/codespaces/getting-started/quickstart",
+    "https://docs.github.com/codespaces/developing-in-codespaces/creating-a-codespace#creating-a-codespace",
+    "https://github.com/settings/billing?locale=en-US",
+    "https://learning.linkedin.com/product/hands-on-practice",
+    "https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts",
+    "https://docs.github.com/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project",
+    "https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code#creating-a-codespace-in-vs-code",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests#opening-a-pull-request-in-codespaces",
+    "https://docs.github.com/codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization",
+    "https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces"
+  ],
+  "page_size_bytes": 351179,
+  "meta_tags": {
+    "route-pattern": "/features/codespaces(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:4a2a6694-1df3-822a-36bc-beb28b106a41",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "C43E:F2068:D1FB6D:1230412:68D00401",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRkI2RDoxMjMwNDEyOjY4RDAwNDAxIiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "4c426e4a19d8eefbaf4c8b70ecdd97d0836fabba376cae99a47087ccc486ef8e",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/codespaces",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/5hPuiWUGxPaj0t13h1xj6m/7dbd19e4f644aca7d2aa51fd5af7ee79/features-codespaces-social.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Codespaces",
+    "twitter:description": "GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/5hPuiWUGxPaj0t13h1xj6m/7dbd19e4f644aca7d2aa51fd5af7ee79/features-codespaces-social.jpg",
+    "og:image:alt": "GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Codespaces",
+    "og:url": "https://github.com/features/codespaces",
+    "og:description": "GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "Platform",
+    "turbo-body-classes": "logged-out env-production page-responsive header-dark",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

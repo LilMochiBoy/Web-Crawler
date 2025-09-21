@@ -1,0 +1,55 @@
+{
+  "url": "https://kennethreitz.org/search",
+  "extracted_at": "2025-09-21T21:51:27.264882",
+  "title": "Search",
+  "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+  "keywords": [],
+  "language": "en",
+  "author": "Kenneth Reitz",
+  "publication_date": null,
+  "word_count": 81,
+  "paragraph_count": 1,
+  "heading_structure": {
+    "h1": [
+      "Search"
+    ]
+  },
+  "text_content": "Search Searching... No results found. Try different keywords or browse the directory .",
+  "internal_links": [
+    {
+      "url": "https://kennethreitz.org/directory",
+      "text": "directory",
+      "title": ""
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 39752,
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+    "author": "Kenneth Reitz",
+    "og:title": "Search - Kenneth Reitz",
+    "og:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "og:type": "website",
+    "og:url": "https://kennethreitz.org",
+    "og:image": "https://kennethreitz.org/static/images/social-card.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:site_name": "Kenneth Reitz",
+    "twitter:card": "summary_large_image",
+    "twitter:creator": "@kennethreitz42",
+    "twitter:title": "Search - Kenneth Reitz",
+    "twitter:description": "Creator of Requests and Certifi - libraries trusted by millions of developers worldwide",
+    "twitter:image": "https://kennethreitz.org/static/images/social-card.jpg"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 1,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

@@ -26,6 +26,7 @@ import hashlib
 from typing import Set, Dict, Optional, List, Any
 from tqdm import tqdm
 from datetime import datetime
+import fnmatch
 
 
 class ContentExtractor:
@@ -306,6 +307,190 @@ class ContentExtractor:
         return sections
 
 
+class ContentFilter:
+    """
+    Advanced content filtering for targeted crawling.
+    """
+    
+    def __init__(self, 
+                 include_keywords: List[str] = None,
+                 exclude_keywords: List[str] = None,
+                 include_patterns: List[str] = None,
+                 exclude_patterns: List[str] = None,
+                 include_extensions: List[str] = None,
+                 exclude_extensions: List[str] = None,
+                 min_content_length: int = 100,
+                 max_content_length: int = None,
+                 require_title: bool = False,
+                 language_filter: List[str] = None):
+        """
+        Initialize content filter with various filtering criteria.
+        
+        Args:
+            include_keywords: Only crawl pages containing these keywords
+            exclude_keywords: Skip pages containing these keywords
+            include_patterns: Only crawl URLs matching these patterns (wildcards supported)
+            exclude_patterns: Skip URLs matching these patterns (wildcards supported)
+            include_extensions: Only crawl these file extensions
+            exclude_extensions: Skip these file extensions
+            min_content_length: Minimum page content length
+            max_content_length: Maximum page content length
+            require_title: Only crawl pages with titles
+            language_filter: Only crawl pages in these languages
+        """
+        self.include_keywords = [k.lower() for k in (include_keywords or [])]
+        self.exclude_keywords = [k.lower() for k in (exclude_keywords or [])]
+        self.include_patterns = include_patterns or []
+        self.exclude_patterns = exclude_patterns or []
+        self.include_extensions = [e.lower().lstrip('.') for e in (include_extensions or [])]
+        self.exclude_extensions = [e.lower().lstrip('.') for e in (exclude_extensions or [])]
+        self.min_content_length = min_content_length
+        self.max_content_length = max_content_length
+        self.require_title = require_title
+        self.language_filter = [l.lower() for l in (language_filter or [])]
+        
+        # Compile keyword patterns for performance
+        self.include_keyword_patterns = [re.compile(re.escape(k), re.IGNORECASE) for k in self.include_keywords]
+        self.exclude_keyword_patterns = [re.compile(re.escape(k), re.IGNORECASE) for k in self.exclude_keywords]
+    
+    def should_crawl_url(self, url: str) -> tuple[bool, str]:
+        """
+        Check if URL should be crawled based on URL patterns and extensions.
+        
+        Args:
+            url: URL to check
+            
+        Returns:
+            (should_crawl: bool, reason: str)
+        """
+        parsed_url = urlparse(url)
+        
+        # Check file extensions
+        path_lower = parsed_url.path.lower()
+        if '.' in path_lower:
+            extension = path_lower.split('.')[-1]
+            
+            # Include extensions check
+            if self.include_extensions and extension not in self.include_extensions:
+                return False, f"Extension '{extension}' not in include list"
+            
+            # Exclude extensions check
+            if self.exclude_extensions and extension in self.exclude_extensions:
+                return False, f"Extension '{extension}' in exclude list"
+        
+        # Check include patterns (must match at least one if specified)
+        if self.include_patterns:
+            matches = False
+            for pattern in self.include_patterns:
+                if fnmatch.fnmatch(url, pattern) or fnmatch.fnmatch(parsed_url.path, pattern):
+                    matches = True
+                    break
+            if not matches:
+                return False, f"URL doesn't match any include patterns"
+        
+        # Check exclude patterns (must not match any)
+        for pattern in self.exclude_patterns:
+            if fnmatch.fnmatch(url, pattern) or fnmatch.fnmatch(parsed_url.path, pattern):
+                return False, f"URL matches exclude pattern '{pattern}'"
+        
+        return True, "URL passed all filters"
+    
+    def should_save_content(self, url: str, html_content: str, extracted_data: dict = None) -> tuple[bool, str]:
+        """
+        Check if page content should be saved based on content filtering rules.
+        
+        Args:
+            url: Page URL
+            html_content: Raw HTML content
+            extracted_data: Already extracted structured data
+            
+        Returns:
+            (should_save: bool, reason: str)
+        """
+        # Content length check
+        if len(html_content) < self.min_content_length:
+            return False, f"Content too short ({len(html_content)} < {self.min_content_length})"
+        
+        if self.max_content_length and len(html_content) > self.max_content_length:
+            return False, f"Content too long ({len(html_content)} > {self.max_content_length})"
+        
+        # Parse content for keyword and structure analysis
+        try:
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # Title requirement check
+            if self.require_title:
+                title = soup.find('title')
+                if not title or not title.get_text().strip():
+                    return False, "No title found (required)"
+            
+            # Language filter check
+            if self.language_filter:
+                lang = self._extract_language(soup)
+                if lang.lower() not in self.language_filter:
+                    return False, f"Language '{lang}' not in filter list"
+            
+            # Get text content for keyword analysis
+            text_content = soup.get_text().lower()
+            page_title = soup.find('title')
+            title_text = page_title.get_text().lower() if page_title else ""
+            
+            # Include keywords check (must contain at least one if specified)
+            if self.include_keywords:
+                found_keyword = False
+                for pattern in self.include_keyword_patterns:
+                    if pattern.search(text_content) or pattern.search(title_text) or pattern.search(url.lower()):
+                        found_keyword = True
+                        break
+                if not found_keyword:
+                    return False, f"Content doesn't contain any include keywords: {self.include_keywords}"
+            
+            # Exclude keywords check (must not contain any)
+            for pattern in self.exclude_keyword_patterns:
+                if pattern.search(text_content) or pattern.search(title_text) or pattern.search(url.lower()):
+                    keyword = pattern.pattern.replace('\\', '')  # Remove regex escaping for display
+                    return False, f"Content contains exclude keyword: '{keyword}'"
+            
+            return True, "Content passed all filters"
+            
+        except Exception as e:
+            # If parsing fails, be permissive
+            return True, f"Content parsing failed, allowing: {e}"
+    
+    def _extract_language(self, soup: BeautifulSoup) -> str:
+        """Extract page language (reused from ContentExtractor)."""
+        html_tag = soup.find('html')
+        if html_tag and html_tag.get('lang'):
+            return html_tag['lang'].split('-')[0]  # Take main language code
+        return "unknown"
+    
+    def get_filter_summary(self) -> str:
+        """Get a human-readable summary of active filters."""
+        filters = []
+        if self.include_keywords:
+            filters.append(f"Include keywords: {', '.join(self.include_keywords)}")
+        if self.exclude_keywords:
+            filters.append(f"Exclude keywords: {', '.join(self.exclude_keywords)}")
+        if self.include_patterns:
+            filters.append(f"Include patterns: {', '.join(self.include_patterns)}")
+        if self.exclude_patterns:
+            filters.append(f"Exclude patterns: {', '.join(self.exclude_patterns)}")
+        if self.include_extensions:
+            filters.append(f"Include extensions: {', '.join(self.include_extensions)}")
+        if self.exclude_extensions:
+            filters.append(f"Exclude extensions: {', '.join(self.exclude_extensions)}")
+        if self.min_content_length > 100:
+            filters.append(f"Min content length: {self.min_content_length}")
+        if self.max_content_length:
+            filters.append(f"Max content length: {self.max_content_length}")
+        if self.require_title:
+            filters.append("Require title: Yes")
+        if self.language_filter:
+            filters.append(f"Languages: {', '.join(self.language_filter)}")
+        
+        return "; ".join(filters) if filters else "No filters active"
+
+
 class DatabaseManager:
     """
     Simplified database manager for storing crawled data.
@@ -317,11 +502,11 @@ class DatabaseManager:
         self.init_database()
     
     def init_database(self):
-        """Initialize database schema."""
+        """Initialize database schema and handle migrations."""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            # Create crawl_sessions table
+            # Create crawl_sessions table with new schema
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS crawl_sessions (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -332,9 +517,22 @@ class DatabaseManager:
                     total_errors INTEGER DEFAULT 0,
                     started_at REAL,
                     completed_at REAL,
-                    status TEXT DEFAULT 'running'
+                    status TEXT DEFAULT 'running',
+                    config_data TEXT,
+                    crawl_state TEXT
                 )
             """)
+            
+            # Handle migrations for existing databases
+            try:
+                # Check if new columns exist
+                cursor.execute("SELECT config_data FROM crawl_sessions LIMIT 1")
+            except sqlite3.OperationalError:
+                # Add missing columns to existing table
+                print("[DATABASE] Migrating database schema - adding resume columns...")
+                cursor.execute("ALTER TABLE crawl_sessions ADD COLUMN config_data TEXT")
+                cursor.execute("ALTER TABLE crawl_sessions ADD COLUMN crawl_state TEXT")
+                print("[DATABASE] Database schema migration completed")
             
             # Create pages table
             cursor.execute("""
@@ -364,21 +562,34 @@ class DatabaseManager:
                 )
             """)
             
+            # Create queue_state table for resume functionality
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS queue_state (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    session_id INTEGER,
+                    url TEXT NOT NULL,
+                    depth INTEGER,
+                    status TEXT DEFAULT 'pending',
+                    FOREIGN KEY (session_id) REFERENCES crawl_sessions (id)
+                )
+            """)
+            
             conn.commit()
     
     def get_connection(self):
         """Get database connection context manager."""
         return sqlite3.connect(self.db_path)
     
-    def start_session(self, start_url: str, max_depth: int, max_pages: int) -> str:
+    def start_session(self, start_url: str, max_depth: int, max_pages: int, config_data: dict = None) -> str:
         """Start a new crawl session and return session ID."""
         import time
+        import json
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                INSERT INTO crawl_sessions (start_url, max_depth, max_pages, started_at)
-                VALUES (?, ?, ?, ?)
-            """, (start_url, max_depth, max_pages, time.time()))
+                INSERT INTO crawl_sessions (start_url, max_depth, max_pages, started_at, config_data)
+                VALUES (?, ?, ?, ?, ?)
+            """, (start_url, max_depth, max_pages, time.time(), json.dumps(config_data) if config_data else None))
             conn.commit()
             return str(cursor.lastrowid)
     
@@ -452,6 +663,109 @@ class DatabaseManager:
                 'social_links_stored': 0,  # Simplified for now
                 'errors_logged': errors_logged
             }
+    
+    def save_crawl_state(self, session_id: str, queue_urls: list, visited_urls: set):
+        """Save current crawl state to database for resume functionality."""
+        import json
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Clear existing queue state for this session
+            cursor.execute("DELETE FROM queue_state WHERE session_id = ?", (int(session_id),))
+            
+            # Save current queue state
+            for url, depth in queue_urls:
+                cursor.execute("""
+                    INSERT INTO queue_state (session_id, url, depth, status)
+                    VALUES (?, ?, ?, 'pending')
+                """, (int(session_id), url, depth))
+            
+            # Update session with visited URLs count and state
+            crawl_state = {
+                'visited_count': len(visited_urls),
+                'visited_urls': list(visited_urls) if len(visited_urls) < 1000 else list(list(visited_urls)[:1000])  # Limit size
+            }
+            
+            cursor.execute("""
+                UPDATE crawl_sessions SET crawl_state = ? WHERE id = ?
+            """, (json.dumps(crawl_state), int(session_id)))
+            
+            conn.commit()
+    
+    def load_crawl_state(self, session_id: str) -> dict:
+        """Load crawl state for resume functionality."""
+        import json
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Get session data
+            cursor.execute("SELECT * FROM crawl_sessions WHERE id = ?", (int(session_id),))
+            session = cursor.fetchone()
+            
+            if not session:
+                return {}
+            
+            # Get pending URLs from queue
+            cursor.execute("""
+                SELECT url, depth FROM queue_state 
+                WHERE session_id = ? AND status = 'pending'
+                ORDER BY depth, id
+            """, (int(session_id),))
+            pending_urls = cursor.fetchall()
+            
+            # Parse crawl state
+            crawl_state = {}
+            if session[10]:  # crawl_state column
+                try:
+                    crawl_state = json.loads(session[10])
+                except:
+                    crawl_state = {}
+            
+            # Parse config data
+            config_data = {}
+            if session[9]:  # config_data column
+                try:
+                    config_data = json.loads(session[9])
+                except:
+                    config_data = {}
+            
+            return {
+                'session_data': {
+                    'id': session[0],
+                    'start_url': session[1],
+                    'max_pages': session[2],
+                    'max_depth': session[3],
+                    'pages_crawled': session[4],
+                    'total_errors': session[5],
+                    'started_at': session[6],
+                    'completed_at': session[7],
+                    'status': session[8]
+                },
+                'config_data': config_data,
+                'pending_urls': pending_urls,
+                'visited_urls': set(crawl_state.get('visited_urls', []))
+            }
+    
+    def get_incomplete_sessions(self) -> list:
+        """Get list of incomplete crawl sessions that can be resumed."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT id, start_url, max_pages, pages_crawled, started_at, status
+                FROM crawl_sessions 
+                WHERE status = 'running' OR status = 'interrupted'
+                ORDER BY started_at DESC
+            """)
+            return cursor.fetchall()
+    
+    def mark_session_interrupted(self, session_id: str):
+        """Mark a session as interrupted (for clean shutdown)."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE crawl_sessions SET status = 'interrupted' WHERE id = ?
+            """, (int(session_id),))
+            conn.commit()
 
 
 
@@ -468,7 +782,19 @@ class WebCrawler:
                  allowed_domains: Optional[List[str]] = None,
                  user_agent: str = "WebCrawler-Bot/1.0",
                  use_database: bool = True,
-                 max_workers: int = 3):
+                 max_workers: int = 3,
+                 resume_session: str = None,
+                 # Content filtering parameters
+                 include_keywords: List[str] = None,
+                 exclude_keywords: List[str] = None,
+                 include_patterns: List[str] = None,
+                 exclude_patterns: List[str] = None,
+                 include_extensions: List[str] = None,
+                 exclude_extensions: List[str] = None,
+                 min_content_length: int = 100,
+                 max_content_length: int = None,
+                 require_title: bool = False,
+                 language_filter: List[str] = None):
         """
         Initialize the web crawler.
         
@@ -481,6 +807,17 @@ class WebCrawler:
             user_agent: User agent string for requests
             use_database: Whether to use database storage
             max_workers: Number of concurrent worker threads (1 = sequential)
+            resume_session: Session ID to resume from (None for new session)
+            include_keywords: Only crawl pages containing these keywords
+            exclude_keywords: Skip pages containing these keywords
+            include_patterns: Only crawl URLs matching these patterns
+            exclude_patterns: Skip URLs matching these patterns
+            include_extensions: Only crawl these file extensions
+            exclude_extensions: Skip these file extensions
+            min_content_length: Minimum page content length
+            max_content_length: Maximum page content length
+            require_title: Only crawl pages with titles
+            language_filter: Only crawl pages in these languages
         """
         self.max_depth = max_depth
         self.delay = delay
@@ -490,6 +827,7 @@ class WebCrawler:
         self.user_agent = user_agent
         self.use_database = use_database
         self.max_workers = max(1, min(max_workers, 10))  # Limit to 1-10 workers
+        self.resume_session = resume_session
         
         # Thread-safe tracking sets and queues
         self.visited_urls: Set[str] = set()
@@ -502,15 +840,51 @@ class WebCrawler:
         # Initialize content extractor
         self.content_extractor = ContentExtractor()
         
+        # Initialize content filter
+        self.content_filter = ContentFilter(
+            include_keywords=include_keywords,
+            exclude_keywords=exclude_keywords,
+            include_patterns=include_patterns,
+            exclude_patterns=exclude_patterns,
+            include_extensions=include_extensions,
+            exclude_extensions=exclude_extensions,
+            min_content_length=min_content_length,
+            max_content_length=max_content_length,
+            require_title=require_title,
+            language_filter=language_filter
+        )
+        
+        # Create output directory
+        self.output_dir.mkdir(exist_ok=True)
+        
+        # Setup logging early (needed for resume functionality)
+        self._setup_logging()
+        
         # Initialize database manager if enabled
         self.db_manager = None
         self.session_id = None
         if self.use_database:
             db_path = self.output_dir / 'crawler_data.db'
             self.db_manager = DatabaseManager(str(db_path))
-            self.session_id = self.db_manager.start_session(
-                start_url="", max_depth=max_depth, max_pages=max_pages
-            )
+            
+            # Handle resume functionality
+            if self.resume_session:
+                self.session_id = self.resume_session
+                self._load_resume_state()
+            else:
+                # Store initial config for potential resume
+                initial_config = {
+                    'max_depth': max_depth,
+                    'delay': delay,
+                    'max_pages': max_pages,
+                    'output_dir': output_dir,
+                    'allowed_domains': list(allowed_domains) if allowed_domains else None,
+                    'user_agent': user_agent,
+                    'max_workers': max_workers
+                }
+                self.session_id = self.db_manager.start_session(
+                    start_url="", max_depth=max_depth, max_pages=max_pages, config_data=initial_config
+                )
         
         # Statistics tracking
         self.stats = {
@@ -519,6 +893,8 @@ class WebCrawler:
             'total_urls_found': 0,
             'pages_downloaded': 0,
             'pages_skipped': 0,
+            'urls_filtered': 0,  # URLs filtered out before fetching
+            'content_filtered': 0,  # Pages filtered after fetching content
             'errors': {
                 'timeout': 0,
                 'connection': 0,
@@ -535,10 +911,7 @@ class WebCrawler:
         # Create output directory
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
-        # Setup logging
-        self._setup_logging()
-        
-        # Setup session with headers and improved connection settings
+        # Setup session with headers and improved connection settings (logging already setup)
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': self.user_agent,
@@ -594,6 +967,85 @@ class WebCrawler:
         # Prevent duplicate logs
         self.logger.propagate = False
     
+    def _load_resume_state(self):
+        """Load resume state from database for continuing interrupted crawl."""
+        if not self.db_manager or not self.resume_session:
+            return
+        
+        try:
+            resume_data = self.db_manager.load_crawl_state(self.resume_session)
+            if not resume_data:
+                self.logger.error(f"No resume data found for session {self.resume_session}")
+                return
+            
+            session_data = resume_data['session_data']
+            config_data = resume_data.get('config_data', {})
+            
+            # Restore visited URLs
+            self.visited_urls = resume_data.get('visited_urls', set())
+            self.downloaded_pages = session_data.get('pages_crawled', 0)
+            
+            # Restore configuration from saved session (if not overridden)
+            if config_data:
+                if hasattr(self, 'max_depth') and not hasattr(self, '_max_depth_overridden'):
+                    self.max_depth = config_data.get('max_depth', self.max_depth)
+                if hasattr(self, 'max_pages') and not hasattr(self, '_max_pages_overridden'):
+                    self.max_pages = config_data.get('max_pages', self.max_pages)
+                if hasattr(self, 'delay') and not hasattr(self, '_delay_overridden'):
+                    self.delay = config_data.get('delay', self.delay)
+            
+            # Restore queue
+            pending_urls = resume_data.get('pending_urls', [])
+            for url, depth in pending_urls:
+                self.crawl_queue.put((url, depth))
+            
+            self.logger.info(f"[RESUME] Loaded session {self.resume_session}")
+            self.logger.info(f"[RESUME] Visited URLs: {len(self.visited_urls)}")
+            self.logger.info(f"[RESUME] Pages downloaded: {self.downloaded_pages}")
+            self.logger.info(f"[RESUME] Pending URLs in queue: {len(pending_urls)}")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to load resume state: {e}")
+            self.logger.info("Starting fresh crawl instead")
+    
+    def _save_crawl_state(self):
+        """Save current crawl state for resume functionality."""
+        if not self.db_manager or not self.session_id:
+            return
+        
+        try:
+            # Get current queue state
+            queue_items = []
+            temp_queue = Queue()
+            
+            # Temporarily drain the queue to inspect it
+            while not self.crawl_queue.empty():
+                try:
+                    item = self.crawl_queue.get_nowait()
+                    queue_items.append(item)
+                    temp_queue.put(item)
+                except Empty:
+                    break
+            
+            # Restore the queue
+            while not temp_queue.empty():
+                try:
+                    item = temp_queue.get_nowait()
+                    self.crawl_queue.put(item)
+                except Empty:
+                    break
+            
+            # Save state to database
+            with self._lock:
+                self.db_manager.save_crawl_state(
+                    self.session_id,
+                    queue_items,
+                    self.visited_urls
+                )
+                
+        except Exception as e:
+            self.logger.warning(f"Failed to save crawl state: {e}")
+    
     def _normalize_url(self, url: str) -> str:
         """
         Normalize URL by removing fragments and ensuring consistent format.
@@ -643,6 +1095,13 @@ class WebCrawler:
             # Enhanced file extension filtering
             path_lower = parsed.path.lower()
             
+            # Apply content filter URL validation first
+            should_crawl, reason = self.content_filter.should_crawl_url(url)
+            if not should_crawl:
+                self.logger.debug(f"URL filtered: {url} - {reason}")
+                self._update_stats('url_filtered')
+                return False
+            
             # Media files
             media_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp', 
                                '.mp3', '.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv',
@@ -661,7 +1120,8 @@ class WebCrawler:
             
             skip_extensions = media_extensions | doc_extensions | archive_extensions | code_extensions
             
-            if any(path_lower.endswith(ext) for ext in skip_extensions):
+            # Only apply default extension blocking if no include_extensions filter is active
+            if not self.content_filter.include_extensions and any(path_lower.endswith(ext) for ext in skip_extensions):
                 self.logger.debug(f"Skipping file with blocked extension: {url}")
                 return False
             
@@ -788,6 +1248,23 @@ class WebCrawler:
             True if saved successfully
         """
         try:
+            # Extract structured data first for filtering
+            extracted_data = None
+            try:
+                extracted_data = self.content_extractor.extract_page_data(response.text, url)
+            except Exception as e:
+                self.logger.warning(f"Failed to extract content from {url} for filtering: {e}")
+            
+            # Apply content filtering
+            should_save, filter_reason = self.content_filter.should_save_content(
+                url, response.text, extracted_data
+            )
+            
+            if not should_save:
+                self.logger.info(f"Content filtered: {url} - {filter_reason}")
+                self._update_stats('content_filtered')
+                return False
+            
             # Create safe filename from URL
             parsed = urlparse(url)
             domain = parsed.netloc
@@ -820,21 +1297,18 @@ class WebCrawler:
             with open(filepath, 'w', encoding='utf-8', errors='ignore') as f:
                 f.write(response.text)
             
-            # Extract structured data from the page
-            extracted_data = None
-            try:
-                extracted_data = self.content_extractor.extract_page_data(response.text, url)
-                
-                # Save extracted data as JSON
-                json_file = filepath.with_suffix('.json')
-                with open(json_file, 'w', encoding='utf-8') as f:
-                    json.dump(extracted_data, f, indent=2, ensure_ascii=False)
-                
-                self.stats['content_extracted'] += 1
-                self.logger.info(f"Extracted data: {json_file}")
-                
-            except Exception as e:
-                self.logger.warning(f"Failed to extract content from {url}: {e}")
+            # Save extracted data as JSON (already extracted for filtering)
+            if extracted_data:
+                try:
+                    json_file = filepath.with_suffix('.json')
+                    with open(json_file, 'w', encoding='utf-8') as f:
+                        json.dump(extracted_data, f, indent=2, ensure_ascii=False)
+                    
+                    self.stats['content_extracted'] += 1
+                    self.logger.info(f"Extracted data: {json_file}")
+                    
+                except Exception as e:
+                    self.logger.warning(f"Failed to save extracted data for {url}: {e}")
             
             # Save to database if enabled
             if self.db_manager and self.session_id:
@@ -1000,6 +1474,10 @@ class WebCrawler:
                             'Speed': f"{self.stats.get('avg_response_time', 0):.1f}s",
                             'Workers': f"{self.max_workers}"
                         })
+                        
+                        # Save state every 10 pages for resume functionality
+                        if self.downloaded_pages % 10 == 0:
+                            self._save_crawl_state()
                     
                     # Extract links for further crawling if not at max depth
                     if depth < self.max_depth and downloaded_count < self.max_pages:
@@ -1046,17 +1524,37 @@ class WebCrawler:
                 self.logger.warning(f"Failed to update session start URL: {e}")
         
         # Log crawling start
-        if self.max_workers > 1:
+        if self.resume_session:
+            self.logger.info(f"Resuming crawl session {self.resume_session} from: {start_url} ({self.max_workers} workers)")
+        elif self.max_workers > 1:
             self.logger.info(f"Starting concurrent crawl from: {start_url} ({self.max_workers} workers)")
         else:
             self.logger.info(f"Starting sequential crawl from: {start_url}")
         
-        # Initialize crawling
-        self.crawl_queue.put((start_url, 0))
+        # Initialize crawling - only add start_url if not resuming or if queue is empty
+        if not self.resume_session or self.crawl_queue.empty():
+            # Only add start URL if not already visited (resume case)
+            if not self._is_visited_safe(start_url):
+                self.crawl_queue.put((start_url, 0))
+        
+        # Set initial progress for resumed sessions
+        if self.resume_session:
+            initial_progress = self.downloaded_pages
+        else:
+            initial_progress = 0
+            
         self.stats['start_time'] = time.time()
         
-        # Initialize progress bar
-        progress_bar = tqdm(total=self.max_pages, desc=f"[CRAWLING] {self.max_workers}w", unit="pages")
+        # Initialize tracking variables
+        self._interrupted = False  # Track if crawling was interrupted
+        
+        # Initialize progress bar with current progress
+        progress_bar = tqdm(
+            total=self.max_pages, 
+            initial=initial_progress,
+            desc=f"[CRAWLING] {self.max_workers}w", 
+            unit="pages"
+        )
         
         try:
             if self.max_workers == 1:
@@ -1079,22 +1577,31 @@ class WebCrawler:
                             self.logger.error(f"Worker thread failed: {e}")
         
         except KeyboardInterrupt:
+            self._interrupted = True
             self.logger.info("Crawling interrupted by user")
+            # Save current state for resume
+            if self.db_manager and self.session_id:
+                self.logger.info("Saving crawl state for resume...")
+                self._save_crawl_state()
+                self.db_manager.mark_session_interrupted(self.session_id)
+                self.logger.info(f"Session {self.session_id} marked as interrupted. Use --resume {self.session_id} to continue.")
         finally:
             # Close progress bar
             progress_bar.close()
         
         # Log completion
-        self.logger.info(f"Crawling completed. Downloaded {self.downloaded_pages} pages.")
+        self.logger.info(f"Crawling {'interrupted' if self._interrupted else 'completed'}. Downloaded {self.downloaded_pages} pages.")
         
-        # Update session end time in database
+        # Save final state and update session end time in database (only if not interrupted)
         if self.db_manager and self.session_id:
             try:
-                self.db_manager.end_session(
-                    session_id=self.session_id,
-                    pages_crawled=self.downloaded_pages,
-                    errors_occurred=sum(self.stats['errors'].values())
-                )
+                if not self._interrupted:
+                    self._save_crawl_state()  # Final state save
+                    self.db_manager.end_session(
+                        session_id=self.session_id,
+                        pages_crawled=self.downloaded_pages,
+                        errors_occurred=sum(self.stats['errors'].values())
+                    )
             except Exception as e:
                 self.logger.warning(f"Failed to update session end time: {e}")
         
@@ -1120,6 +1627,10 @@ class WebCrawler:
                     self.stats['avg_response_time'] = sum(self.stats['response_times']) / len(self.stats['response_times'])
             elif action == 'page_skipped':
                 self.stats['pages_skipped'] += 1
+            elif action == 'url_filtered':
+                self.stats['urls_filtered'] += 1
+            elif action == 'content_filtered':
+                self.stats['content_filtered'] += 1
             elif action == 'error':
                 if error_type in self.stats['errors']:
                     self.stats['errors'][error_type] += 1
@@ -1153,6 +1664,12 @@ class WebCrawler:
         self.logger.info(f"[DOWNLOADED] Pages Downloaded: {self.stats['pages_downloaded']}")
         self.logger.info(f"[EXTRACTED] Content Extracted: {self.stats['content_extracted']}")
         self.logger.info(f"[SKIPPED] Pages Skipped: {self.stats['pages_skipped']}")
+        
+        # Filtering statistics
+        if self.stats['urls_filtered'] > 0 or self.stats['content_filtered'] > 0:
+            self.logger.info(f"[FILTERED] URLs Filtered: {self.stats['urls_filtered']}")
+            self.logger.info(f"[FILTERED] Content Filtered: {self.stats['content_filtered']}")
+        
         self.logger.info(f"[DOMAINS] Domains Crawled: {len(self.stats['domains_crawled'])}")
         
         if self.stats['total_bytes_downloaded'] > 0:
@@ -1258,7 +1775,7 @@ def config_to_args(config: Dict) -> Dict:
 def main():
     """Main function to handle command line arguments and start crawling."""
     parser = argparse.ArgumentParser(description="Web Crawler to download webpages")
-    parser.add_argument("url", help="Starting URL to crawl")
+    parser.add_argument("url", nargs='?', help="Starting URL to crawl (not required if using --resume or --list-sessions)")
     parser.add_argument("--config", default="crawler_config.yaml", help="Configuration file (default: crawler_config.yaml)")
     parser.add_argument("--max-depth", type=int, help="Maximum crawling depth (overrides config)")
     parser.add_argument("--delay", type=float, help="Delay between requests in seconds (overrides config)")
@@ -1269,7 +1786,94 @@ def main():
     parser.add_argument("--no-database", action="store_true", help="Disable database storage")
     parser.add_argument("--workers", type=int, default=3, help="Number of concurrent workers (1=sequential, default: 3)")
     
+    # Resume functionality
+    parser.add_argument("--resume", type=str, help="Resume crawling from session ID")
+    parser.add_argument("--list-sessions", action="store_true", help="List incomplete sessions that can be resumed")
+    
+    # Content filtering arguments
+    parser.add_argument("--include-keywords", nargs='+', help="Only crawl pages containing these keywords")
+    parser.add_argument("--exclude-keywords", nargs='+', help="Skip pages containing these keywords")
+    parser.add_argument("--include-patterns", nargs='+', help="Only crawl URLs matching these patterns (wildcards supported)")
+    parser.add_argument("--exclude-patterns", nargs='+', help="Skip URLs matching these patterns (wildcards supported)")
+    parser.add_argument("--include-extensions", nargs='+', help="Only crawl these file extensions (e.g., html php)")
+    parser.add_argument("--exclude-extensions", nargs='+', help="Skip these file extensions (e.g., pdf doc zip)")
+    parser.add_argument("--min-content-length", type=int, help="Minimum page content length (default: 100)")
+    parser.add_argument("--max-content-length", type=int, help="Maximum page content length")
+    parser.add_argument("--require-title", action="store_true", help="Only crawl pages with titles")
+    parser.add_argument("--language-filter", nargs='+', help="Only crawl pages in these languages (e.g., en es fr)")
+    
     args = parser.parse_args()
+    
+    # Handle list-sessions command
+    if args.list_sessions:
+        output_dir = args.output_dir or "downloaded_pages"
+        db_path = os.path.join(output_dir, 'crawler_data.db')
+        
+        if not os.path.exists(db_path):
+            print("No database found. No sessions to list.")
+            return
+        
+        db_manager = DatabaseManager(db_path)
+        sessions = db_manager.get_incomplete_sessions()
+        
+        if not sessions:
+            print("No incomplete sessions found.")
+            return
+        
+        print("\nIncomplete crawl sessions that can be resumed:")
+        print("=" * 60)
+        for session in sessions:
+            session_id, start_url, max_pages, pages_crawled, started_at, status = session
+            started_time = datetime.fromtimestamp(started_at).strftime("%Y-%m-%d %H:%M:%S")
+            progress = f"{pages_crawled}/{max_pages}" if max_pages else f"{pages_crawled}"
+            display_url = start_url if start_url else "URL not recorded"
+            print(f"Session {session_id}: {display_url}")
+            print(f"  Status: {status}")
+            print(f"  Started: {started_time}")
+            print(f"  Progress: {progress} pages")
+            print(f"  Resume with: python crawler.py --resume {session_id}")
+            print()
+        return
+    
+    # Handle resume functionality
+    if args.resume:
+        if args.no_database:
+            print("Cannot resume with --no-database flag. Resume requires database storage.")
+            return
+        
+        # URL is not required for resume
+        if not args.url:
+            # Get the URL from the session data
+            output_dir = args.output_dir or "downloaded_pages"
+            db_path = os.path.join(output_dir, 'crawler_data.db')
+            
+            if not os.path.exists(db_path):
+                print(f"Database not found at {db_path}. Cannot resume.")
+                return
+            
+            db_manager = DatabaseManager(db_path)
+            resume_data = db_manager.load_crawl_state(args.resume)
+            
+            if not resume_data or not resume_data.get('session_data'):
+                print(f"Session {args.resume} not found or invalid.")
+                return
+            
+            # Get URL from session data
+            session_data = resume_data['session_data']
+            start_url = session_data.get('start_url')
+            if not start_url:
+                print(f"No start URL found in session {args.resume}.")
+                return
+            
+            # Use the saved URL
+            args.url = start_url
+            print(f"[RESUME] Resuming session {args.resume} from {start_url}")
+    
+    # Validate URL requirement for new sessions
+    if not args.resume and not args.url:
+        print("Error: URL is required for new crawling sessions.")
+        parser.print_help()
+        return
     
     # Load configuration file
     config = load_config(args.config)
@@ -1284,16 +1888,37 @@ def main():
         'allowed_domains': args.allowed_domains or config_args.get('allowed_domains'),
         'user_agent': args.user_agent or config_args.get('user_agent', "WebCrawler-Bot/1.0"),
         'use_database': not args.no_database,  # Database enabled by default, disabled with --no-database
-        'max_workers': args.workers or config_args.get('max_workers', 3)
+        'max_workers': args.workers or config_args.get('max_workers', 3),
+        'resume_session': args.resume,  # Add resume session ID
+        # Content filtering arguments
+        'include_keywords': args.include_keywords,
+        'exclude_keywords': args.exclude_keywords,
+        'include_patterns': args.include_patterns,
+        'exclude_patterns': args.exclude_patterns,
+        'include_extensions': args.include_extensions,
+        'exclude_extensions': args.exclude_extensions,
+        'min_content_length': args.min_content_length or 100,
+        'max_content_length': args.max_content_length,
+        'require_title': args.require_title,
+        'language_filter': args.language_filter
     }
     
     print("[CRAWLER] Web Crawler Starting...")
+    if args.resume:
+        print(f"[RESUME] Resuming session {args.resume}")
     print(f"[SETTINGS] depth={crawler_args['max_depth']}, pages={crawler_args['max_pages']}, delay={crawler_args['delay']}s")
     print(f"[DATABASE] Database storage: {'Enabled' if crawler_args['use_database'] else 'Disabled'}")
     print(f"[WORKERS] Concurrent workers: {crawler_args['max_workers']}")
     
     # Create and configure crawler
     crawler = WebCrawler(**crawler_args)
+    
+    # Display filtering information
+    filter_summary = crawler.content_filter.get_filter_summary()
+    if filter_summary != "No filters active":
+        print(f"[FILTERS] Content filtering: {filter_summary}")
+    else:
+        print(f"[FILTERS] Content filtering: Disabled")
     
     # Start crawling
     try:

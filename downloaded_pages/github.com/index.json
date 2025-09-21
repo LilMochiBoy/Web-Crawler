@@ -1,0 +1,440 @@
+{
+  "url": "https://github.com/",
+  "extracted_at": "2025-09-21T21:53:37.884913",
+  "title": "GitHub · Build and ship software on a single, collaborative platform · GitHub",
+  "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 1078,
+  "paragraph_count": 27,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Build and ship software on a single, collaborative platform"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "GitHub features",
+      "GitHub customers",
+      "Accelerate performance",
+      "Built-in application security where found means fixed",
+      "Work together, achieve more",
+      "From startups to enterprises, GitHub scales with teams of any size in any industry.",
+      "Millions of developers and businesses call GitHub home",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Work 55% faster. Increase productivity with AI-powered coding assistance, including code completion, chat, and more.",
+      "Automate any workflow",
+      "Get up and running in seconds",
+      "Build on the go",
+      "Integrate the tools you love",
+      "Apply fixes in seconds. Spend less time fixing vulnerabilities and more time building features with Copilot Autofix.",
+      "Your workflows, your way. Plan effectively with an adaptable spreadsheet that syncs with your work.",
+      "Keep track of your tasks",
+      "Share ideas and ask questions",
+      "Review code changes together",
+      "Fund open source projects",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "Build and ship software on a single, collaborative platform Join the world’s most widely adopted AI-powered developer platform. Enter your email Sign up for GitHub Try GitHub Copilot GitHub features A demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet. Code Plan Collaborate Automate Secure Code Code quickly and more securely with GitHub Copilot embedded throughout your workflows. GitHub customers American Airlines Duolingo Ernst and Young Ford InfoSys Mercado Libre Mercedes-Benz Shopify Philips Société Générale Spotify Vodafone American Airlines Duolingo Ernst and Young Ford InfoSys Mercado Libre Mercedes-Benz Shopify Philips Société Générale Spotify Vodafone Accelerate performance With GitHub Copilot embedded throughout the platform, you can simplify your toolchain, automate tasks, and improve the developer experience. A Copilot chat window with the 'Ask' mode enabled. The user switches from 'Ask' mode to 'Agent' mode from a dropdown menu, then sends the prompt 'Update the website to allow searching for running races by name.' Copilot analyzes the codebase, then explains the required edits for three files before generating them. Copilot then confirms completion and summarizes the implemented changes for the new functionality allowing users to search races by name and view paginated, filtered results. Work 55% faster. Increase productivity with AI-powered coding assistance, including code completion, chat, and more. Explore GitHub Copilot Duolingo boosts developer speed by 25% with GitHub Copilot Read customer story 2025 Gartner® Magic Quadrant™ for AI Code Assistants Read industry report Automate any workflow Optimize your process with simple and secured CI/CD. Discover GitHub Actions Get up and running in seconds Start building instantly with a comprehensive dev environment in the cloud. Check out GitHub Codespaces Build on the go Manage projects and chat with GitHub Copilot from anywhere. Download GitHub Mobile Integrate the tools you love Sync with 17,000+ integrations and a growing library of Copilot Extensions. Visit GitHub Marketplace Built-in application security where found means fixed Use AI to find and fix vulnerabilities—freeing your teams to ship more secure software faster. Apply fixes in seconds. Spend less time fixing vulnerabilities and more time building features with Copilot Autofix. Explore GitHub Advanced Security Solve security debt. Leverage AI-assisted security campaigns to reduce application vulnerabilities and zero-day attacks. Discover security campaigns Dependencies you can depend on. Update vulnerable dependencies with supported fixes for breaking changes. Learn about Dependabot Your secrets, your business: protected. Detect, prevent, and remediate leaked secrets across your organization. Read about secret scanning 7x faster vulnerability fixes with GitHub 90% coverage of alert types in all supported languages with Copilot Autofix Work together, achieve more Collaborate with your teams, use management tools that sync with your projects, and code from anywhere—all on a single, integrated platform. Your workflows, your way. Plan effectively with an adaptable spreadsheet that syncs with your work. Jump into GitHub Projects “ It helps us onboard new software engineers and get them productive right away. We have all our source code, issues, and pull requests in one place... GitHub is a complete platform that frees us from menial tasks and enables us to do our best work. Fabian Faulhaber Application manager at Mercedes-Benz Keep track of your tasks Create issues and manage projects with tools that adapt to your code. Explore GitHub Issues Share ideas and ask questions Create space for open-ended conversations alongside your project. Discover GitHub Discussions Review code changes together Create review processes that improve code quality and fit neatly into your workflow. Learn about code review Fund open source projects Become an open source partner and support the tools and libraries that power your work. Dive into GitHub Sponsors From startups to enterprises, GitHub scales with teams of any size in any industry. By industry By size By use case By industry Technology Figma streamlines development and strengthens security Read customer story Automotive Mercedes-Benz standardizes source code and automates onboarding Read customer story Financial services Mercado Libre cuts coding time by 50% Read customer story Explore customer stories View all solutions Millions of developers and businesses call GitHub home Whether you’re scaling your development process or just learning how to code, GitHub is where you belong. Join the world’s most widely adopted AI-powered developer platform to build the technologies that redefine what’s possible. Enter your email Sign up for GitHub Try GitHub Copilot",
+  "internal_links": [
+    {
+      "url": "https://github.com/#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-copilot/pro",
+      "text": "Try GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Explore GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories/duolingo",
+      "text": "Read customer story",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "text": "Discover GitHub Actions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "text": "Check out GitHub Codespaces",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/mobile",
+      "text": "Download GitHub Mobile",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Visit GitHub Marketplace",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security",
+      "text": "Explore GitHub Advanced Security",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security",
+      "text": "Discover security campaigns",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security/software-supply-chain",
+      "text": "Learn about Dependabot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/security/advanced-security/secret-protection",
+      "text": "Read about secret scanning",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/issues",
+      "text": "Jump into GitHub Projects",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/issues",
+      "text": "Explore GitHub Issues",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/discussions",
+      "text": "Discover GitHub Discussions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/code-review",
+      "text": "Learn about code review",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/sponsors",
+      "text": "Dive into GitHub Sponsors",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories/figma",
+      "text": "TechnologyFigma streamlines development and strengthens securityRead customer story",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories/mercedes-benz",
+      "text": "AutomotiveMercedes-Benz standardizes source code and automates onboardingRead customer story",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories/mercado-libre",
+      "text": "Financial servicesMercado Libre cuts coding time by 50%Read customer story",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "text": "Explore customer stories",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/solutions",
+      "text": "View all solutions",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/github-copilot/pro",
+      "text": "Try GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/#hero",
+      "text": "",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.gartner.com/reprints/?id=1-2LVTG7RP&ct=250915&st=sb",
+      "text": "Read industry report",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql#about-codeql",
+      "text": "all supported languages with Copilot Autofix",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/particles-de1dd20f3008.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+      "alt": "Duolingo",
+      "title": "",
+      "width": "",
+      "height": "32"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+      "alt": "Gartner",
+      "title": "",
+      "width": "",
+      "height": "32"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.githubassets.com/assets/particles-de1dd20f3008.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5mzhSO4avmXBwkFsMzgXkW/91991e6258f14f54d23840b6c13c3013/hero-64ecd484397f.webp",
+      "alt": "Copilot Autofix identifies vulnerable code and provides an explanation, together with a secure code suggestion to remediate the vulnerability.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6WnLu9nlnemjCltZkd8lCi/b18034be25552e118a36f6617e1f84df/pillar-1-dd667a921f55.webp",
+      "alt": "A security campaign screen displays the campaign’s progress bar with 97% completed of 701 alerts. A total of 23 alerts are left with 13 in progress, and the campaign started 20 days ago. The status below shows that there are 7 days left in the campaign with a due date of November 15, 2024.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1o2Eid4RQteCr6iZ7wVauW/3c04a760442c81036d98e70c0c986a8b/pillar-2-ff69e872920a.webp",
+      "alt": "List of dependencies defined in a requirements .txt file.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3WaMDk5JuZzhaKfpRgibKz/c179c5841373ec1fd37c839bdb24a7b4/pillar-3-0a063e2daae2.webp",
+      "alt": "GitHub push protection confirms and displays an active secret, and blocks the push.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.githubassets.com/assets/particles-de1dd20f3008.png",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3ip0mnsbUMonRTsbnnIkOh/a940b7a975a801c8829c113d9799873d/hero-961322485af6.webp",
+      "alt": "A project management dashboard showing tasks for the ‘OctoArcade Invaders’ project, with tasks grouped under project phase categories like ‘Prototype,’ ‘Beta,’ and ‘Launch’ in a table layout. One of the columns displays sub-issue progress bars with percentages for each issue.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5suLHnkyPm3laA8qENQmMZ/6b267a9e449ae94968dd85c8f96fb64e/accordion-1-38ad6b6d1b20.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql#about-codeql",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+  ],
+  "page_size_bytes": 560833,
+  "meta_tags": {
+    "route-pattern": "/",
+    "route-controller": "dashboard",
+    "route-action": "index",
+    "fetch-nonce": "v2:9b1568ab-68fe-1765-8039-70646027eb78",
+    "current-catalog-service-hash": "40dc28bd654b20f337468a532ff456ed5863889cfbb4e982b793597321d48d3f",
+    "request-id": "9FCE:2F59A6:CF93C0:120764D:68D0035E",
+    "html-safe-nonce": "859631f5b5e6dfdf802eef0ce50a25ed34b873d2d738faddf0814b091d4ae3a8",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5RkNFOjJGNTlBNjpDRjkzQzA6MTIwNzY0RDo2OEQwMDM1RSIsInZpc2l0b3JfaWQiOiI1ODYxNDA5OTU0NDMxMjM5MDAyIiwicmVnaW9uX2VkZ2UiOiJqYXBhbmVhc3QiLCJyZWdpb25fcmVuZGVyIjoiamFwYW5lYXN0In0=",
+    "visitor-hmac": "eebb920c07e6c7cde507b82cc1359c62310f304033de1da47cbc665e97668523",
+    "page-subject": "GitHub",
+    "github-keyboard-shortcuts": "dashboards,copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/4UxhHBs2XnuyZ4lYQ83juV/b61529b087aeb4a318bda311edf4c345/home24.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub · Build and ship software on a single, collaborative platform",
+    "twitter:description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/4UxhHBs2XnuyZ4lYQ83juV/b61529b087aeb4a318bda311edf4c345/home24.jpg",
+    "og:image:alt": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub · Build and ship software on a single, collaborative platform",
+    "og:url": "https://github.com/",
+    "og:description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "Platform",
+    "turbo-body-classes": "logged-out env-production page-responsive header-overlay header-overlay-fixed js-header-overlay-fixed",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark",
+    "apple-mobile-web-app-title": "GitHub"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 5
+  }
+}

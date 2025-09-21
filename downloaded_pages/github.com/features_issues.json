@@ -1,0 +1,320 @@
+{
+  "url": "https://github.com/features/issues",
+  "extracted_at": "2025-09-21T21:56:22.735129",
+  "title": "GitHub Issues · Project planning for developers · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 1151,
+  "paragraph_count": 23,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "Project planning for developers"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Logos for Shopify, Vercel, Stripe, Ford, and NASA",
+      "Break issues into sub-issues",
+      "Streamline conversations",
+      "Features",
+      "Manage work automatically",
+      "Issues, where you need them",
+      "What developers are saying",
+      "Flexible project planning for developers",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "Custom fields",
+      "Track progress with project insights",
+      "Share best practices with project templates",
+      "Manage work automatically",
+      "GitHub CLI",
+      "GitHub Mobile",
+      "Frequently asked questions",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ],
+    "h4": [
+      "What is GitHub Issues?",
+      "What are Projects?",
+      "What plans have access to Projects?",
+      "Will the new Projects experience be available in GitHub Enterprise Server?"
+    ]
+  },
+  "text_content": "GitHub Issues Project planning for developers Create issues, break them into sub-issues, track progress, add custom fields, and have conversations. Visualize large projects as tables, boards, or roadmaps, and automate everything with code. Start using projects Contact sales Logos for Shopify, Vercel, Stripe, Ford, and NASA Shopify Vercel Stripe Ford Nasa Break issues into sub-issues Tackle complex issues with sub-issues and track their status with progress indicators. Navigate the full scope of work all in one view. Streamline conversations Express ideas with GitHub Flavored Markdown, mention contributors, react with emoji, clarify with attachments, and see references from commits, pull requests, releases, and deploys. Coordinate by assigning contributors and teams, or by adding them to milestones and projects. All in a single timeline. Upload and attach videos to comments Dive into work faster with issue forms and templates Features Bored of boards? Switch to tables and roadmaps. Create views for how you work. Save views for sprints, backlogs, teams, or releases. Rank, group, sort, slice and filter to suit the occasion. Create swimlanes, share templates and set work in progress limits. No mouse? No problem. Every action you can take with the mouse has a keyboard shortcut or command. Filter, sort, group, and assign issues. Your hands never leave the keyboard. Custom fields Track metadata like iterations, priority, story points, dates, notes, and links. Add custom fields to projects and edit from the issue sidebar. Track progress with project insights Track the health of your current iteration cycle, milestone, or any other custom field you create with new project insights. Identify bottlenecks and issues blocking the team from making progress with the new burn up chart. Share best practices with project templates Create templates to share and reuse when getting started with a new project. Share inspiration across teams and get started with a single click. Manage work automatically Accelerate your project planning with workflows. Automatically triage issues, set values for custom fields, or archive issues. Manage work automatically Issues, where you need them Issues can be viewed, created, and managed in your browser, your favorite terminal, or on your phone or tablet. GitHub CLI View, update, and create issues without ever leaving your terminal. Learn more GitHub Mobile Create and manage issues on the go with our native iOS and Android mobile apps. Learn more What developers are saying “ The new planning and tracking functionality keeps my project management close to my code. I no longer find myself needing to reach for spreadsheets or 3P tools which go stale instantly. Dan Godfrey Development Manager Flexible project planning for developers Start using projects Contact sales Frequently asked questions What is GitHub Issues? We all need a way to plan our work, track issues, and discuss the things we build. Our answer to this universal question is GitHub Issues, and it’s built-in to every repository. GitHub’s issue tracking is unique because of our focus on simplicity, references, and elegant formatting. With GitHub Issues, you can express ideas with GitHub Flavored Markdown, assign and mention contributors, react with emojis, clarify with attachments and videos, plus reference code like commits, pull requests, and deploys. With task lists, you can break big issues into tasks, further organize your work with milestones and labels, and track relationships and dependencies. We built GitHub Issues for developers. It is simple, adaptable, and powerful. What are Projects? As teams and projects grow, how we work evolves. Tools that hard-code a methodology are too specific and rigid to adapt to any moment. Often, we find ourselves creating a spreadsheet or pulling out a notepad to have the space to think. Then our planning is disconnected from where the work happens. The new Projects connect your planning directly to the work your teams are doing and flexibly adapt to whatever your team needs at any point. Built like a spreadsheet, project tables give you a live canvas to filter, sort, and group issues and pull requests. You can use it, or the accompanying project board, along with custom fields, to track a sprint, plan a feature, or manage a large-scale release. What plans have access to Projects? All users have access to the free tier of GitHub Issues and Projects. For more information about paid tiers, see our pricing page . Will the new Projects experience be available in GitHub Enterprise Server? Yes! GitHub Enterprise Server (GHES) support follows our regular cadence of one to two quarters before enabling the on-premises functionality.",
+  "internal_links": [
+    {
+      "url": "https://github.com/features/issues#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fissues",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fissues",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fissues&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/issues",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/issues",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/issues",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?ref_cta=Contact+sales&ref_loc=hero&ref_page=%2Ffeatures%2Fissues&utm_content=Platform&utm_medium=site&utm_source=github",
+      "text": "Contact sales",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/mobile",
+      "text": "GitHub Mobile",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?ref_cta=Contact+sales&ref_loc=cta-banner&ref_page=%2Ffeatures%2Fissues&utm_content=Platform&utm_medium=site&utm_source=github&locale=en-US",
+      "text": "Contact sales",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/pricing?locale=en-US",
+      "text": "pricing page",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues",
+      "text": "Start using projects",
+      "title": ""
+    },
+    {
+      "url": "https://cli.github.com/",
+      "text": "GitHub CLI",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues",
+      "text": "Start using projects",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/pO9gtZMPDI4UdfrSa5U3c/b3315064cc4f62dd85c5b4954d124c30/features-issues-hero.webp?fm=webp",
+      "alt": "The image shows a project management dashboard for \"OctoArcade Invaders.\" It is divided into three sections: \"Prototype,\" \"Beta,\" and \"Launch.\" Each section lists tasks with their status, assignees, and progress. Tasks are labeled as \"Complete,\" \"In Progress,\" or \"Not Started,\" with corresponding icons and progress bars indicating completion percentages.\n\n",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5tDSh8luEcpHPSzgeu4ISs/aa645ca8ac29405aad1e78faafecfc56/features-issues-river-1.webp",
+      "alt": "The image shows a project management interface with tasks and issues listed. The background is purple, and there are three overlapping task cards. The top card has a green \"Open\" status label and is titled \"Task: Updates to aliens and cannon game logic.\" The middle card has a purple \"Closed\" status label and is titled \"Update collision logic.\" The bottom card, which is the most detailed, has a green \"Open\" status label and is titled \"New rendering engine #920.\" It includes comments from a user named 'carlawonders' who commented 5 days ago about follow-up work on the new rendering engine. There are sub-issues listed under this task, including Intelligent Chatbot Support, User profiling and segmentation, User interface design for AI integration, Real-time tracking of user behavior and preferences, and Documentation and user guides\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/4HSHsQooXSDtJyqrJb9QSA/b499d224aa1e3d50715a7ee8bf864fe5/features-issues-river-2.webp",
+      "alt": "The image shows a project management interface with a teal to purple gradient background. At the top, there is a green \"Open\" label and \"3 tasks\" listed under the heading \"Improve alien character controls.\" Below this, there are three task cards. The first card is from user rajqflow, posted 5 days ago, discussing feedback from testers about sprite animations and tagging users @inesvibe, @hanksolo, and @chieda to share the beta tester report. The second card is from user inesvibe, posted 5 days ago, announcing that they have published the report with a link to octocoradeo/testerlist#13. The third card is from user khayrizen again, posted 4 days ago, mentioning dark mode support for UI #179588.\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/7047ALCiri8GoVWVdtPtke/ea075c197a6f966fd111e8d355916186/feaures-issues-timeline.webp",
+      "alt": "The image shows a project management interface with a dark theme, likely from a software development tool. The interface is divided into several sections. On the left side, there are squads listed \"Squad 1\" with 12 items, \"Squad 2\" with 3 items, and \"Squad 3\" with 16 items. Squad 1 has a list of tasks that are \"Acquire domain for launch\", \"Hero site - development\", \"Integrate with backend\", \"Final creative shots from game\", \"Enable for teams\", \"Add leaderboard for Europe\", \"Marketing plan\", \"Email blast\", and \"Feedback intake\". Squad 3 has a task labeled \"Konami code easter egg\". The main section displays a timeline showing when tasks will be completed. \n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/665ARAkl6YH4tPr0aWKDlL/d034ac805e10521fbff15a436be6f429/features-issues-river-3.webp",
+      "alt": "The image shows a task management board with a dark theme. It is divided into columns for Assignees, Labels, and Cycles. Each row lists an assignee's name, the label associated with their task (such as \"Bug,\" \"Need help,\" \"Design,\" or \"Back-end\"). There is dropdown menu expanded under the \"cycle\" column that shows different data types. The data types are \"Text\", \"Number\", \"Date\", \"Single select\", and iteration. \"Text\" is currently selected. The board is used to track tasks assigned to different individuals and their current status.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/2Pcsejoxtk4lpK3t2XLvo/25c3ffa4e35c2ef1eb7949ddc8a156ee/features-issues-river-4.webp",
+      "alt": "The image shows a line graph with data from July 1 to July 13. The x-axis represents dates, and the y-axis represents numerical values from 0 to 175. Three lines are shown: purple for \"Done\", green for \"In progress\", blue for \"To do\", and pink for \"No status\". A tooltip on July 5 shows \"Done: 74\", \"In progress: 55\", \"To do: 48\", and \"No status: 23\".\n\n",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/510KpLxZ9zibGr4CstSNOA/47db94f0c15309cbf13a8e46a22bfc10/features-issues-river-5.webp",
+      "alt": "The image shows a project management dashboard titled \"Team Planning\" with tabs for Planning, Standup, and Iterations. The Planning tab is active, displaying six tasks under the \"Kickoff\" section. Tasks include confirming roles, verifying attendees, reviewing plans, creating release issues, writing a blog post, and setting up a daily triage loop. All tasks are marked as \"Todo\" with the milestone labeled \"Kickoff\".",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/QyISunpS5bIkepYsO2COA/18e17582b270652b1c1274c9178ef138/features-issues-flow-diagram.webp",
+      "alt": "The image shows a sequence of three automation steps in a workflow. The first step is \"When a channel mention is added and assigned,\" leading to the second step, \"Archive item.\" The third step is \"When an item is archived,\" leading to the final action.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/26ePPGgPrNnFq9hOZxXe3t/01c0104a42bb047f47471accdf69f68d/features-issues-card-1.webp?fm=webp",
+      "alt": "A terminal view showing issues relevant to the user, including those assigned, mentioning, and opened by the user, categorized by status with accompanying issue numbers and brief descriptions. The image features a gradient background that transitions from purple at the top to a darker shade towards the bottom.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/5OXlTERqz45b0AZMCV9dgJ/b1dd983663da1b66284b32029fc47ba4/features-issues-card-2.webp?fm=webp",
+      "alt": "Two smartphone screens display GitHub notifications and issue details, with a purple gradient background. The left screen shows a list of notifications, including issues and pull requests from different repositories like TensorFlow and GitHub's OctoArcade Invaders. The right screen zooms in on a specific issue titled 'Save score across levels,' displaying details of the issue and a comment by user hanksolo.",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    }
+  ],
+  "social_media_links": [
+    "https://cli.github.com/",
+    "https://github.com/pricing?locale=en-US",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fissues",
+    "https://github.com/enterprise/contact?ref_cta=Contact+sales&ref_loc=cta-banner&ref_page=%2Ffeatures%2Fissues&utm_content=Platform&utm_medium=site&utm_source=github&locale=en-US",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://docs.github.com/issues"
+  ],
+  "page_size_bytes": 357877,
+  "meta_tags": {
+    "route-pattern": "/features/issues(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:817a7b13-42fb-2621-bf83-1a98caeaba65",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "C43E:F2068:D1FC0E:12304F4:68D00403",
+    "html-safe-nonce": "35bd5c5a6f991ae072e83ab401957625cc805adfa4df8eb96103fd6c2645f3fb",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNDNFOkYyMDY4OkQxRkMwRToxMjMwNEY0OjY4RDAwNDAzIiwidmlzaXRvcl9pZCI6IjQwMTI5NDQ0NjM2MDk0NjM3ODkiLCJyZWdpb25fZWRnZSI6ImphcGFuZWFzdCIsInJlZ2lvbl9yZW5kZXIiOiJqYXBhbmVhc3QifQ==",
+    "visitor-hmac": "c33cc2ec5aa44ddac06a05b0a5318dd079e68388328acf1fcaaae7d919b27e67",
+    "github-keyboard-shortcuts": "issues,copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features/issues",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/1a5nDnnvskxrjl1ZQIIuX4/f17ccd4915fadbb14102b518a3bd1cf4/features-issues-social.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Issues · Project planning for developers",
+    "twitter:description": "Give your developers flexible features for project management that adapts to any team, project, and workflow—all alongside your code.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/1a5nDnnvskxrjl1ZQIIuX4/f17ccd4915fadbb14102b518a3bd1cf4/features-issues-social.jpg",
+    "og:image:alt": "Give your developers flexible features for project management that adapts to any team, project, and workflow—all alongside your code.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Issues · Project planning for developers",
+    "og:url": "https://github.com/features/issues",
+    "og:description": "Give your developers flexible features for project management that adapts to any team, project, and workflow—all alongside your code.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "octolytics-revenue-play": "Platform",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 4
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "url": "https://github.com/resources/articles",
+  "extracted_at": "2025-09-21T21:58:46.252291",
+  "title": "All Topics · GitHub",
+  "description": "Gallery of articles for the topic All Topics",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 754,
+  "paragraph_count": 15,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "All Topics"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Topics",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "How to improve code with code reviews",
+      "What is Code Scanning?",
+      "What is secret scanning?",
+      "AI Code Reviews",
+      "What is a software bill of materials (SBOM)?",
+      "What Is Vibe Coding?",
+      "What is Infrastructure as Code (IaC)?",
+      "What is Agentic AI?",
+      "Machine Learning (ML) in Software Development",
+      "What is an API?",
+      "What is a CLI (command-line interface)?",
+      "What is open source AI?",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "All Topics Topics How to improve code with code reviews Boost code quality with effective code reviews. Learn best practices to catch bugs, automate code review, and improve software development efficiency. Learn more What is Code Scanning? Code scanning is essential because it helps developers and security teams find security vulnerabilities and errors. Keep reading for an overview of what code scanning is, how it works, and the benefits it provides. Plus, take a closer look at some code scanning tools and explore ways to enhance software security. Learn more What is secret scanning? In today's digital landscape, protecting sensitive information is crucial for maintaining the integrity and security of an organization’s software systems. Learn more AI Code Reviews Discover how AI code reviews can boost developer productivity and speed up workflows by automating error detection and providing real-time feedback. Learn more What is a software bill of materials (SBOM)? Software is built in layers. An SBOM shows what’s inside—so you can secure it. Learn more What Is Vibe Coding? Explore vibe coding: an AI-assisted way to code using plain language prompts that help you build faster and think more freely. Learn more What is Infrastructure as Code (IaC)? Treat servers like code and turn deployment chaos into predictable, automated precision. Learn more What is Agentic AI? Discover how agentic AI helps software development teams increase productivity and focus on more strategic tasks. Learn more Machine Learning (ML) in Software Development Discover how to use machine learning in software development to optimize workflows, and learn about machine learning models, pipeline integrations, and code review tools. Learn more What is an API? APIs act as bridges between different pieces of software, enabling them to communicate, share data, and work together. Learn more What is a CLI (command-line interface)? Learn how CLIs streamline tasks, automate workflows, and boost precision in your work. Learn more What is open source AI? Open source AI offers more control, clarity, and room to build the way you want. Learn more",
+  "internal_links": [
+    {
+      "url": "https://github.com/resources/articles#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews",
+      "text": "How to improve code with code reviews",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-code-scanning",
+      "text": "What is Code Scanning?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-secret-scanning",
+      "text": "What is secret scanning?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/ai/ai-code-reviews",
+      "text": "AI Code Reviews",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/security/what-is-an-sbom-software-bill-of-materials",
+      "text": "What is a software bill of materials (SBOM)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/ai/what-is-vibe-coding",
+      "text": "What Is Vibe Coding?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/devops/what-is-infrastructure-as-code",
+      "text": "What is Infrastructure as Code (IaC)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/ai/what-is-agentic-ai",
+      "text": "What is Agentic AI?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/ai/machine-learning-in-software-development",
+      "text": "Machine Learning (ML) in Software Development",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-an-api",
+      "text": "What is an API?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-a-cli",
+      "text": "What is a CLI (command-line interface)?",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/resources/articles/software-development/what-is-open-source-ai",
+      "text": "What is open source AI?",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://github.com/images/modules/site/contentful/default/md.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews",
+    "https://github.com/resources/articles/software-development/what-is-an-api",
+    "https://github.com/resources/articles/security/what-is-an-sbom-software-bill-of-materials",
+    "https://github.com/resources/articles/devops/what-is-infrastructure-as-code",
+    "https://github.com/resources/articles/ai/what-is-vibe-coding",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "https://github.com/resources/articles/ai/ai-code-reviews",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles",
+    "https://github.com/resources/articles/software-development/what-is-a-cli",
+    "https://github.com/resources/articles/security/what-is-secret-scanning",
+    "https://github.com/resources/articles/ai/what-is-agentic-ai",
+    "https://github.com/resources/articles/security/what-is-code-scanning",
+    "https://github.com/resources/articles/software-development/what-is-open-source-ai",
+    "https://github.com/resources/articles/ai/machine-learning-in-software-development"
+  ],
+  "page_size_bytes": 417072,
+  "meta_tags": {
+    "route-pattern": "/resources/articles(.:format)",
+    "route-controller": "site_resources_articles",
+    "route-action": "index",
+    "fetch-nonce": "v2:dcad8972-fb8c-460f-b2a6-ca28a1a56013",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE4CF2:11F565B:68D00493",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFNENGMjoxMUY1NjVCOjY4RDAwNDkzIiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "a5d5bffba38704bb5a655af50305777057e480575db7d91830560b556260b564",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "Gallery of articles for the topic All Topics",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/resources/articles",
+    "twitter:image": "https://github.com/opengraph.png",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "All Topics",
+    "twitter:description": "Gallery of articles for the topic All Topics",
+    "og:image": "https://github.com/opengraph.png",
+    "og:image:alt": "Gallery of articles for the topic All Topics",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "All Topics",
+    "og:url": "https://github.com/resources/articles",
+    "og:description": "Gallery of articles for the topic All Topics",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 1
+  }
+}

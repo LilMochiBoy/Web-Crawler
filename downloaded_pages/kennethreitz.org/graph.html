@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cross-Reference Graph - Kenneth Reitz</title>
+
+        <!-- SEO and Meta -->
+        <meta name="description" content="Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans." />
+        <meta name="author" content="Kenneth Reitz" />
+
+        <!-- OpenGraph -->
+        <meta property="og:title" content="Cross-Reference Graph - Kenneth Reitz" />
+        <meta property="og:description" content="Creator of Requests and Certifi - libraries trusted by millions of developers worldwide" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kennethreitz.org" />
+        <meta property="og:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Kenneth Reitz" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@kennethreitz42" />
+        <meta name="twitter:title" content="Cross-Reference Graph - Kenneth Reitz" />
+        <meta name="twitter:description" content="Creator of Requests and Certifi - libraries trusted by millions of developers worldwide" />
+        <meta name="twitter:image" content="https://kennethreitz.org/static/images/social-card.jpg" />
+
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="Kenneth Reitz - Essays &amp; AI Writings" href="/feed.xml" />
+
+        <!-- Preload critical resources -->
+        <link rel="preload" href="/static/tufte/tufte.css" as="style" />
+        <link rel="preload" href="/static/custom.css" as="style" />
+        
+        <!-- Tufte CSS -->
+        <link rel="stylesheet" href="/static/tufte/tufte.css" />
+        
+        <!-- Custom Site CSS -->
+        <link rel="stylesheet" href="/static/custom.css" />
+
+        <style>
+            /* Only page-specific or dynamic styles that can't be in external CSS */
+            
+            /* Legend dots for content guide */
+            .legend-dot {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                margin-right: 0.3rem;
+                vertical-align: middle;
+            }
+
+            /* Reading progress indicator */
+            .reading-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #333;
+                z-index: 1000;
+                transition: width 0.1s ease-out;
+            }
+
+            /* Header and nav z-index for dropdown stacking */
+            header {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            nav {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            main {
+                position: relative;
+                z-index: 1;
+            }
+            
+            article {
+                position: relative;
+                z-index: 1;
+            }
+
+            /* Dropdown navigation styles */
+            .nav-dropdown {
+                position: relative;
+                display: inline-block;
+                padding: 0.5rem;
+                margin: -0.5rem;
+                z-index: 9999;
+            }
+
+
+            .nav-dropdown .dropdown-content {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                z-index: 999999;
+                min-width: 280px;
+                padding: 0.5rem 0;
+                margin-top: -1px;
+            }
+
+            .nav-dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .nav-dropdown .dropdown-content a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: #333;
+                text-decoration: none;
+                border-bottom: none;
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .nav-dropdown .dropdown-content a:hover {
+                background-color: #f5f5f5;
+            }
+
+            .nav-dropdown .dropdown-content a .index-description {
+                display: block;
+                font-size: 0.75rem;
+                color: #666;
+                margin-top: 0.1rem;
+            }
+
+            .nav-dropdown > a::after {
+                content: "\00a0▼";
+                font-size: 0.7rem;
+                color: #999;
+            }
+        </style>
+
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Kenneth Reitz",
+            "url": "https://kennethreitz.org/",
+            "description": "Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.",
+            "author": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org",
+                "sameAs": [
+                    "https://github.com/kennethreitz",
+                    "https://twitter.com/kennethreitz42"
+                ],
+                "jobTitle": "Python Developer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Independent"
+                },
+                "knowsAbout": [
+                    "Python Programming",
+                    "API Design",
+                    "Software Architecture",
+                    "Open Source Development",
+                    "Artificial Intelligence",
+                    "Mental Health Advocacy"
+                ]
+            },
+            "publisher": {
+                "@type": "Person",
+                "name": "Kenneth Reitz",
+                "url": "https://kennethreitz.org"
+            }
+        }
+        </script>
+
+        
+
+        <!-- Analytics -->
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB9QHYEG2X"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-RB9QHYEG2X');
+        </script>
+        
+        <script type="text/javascript">
+          var _gauges = _gauges || [];
+          (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '65529a9abd1a3b3101979d52');
+            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+            t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+          })();
+        </script>
+        
+    </head>
+    <body>
+        <!-- Reading progress bar -->
+        <div class="reading-progress" id="reading-progress"></div>
+        
+        <article>
+            <header>
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="/archive">Archive</a>
+                    <a href="/themes">Themes</a>
+                    <div class="nav-dropdown">
+                        <a href="#">Indexes</a>
+                        <div class="dropdown-content">
+                            <a href="/sidenotes">
+                                Sidenotes Index
+                                <span class="index-description">696 marginalia extracted from across the garden.</span>
+                            </a>
+                            <a href="/outlines">
+                                Outlines Index
+                                <span class="index-description">1143 headings — structural navigation through essays.</span>
+                            </a>
+                            <a href="/connections">
+                                Connections Index
+                                <span class="index-description">915 outgoing and 669 incoming cross-references.</span>
+                            </a>
+                            <a href="/quotes">
+                                Quotes Index
+                                <span class="index-description">109 quotable insights and distilled wisdom.</span>
+                            </a>
+                            <a href="/terms">
+                                Term Index
+                                <span class="index-description">1633 key terms with 8661 total references.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/graph">
+                                Cross-Reference Graph
+                                <span class="index-description">Interactive network visualization of connections.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/search">
+                                Search
+                                <span class="index-description">Full-text search across all content.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="/random" class="random-link">[random]</a>
+                </nav>
+
+                
+            </header>
+
+            <main>
+                
+<article>
+    <header>
+        <h1>Cross-Reference Graph</h1>
+        <p class="subtitle">Interactive network visualization of connections between essays and ideas.</p>
+    </header>
+
+    <section>
+        <p>Each node represents an essay, each edge represents a cross-reference. Click and drag nodes to explore the network. Hover over connections to see link text.</p>
+        
+        <div class="graph-controls">
+            <button id="resetZoom">Reset View</button>
+            <button id="toggleLabels">Toggle Labels</button>
+            <span id="graphStats">Loading...</span>
+        </div>
+        
+        <div id="graph-container">
+            <svg id="network-graph" width="100%" height="600"></svg>
+        </div>
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .graph-controls {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: #f8f8f8;
+        border-radius: 6px;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .graph-controls button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ddd;
+        background: white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+
+    .graph-controls button:hover {
+        background: #f0f0f0;
+    }
+
+    #graphStats {
+        margin-left: auto;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    #graph-container {
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        overflow: hidden;
+        background: white;
+    }
+
+    #network-graph {
+        display: block;
+        width: 100%;
+        height: 600px;
+    }
+
+    .node {
+        stroke: #fff;
+        stroke-width: 1.5px;
+        cursor: pointer;
+    }
+
+    .node:hover {
+        stroke: #333;
+        stroke-width: 2px;
+    }
+
+    .link {
+        stroke: #999;
+        stroke-opacity: 0.6;
+        stroke-width: 1px;
+    }
+
+    .link:hover {
+        stroke: #333;
+        stroke-opacity: 1;
+        stroke-width: 2px;
+    }
+
+    .node-label {
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        fill: #333;
+        text-anchor: middle;
+        pointer-events: none;
+    }
+
+    .tooltip {
+        position: absolute;
+        padding: 8px;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        border-radius: 4px;
+        pointer-events: none;
+        font-size: 12px;
+        z-index: 10;
+        max-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+        #network-graph {
+            height: 400px;
+        }
+        
+        .graph-controls {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        
+        .graph-controls button {
+            margin-bottom: 0.5rem;
+        }
+        
+        #graphStats {
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+</style>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const width = document.getElementById('graph-container').clientWidth;
+    const height = 600;
+    
+    const svg = d3.select("#network-graph")
+        .attr("viewBox", [0, 0, width, height]);
+    
+    // Create tooltip
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+    
+    // Color scale for categories
+    const color = d3.scaleOrdinal(d3.schemeCategory10);
+    
+    // Create zoom behavior
+    const zoom = d3.zoom()
+        .scaleExtent([0.1, 10])
+        .on("zoom", (event) => {
+            g.attr("transform", event.transform);
+        });
+    
+    svg.call(zoom);
+    
+    // Create main group for zooming
+    const g = svg.append("g");
+    
+    // Load data and create visualization
+    d3.json("/graph/data").then(function(data) {
+        document.getElementById('graphStats').textContent = 
+            `${data.nodes.length} articles, ${data.edges.length} connections`;
+        
+        // Create force simulation
+        const simulation = d3.forceSimulation(data.nodes)
+            .force("link", d3.forceLink(data.edges).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide().radius(20));
+        
+        // Create links
+        const link = g.append("g")
+            .selectAll("line")
+            .data(data.edges)
+            .enter().append("line")
+            .attr("class", "link")
+            .on("mouseover", function(event, d) {
+                tooltip.transition().duration(200).style("opacity", .9);
+                tooltip.html(`<strong>Link:</strong> ${d.link_text}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition().duration(500).style("opacity", 0);
+            });
+        
+        // Create nodes
+        const node = g.append("g")
+            .selectAll("circle")
+            .data(data.nodes)
+            .enter().append("circle")
+            .attr("class", "node")
+            .attr("r", 8)
+            .attr("fill", d => color(d.category))
+            .on("mouseover", function(event, d) {
+                tooltip.transition().duration(200).style("opacity", .9);
+                tooltip.html(`<strong>${d.title}</strong><br/>Category: ${d.category}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition().duration(500).style("opacity", 0);
+            })
+            .on("click", function(event, d) {
+                window.open(d.url, '_blank');
+            })
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+        
+        // Create labels (initially hidden)
+        const labels = g.append("g")
+            .selectAll("text")
+            .data(data.nodes)
+            .enter().append("text")
+            .attr("class", "node-label")
+            .text(d => d.title.length > 30 ? d.title.substring(0, 30) + "..." : d.title)
+            .style("opacity", 0);
+        
+        // Update positions on simulation tick
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+            
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+            
+            labels
+                .attr("x", d => d.x)
+                .attr("y", d => d.y + 20);
+        });
+        
+        // Control functions
+        let labelsVisible = false;
+        
+        document.getElementById('resetZoom').onclick = () => {
+            svg.transition().duration(750).call(
+                zoom.transform,
+                d3.zoomIdentity
+            );
+        };
+        
+        document.getElementById('toggleLabels').onclick = () => {
+            labelsVisible = !labelsVisible;
+            labels.transition().duration(300).style("opacity", labelsVisible ? 1 : 0);
+        };
+        
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+        
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+        
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    }).catch(function(error) {
+        console.error("Error loading graph data:", error);
+        document.getElementById('graphStats').textContent = "Error loading graph data";
+    });
+});
+</script>
+
+            </main>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-note">
+                        <p>&copy; 2025 Kenneth Reitz. <a href="/colophon">Made with love</a>.</p>
+                    </div>
+                </div>
+            </footer>
+        </article>
+
+        
+
+        <!-- Force light mode, especially on mobile -->
+        <style>
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                h1, h2, h3, h4, h5, h6 {
+                    color: #333 !important;
+                }
+
+                a {
+                    color: #111 !important;
+                }
+
+                /* Force light backgrounds on all elements */
+                * {
+                    background-color: transparent !important;
+                    color: inherit !important;
+                }
+
+                /* Override any dark mode styling */
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+
+            /* Mobile-specific light mode enforcement */
+            @media (max-width: 760px) {
+                body {
+                    background-color: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+
+                * {
+                    background-color: transparent !important;
+                }
+                
+                /* Exception for dropdown background on mobile */
+                .nav-dropdown .dropdown-content {
+                    background-color: #fff !important;
+                }
+
+                body, html {
+                    background: rgb(255, 255, 248) !important;
+                    color: #111 !important;
+                }
+            }
+        </style>
+
+        <!-- Simplified Color System (light themes only) -->
+        <script>
+            (function() {
+                // Check if user prefers light mode or is on mobile
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const isMobile = window.innerWidth <= 760;
+
+                // Force light mode on mobile or if user prefers dark (override their dark preference)
+                if (isMobile || prefersDark) {
+                    document.body.style.backgroundColor = 'rgb(255, 255, 248)';
+                    document.body.style.color = '#111';
+                    return; // Skip color schemes entirely
+                }
+
+                const lightColorSchemes = [
+                    'scheme-ocean',
+                    'scheme-forest',
+                    'scheme-sunset',
+                    'scheme-lavender',
+                    'scheme-rose',
+                    'scheme-sage',
+                    'scheme-amber'
+                ];
+
+                // Get or generate a scheme based on the current page
+                let scheme = localStorage.getItem('current-color-scheme');
+
+                // Change scheme occasionally (20% chance on page load)
+                if (!scheme || Math.random() < 0.2) {
+                    scheme = lightColorSchemes[Math.floor(Math.random() * lightColorSchemes.length)];
+                    localStorage.setItem('current-color-scheme', scheme);
+                }
+
+                // Apply the scheme
+                document.body.className = (document.body.className + ' ' + scheme).trim();
+            })();
+        </script>
+
+        <script>
+            // Add copy buttons to code blocks and subtle syntax highlighting
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find all pre elements (code blocks)
+                const codeBlocks = document.querySelectorAll('pre');
+
+                // Function to add subtle comment highlighting
+                function highlightComments(pre) {
+                    const code = pre.querySelector('code') || pre;
+                    let html = code.innerHTML;
+
+                    // Python/Shell comments (# comment) - both line start and inline
+                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+
+                    // Python docstrings (""" or ''')
+                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // Python class names (class ClassName)
+                    html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');
+
+                    // JavaScript/C++/Java comments (// comment)
+                    html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // CSS/C/Java block comments (/* comment */)
+                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    // HTML comments (<!-- comment -->)
+                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+
+                    code.innerHTML = html;
+                }
+
+                codeBlocks.forEach(function(pre) {
+                    // Add subtle comment highlighting first
+                    highlightComments(pre);
+
+                    // Skip if already wrapped
+                    if (pre.parentElement.classList.contains('code-block-wrapper')) {
+                        return;
+                    }
+
+                    // Create wrapper div
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'code-block-wrapper';
+
+                    // Create copy button
+                    const copyButton = document.createElement('button');
+                    copyButton.className = 'copy-button';
+                    copyButton.textContent = 'Copy';
+                    copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+
+                    // Add click handler
+                    copyButton.addEventListener('click', async function() {
+                        try {
+                            // Get the text content of the pre element
+                            const codeText = pre.textContent || pre.innerText;
+
+                            // Use modern clipboard API if available
+                            if (navigator.clipboard && window.isSecureContext) {
+                                await navigator.clipboard.writeText(codeText);
+                            } else {
+                                // Fallback for older browsers
+                                const textArea = document.createElement('textarea');
+                                textArea.value = codeText;
+                                textArea.style.position = 'fixed';
+                                textArea.style.left = '-999999px';
+                                textArea.style.top = '-999999px';
+                                document.body.appendChild(textArea);
+                                textArea.focus();
+                                textArea.select();
+                                document.execCommand('copy');
+                                textArea.remove();
+                            }
+
+                            // Show feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Copied!';
+                            copyButton.classList.add('copied');
+
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                                copyButton.classList.remove('copied');
+                            }, 2000);
+
+                        } catch (err) {
+                            console.error('Failed to copy code: ', err);
+
+                            // Show error feedback
+                            const originalText = copyButton.textContent;
+                            copyButton.textContent = 'Failed';
+                            setTimeout(function() {
+                                copyButton.textContent = originalText;
+                            }, 2000);
+                        }
+                    });
+
+                    // Wrap the pre element and add the button
+                    pre.parentNode.insertBefore(wrapper, pre);
+                    wrapper.appendChild(pre);
+                    wrapper.appendChild(copyButton);
+                });
+            });
+
+            // Reading progress indicator
+            function updateReadingProgress() {
+                const progressBar = document.getElementById('reading-progress');
+                if (!progressBar) return;
+                
+                const mainContent = document.querySelector('main');
+                if (!mainContent) return;
+                
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight;
+                const winHeight = window.innerHeight;
+                const scrollPercent = scrollTop / (docHeight - winHeight);
+                const scrollPercentRounded = Math.round(scrollPercent * 100);
+                
+                progressBar.style.width = scrollPercentRounded + '%';
+                
+                // Only show progress bar if there's meaningful content to scroll
+                if (docHeight > winHeight * 1.5) {
+                    progressBar.style.opacity = '1';
+                } else {
+                    progressBar.style.opacity = '0';
+                }
+            }
+
+            // Create a simple fallback icon based on text
+            function createFallbackIcon(text) {
+                // Simple hash function for consistent colors
+                let hash = 0;
+                for (let i = 0; i < text.length; i++) {
+                    hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
+                }
+                
+                // Generate colors based on hash
+                const hue = Math.abs(hash) % 360;
+                const saturation = 60 + (Math.abs(hash >> 8) % 30); // 60-90%
+                const lightness = 45 + (Math.abs(hash >> 16) % 20); // 45-65%
+                
+                // Get first letter of text for simple icon
+                const letter = text.charAt(0).toUpperCase();
+                
+                return `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="8" fill="hsl(${hue}, ${saturation}%, ${lightness}%)" opacity="0.8"/>
+                    <text x="10" y="14" text-anchor="middle" fill="white" font-family="serif" font-size="11" font-weight="bold">${letter}</text>
+                </svg>`;
+            }
+
+            // Load icons for article links at the beginning of paragraphs
+            function loadArticleIcons() {
+                // Find all paragraphs that start with a link
+                const paragraphs = document.querySelectorAll('p');
+                
+                paragraphs.forEach(paragraph => {
+                    // Check if the paragraph starts with a link (no text before it)
+                    const firstNode = paragraph.firstChild;
+                    let firstElement = null;
+                    
+                    // Skip any whitespace/text nodes at the beginning
+                    for (let node = firstNode; node; node = node.nextSibling) {
+                        if (node.nodeType === Node.ELEMENT_NODE) {
+                            firstElement = node;
+                            break;
+                        } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                            // If there's non-whitespace text before any element, don't add icon
+                            return;
+                        }
+                    }
+                    
+                    // Check if first element is a link, or if it's a strong/b tag containing a link
+                    let linkElement = null;
+                    if (firstElement && firstElement.tagName === 'A') {
+                        linkElement = firstElement;
+                    } else if (firstElement && (firstElement.tagName === 'STRONG' || firstElement.tagName === 'B')) {
+                        // Check if the strong/b tag contains a link as its first child
+                        const strongFirstChild = firstElement.firstElementChild;
+                        if (strongFirstChild && strongFirstChild.tagName === 'A') {
+                            linkElement = strongFirstChild;
+                        }
+                    }
+                    
+                    if (linkElement) {
+                        const href = linkElement.getAttribute('href');
+                        
+                        // Check if it's an internal link
+                        if (href && href.startsWith('/') && !href.startsWith('//')) {
+                            // Skip if icon already exists
+                            if (paragraph.querySelector('.article-link-icon')) return;
+                            
+                            // Fetch icon with simple error handling
+                            fetch(`/api/icon${href}`)
+                                .then(response => response.ok ? response.json() : null)
+                                .then(data => {
+                                    if (data && data.success && data.icon) {
+                                        // Validate the data URL format
+                                        if (!data.icon.startsWith('data:image/svg+xml;base64,')) {
+                                            return;
+                                        }
+                                        
+                                        try {
+                                            // Decode the SVG to insert as inline SVG instead of data URL
+                                            const base64Part = data.icon.split(',')[1];
+                                            const svgContent = atob(base64Part);
+                                            
+                                            // Create a container div for the SVG
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                            `;
+                                            
+                                            // Add CSS to hide on mobile and tablet - only add once
+                                            if (!window.articleIconStylesAdded) {
+                                                const style = document.createElement('style');
+                                                style.textContent = `
+                                                    @media (max-width: 760px) {
+                                                        .article-link-icon,
+                                                        .article-link-icon.fallback {
+                                                            display: none !important;
+                                                            visibility: hidden !important;
+                                                        }
+                                                    }
+                                                `;
+                                                document.head.appendChild(style);
+                                                window.articleIconStylesAdded = true;
+                                            }
+                                            
+                                            // Insert the SVG content directly
+                                            iconContainer.innerHTML = svgContent;
+                                            
+                                            // Insert icon before the first element (which contains the link)
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            
+                                            // Add some styling to the paragraph
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If decoding fails, skip silently
+                                        }
+                                    }
+                                })
+                                .catch(() => {
+                                    // If API call fails, try to generate a fallback icon based on link text
+                                    const linkText = linkElement.textContent.trim();
+                                    if (linkText) {
+                                        try {
+                                            // Create a simple fallback icon using the link text
+                                            const fallbackIcon = createFallbackIcon(linkText);
+                                            
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon fallback';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                                opacity: 0.6;
+                                            `;
+                                            
+                                            iconContainer.innerHTML = fallbackIcon;
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            paragraph.style.position = 'relative';
+                                        } catch (e) {
+                                            // If even fallback fails, just skip
+                                        }
+                                    }
+                                });
+                        }
+                    }
+                });
+            }
+
+            // Initialize reading progress on pages with substantial content
+            document.addEventListener('DOMContentLoaded', function() {
+                // Only load article icons on content pages, not index/archive pages
+                const currentPath = window.location.pathname;
+                const isIndexPage = currentPath === '/' || 
+                                   currentPath === '/archive' || 
+                                   currentPath.endsWith('/index') ||
+                                   currentPath.match(/^\/(archive|search|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
+                
+                if (!isIndexPage) {
+                    // Load article icons
+                    loadArticleIcons();
+                }
+                
+                // Check if this is a content page (essay/article) rather than an index
+                const isContentPage = document.querySelector('main').textContent.length > 2000;
+                
+                if (isContentPage) {
+                    window.addEventListener('scroll', updateReadingProgress);
+                    window.addEventListener('resize', updateReadingProgress);
+                    updateReadingProgress(); // Initial call
+                }
+
+                // Lazy loading for images
+                if ('IntersectionObserver' in window) {
+                    const imageObserver = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                if (img.dataset.src) {
+                                    img.src = img.dataset.src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, {
+                        rootMargin: '50px 0px'
+                    });
+
+                    // Apply lazy loading to all images with data-src
+                    document.querySelectorAll('img[data-src]').forEach(img => {
+                        imageObserver.observe(img);
+                    });
+                }
+            });
+
+        </script>
+    </body>
+</html>

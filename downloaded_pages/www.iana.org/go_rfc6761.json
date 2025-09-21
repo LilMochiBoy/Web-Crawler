@@ -1,0 +1,360 @@
+{
+  "url": "https://www.iana.org/go/rfc6761",
+  "extracted_at": "2025-09-21T21:52:25.067969",
+  "title": "RFC 6761: Special-Use Domain Names",
+  "description": "No description found",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": null,
+  "word_count": 3902,
+  "paragraph_count": 0,
+  "heading_structure": {},
+  "text_content": "[ RFC Home ] [ TEXT | PDF | HTML ] [ Tracker ] [ IPR ] [ Errata ] [ Info page ] PROPOSED STANDARD Errata Exist Internet Engineering Task Force (IETF) S. Cheshire Request for Comments: 6761 M. Krochmal Updates: 1918 , 2606 Apple Inc. Category: Standards Track February 2013 ISSN: 2070-1721 Special-Use Domain Names Abstract This document describes what it means to say that a Domain Name (DNS name) is reserved for special use, when reserving such a name is appropriate, and the procedure for doing so. It establishes an IANA registry for such domain names, and seeds it with entries for some of the already established special domain names. Status of This Memo This is an Internet Standards Track document. This document is a product of the Internet Engineering Task Force (IETF). It represents the consensus of the IETF community. It has received public review and has been approved for publication by the Internet Engineering Steering Group (IESG). Further information on Internet Standards is available in Section 2 of RFC 5741 . Information about the current status of this document, any errata, and how to provide feedback on it may be obtained at http://www.rfc-editor.org/info/rfc6761 . Copyright Notice Copyright (c) 2013 IETF Trust and the persons identified as the document authors. All rights reserved. This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents ( http://trustee.ietf.org/license-info ) in effect on the date of publication of this document. Please review these documents carefully, as they describe your rights and restrictions with respect to this document. Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License. Cheshire & Krochmal Standards Track [Page 1] RFC 6761 Special-Use Domain Names February 2013 1 . Introduction Certain individual IP addresses and IP address ranges are treated specially by network implementations and, consequently, are not suitable for use as unicast addresses. For example, IPv4 addresses 224.0.0.0 to 239.255.255.255 are multicast addresses [ RFC5735 ], with 224.0.0.1 being the \"all hosts\" multicast address [ RFC1112 ] [ RFC5771 ]. Another example is 127.0.0.1, the IPv4 \"local host\" address [ RFC5735 ]. Analogous to Special-Use IPv4 Addresses [ RFC5735 ], the Domain Name System (DNS) [ RFC1034 ][RFC1035] has its own concept of reserved names, such as \"example.com.\", \"example.net.\", and \"example.org.\", or any name falling under the top-level pseudo-domain \"invalid.\" [ RFC2606 ]. However, \"Reserved Top Level DNS Names\" [ RFC2606 ] does not state whether implementations are expected to treat such names differently, and if so, in what way. This document specifies under what circumstances special treatment is appropriate, and in what ways. 2 . Terminology The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in \"Key words for use in RFCs to Indicate Requirement Levels\" [ RFC2119 ]. 3 . Applicability When IP multicast was created [ RFC1112 ], implementations had to be updated to understand what an IP multicast address means and what to do with it. Adding IP multicast to a networking stack entailed more than merely adding the right routing table entries for those addresses. Moreover, supporting IP multicast entails some level of commonality that is consistent across all conformant hosts, independent of what networks those hosts may be connected to. While it is possible to build a private isolated network using whatever valid unicast IP addresses and routing topology one chooses (regardless of whether those unicast IP addresses are already in use by other hosts on the public Internet), the IPv4 multicast address 224.0.0.1 is always the \"all hosts\" multicast address, and that's not a local decision. Similarly, if a domain name has special properties that affect the way hardware and software implementations handle the name, that apply universally regardless of what network the implementation may be connected to, then that domain name may be a candidate for having the Cheshire & Krochmal Standards Track [Page 2] RFC 6761 Special-Use Domain Names February 2013 IETF declare it to be a Special-Use Domain Name and specify what special treatment implementations should give to that name. On the other hand, if declaring a given name to be special would result in no change to any implementations, then that suggests that the name may not be special in any material way, and it may be more appropriate to use the existing DNS mechanisms [ RFC1034 ] to provide the desired delegation, data, or lack-of-data, for the name in question. Where the desired behaviour can be achieved via the existing domain name registration processes, that process should be used. Reservation of a Spe...",
+  "internal_links": [
+    {
+      "url": "https://www.iana.org/rfc/rfc6761.txt",
+      "text": "TEXT",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/rfc/pdfrfc/rfc6761.txt.pdf",
+      "text": "PDF",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/rfc/rfc6761.html",
+      "text": "HTML",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/errata/rfc6761",
+      "text": "Errata",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1918",
+      "text": "1918",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "2606",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5741#section-2",
+      "text": "Section 2 of RFC 5741",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-1",
+      "text": "1",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5735",
+      "text": "RFC5735",
+      "title": "\"Special Use IPv4 Addresses\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1112",
+      "text": "RFC1112",
+      "title": "\"Host extensions for IP multicasting\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5771",
+      "text": "RFC5771",
+      "title": "\"IANA Guidelines for IPv4 Multicast Address Assignments\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5735",
+      "text": "RFC5735",
+      "title": "\"Special Use IPv4 Addresses\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5735",
+      "text": "RFC5735",
+      "title": "\"Special Use IPv4 Addresses\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1034",
+      "text": "RFC1034",
+      "title": "\"Domain names - concepts and facilities\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "RFC2606",
+      "title": "\"Reserved Top Level DNS Names\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "RFC2606",
+      "title": "\"Reserved Top Level DNS Names\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-2",
+      "text": "2",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2119",
+      "text": "RFC2119",
+      "title": "\"Key words for use in RFCs to Indicate Requirement Levels\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-3",
+      "text": "3",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1112",
+      "text": "RFC1112",
+      "title": "\"Host extensions for IP multicasting\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1034",
+      "text": "RFC1034",
+      "title": "\"Domain names - concepts and facilities\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1035",
+      "text": "RFC1035",
+      "title": "\"Domain names - implementation and specification\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1034",
+      "text": "RFC1034",
+      "title": "\"Domain names - concepts and facilities\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1035",
+      "text": "RFC1035",
+      "title": "\"Domain names - implementation and specification\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-4",
+      "text": "4",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc5226",
+      "text": "RFC5226",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1112",
+      "text": "RFC1112",
+      "title": "\"Host extensions for IP multicasting\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc3927",
+      "text": "RFC3927",
+      "title": "\"Dynamic Configuration of IPv4 Link-Local Addresses\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc4862",
+      "text": "RFC4862",
+      "title": "\"IPv6 Stateless Address Autoconfiguration\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-5",
+      "text": "5",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6",
+      "text": "6",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1918",
+      "text": "RFC1918",
+      "title": "\"Address Allocation for Private Internets\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc2606",
+      "text": "RFC2606",
+      "title": "\"Reserved Top Level DNS Names\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6.1",
+      "text": "6.1",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc1918",
+      "text": "RFC1918",
+      "title": "\"Address Allocation for Private Internets\""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6.2",
+      "text": "6.2",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6.3",
+      "text": "6.3",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6.4",
+      "text": "6.4",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-6.5",
+      "text": "6.5",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761",
+      "text": "RFC 6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.iana.org/go/rfc6761#section-7",
+      "text": "7",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://www.rfc-editor.org",
+      "text": "RFC Home",
+      "title": "RFC Editor"
+    },
+    {
+      "url": "https://datatracker.ietf.org/doc/rfc6761",
+      "text": "Tracker",
+      "title": "IETF Datatracker information for this document"
+    },
+    {
+      "url": "https://datatracker.ietf.org/ipr/search/?rfc=6761&submit=rfc",
+      "text": "IPR",
+      "title": "IPR disclosures related to this document"
+    },
+    {
+      "url": "https://www.rfc-editor.org/info/rfc6761",
+      "text": "Info page",
+      "title": "Info page"
+    },
+    {
+      "url": "https://www.rfc-editor.org/info/rfc6761",
+      "text": "http://www.rfc-editor.org/info/rfc6761",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp78",
+      "text": "BCP 78",
+      "title": ""
+    },
+    {
+      "url": "http://trustee.ietf.org/license-info",
+      "text": "http://trustee.ietf.org/license-info",
+      "title": ""
+    },
+    {
+      "url": "http://res-dom.iana.org",
+      "text": "http://res-dom.iana.org",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp14",
+      "text": "BCP 14",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp26",
+      "text": "BCP 26",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp5",
+      "text": "BCP 5",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp32",
+      "text": "BCP 32",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp153",
+      "text": "BCP 153",
+      "title": ""
+    },
+    {
+      "url": "https://www.rfc-editor.org/bcp/bcp51",
+      "text": "BCP 51",
+      "title": ""
+    }
+  ],
+  "images": [],
+  "social_media_links": [],
+  "page_size_bytes": 42623,
+  "meta_tags": {
+    "robots": "index,follow",
+    "creator": "rfchandler version 0.2",
+    "citation_author": "M. Krochmal",
+    "citation_publication_date": "February, 2013",
+    "citation_title": "Special-Use Domain Names",
+    "citation_doi": "10.17487/RFC6761",
+    "citation_issn": "2070-1721",
+    "citation_technical_report_number": "rfc6761",
+    "citation_pdf_url": "https://www.rfc-editor.org/rfc/pdfrfc/rfc6761.txt.pdf"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 0
+  }
+}

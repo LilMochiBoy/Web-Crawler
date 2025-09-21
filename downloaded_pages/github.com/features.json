@@ -1,0 +1,671 @@
+{
+  "url": "https://github.com/features",
+  "extracted_at": "2025-09-21T21:58:08.169804",
+  "title": "GitHub Features · GitHub",
+  "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+  "keywords": [],
+  "language": "en",
+  "author": "Unknown",
+  "publication_date": "2025",
+  "word_count": 1947,
+  "paragraph_count": 69,
+  "heading_structure": {
+    "h1": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "The tools you need to build what you want"
+    ],
+    "h2": [
+      "Navigation Menu",
+      "Use saved searches to filter your results more quickly",
+      "Experience AI with Copilot Chat",
+      "The latest GitHub previews",
+      "Collaborative Coding",
+      "Automation and CI/CD",
+      "Application security",
+      "Client apps",
+      "Project management",
+      "Governance & administration",
+      "Community",
+      "Site-wide Links"
+    ],
+    "h3": [
+      "/features Flex - Collaborative Coding - River Breakout",
+      "GitHub Codespaces",
+      "GitHub Copilot",
+      "Pull requests",
+      "Discussions",
+      "Code search & code view",
+      "Code review",
+      "Draft pull requests",
+      "Protected branches",
+      "/features Flex - Automation and CI/CD - River Breakout",
+      "GitHub Actions",
+      "GitHub Packages",
+      "APIs",
+      "GitHub Marketplace",
+      "Webhooks",
+      "GitHub-hosted runners",
+      "Self-hosted runners",
+      "Workflow visualization",
+      "Workflow templates",
+      "Application security where found means fixed. Powered by GitHub Copilot Autofix.",
+      "Code scanning",
+      "GitHub Copilot Autofix",
+      "Security campaigns",
+      "Secret scanning",
+      "GitHub Copilot secret scanning",
+      "Dependency graph",
+      "Dependabot alerts",
+      "Dependabot security and version updates",
+      "Dependency review",
+      "GitHub security advisories",
+      "Private vulnerability reporting",
+      "GitHub Advisory Database",
+      "Access GitHub anywhere: On Desktop, Mobile, and Command Line.",
+      "GitHub Mobile",
+      "GitHub CLI",
+      "GitHub Desktop",
+      "Keep feature requests, bugs, and more organized.",
+      "GitHub Projects",
+      "GitHub Issues",
+      "Milestones",
+      "Charts and insights",
+      "Org dependency insights",
+      "Repository insights",
+      "Wikis",
+      "Simplify access and permissions management across your projects and teams.",
+      "Organizations",
+      "Teams",
+      "Team sync",
+      "Custom roles",
+      "Custom repository roles",
+      "Domain verification",
+      "Compliance reports",
+      "Audit log",
+      "Repository rules",
+      "Requires GitHub Enterprise",
+      "GitHub Connect",
+      "SAML",
+      "LDAP",
+      "Enterprise Managed Users",
+      "Bring your own identity provider for Enterprise Managed Users",
+      "Community",
+      "GitHub Sponsors",
+      "GitHub Skills",
+      "Electron",
+      "Education",
+      "Ready to get started?",
+      "Subscribe to our developer newsletter",
+      "Platform",
+      "Ecosystem",
+      "Support",
+      "Company"
+    ]
+  },
+  "text_content": "The tools you need to build what you want Experience AI with Copilot Chat Learn more The latest GitHub previews Learn more Collaborative Coding /features Flex - Collaborative Coding - River Breakout Innovate faster with seamless collaboration. See the changes you care about. Build community around your code. GitHub Codespaces Spin up fully configured dev environments in the cloud with the full power of your favorite editor. Learn more GitHub Copilot Get suggestions for whole lines of code or entire functions right inside your editor. Learn more Pull requests Receive notifications of contributor changes to a repository, with specified access limits, and seamlessly merge accepted updates. Learn more Discussions Dedicated space for your community to come together, ask and answer questions, and have open-ended conversations. Learn more Code search & code view Rapidly search, navigate, and understand code right from GitHub.com with our powerful new tools. Learn more Code review Review new code, visualize changes, and merge confidently with automated status checks. Learn more Draft pull requests Collaborate and discuss changes without a formal review or the risk of unwanted merges. Learn more Protected branches Enforce branch merge restrictions by requiring reviews or limiting access to specific contributors. Learn more Automation and CI/CD /features Flex - Automation and CI/CD - River Breakout Automate everything: CI/CD, testing, planning, project management, issue labeling, approvals, onboarding, and more Standardize and scale best practices, security, and compliance across your organization. Get started quickly with thousands of actions from partners and the community. GitHub Actions Automate your software workflows by writing tasks and combining them to build, test, and deploy faster from GitHub. Learn more GitHub Packages Host your own software packages or use them as dependencies in other projects, with both private and public hosting available. Learn more APIs Create calls to get all the data and events you need within GitHub, and automatically kick off and advance your software workflows. Learn more GitHub Marketplace Leverage thousands of actions and applications from our community to help build, improve, and accelerate your workflows. Learn more Webhooks Dozens of events and a webhooks API help you integrate with and automate work for your repository, organization, or application. Learn more GitHub-hosted runners Move automation to the cloud with on-demand Linux, macOS, Windows, ARM, and GPU environments for your workflow runs, all hosted by GitHub. Learn more Self-hosted runners Gain more environments and fuller control with labels, groups, and policies to manage runs on your own machines, plus an open source runner application. Learn more Workflow visualization Map workflows, track their progression in real time, understand complex workflows, and communicate status with the rest of the team. Learn more Workflow templates Standardize and scale best practices and processes with preconfigured workflow templates shared across your organization. Learn more Application security Application security where found means fixed. Powered by GitHub Copilot Autofix. Application security where found means fixed. Powered by GitHub Copilot Autofix. Explore GitHub Advanced Security Prevent, find, and fix application vulnerabilities and leaked secrets. Target historical alerts to reduce security debt at scale. Built into the GitHub platform that developers know and love. Code scanning Find vulnerabilities in your code with CodeQL, GitHub’s industry-leading semantic code analysis. Prevent new vulnerabilities from being introduced by scanning every pull request. Learn more GitHub Copilot Autofix Powered by GitHub Copilot, generate automatic fixes for 90% of alert types in JavaScript, TypeScript, Java, and Python. Quickly remediate with contextual vulnerability intelligence and advice. Learn more Security campaigns Solve your backlog of application security debt with security campaigns that target and generate autofixes for up to 1,000 alerts at a time, rapidly reducing the risk of vulnerabilities and zero-day attacks. Learn more Secret scanning Detect exposed secrets in your public and private repositories, and revoke them to secure access to your services. Learn more GitHub Copilot secret scanning Additional AI capabilities to detect elusive secrets like passwords. Learn more Dependency graph View the packages your project relies on, the repositories that depend on them, and any vulnerabilities detected in their dependencies. Learn more Dependabot alerts Receive alerts when new vulnerabilities affect your repositories, with GitHub detecting and notifying you of vulnerable dependencies in both public and private repositories. Learn more Dependabot security and version updates Keep your code secure by automatically opening pull requests that update vulnerable or out-of-date dependencies. Learn more Dependency review Assess ...",
+  "internal_links": [
+    {
+      "url": "https://github.com/features#start-of-content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/",
+      "text": "",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures",
+      "text": "Sign in",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures&source=header",
+      "text": "Sign up",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features",
+      "text": "Reload",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot?locale=en-US",
+      "text": "Experience AI with Copilot Chat",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/preview?locale=en-US",
+      "text": "The latest GitHub previews",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/codespaces?locale=en-US",
+      "text": "GitHub Codespaces",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/copilot?locale=en-US",
+      "text": "GitHub Copilot",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/features/code-search?locale=en-US",
+      "text": "Code search & code view",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/marketplace?type=actions&locale=en-US",
+      "text": "GitHub Marketplace",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/advanced-security?locale=en-US",
+      "text": "Explore GitHub Advanced Security",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/mobile?locale=en-US",
+      "text": "GitHub Mobile",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/sponsors?locale=en-US",
+      "text": "GitHub Sponsors",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/education?locale=en-US",
+      "text": "Education",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/pricing?locale=en-US",
+      "text": "View pricing plans",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/enterprise/contact?locale=en-US",
+      "text": "Contact sales",
+      "title": ""
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "GitHub Universe 2025",
+      "title": ""
+    },
+    {
+      "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=2025globalbanner2",
+      "text": "Choose your favorites.",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "Search syntax tips",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+      "text": "documentation",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+      "text": "Pull requests",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/discussions",
+      "text": "Discussions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests",
+      "text": "Code review",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests",
+      "text": "Draft pull requests",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches",
+      "text": "Protected branches",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions",
+      "text": "GitHub Actions",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/packages",
+      "text": "GitHub Packages",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/get-started/exploring-integrations/about-building-integrations",
+      "text": "APIs",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks",
+      "text": "Webhooks",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions/using-github-hosted-runners/about-github-hosted-runners",
+      "text": "GitHub-hosted runners",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions/hosting-your-own-runners",
+      "text": "Self-hosted runners",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions/managing-workflow-runs/using-the-visualization-graph",
+      "text": "Workflow visualization",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/actions/getting-started-with-github-actions/starting-with-preconfigured-workflow-templates",
+      "text": "Workflow templates",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning",
+      "text": "Code scanning",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning",
+      "text": "GitHub Copilot Autofix",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/code-security/securing-your-organization/fixing-security-alerts-at-scale&sa=D&source=docs&ust=1729524438944416&usg=AOvVaw2kubAWlMROH_emJPRJQNWU",
+      "text": "Security campaigns",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/secret-scanning/about-secret-scanning",
+      "text": "Secret scanning",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/responsible-ai-generic-secrets",
+      "text": "GitHub Copilot secret scanning",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph",
+      "text": "Dependency graph",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#github-dependabot-alerts-for-vulnerable-dependencies",
+      "text": "Dependabot alerts",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates",
+      "text": "Dependabot security and version updates",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request",
+      "text": "Dependency review",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/security-advisories/repository-security-advisories/about-repository-security-advisories",
+      "text": "GitHub security advisories",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability",
+      "text": "Private vulnerability reporting",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/code-security/security-advisories/global-security-advisories/browsing-security-advisories-in-the-github-advisory-database#about-the-github-advisory-database",
+      "text": "GitHub Advisory Database",
+      "title": ""
+    },
+    {
+      "url": "https://cli.github.com/",
+      "text": "GitHub CLI",
+      "title": ""
+    },
+    {
+      "url": "https://desktop.github.com/",
+      "text": "GitHub Desktop",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects",
+      "text": "GitHub Projects",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues",
+      "text": "GitHub Issues",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues/using-labels-and-milestones-to-track-work/about-milestones",
+      "text": "Milestones",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project",
+      "text": "Charts and insights",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization#viewing-organization-dependency-insights",
+      "text": "Org dependency insights",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/repositories/viewing-activity-and-data-for-your-repository/viewing-a-summary-of-repository-activity",
+      "text": "Repository insights",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/communities/documenting-your-project-with-wikis/about-wikis",
+      "text": "Wikis",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/organizations",
+      "text": "Organizations",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/organizations/organizing-members-into-teams/about-teams",
+      "text": "Teams",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization",
+      "text": "Team sync",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/get-started/learning-about-github/access-permissions-on-github",
+      "text": "Custom roles",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization",
+      "text": "Custom repository roles",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization",
+      "text": "Domain verification",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/admin/overview/accessing-compliance-reports-for-your-enterprise",
+      "text": "Compliance reports",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization#using-the-audit-log-api",
+      "text": "Audit log",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets",
+      "text": "Repository rules",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-cloud@latest/admin/overview/about-enterprise-accounts",
+      "text": "Requires GitHub Enterprise",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/enterprise-server@latest/admin/configuration/configuring-github-connect/about-github-connect",
+      "text": "GitHub Connect",
+      "title": ""
+    },
+    {
+      "url": "https://docs.github.com/github-ae@latest/admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam",
+      "text": "SAML",
+      "title": ""
+    }
+  ],
+  "images": [
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-logo-5eb07c67b514.svg",
+      "alt": "",
+      "title": "",
+      "width": "140",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-1-0b3863c12028.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "78"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-cloud-2-47e97c624870.webp",
+      "alt": "",
+      "title": "",
+      "width": "212",
+      "height": "80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/universe_25_1-butterfly-31bb62a429fc.svg",
+      "alt": "",
+      "title": "",
+      "width": "26",
+      "height": "16"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/7Bv5uQ6zplvyklwA8v2ETv/4c37d0fea45df8c5b951525a19b54e93/Hero-background.webp?w=2400&fm=jpg&fl=progressive",
+      "alt": "",
+      "title": "",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/vKhwDJy0MsI9KYmvPizOl/1a57ca6665e90c3d2a95bcdd70741970/section-collaboration.webp",
+      "alt": "GitHub code review showing a change to include variableDeprecations with versionDeprecations and selectorDeprecations. The old line is red and the new line is green. Below, three users comment on the teamwork, ending with a 'Resolve conversation' button.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/1u8VAUzHlvzWCiMmZKnc4M/5053f64c15bd112e79bfad62d5f2adda/section-automation.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/6xhL3DGJWO81pKW5fKbPXp/2df90d737a5113f939607b84ce4b09d9/section-security-illo.webp",
+      "alt": "Screenshot illustrating GitHub Advanced Security (GHAS) in action. The left side shows a line graph tracking the number of vulnerabilities by severity (Critical, High, Moderate, Low) over time, with data points from January 1 to February 15, 2024. The right side displays a security bot's recommendation to fix a vulnerability in the code. The bot explains that user-provided input is being used in an HTTP response without sanitization, potentially leading to a cross-site scripting (XSS) attack. The AI-suggested fix involves using the escape-html library to sanitize the input, with the old code in red and the new, corrected code in green. The background features a smooth blue gradient.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/3XJsDOyIeOMixRJVl872U/f46132595c55085b67b3d04a1637541d/section-apps.webp",
+      "alt": "Access GitHub anywhere: On Desktop, Mobile, and Command Line.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/27eLhmIKAlEcRSEIyJvNCa/3e2df8371033833f91920ae9269f2595/section-project-management.webp",
+      "alt": "Screenshot of a GitHub Projects board titled 'Product Roadmap,' displaying three columns: Backlog, In Progress, and Triage. Each column contains cards representing issues or tasks, with labels and tags indicating status, priority, iteration.",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/67xCi4ySv2uzIrU9D3ecS8/7a69be605ac676e20675bc7816063dc2/section-team-administration.webp",
+      "alt": "GitHub Team Admin board showing access levels for a private repo: 23 members with read access, 14 with direct access, 12 via org. 'Manage access' section lists roles and edit options. Background has a pink-to-purple gradient.        4o",
+      "title": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "url": "https://images.ctfassets.net/8aevphvgewt8/7pSw25npMgroimWegbSz9T/11e779d27902128a71c520912dc84fb0/section-community.webp",
+      "alt": "",
+      "title": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "social_media_links": [
+    "https://github.com/sponsors?locale=en-US",
+    "https://docs.github.com/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets",
+    "https://github.com/enterprise/contact?locale=en-US",
+    "https://github.com/features/code-search?locale=en-US",
+    "https://docs.github.com/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#github-dependabot-alerts-for-vulnerable-dependencies",
+    "https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/provisioning-user-accounts-with-scim/provisioning-users-and-groups-with-scim-using-the-rest-api",
+    "https://docs.github.com/communities/documenting-your-project-with-wikis/about-wikis",
+    "https://github.com/marketplace?type=actions&locale=en-US",
+    "https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests",
+    "https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects",
+    "https://docs.github.com/organizations",
+    "https://docs.github.com/actions/hosting-your-own-runners",
+    "https://docs.github.com/actions/getting-started-with-github-actions/starting-with-preconfigured-workflow-templates",
+    "https://docs.github.com/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning",
+    "https://docs.github.com/get-started/exploring-integrations/about-building-integrations",
+    "https://docs.github.com/enterprise-server@latest/admin/configuration/configuring-github-connect/about-github-connect",
+    "https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests",
+    "https://docs.github.com/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization#using-the-audit-log-api",
+    "https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request",
+    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+    "/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures",
+    "https://docs.github.com/code-security/security-advisories/repository-security-advisories/about-repository-security-advisories",
+    "https://github.com/mobile?locale=en-US",
+    "https://docs.github.com/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph",
+    "https://docs.github.com/enterprise-cloud@latest/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization#viewing-organization-dependency-insights",
+    "https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users",
+    "https://github.com/education?locale=en-US",
+    "https://docs.github.com/en/enterprise-cloud@latest/code-security/securing-your-organization/fixing-security-alerts-at-scale&sa=D&source=docs&ust=1729524438944416&usg=AOvVaw2kubAWlMROH_emJPRJQNWU",
+    "https://docs.github.com/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization",
+    "https://docs.github.com/actions",
+    "https://docs.github.com/packages",
+    "https://docs.github.com/enterprise-cloud@latest/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization",
+    "https://github.com/pricing?locale=en-US",
+    "https://skills.github.com/",
+    "https://docs.github.com/code-security/security-advisories/global-security-advisories/browsing-security-advisories-in-the-github-advisory-database#about-the-github-advisory-database",
+    "https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://github.com/features/codespaces?locale=en-US",
+    "https://github.com/features/copilot?locale=en-US",
+    "https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning",
+    "https://docs.github.com/enterprise-cloud@latest/admin/overview/about-enterprise-accounts",
+    "https://docs.github.com/issues/using-labels-and-milestones-to-track-work/about-milestones",
+    "https://docs.github.com/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization",
+    "https://docs.github.com/github-ae@latest/admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam",
+    "https://github.com/enterprise/advanced-security?locale=en-US",
+    "https://docs.github.com/get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks",
+    "https://docs.github.com/issues",
+    "https://docs.github.com/enterprise-server@latest/admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap",
+    "https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/responsible-ai-generic-secrets",
+    "https://docs.github.com/actions/managing-workflow-runs/using-the-visualization-graph",
+    "https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches",
+    "https://docs.github.com/code-security/secret-scanning/about-secret-scanning",
+    "https://docs.github.com/discussions",
+    "https://docs.github.com/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability",
+    "https://docs.github.com/enterprise-cloud@latest/admin/overview/accessing-compliance-reports-for-your-enterprise",
+    "https://desktop.github.com/",
+    "https://docs.github.com/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates",
+    "https://github.com/features/preview?locale=en-US",
+    "https://docs.github.com/organizations/organizing-members-into-teams/about-teams",
+    "https://docs.github.com/actions/using-github-hosted-runners/about-github-hosted-runners",
+    "https://cli.github.com/",
+    "https://docs.github.com/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project",
+    "https://docs.github.com/repositories/viewing-activity-and-data-for-your-repository/viewing-a-summary-of-repository-activity",
+    "https://docs.github.com/get-started/learning-about-github/access-permissions-on-github"
+  ],
+  "page_size_bytes": 619730,
+  "meta_tags": {
+    "route-pattern": "/features(.:format)",
+    "route-controller": "site_landing_pages",
+    "route-action": "show",
+    "fetch-nonce": "v2:d90a1641-b384-238b-673a-f9472033f031",
+    "current-catalog-service-hash": "3b3a86e94adb1936974b9e80c6c5c959f35b1d5f75b93677737ffa36daf92bbd",
+    "request-id": "E176:FB39A:CE3D61:11F4191:68D0046D",
+    "html-safe-nonce": "9a796fef62ca832676a1d074586c44740fd7ba784dcecdac2dd9ebd884b1347d",
+    "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFMTc2OkZCMzlBOkNFM0Q2MToxMUY0MTkxOjY4RDAwNDZEIiwidmlzaXRvcl9pZCI6IjQ2NjQ3NTQwMzM0NDYxMDQwNSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImphcGFuZWFzdCJ9",
+    "visitor-hmac": "c6c629c5d072f49ad82ba09056b0b1e8a629a5a7bc45afaca1340f61e6119eee",
+    "github-keyboard-shortcuts": "copilot",
+    "google-site-verification": "Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I",
+    "octolytics-url": "https://collector.github.com/github/collect",
+    "viewport": "width=device-width",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "fb:app_id": "1401488693436528",
+    "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/features",
+    "twitter:image": "https://images.ctfassets.net/8aevphvgewt8/6vgtqoibaAF0CeBalgrnAv/2c5f7cc57411fd93a36bd8306a93fc20/features-social.jpg",
+    "twitter:site": "@github",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GitHub Features",
+    "twitter:description": "Get the right tools for the job. Automate your CI/CD and DevOps workflow with GitHub Actions, build securely, manage teams and projects, and review code in one place.",
+    "og:image": "https://images.ctfassets.net/8aevphvgewt8/6vgtqoibaAF0CeBalgrnAv/2c5f7cc57411fd93a36bd8306a93fc20/features-social.jpg",
+    "og:image:alt": "Get the right tools for the job. Automate your CI/CD and DevOps workflow with GitHub Actions, build securely, manage teams and projects, and review code in one place.",
+    "og:site_name": "GitHub",
+    "og:type": "object",
+    "og:title": "GitHub Features",
+    "og:url": "https://github.com/features",
+    "og:description": "Get the right tools for the job. Automate your CI/CD and DevOps workflow with GitHub Actions, build securely, manage teams and projects, and review code in one place.",
+    "hostname": "github.com",
+    "expected-hostname": "github.com",
+    "turbo-cache-control": "no-cache",
+    "is_logged_out_page": "true",
+    "octolytics-page-type": "marketing",
+    "turbo-body-classes": "logged-out env-production page-responsive header-dark",
+    "browser-stats-url": "https://api.github.com/_private/browser/stats",
+    "browser-errors-url": "https://api.github.com/_private/browser/errors",
+    "release": "3a83c532047a42870ed81147b0dab76c3feb8943",
+    "ui-target": "full",
+    "theme-color": "#1e2327",
+    "color-scheme": "light dark"
+  },
+  "structured_data": [],
+  "content_sections": {
+    "article": 0,
+    "navigation": 0,
+    "sidebar": 0,
+    "footer": 0,
+    "header": 8
+  }
+}

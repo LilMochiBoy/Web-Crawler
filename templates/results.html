@@ -1,0 +1,319 @@
+{% extends "base.html" %}
+
+{% block title %}Browse Results - Web Crawler{% endblock %}
+
+{% block content %}
+<div class="p-4">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="h2 mb-0"><i class="fas fa-database"></i> Crawl Results</h1>
+            <p class="text-muted">Browse and export your crawled data</p>
+        </div>
+        <div class="col-auto">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </div>
+    </div>
+    
+    <!-- Export Form -->
+    <div class="row mb-4">
+        <div class="col">
+            <div class="export-form">
+                <h5><i class="fas fa-download"></i> Export Data</h5>
+                <form method="POST" action="{{ url_for('export_data') }}" class="row g-3">
+                    <div class="col-md-3">
+                        <label for="format" class="form-label">Format</label>
+                        <select class="form-select" id="format" name="format" required>
+                            <option value="csv" selected>CSV</option>
+                            <option value="json">JSON</option>
+                            <option value="html">HTML Report</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <label for="session" class="form-label">Session Filter</label>
+                        <select class="form-select" id="session" name="session">
+                            <option value="">All Sessions</option>
+                            {% for session in sessions %}
+                            <option value="{{ session }}" {% if session|string == session_filter %}selected{% endif %}>
+                                Session {{ session }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="form-check mt-4">
+                            <input class="form-check-input" type="checkbox" id="include_stats" name="include_stats" checked>
+                            <label class="form-check-label" for="include_stats">
+                                Include Statistics
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="submit" class="btn btn-primary d-block">
+                            <i class="fas fa-download"></i> Generate Export
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Filters -->
+    <div class="row mb-4">
+        <div class="col">
+            <div class="bg-light p-3 rounded">
+                <form method="GET" class="row g-3">
+                    <div class="col-md-3">
+                        <label for="session_filter" class="form-label">Session</label>
+                        <select class="form-select" id="session_filter" name="session">
+                            <option value="">All Sessions</option>
+                            {% for session in sessions %}
+                            <option value="{{ session }}" {% if session|string == session_filter %}selected{% endif %}>
+                                Session {{ session }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <label for="domain_filter" class="form-label">Domain</label>
+                        <select class="form-select" id="domain_filter" name="domain">
+                            <option value="">All Domains</option>
+                            {% for domain in domains %}
+                            <option value="{{ domain }}" {% if domain == domain_filter %}selected{% endif %}>
+                                {{ domain }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <label for="per_page" class="form-label">Per Page</label>
+                        <select class="form-select" id="per_page" name="per_page">
+                            <option value="20" {% if results.per_page == 20 %}selected{% endif %}>20</option>
+                            <option value="50" {% if results.per_page == 50 %}selected{% endif %}>50</option>
+                            <option value="100" {% if results.per_page == 100 %}selected{% endif %}>100</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="submit" class="btn btn-outline-primary d-block">
+                            <i class="fas fa-filter"></i> Filter
+                        </button>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <label class="form-label">&nbsp;</label>
+                        <a href="{{ url_for('results') }}" class="btn btn-outline-secondary d-block">
+                            <i class="fas fa-times"></i> Clear
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Results Summary -->
+    <div class="row mb-3">
+        <div class="col">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>{{ "{:,}".format(results.total) }} results found</strong>
+                    {% if session_filter or domain_filter %}
+                        <span class="text-muted">
+                            (filtered
+                            {% if session_filter %}by session {{ session_filter }}{% endif %}
+                            {% if session_filter and domain_filter %} and {% endif %}
+                            {% if domain_filter %}by domain {{ domain_filter }}{% endif %}
+                            )
+                        </span>
+                    {% endif %}
+                </div>
+                <div class="text-muted">
+                    Page {{ results.page }} of {{ ((results.total - 1) // results.per_page + 1) if results.total > 0 else 1 }}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Results Table -->
+    <div class="row mb-4">
+        <div class="col">
+            <div class="results-table">
+                {% if results.pages %}
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width: 60px;">Status</th>
+                                <th>URL</th>
+                                <th>Title</th>
+                                <th style="width: 100px;">Size</th>
+                                <th style="width: 100px;">Response Time</th>
+                                <th style="width: 150px;">Crawled</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for page in results.pages %}
+                            <tr>
+                                <td>
+                                    {% if page.status_code >= 200 and page.status_code < 300 %}
+                                        <span class="badge bg-success">{{ page.status_code }}</span>
+                                    {% elif page.status_code >= 300 and page.status_code < 400 %}
+                                        <span class="badge bg-warning">{{ page.status_code }}</span>
+                                    {% elif page.status_code >= 400 %}
+                                        <span class="badge bg-danger">{{ page.status_code }}</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary">{{ page.status_code or '?' }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <a href="{{ page.url }}" target="_blank" rel="noopener noreferrer" 
+                                       class="text-decoration-none">
+                                        {{ page.url[:60] }}{% if page.url|length > 60 %}...{% endif %}
+                                        <i class="fas fa-external-link-alt ms-1 text-muted" style="font-size: 0.8em;"></i>
+                                    </a>
+                                    <br>
+                                    <small class="text-muted">{{ page.domain }}</small>
+                                </td>
+                                <td>
+                                    <strong>{{ page.title[:50] }}{% if page.title|length > 50 %}...{% endif %}</strong>
+                                </td>
+                                <td>
+                                    {% if page.content_length %}
+                                        <span class="content-length" data-bytes="{{ page.content_length }}">{{ "%.1f"|format(page.content_length / 1024) }} KB</span>
+                                    {% else %}
+                                        <span class="text-muted">-</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if page.response_time %}
+                                        {{ "%.2f"|format(page.response_time) }}s
+                                    {% else %}
+                                        <span class="text-muted">-</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <small class="text-muted" data-timestamp="{{ page.crawl_timestamp }}">
+                                        {{ page.crawl_timestamp }}
+                                    </small>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="p-4 text-center text-muted">
+                    <i class="fas fa-search fa-2x mb-3"></i>
+                    <h5>No results found</h5>
+                    <p class="mb-0">
+                        {% if session_filter or domain_filter %}
+                            Try adjusting your filters or <a href="{{ url_for('results') }}">view all results</a>.
+                        {% else %}
+                            No crawled data available. <a href="{{ url_for('dashboard') }}">Start a new crawl</a> to see results here.
+                        {% endif %}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pagination -->
+    {% if results.total > results.per_page %}
+    <div class="row">
+        <div class="col">
+            <nav>
+                <ul class="pagination">
+                    <!-- Previous Page -->
+                    {% if results.has_prev %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('results', page=current_page-1, session=session_filter, domain=domain_filter, per_page=results.per_page) }}">
+                                <i class="fas fa-chevron-left"></i> Previous
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">
+                                <i class="fas fa-chevron-left"></i> Previous
+                            </span>
+                        </li>
+                    {% endif %}
+                    
+                    <!-- Page Numbers -->
+                    {% set total_pages = ((results.total - 1) // results.per_page + 1) if results.total > 0 else 1 %}
+                    {% set start_page = [1, current_page - 2]|max %}
+                    {% set end_page = [total_pages, current_page + 2]|min %}
+                    
+                    {% if start_page > 1 %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('results', page=1, session=session_filter, domain=domain_filter, per_page=results.per_page) }}">1</a>
+                        </li>
+                        {% if start_page > 2 %}
+                            <li class="page-item disabled">
+                                <span class="page-link">...</span>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                    
+                    {% for page_num in range(start_page, end_page + 1) %}
+                        <li class="page-item {% if page_num == current_page %}active{% endif %}">
+                            <a class="page-link" href="{{ url_for('results', page=page_num, session=session_filter, domain=domain_filter, per_page=results.per_page) }}">
+                                {{ page_num }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    
+                    {% if end_page < total_pages %}
+                        {% if end_page < total_pages - 1 %}
+                            <li class="page-item disabled">
+                                <span class="page-link">...</span>
+                            </li>
+                        {% endif %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('results', page=total_pages, session=session_filter, domain=domain_filter, per_page=results.per_page) }}">{{ total_pages }}</a>
+                        </li>
+                    {% endif %}
+                    
+                    <!-- Next Page -->
+                    {% if results.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('results', page=current_page+1, session=session_filter, domain=domain_filter, per_page=results.per_page) }}">
+                                Next <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">
+                                Next <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Format content length values
+    document.addEventListener('DOMContentLoaded', function() {
+        const contentLengthElements = document.querySelectorAll('.content-length');
+        contentLengthElements.forEach(function(element) {
+            const bytes = parseInt(element.getAttribute('data-bytes'));
+            element.textContent = formatBytes(bytes);
+        });
+    });
+</script>
+{% endblock %}

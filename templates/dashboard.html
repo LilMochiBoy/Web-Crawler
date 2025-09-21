@@ -1,0 +1,279 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Web Crawler{% endblock %}
+
+{% block content %}
+<div class="p-4">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="h2 mb-0"><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+            <p class="text-muted">Monitor and control your web crawling operations</p>
+        </div>
+    </div>
+    
+    <!-- Statistics Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3 col-sm-6">
+            <div class="stat-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="stat-number">{{ "{:,}".format(stats.total_pages) }}</h3>
+                        <p class="stat-label">Total Pages</p>
+                    </div>
+                    <i class="fas fa-file-alt fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+            <div class="stat-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="stat-number">{{ stats.active_crawls }}</h3>
+                        <p class="stat-label">Active Crawls</p>
+                    </div>
+                    <i class="fas fa-spider fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+            <div class="stat-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="stat-number">{{ stats.success_rate }}%</h3>
+                        <p class="stat-label">Success Rate</p>
+                    </div>
+                    <i class="fas fa-check-circle fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+            <div class="stat-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="stat-number">{{ "{:,}".format(stats.total_errors) }}</h3>
+                        <p class="stat-label">Total Errors</p>
+                    </div>
+                    <i class="fas fa-exclamation-triangle fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Additional Stats Row -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="stat-card" style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%);">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h4 class="stat-number" style="font-size: 2rem;">{{ stats.total_sessions }}</h4>
+                        <p class="stat-label">Total Sessions</p>
+                    </div>
+                    <i class="fas fa-layer-group fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="stat-card" style="background: linear-gradient(135deg, #17a2b8 0%, #6f42c1 100%);">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h4 class="stat-number" style="font-size: 2rem;" id="data-size-display">
+                            {{ "%.1f"|format(stats.data_size / 1024 / 1024) }} MB
+                        </h4>
+                        <p class="stat-label">Data Crawled</p>
+                    </div>
+                    <i class="fas fa-hard-drive fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quick Start Form -->
+    <div class="row mb-4">
+        <div class="col">
+            <div class="crawl-form">
+                <h4 class="mb-3"><i class="fas fa-rocket"></i> Quick Start Crawl</h4>
+                <form method="POST" action="{{ url_for('start_crawl') }}">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="url" class="form-label">Target URL</label>
+                            <input type="url" class="form-control" id="url" name="url" 
+                                   placeholder="https://example.com" required>
+                        </div>
+                        
+                        <div class="col-md-2 mb-3">
+                            <label for="max_pages" class="form-label">Max Pages</label>
+                            <select class="form-select" id="max_pages" name="max_pages">
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100" selected>100</option>
+                                <option value="250">250</option>
+                                <option value="500">500</option>
+                                <option value="1000">1000</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-2 mb-3">
+                            <label for="workers" class="form-label">Workers</label>
+                            <select class="form-select" id="workers" name="workers">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-2 mb-3">
+                            <label for="delay" class="form-label">Delay (s)</label>
+                            <select class="form-select" id="delay" name="delay">
+                                <option value="0.5">0.5</option>
+                                <option value="1.0" selected>1.0</option>
+                                <option value="2.0">2.0</option>
+                                <option value="3.0">3.0</option>
+                                <option value="5.0">5.0</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-spider"></i> Start Crawling
+                            </button>
+                            
+                            <small class="form-text text-muted ms-3">
+                                <i class="fas fa-info-circle"></i>
+                                Crawl will start in the background. You'll be redirected to the monitoring page.
+                            </small>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Crawls -->
+    <div class="row">
+        <div class="col">
+            <div class="recent-crawls">
+                <div class="d-flex justify-content-between align-items-center p-3 border-bottom">
+                    <h4 class="mb-0"><i class="fas fa-history"></i> Recent Crawls</h4>
+                    <a href="{{ url_for('results') }}" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-database"></i> View All Results
+                    </a>
+                </div>
+                
+                {% if recent_crawls %}
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Session</th>
+                                <th>Domains</th>
+                                <th>Status</th>
+                                <th>Pages</th>
+                                <th>Errors</th>
+                                <th>Started</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for crawl in recent_crawls %}
+                            <tr>
+                                <td>
+                                    <strong>#{{ crawl.session_id }}</strong>
+                                </td>
+                                <td>
+                                    <small class="text-muted">{{ crawl.domains[:50] }}{% if crawl.domains|length > 50 %}...{% endif %}</small>
+                                </td>
+                                <td>
+                                    <span class="status-badge status-{{ crawl.status }}">
+                                        {% if crawl.status == 'completed' %}
+                                            <i class="fas fa-check"></i> Completed
+                                        {% elif crawl.status == 'running' %}
+                                            <i class="fas fa-spinner fa-spin"></i> Running
+                                        {% elif crawl.status == 'error' %}
+                                            <i class="fas fa-exclamation"></i> Error
+                                        {% else %}
+                                            {{ crawl.status }}
+                                        {% endif %}
+                                    </span>
+                                </td>
+                                <td>
+                                    <strong>{{ "{:,}".format(crawl.page_count) }}</strong>
+                                </td>
+                                <td>
+                                    {% if crawl.error_count > 0 %}
+                                        <span class="text-danger">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                            {{ "{:,}".format(crawl.error_count) }}
+                                        </span>
+                                    {% else %}
+                                        <span class="text-success">
+                                            <i class="fas fa-check"></i> 0
+                                        </span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <small class="text-muted" data-timestamp="{{ crawl.start_time }}">
+                                        {{ crawl.start_time }}
+                                    </small>
+                                </td>
+                                <td>
+                                    {% if crawl.status == 'running' %}
+                                        <a href="{{ url_for('monitor', crawl_id=crawl.session_id) }}" 
+                                           class="btn btn-outline-info btn-sm">
+                                            <i class="fas fa-eye"></i> Monitor
+                                        </a>
+                                    {% else %}
+                                        <a href="{{ url_for('results', session=crawl.session_id) }}" 
+                                           class="btn btn-outline-secondary btn-sm">
+                                            <i class="fas fa-search"></i> View
+                                        </a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="p-4 text-center text-muted">
+                    <i class="fas fa-info-circle fa-2x mb-3"></i>
+                    <p class="mb-0">No crawls found. Start your first crawl above!</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Auto-refresh dashboard stats every 30 seconds
+    setInterval(function() {
+        fetch('/api/stats')
+            .then(response => response.json())
+            .then(data => {
+                // Update stats
+                document.querySelector('.stat-card:nth-child(1) .stat-number').textContent = 
+                    data.total_pages.toLocaleString();
+                document.querySelector('.stat-card:nth-child(2) .stat-number').textContent = 
+                    data.active_crawls;
+                document.querySelector('.stat-card:nth-child(3) .stat-number').textContent = 
+                    data.success_rate + '%';
+                document.querySelector('.stat-card:nth-child(4) .stat-number').textContent = 
+                    data.total_errors.toLocaleString();
+            })
+            .catch(error => console.error('Error updating stats:', error));
+    }, 30000);
+</script>
+{% endblock %}

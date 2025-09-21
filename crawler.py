@@ -1415,10 +1415,19 @@ class WebCrawler:
             self.downloaded_pages += 1
             return self.downloaded_pages
     
-    def _worker_thread(self, progress_bar):
+    def _worker_thread(self, progress_bar, progress_callback=None):
         """Worker thread function for concurrent crawling."""
         while True:
             try:
+                # Check if we should stop (callback returns False)
+                if progress_callback:
+                    try:
+                        stats = self._get_current_stats()
+                        if not progress_callback(stats):
+                            break
+                    except Exception as e:
+                        self.logger.warning(f"Progress callback error: {e}")
+                
                 # Get next URL from queue with timeout
                 current_url, depth = self.crawl_queue.get(timeout=5)
             except Empty:
@@ -1485,6 +1494,16 @@ class WebCrawler:
                         if self.downloaded_pages % 10 == 0:
                             self._save_crawl_state()
                     
+                    # Report progress to callback if provided
+                    if progress_callback:
+                        try:
+                            stats = self._get_current_stats()
+                            stats['current_url'] = current_url
+                            if not progress_callback(stats):
+                                break
+                        except Exception as e:
+                            self.logger.warning(f"Progress callback error: {e}")
+                    
                     # Extract links for further crawling if not at max depth
                     if depth < self.max_depth and downloaded_count < self.max_pages:
                         links = self._extract_links(current_url, response.text)
@@ -1504,12 +1523,14 @@ class WebCrawler:
             finally:
                 self.crawl_queue.task_done()
     
-    def crawl(self, start_url: str):
+    def crawl(self, start_url: str, progress_callback=None):
         """
         Start crawling from the given URL with concurrent workers.
         
         Args:
             start_url: URL to start crawling from
+            progress_callback: Optional callback function to report progress (for web UI)
+                              Should return True to continue, False to stop
         """
         start_url = self._normalize_url(start_url)
         
@@ -1565,14 +1586,14 @@ class WebCrawler:
         try:
             if self.max_workers == 1:
                 # Sequential crawling (original behavior)
-                self._worker_thread(progress_bar)
+                self._worker_thread(progress_bar, progress_callback)
             else:
                 # Concurrent crawling with ThreadPoolExecutor
                 with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
                     # Start worker threads
                     futures = []
                     for i in range(self.max_workers):
-                        future = executor.submit(self._worker_thread, progress_bar)
+                        future = executor.submit(self._worker_thread, progress_bar, progress_callback)
                         futures.append(future)
                     
                     # Wait for all workers to complete or max pages reached
@@ -1614,6 +1635,19 @@ class WebCrawler:
         # Record end time and display final statistics
         self.stats['end_time'] = time.time()
         self._display_final_statistics()
+    
+    def _get_current_stats(self):
+        """Get current crawling statistics for progress reporting."""
+        with self._lock:
+            return {
+                'pages_processed': self.downloaded_pages,
+                'total_found': self.stats.get('total_urls_found', 0),
+                'errors': sum(self.stats['errors'].values()),
+                'total_size': self.stats.get('total_bytes_downloaded', 0),
+                'avg_response_time': self.stats.get('avg_response_time', 0),
+                'queue_size': self.crawl_queue.qsize(),
+                'domains_found': len(self.stats['domains_crawled'])
+            }
     
     def _update_stats(self, action: str, url: str = None, response_time: float = None, 
                      bytes_downloaded: int = None, error_type: str = None, error_message: str = None):

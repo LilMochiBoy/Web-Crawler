@@ -27,6 +27,7 @@ from pathlib import Path
 # Import our existing crawler components
 from crawler import WebCrawler
 from data_exporter import DataExporter
+from search_database import SearchDatabase
 # Note: database_explorer is a script, not a class, so we don't import it here
 
 class CrawlerWebUI:
@@ -45,6 +46,14 @@ class CrawlerWebUI:
         
         # Database path
         self.db_path = os.path.join('downloaded_pages', 'crawler_data.db')
+        
+        # Initialize search database
+        self.search_db = None
+        if os.path.exists(self.db_path):
+            try:
+                self.search_db = SearchDatabase(self.db_path)
+            except Exception as e:
+                print(f"Warning: Could not initialize search functionality: {e}")
         
         self.setup_routes()
         if SOCKETIO_AVAILABLE:
@@ -177,6 +186,158 @@ class CrawlerWebUI:
             if crawl_id in self.active_crawls:
                 return jsonify(self.active_crawls[crawl_id])
             return jsonify({'error': 'Crawl not found'}), 404
+        
+        # Search Routes
+        @self.app.route('/search')
+        def search():
+            """Advanced search page"""
+            if not self.search_db:
+                flash('Search functionality not available. Database not found.', 'error')
+                return redirect(url_for('dashboard'))
+            
+            # Get filter options
+            filter_options = self.search_db.get_filter_options()
+            
+            return render_template('search.html', filter_options=filter_options)
+        
+        @self.app.route('/search_results')
+        def search_results():
+            """Search results page"""
+            if not self.search_db:
+                return jsonify({'error': 'Search not available'}), 503
+            
+            try:
+                query = request.args.get('q', '').strip()
+                page = int(request.args.get('page', 1))
+                per_page = min(int(request.args.get('per_page', 20)), 100)  # Limit results
+                
+                # Build filters from request
+                filters = {}
+                
+                # Domain filter
+                domains = request.args.getlist('domains')
+                if domains:
+                    filters['domains'] = domains
+                
+                # Date range
+                date_from = request.args.get('date_from')
+                date_to = request.args.get('date_to')
+                if date_from:
+                    try:
+                        filters['date_from'] = int(datetime.fromisoformat(date_from.replace('Z', '+00:00')).timestamp())
+                    except:
+                        pass
+                if date_to:
+                    try:
+                        filters['date_to'] = int(datetime.fromisoformat(date_to.replace('Z', '+00:00')).timestamp())
+                    except:
+                        pass
+                
+                # Content type filter
+                content_types = request.args.getlist('content_types')
+                if content_types:
+                    filters['content_types'] = content_types
+                
+                # Size filters
+                min_length = request.args.get('min_length')
+                max_length = request.args.get('max_length')
+                if min_length:
+                    try:
+                        filters['min_length'] = int(min_length)
+                    except:
+                        pass
+                if max_length:
+                    try:
+                        filters['max_length'] = int(max_length)
+                    except:
+                        pass
+                
+                # Perform search
+                offset = (page - 1) * per_page
+                search_result = self.search_db.search_content(
+                    query=query,
+                    filters=filters,
+                    limit=per_page,
+                    offset=offset
+                )
+                
+                # Format results for display
+                formatted_results = []
+                for result in search_result['results']:
+                    # Parse extracted data
+                    extracted_data = {}
+                    if result.get('extracted_data'):
+                        try:
+                            extracted_data = json.loads(result['extracted_data'])
+                        except:
+                            pass
+                    
+                    formatted_result = {
+                        'url': result['url'],
+                        'title': result.get('title') or 'No Title',
+                        'domain': result.get('domain', ''),
+                        'content_type': result.get('content_type', ''),
+                        'content_length': result.get('content_length', 0),
+                        'timestamp': result.get('timestamp', 0),
+                        'response_time': result.get('response_time', 0),
+                        'status_code': result.get('status_code', 0),
+                        'snippet': self.get_content_snippet(extracted_data.get('text_content', ''), query),
+                        'rank': result.get('rank', 0)
+                    }
+                    formatted_results.append(formatted_result)
+                
+                # Return JSON for AJAX requests or HTML for direct access
+                if request.headers.get('Accept') == 'application/json':
+                    return jsonify({
+                        'results': formatted_results,
+                        'total_count': search_result['total_count'],
+                        'query': query,
+                        'page': page,
+                        'per_page': per_page,
+                        'has_next': search_result['has_next'],
+                        'has_prev': search_result['has_prev']
+                    })
+                else:
+                    return render_template('search_results.html', 
+                                         results=formatted_results,
+                                         search_data=search_result,
+                                         query=query,
+                                         page=page,
+                                         per_page=per_page)
+                
+            except Exception as e:
+                if request.headers.get('Accept') == 'application/json':
+                    return jsonify({'error': str(e)}), 500
+                flash(f'Search error: {str(e)}', 'error')
+                return redirect(url_for('search'))
+        
+        @self.app.route('/api/search_suggestions')
+        def api_search_suggestions():
+            """API endpoint for search autocomplete suggestions"""
+            if not self.search_db:
+                return jsonify([])
+            
+            query_prefix = request.args.get('q', '').strip()
+            if len(query_prefix) < 2:
+                return jsonify([])
+            
+            try:
+                suggestions = self.search_db.get_search_suggestions(query_prefix)
+                return jsonify(suggestions)
+            except Exception as e:
+                return jsonify({'error': str(e)}), 500
+        
+        @self.app.route('/api/filter_options')
+        def api_filter_options():
+            """API endpoint for getting available filter options"""
+            if not self.search_db:
+                return jsonify({})
+            
+            try:
+                options = self.search_db.get_filter_options()
+                return jsonify(options)
+            except Exception as e:
+                return jsonify({'error': str(e)}), 500
     
     def setup_socketio(self):
         """Setup SocketIO events for real-time updates"""
@@ -290,24 +451,24 @@ class CrawlerWebUI:
             cursor = conn.cursor()
             
             # Total pages
-            cursor.execute("SELECT COUNT(*) FROM crawled_pages")
+            cursor.execute("SELECT COUNT(*) FROM pages")
             total_pages = cursor.fetchone()[0]
             
             # Success rate
-            cursor.execute("SELECT COUNT(*) FROM crawled_pages WHERE status_code BETWEEN 200 AND 299")
+            cursor.execute("SELECT COUNT(*) FROM pages WHERE status_code BETWEEN 200 AND 299")
             successful = cursor.fetchone()[0]
             success_rate = (successful / total_pages * 100) if total_pages > 0 else 0
             
             # Total errors
-            cursor.execute("SELECT COUNT(*) FROM crawled_pages WHERE status_code >= 400")
+            cursor.execute("SELECT COUNT(*) FROM pages WHERE status_code >= 400")
             total_errors = cursor.fetchone()[0]
             
             # Total sessions
-            cursor.execute("SELECT COUNT(DISTINCT session_id) FROM crawled_pages")
+            cursor.execute("SELECT COUNT(DISTINCT id) FROM crawl_sessions")
             total_sessions = cursor.fetchone()[0]
             
             # Data size
-            cursor.execute("SELECT SUM(content_length) FROM crawled_pages WHERE content_length IS NOT NULL")
+            cursor.execute("SELECT SUM(content_length) FROM pages WHERE content_length IS NOT NULL")
             result = cursor.fetchone()[0]
             data_size = result if result else 0
             
@@ -344,15 +505,14 @@ class CrawlerWebUI:
             
             cursor.execute("""
                 SELECT 
-                    session_id,
-                    MIN(crawl_timestamp) as start_time,
-                    MAX(crawl_timestamp) as end_time,
-                    COUNT(*) as page_count,
-                    COUNT(CASE WHEN status_code >= 400 THEN 1 END) as error_count,
-                    GROUP_CONCAT(DISTINCT domain, ', ') as domains
-                FROM crawled_pages 
-                GROUP BY session_id 
-                ORDER BY session_id DESC 
+                    cs.id as session_id,
+                    cs.started_at as start_time,
+                    cs.completed_at as end_time,
+                    cs.pages_crawled as page_count,
+                    cs.total_errors as error_count,
+                    cs.start_url as domains
+                FROM crawl_sessions cs
+                ORDER BY cs.id DESC 
                 LIMIT 10
             """)
             
@@ -407,14 +567,28 @@ class CrawlerWebUI:
                 where_clause = "WHERE " + " AND ".join(where_conditions)
             
             # Get total count
-            cursor.execute(f"SELECT COUNT(*) FROM crawled_pages {where_clause}", params)
+            cursor.execute(f"SELECT COUNT(*) FROM pages {where_clause}", params)
             total = cursor.fetchone()[0]
             
             # Get paginated results
             offset = (page - 1) * per_page
             cursor.execute(f"""
-                SELECT id, url, title, status_code, content_length, crawl_timestamp, domain, response_time
-                FROM crawled_pages {where_clause}
+                SELECT id, url, title, status_code, content_length, timestamp,
+                       CASE 
+                           WHEN url LIKE 'http://%' THEN 
+                               CASE 
+                                   WHEN instr(substr(url, 8), '/') = 0 THEN substr(url, 8)
+                                   ELSE substr(url, 8, instr(substr(url, 8), '/') - 1)
+                               END
+                           WHEN url LIKE 'https://%' THEN 
+                               CASE 
+                                   WHEN instr(substr(url, 9), '/') = 0 THEN substr(url, 9)
+                                   ELSE substr(url, 9, instr(substr(url, 9), '/') - 1)
+                               END
+                           ELSE url
+                       END as domain,
+                       response_time
+                FROM pages {where_clause}
                 ORDER BY id DESC
                 LIMIT ? OFFSET ?
             """, params + [per_page, offset])
@@ -455,7 +629,7 @@ class CrawlerWebUI:
             
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
-            cursor.execute("SELECT DISTINCT session_id FROM crawled_pages ORDER BY session_id DESC")
+            cursor.execute("SELECT id FROM crawl_sessions ORDER BY id DESC")
             sessions = [row[0] for row in cursor.fetchall()]
             conn.close()
             return sessions
@@ -472,7 +646,22 @@ class CrawlerWebUI:
             
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
-            cursor.execute("SELECT DISTINCT domain FROM crawled_pages ORDER BY domain")
+            cursor.execute("""SELECT DISTINCT 
+                CASE 
+                    WHEN url LIKE 'http://%' THEN 
+                        CASE 
+                            WHEN instr(substr(url, 8), '/') = 0 THEN substr(url, 8)
+                            ELSE substr(url, 8, instr(substr(url, 8), '/') - 1)
+                        END
+                    WHEN url LIKE 'https://%' THEN 
+                        CASE 
+                            WHEN instr(substr(url, 9), '/') = 0 THEN substr(url, 9)
+                            ELSE substr(url, 9, instr(substr(url, 9), '/') - 1)
+                        END
+                    ELSE url
+                END as domain 
+                FROM pages 
+                ORDER BY domain""")
             domains = [row[0] for row in cursor.fetchall()]
             conn.close()
             return domains
@@ -480,6 +669,41 @@ class CrawlerWebUI:
         except Exception as e:
             print(f"Domains error: {e}")
             return []
+    
+    def get_content_snippet(self, content, query, max_length=200):
+        """Extract a snippet of content highlighting the search query"""
+        if not content or not query:
+            return content[:max_length] + "..." if len(content) > max_length else content
+        
+        content_lower = content.lower()
+        query_lower = query.lower()
+        
+        # Find the first occurrence of any query term
+        terms = query_lower.split()
+        best_pos = len(content)
+        
+        for term in terms:
+            pos = content_lower.find(term)
+            if pos != -1 and pos < best_pos:
+                best_pos = pos
+        
+        if best_pos == len(content):
+            # No terms found, return beginning
+            return content[:max_length] + "..." if len(content) > max_length else content
+        
+        # Extract snippet around the found term
+        start = max(0, best_pos - max_length // 3)
+        end = min(len(content), start + max_length)
+        
+        snippet = content[start:end]
+        
+        # Add ellipsis if we truncated
+        if start > 0:
+            snippet = "..." + snippet
+        if end < len(content):
+            snippet = snippet + "..."
+        
+        return snippet
     
     def run(self, host='127.0.0.1', port=5000, debug=True):
         """Run the web UI"""

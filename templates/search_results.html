@@ -1,0 +1,568 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results - Web Crawler{% endblock %}
+
+{% block extra_css %}
+<style>
+    .search-header {
+        background: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .search-query {
+        flex: 1;
+        min-width: 300px;
+        padding: 12px 20px;
+        border: 2px solid #e1e1e1;
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    
+    .search-btn {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background-color 0.3s;
+    }
+    
+    .search-btn:hover {
+        background: #0056b3;
+    }
+    
+    .results-summary {
+        background: #f8f9fa;
+        padding: 15px 25px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .results-count {
+        font-size: 16px;
+        color: #495057;
+    }
+    
+    .results-count strong {
+        color: #007bff;
+    }
+    
+    .sort-options {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .sort-select {
+        padding: 8px 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background: white;
+    }
+    
+    .result-item {
+        background: white;
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: box-shadow 0.3s, transform 0.2s;
+        border-left: 4px solid transparent;
+    }
+    
+    .result-item:hover {
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+        border-left-color: #007bff;
+    }
+    
+    .result-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        line-height: 1.3;
+    }
+    
+    .result-title a {
+        color: #1a0dab;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .result-title a:hover {
+        color: #0c5aa6;
+        text-decoration: underline;
+    }
+    
+    .result-url {
+        color: #006621;
+        font-size: 14px;
+        margin-bottom: 10px;
+        word-break: break-all;
+        font-family: monospace;
+    }
+    
+    .result-snippet {
+        color: #545454;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    
+    .result-meta {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 13px;
+        color: #6c757d;
+        border-top: 1px solid #f0f0f0;
+        padding-top: 12px;
+    }
+    
+    .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .meta-badge {
+        background: #e9ecef;
+        color: #495057;
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    .meta-badge.success {
+        background: #d4edda;
+        color: #155724;
+    }
+    
+    .meta-badge.warning {
+        background: #fff3cd;
+        color: #856404;
+    }
+    
+    .meta-badge.danger {
+        background: #f8d7da;
+        color: #721c24;
+    }
+    
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 40px 0;
+        flex-wrap: wrap;
+    }
+    
+    .page-btn {
+        background: white;
+        border: 1px solid #ddd;
+        color: #495057;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+    .page-btn:hover {
+        background: #f8f9fa;
+        border-color: #007bff;
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .page-btn.active {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+    
+    .page-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    
+    .no-results {
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .no-results-icon {
+        font-size: 64px;
+        color: #dee2e6;
+        margin-bottom: 20px;
+    }
+    
+    .no-results h3 {
+        color: #495057;
+        margin-bottom: 15px;
+    }
+    
+    .no-results p {
+        color: #6c757d;
+        margin-bottom: 25px;
+    }
+    
+    .search-suggestions {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    
+    .suggestion-item {
+        display: inline-block;
+        background: white;
+        color: #007bff;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin: 5px;
+        text-decoration: none;
+        border: 1px solid #007bff;
+        font-size: 14px;
+        transition: all 0.3s;
+    }
+    
+    .suggestion-item:hover {
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .back-to-search {
+        background: #6c757d;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s;
+    }
+    
+    .back-to-search:hover {
+        background: #5a6268;
+        color: white;
+        text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+        .search-header {
+            padding: 15px;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        
+        .search-query {
+            min-width: auto;
+            margin-bottom: 10px;
+        }
+        
+        .results-summary {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+        }
+        
+        .result-item {
+            padding: 20px 15px;
+        }
+        
+        .result-meta {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        
+        .pagination {
+            gap: 5px;
+        }
+        
+        .page-btn {
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <!-- Back to Search -->
+            <a href="/search" class="back-to-search">
+                <i class="fas fa-arrow-left"></i> Back to Search
+            </a>
+            
+            <!-- Search Header -->
+            <div class="search-header">
+                <form action="/search_results" method="GET" style="display: flex; align-items: center; gap: 15px; width: 100%;">
+                    <input type="text" 
+                           class="search-query" 
+                           name="q" 
+                           value="{{ query }}" 
+                           placeholder="Search pages, content, titles, URLs...">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                    
+                    <!-- Preserve filters in hidden inputs -->
+                    {% for key, values in request.args.items() %}
+                        {% if key != 'q' and key != 'page' %}
+                            {% if values is iterable and values is not string %}
+                                {% for value in values %}
+                                    <input type="hidden" name="{{ key }}" value="{{ value }}">
+                                {% endfor %}
+                            {% else %}
+                                <input type="hidden" name="{{ key }}" value="{{ values }}">
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </form>
+            </div>
+            
+            {% if results %}
+                <!-- Results Summary -->
+                <div class="results-summary">
+                    <div class="results-count">
+                        Found <strong>{{ search_data.total_count }}</strong> results for 
+                        <strong>"{{ query }}"</strong>
+                        {% if search_data.total_count != results|length %}
+                            (showing {{ results|length }} on this page)
+                        {% endif %}
+                    </div>
+                    
+                    <div class="sort-options">
+                        <label for="sort-select">Sort by:</label>
+                        <select id="sort-select" class="sort-select" onchange="changeSort(this.value)">
+                            <option value="relevance" {% if request.args.get('sort') == 'relevance' %}selected{% endif %}>Relevance</option>
+                            <option value="date" {% if request.args.get('sort') == 'date' %}selected{% endif %}>Date</option>
+                            <option value="size" {% if request.args.get('sort') == 'size' %}selected{% endif %}>Size</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Search Results -->
+                <div class="results-container">
+                    {% for result in results %}
+                    <div class="result-item">
+                        <div class="result-title">
+                            <a href="{{ result.url }}" target="_blank" rel="noopener">
+                                {{ result.title }}
+                            </a>
+                        </div>
+                        
+                        <div class="result-url">{{ result.url }}</div>
+                        
+                        {% if result.snippet %}
+                        <div class="result-snippet">{{ result.snippet }}</div>
+                        {% endif %}
+                        
+                        <div class="result-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-globe"></i>
+                                <span>{{ result.domain }}</span>
+                            </div>
+                            
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>{{ moment(result.timestamp * 1000).format('MMM D, YYYY') if result.timestamp else 'Unknown date' }}</span>
+                            </div>
+                            
+                            <div class="meta-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>{{ result.content_type or 'Unknown type' }}</span>
+                            </div>
+                            
+                            <div class="meta-item">
+                                <i class="fas fa-weight-hanging"></i>
+                                <span>{{ (result.content_length / 1024) | round(1) if result.content_length else 0 }} KB</span>
+                            </div>
+                            
+                            {% if result.response_time %}
+                            <div class="meta-item">
+                                <i class="fas fa-stopwatch"></i>
+                                <span>{{ (result.response_time * 1000) | round(0) }}ms</span>
+                            </div>
+                            {% endif %}
+                            
+                            {% if result.status_code %}
+                            <div class="meta-item">
+                                {% if result.status_code >= 200 and result.status_code < 300 %}
+                                    <span class="meta-badge success">{{ result.status_code }}</span>
+                                {% elif result.status_code >= 300 and result.status_code < 400 %}
+                                    <span class="meta-badge warning">{{ result.status_code }}</span>
+                                {% else %}
+                                    <span class="meta-badge danger">{{ result.status_code }}</span>
+                                {% endif %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                <!-- Pagination -->
+                {% if search_data.total_count > per_page %}
+                <div class="pagination">
+                    {% if search_data.has_prev %}
+                        <a href="{{ url_for('search_results', **request.args, page=page-1) }}" class="page-btn">
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </a>
+                    {% endif %}
+                    
+                    {% set total_pages = (search_data.total_count / per_page) | round(0, 'ceil') | int %}
+                    {% set start_page = max(1, page - 2) %}
+                    {% set end_page = min(total_pages, page + 2) %}
+                    
+                    {% if start_page > 1 %}
+                        <a href="{{ url_for('search_results', **request.args, page=1) }}" class="page-btn">1</a>
+                        {% if start_page > 2 %}
+                            <span class="page-btn" style="border: none; background: none;">...</span>
+                        {% endif %}
+                    {% endif %}
+                    
+                    {% for p in range(start_page, end_page + 1) %}
+                        <a href="{{ url_for('search_results', **request.args, page=p) }}" 
+                           class="page-btn {% if p == page %}active{% endif %}">{{ p }}</a>
+                    {% endfor %}
+                    
+                    {% if end_page < total_pages %}
+                        {% if end_page < total_pages - 1 %}
+                            <span class="page-btn" style="border: none; background: none;">...</span>
+                        {% endif %}
+                        <a href="{{ url_for('search_results', **request.args, page=total_pages) }}" class="page-btn">{{ total_pages }}</a>
+                    {% endif %}
+                    
+                    {% if search_data.has_next %}
+                        <a href="{{ url_for('search_results', **request.args, page=page+1) }}" class="page-btn">
+                            Next <i class="fas fa-chevron-right"></i>
+                        </a>
+                    {% endif %}
+                </div>
+                {% endif %}
+                
+            {% else %}
+                <!-- No Results -->
+                <div class="no-results">
+                    <div class="no-results-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>No results found</h3>
+                    <p>Sorry, we couldn't find any pages matching your search query "<strong>{{ query }}</strong>".</p>
+                    
+                    <div class="search-suggestions">
+                        <h5>Search suggestions:</h5>
+                        <p style="margin-bottom: 15px;">Try these tips to improve your search:</p>
+                        <ul style="text-align: left; display: inline-block;">
+                            <li>Check your spelling and try again</li>
+                            <li>Try fewer or different keywords</li>
+                            <li>Use more general search terms</li>
+                            <li>Remove filters to broaden your search</li>
+                        </ul>
+                        
+                        <div style="margin-top: 20px;">
+                            <a href="/search" class="suggestion-item">
+                                <i class="fas fa-search"></i> New Search
+                            </a>
+                            <a href="/results" class="suggestion-item">
+                                <i class="fas fa-list"></i> Browse All Pages
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Format dates
+    const timestamps = document.querySelectorAll('[data-timestamp]');
+    timestamps.forEach(el => {
+        const timestamp = parseInt(el.getAttribute('data-timestamp'));
+        if (timestamp) {
+            el.textContent = moment(timestamp * 1000).format('MMM D, YYYY');
+        }
+    });
+    
+    // Highlight search terms in snippets
+    const query = "{{ query }}";
+    if (query) {
+        highlightSearchTerms(query);
+    }
+});
+
+function changeSort(sortBy) {
+    const url = new URL(window.location);
+    url.searchParams.set('sort', sortBy);
+    url.searchParams.delete('page'); // Reset to first page
+    window.location.href = url.toString();
+}
+
+function highlightSearchTerms(query) {
+    const terms = query.toLowerCase().split(/\s+/);
+    const snippets = document.querySelectorAll('.result-snippet');
+    
+    snippets.forEach(snippet => {
+        let text = snippet.innerHTML;
+        
+        terms.forEach(term => {
+            if (term.length > 2) { // Only highlight terms longer than 2 chars
+                const regex = new RegExp(`(${escapeRegExp(term)})`, 'gi');
+                text = text.replace(regex, '<mark>$1</mark>');
+            }
+        });
+        
+        snippet.innerHTML = text;
+    });
+}
+
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Add some CSS for highlighted terms
+const style = document.createElement('style');
+style.textContent = `
+    mark {
+        background-color: #fff3cd;
+        color: #856404;
+        padding: 1px 2px;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+`;
+document.head.appendChild(style);
+</script>
+{% endblock %}

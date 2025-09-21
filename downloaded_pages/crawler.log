@@ -1134,3 +1134,88 @@
 2025-09-21 22:53:28,146 - INFO - [DB ERRORS] Logged Errors: 0
 2025-09-21 22:53:28,146 - INFO - ==================================================
 2025-09-21 22:53:28,146 - INFO - 
+2025-09-21 23:43:20,399 - INFO - Starting concurrent crawl from: https://httpbin.org/html (3 workers)
+2025-09-21 23:43:21,827 - INFO - Fetching: https://httpbin.org/html
+2025-09-21 23:43:23,157 - INFO - Extracted data: downloaded_pages\httpbin.org\html.json
+2025-09-21 23:43:23,169 - INFO - Saved: downloaded_pages\httpbin.org\html.html
+2025-09-21 23:43:28,182 - INFO - Crawling completed. Downloaded 1 pages.
+2025-09-21 23:43:28,198 - INFO - ==================================================
+2025-09-21 23:43:28,198 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 23:43:28,198 - INFO - ==================================================
+2025-09-21 23:43:28,198 - INFO - [DURATION] Duration: 7.8 seconds (0.1 minutes)
+2025-09-21 23:43:28,198 - INFO - [URLS] URLs Found: 0
+2025-09-21 23:43:28,198 - INFO - [DOWNLOADED] Pages Downloaded: 1
+2025-09-21 23:43:28,199 - INFO - [EXTRACTED] Content Extracted: 1
+2025-09-21 23:43:28,199 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 23:43:28,199 - INFO - [DOMAINS] Domains Crawled: 1
+2025-09-21 23:43:28,199 - INFO - [DATA] Data Downloaded: 0.00 MB
+2025-09-21 23:43:28,199 - INFO - [RESPONSE] Average Response Time: 1.33s
+2025-09-21 23:43:28,199 - INFO - [RATE] Pages/minute: 7.7
+2025-09-21 23:43:28,199 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 23:43:28,199 - INFO - ==================================================
+2025-09-21 23:43:28,201 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 23:43:28,201 - INFO - [SESSION] Session ID: 21
+2025-09-21 23:43:28,201 - INFO - [STORED] Pages in Database: 1
+2025-09-21 23:43:28,202 - INFO - [LINKS] Links Stored: 0
+2025-09-21 23:43:28,202 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 23:43:28,202 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 23:43:28,202 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 23:43:28,202 - INFO - ==================================================
+2025-09-21 23:43:28,202 - INFO - 
+2025-09-21 23:45:23,438 - INFO - Starting concurrent crawl from: https://httpbin.org/html (3 workers)
+2025-09-21 23:45:24,921 - INFO - Fetching: https://httpbin.org/html
+2025-09-21 23:45:26,291 - INFO - Extracted data: downloaded_pages\httpbin.org\html_1.json
+2025-09-21 23:45:26,300 - INFO - Saved: downloaded_pages\httpbin.org\html_1.html
+2025-09-21 23:45:31,308 - INFO - Crawling completed. Downloaded 1 pages.
+2025-09-21 23:45:31,325 - INFO - ==================================================
+2025-09-21 23:45:31,325 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 23:45:31,325 - INFO - ==================================================
+2025-09-21 23:45:31,325 - INFO - [DURATION] Duration: 7.9 seconds (0.1 minutes)
+2025-09-21 23:45:31,325 - INFO - [URLS] URLs Found: 0
+2025-09-21 23:45:31,326 - INFO - [DOWNLOADED] Pages Downloaded: 1
+2025-09-21 23:45:31,326 - INFO - [EXTRACTED] Content Extracted: 1
+2025-09-21 23:45:31,326 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 23:45:31,326 - INFO - [DOMAINS] Domains Crawled: 1
+2025-09-21 23:45:31,326 - INFO - [DATA] Data Downloaded: 0.00 MB
+2025-09-21 23:45:31,326 - INFO - [RESPONSE] Average Response Time: 1.36s
+2025-09-21 23:45:31,326 - INFO - [RATE] Pages/minute: 7.6
+2025-09-21 23:45:31,326 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 23:45:31,326 - INFO - ==================================================
+2025-09-21 23:45:31,327 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 23:45:31,328 - INFO - [SESSION] Session ID: 22
+2025-09-21 23:45:31,328 - INFO - [STORED] Pages in Database: 1
+2025-09-21 23:45:31,328 - INFO - [LINKS] Links Stored: 0
+2025-09-21 23:45:31,328 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 23:45:31,328 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 23:45:31,328 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 23:45:31,328 - INFO - ==================================================
+2025-09-21 23:45:31,328 - INFO - 
+2025-09-21 23:46:38,423 - INFO - Starting concurrent crawl from: https://nonexistentsite12345.com (3 workers)
+2025-09-21 23:46:49,567 - INFO - Fetching: https://nonexistentsite12345.com
+2025-09-21 23:47:40,115 - ERROR - [CONNECTION] Connection error for https://nonexistentsite12345.com - Check internet connection
+2025-09-21 23:47:40,129 - INFO - Crawling interrupted by user
+2025-09-21 23:47:40,129 - INFO - Saving crawl state for resume...
+2025-09-21 23:47:40,145 - INFO - Session 23 marked as interrupted. Use --resume 23 to continue.
+2025-09-21 23:47:40,145 - INFO - Crawling interrupted. Downloaded 0 pages.
+2025-09-21 23:47:40,146 - INFO - ==================================================
+2025-09-21 23:47:40,146 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 23:47:40,146 - INFO - ==================================================
+2025-09-21 23:47:40,146 - INFO - [DURATION] Duration: 61.7 seconds (1.0 minutes)
+2025-09-21 23:47:40,146 - INFO - [URLS] URLs Found: 0
+2025-09-21 23:47:40,146 - INFO - [DOWNLOADED] Pages Downloaded: 0
+2025-09-21 23:47:40,146 - INFO - [EXTRACTED] Content Extracted: 0
+2025-09-21 23:47:40,146 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 23:47:40,147 - INFO - [DOMAINS] Domains Crawled: 0
+2025-09-21 23:47:40,147 - INFO - [ERRORS] Total Errors: 1
+2025-09-21 23:47:40,147 - INFO -    └── connection: 1
+2025-09-21 23:47:40,147 - INFO - [SUCCESS] Success Rate: 0.0%
+2025-09-21 23:47:40,147 - INFO - ==================================================
+2025-09-21 23:47:40,150 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 23:47:40,150 - INFO - [SESSION] Session ID: 23
+2025-09-21 23:47:40,150 - INFO - [STORED] Pages in Database: 0
+2025-09-21 23:47:40,150 - INFO - [LINKS] Links Stored: 0
+2025-09-21 23:47:40,150 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 23:47:40,150 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 23:47:40,150 - INFO - [DB ERRORS] Logged Errors: 1
+2025-09-21 23:47:40,150 - INFO - ==================================================
+2025-09-21 23:47:40,150 - INFO - 

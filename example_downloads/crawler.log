@@ -1,0 +1,34 @@
+2025-09-21 23:48:25,593 - INFO - Starting concurrent crawl from: https://httpbin.org (3 workers)
+2025-09-21 23:48:27,141 - INFO - Fetching: https://httpbin.org
+2025-09-21 23:48:28,599 - INFO - Extracted data: example_downloads\httpbin.org\index.json
+2025-09-21 23:48:28,610 - INFO - Saved: example_downloads\httpbin.org\index.html
+2025-09-21 23:48:28,612 - INFO - Fetching: https://httpbin.org/forms/post
+2025-09-21 23:48:29,108 - INFO - Extracted data: example_downloads\httpbin.org\forms_post.json
+2025-09-21 23:48:29,116 - INFO - Saved: example_downloads\httpbin.org\forms_post.html
+2025-09-21 23:48:34,126 - INFO - Crawling interrupted by user
+2025-09-21 23:48:34,126 - INFO - Saving crawl state for resume...
+2025-09-21 23:48:34,143 - INFO - Session 1 marked as interrupted. Use --resume 1 to continue.
+2025-09-21 23:48:34,144 - INFO - Crawling interrupted. Downloaded 2 pages.
+2025-09-21 23:48:34,144 - INFO - ==================================================
+2025-09-21 23:48:34,144 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 23:48:34,144 - INFO - ==================================================
+2025-09-21 23:48:34,144 - INFO - [DURATION] Duration: 8.6 seconds (0.1 minutes)
+2025-09-21 23:48:34,144 - INFO - [URLS] URLs Found: 1
+2025-09-21 23:48:34,144 - INFO - [DOWNLOADED] Pages Downloaded: 2
+2025-09-21 23:48:34,144 - INFO - [EXTRACTED] Content Extracted: 2
+2025-09-21 23:48:34,144 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 23:48:34,144 - INFO - [DOMAINS] Domains Crawled: 1
+2025-09-21 23:48:34,144 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 23:48:34,144 - INFO - [RESPONSE] Average Response Time: 0.97s
+2025-09-21 23:48:34,144 - INFO - [RATE] Pages/minute: 14.0
+2025-09-21 23:48:34,144 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 23:48:34,144 - INFO - ==================================================
+2025-09-21 23:48:34,145 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 23:48:34,145 - INFO - [SESSION] Session ID: 1
+2025-09-21 23:48:34,145 - INFO - [STORED] Pages in Database: 2
+2025-09-21 23:48:34,145 - INFO - [LINKS] Links Stored: 0
+2025-09-21 23:48:34,145 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 23:48:34,145 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 23:48:34,146 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 23:48:34,146 - INFO - ==================================================
+2025-09-21 23:48:34,146 - INFO - 

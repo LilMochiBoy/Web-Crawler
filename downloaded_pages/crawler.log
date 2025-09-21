@@ -1,0 +1,190 @@
+2025-09-21 19:44:43,504 - INFO - Starting crawl from: https://techcrunch.com
+2025-09-21 19:44:44,231 - INFO - Fetching: https://techcrunch.com
+2025-09-21 19:44:46,732 - INFO - Saved: downloaded_pages\techcrunch.com\index.html
+2025-09-21 19:44:46,772 - INFO - Fetching: https://techcrunch.com/latest/
+2025-09-21 19:44:48,329 - INFO - Saved: downloaded_pages\techcrunch.com\latest.html
+2025-09-21 19:44:48,346 - INFO - Fetching: https://techcrunch.com/category/startups/
+2025-09-21 19:44:51,272 - INFO - Saved: downloaded_pages\techcrunch.com\category_startups.html
+2025-09-21 19:44:51,293 - INFO - Fetching: https://techcrunch.com/category/venture/
+2025-09-21 19:44:52,687 - INFO - Saved: downloaded_pages\techcrunch.com\category_venture.html
+2025-09-21 19:44:52,713 - INFO - Fetching: https://techcrunch.com/tag/apple/
+2025-09-21 19:44:54,224 - INFO - Fetching: https://techcrunch.com/category/security/
+2025-09-21 19:44:56,183 - INFO - Fetching: https://techcrunch.com/category/artificial-intelligence/
+2025-09-21 19:44:58,343 - INFO - Saved: downloaded_pages\techcrunch.com\category_artificial-intelligence.html
+2025-09-21 19:44:58,365 - INFO - Fetching: https://techcrunch.com/category/apps/
+2025-09-21 19:44:59,569 - INFO - Saved: downloaded_pages\techcrunch.com\category_apps.html
+2025-09-21 19:44:59,590 - INFO - Fetching: https://techcrunch.com/events/tc-disrupt-2025/
+2025-09-21 19:45:01,298 - INFO - Saved: downloaded_pages\techcrunch.com\events_tc-disrupt-2025.html
+2025-09-21 19:45:01,326 - INFO - Fetching: https://techcrunch.com/events/
+2025-09-21 19:45:02,538 - INFO - Saved: downloaded_pages\techcrunch.com\events.html
+2025-09-21 19:45:02,550 - INFO - Fetching: https://techcrunch.com/podcasts/
+2025-09-21 19:45:04,306 - INFO - Saved: downloaded_pages\techcrunch.com\podcasts.html
+2025-09-21 19:45:04,315 - INFO - Fetching: https://techcrunch.com/newsletters/
+2025-09-21 19:45:05,545 - INFO - Saved: downloaded_pages\techcrunch.com\newsletters.html
+2025-09-21 19:45:05,554 - INFO - Fetching: https://techcrunch.com/tag/amazon/
+2025-09-21 19:45:06,768 - INFO - Saved: downloaded_pages\techcrunch.com\tag_amazon.html
+2025-09-21 19:45:06,790 - INFO - Fetching: https://techcrunch.com/category/biotech-health/
+2025-09-21 19:45:07,951 - INFO - Fetching: https://techcrunch.com/category/climate/
+2025-09-21 19:45:09,775 - INFO - Fetching: https://techcrunch.com/tag/cloud-computing/
+2025-09-21 19:45:11,864 - INFO - Saved: downloaded_pages\techcrunch.com\tag_cloud-computing.html
+2025-09-21 19:45:11,889 - INFO - Fetching: https://techcrunch.com/category/commerce/
+2025-09-21 19:45:13,155 - INFO - Fetching: https://techcrunch.com/category/cryptocurrency/
+2025-09-21 19:45:14,680 - INFO - Fetching: https://techcrunch.com/category/enterprise/
+2025-09-21 19:45:16,109 - INFO - Fetching: https://techcrunch.com/tag/evs/
+2025-09-21 19:45:17,606 - INFO - Fetching: https://techcrunch.com/category/fintech/
+2025-09-21 19:45:20,359 - INFO - Fetching: https://techcrunch.com/category/fundraising/
+2025-09-21 19:45:22,867 - INFO - Fetching: https://techcrunch.com/category/gadgets/
+2025-09-21 19:45:28,116 - INFO - Fetching: https://techcrunch.com/category/gaming/
+2025-09-21 19:45:31,144 - INFO - Saved: downloaded_pages\techcrunch.com\category_gaming.html
+2025-09-21 19:45:31,169 - INFO - Fetching: https://techcrunch.com/tag/google/
+2025-09-21 19:45:34,291 - INFO - Fetching: https://techcrunch.com/category/government-policy/
+2025-09-21 19:45:37,530 - INFO - Saved: downloaded_pages\techcrunch.com\category_government-policy.html
+2025-09-21 19:45:37,550 - INFO - Fetching: https://techcrunch.com/category/hardware/
+2025-09-21 19:45:38,789 - INFO - Saved: downloaded_pages\techcrunch.com\category_hardware.html
+2025-09-21 19:45:38,815 - INFO - Fetching: https://techcrunch.com/tag/instagram/
+2025-09-21 19:45:40,031 - INFO - Saved: downloaded_pages\techcrunch.com\tag_instagram.html
+2025-09-21 19:45:40,051 - INFO - Fetching: https://techcrunch.com/tag/layoffs/
+2025-09-21 19:45:41,393 - INFO - Saved: downloaded_pages\techcrunch.com\tag_layoffs.html
+2025-09-21 19:45:41,414 - INFO - Fetching: https://techcrunch.com/category/media-entertainment/
+2025-09-21 19:45:42,671 - INFO - Saved: downloaded_pages\techcrunch.com\category_media-entertainment.html
+2025-09-21 19:45:42,695 - INFO - Fetching: https://techcrunch.com/tag/meta/
+2025-09-21 19:45:43,860 - INFO - Fetching: https://techcrunch.com/tag/microsoft/
+2025-09-21 19:45:46,532 - INFO - Fetching: https://techcrunch.com/category/privacy/
+2025-09-21 19:45:48,289 - INFO - Fetching: https://techcrunch.com/category/robotics/
+2025-09-21 19:45:51,468 - INFO - Saved: downloaded_pages\techcrunch.com\category_robotics.html
+2025-09-21 19:45:51,490 - INFO - Fetching: https://techcrunch.com/category/social/
+2025-09-21 19:45:53,090 - INFO - Saved: downloaded_pages\techcrunch.com\category_social.html
+2025-09-21 19:45:53,112 - INFO - Crawling completed. Downloaded 20 pages.
+2025-09-21 19:45:53,112 - INFO - ==================================================
+2025-09-21 19:45:53,113 - INFO - ==================================================
+2025-09-21 19:45:53,118 - INFO -    ©¸©¤©¤ connection: 14
+2025-09-21 19:45:53,119 - INFO -    ©¸©¤©¤ http_errors: 1
+2025-09-21 19:45:53,119 - INFO - ==================================================
+2025-09-21 19:54:53,846 - INFO - Starting crawl from: https://httpbin.org
+2025-09-21 19:54:56,656 - INFO - Fetching: https://httpbin.org
+2025-09-21 19:55:00,647 - INFO - Saved: downloaded_pages\httpbin.org\index.html
+2025-09-21 19:55:01,424 - INFO - Fetching: https://github.com/requests/httpbin
+2025-09-21 19:55:05,243 - INFO - Saved: downloaded_pages\github.com\requests_httpbin.html
+2025-09-21 19:55:07,158 - INFO - Fetching: https://kennethreitz.org
+2025-09-21 19:55:10,166 - INFO - Saved: downloaded_pages\kennethreitz.org\index.html
+2025-09-21 19:55:10,171 - INFO - Fetching: https://github.com/rochacbruno/flasgger
+2025-09-21 19:55:12,524 - INFO - Saved: downloaded_pages\github.com\rochacbruno_flasgger.html
+2025-09-21 19:55:12,585 - INFO - Fetching: https://httpbin.org/forms/post
+2025-09-21 19:55:13,960 - INFO - Saved: downloaded_pages\httpbin.org\forms_post.html
+2025-09-21 19:55:13,961 - INFO - Crawling completed. Downloaded 5 pages.
+2025-09-21 19:55:13,961 - INFO - ==================================================
+2025-09-21 19:55:13,961 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 19:55:13,962 - INFO - ==================================================
+2025-09-21 19:55:13,962 - INFO - [DURATION] Duration: 20.1 seconds (0.3 minutes)
+2025-09-21 19:55:13,962 - INFO - [URLS] URLs Found: 538
+2025-09-21 19:55:13,962 - INFO - [DOWNLOADED] Pages Downloaded: 5
+2025-09-21 19:55:13,962 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 19:55:13,962 - INFO - [DOMAINS] Domains Crawled: 3
+2025-09-21 19:55:13,962 - INFO - [DATA] Data Downloaded: 0.89 MB
+2025-09-21 19:55:13,962 - INFO - [RESPONSE] Average Response Time: 2.90s
+2025-09-21 19:55:13,962 - INFO - [RATE] Pages/minute: 14.9
+2025-09-21 19:55:13,962 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 19:55:13,962 - INFO - ==================================================
+2025-09-21 19:55:31,124 - INFO - Starting crawl from: https://example.com
+2025-09-21 19:56:46,618 - INFO - Starting crawl from: https://techcrunch.com
+2025-09-21 19:56:49,893 - INFO - Fetching: https://techcrunch.com
+2025-09-21 19:56:57,763 - INFO - Saved: downloaded_pages\techcrunch.com\index_1.html
+2025-09-21 19:56:57,802 - INFO - Fetching: https://techcrunch.com/latest/
+2025-09-21 19:57:01,678 - INFO - Saved: downloaded_pages\techcrunch.com\latest_1.html
+2025-09-21 19:57:01,696 - INFO - Fetching: https://techcrunch.com/category/startups/
+2025-09-21 19:57:03,274 - INFO - Saved: downloaded_pages\techcrunch.com\category_startups_1.html
+2025-09-21 19:57:03,294 - INFO - Fetching: https://techcrunch.com/category/venture/
+2025-09-21 19:57:04,746 - INFO - Saved: downloaded_pages\techcrunch.com\category_venture_1.html
+2025-09-21 19:57:04,770 - INFO - Fetching: https://techcrunch.com/tag/apple/
+2025-09-21 19:57:05,975 - INFO - Saved: downloaded_pages\techcrunch.com\tag_apple.html
+2025-09-21 19:57:05,995 - INFO - Fetching: https://techcrunch.com/category/security/
+2025-09-21 19:57:07,222 - INFO - Saved: downloaded_pages\techcrunch.com\category_security.html
+2025-09-21 19:57:07,242 - INFO - Fetching: https://techcrunch.com/category/artificial-intelligence/
+2025-09-21 19:57:08,639 - INFO - Saved: downloaded_pages\techcrunch.com\category_artificial-intelligence_1.html
+2025-09-21 19:57:08,662 - INFO - Fetching: https://techcrunch.com/category/apps/
+2025-09-21 19:57:20,215 - INFO - Saved: downloaded_pages\techcrunch.com\category_apps_1.html
+2025-09-21 19:57:20,237 - INFO - Fetching: https://techcrunch.com/events/tc-disrupt-2025/
+2025-09-21 19:57:22,505 - INFO - Saved: downloaded_pages\techcrunch.com\events_tc-disrupt-2025_1.html
+2025-09-21 19:57:22,531 - INFO - Fetching: https://techcrunch.com/events/
+2025-09-21 19:57:24,676 - INFO - Saved: downloaded_pages\techcrunch.com\events_1.html
+2025-09-21 19:57:24,695 - INFO - Fetching: https://techcrunch.com/podcasts/
+2025-09-21 19:57:25,904 - INFO - Saved: downloaded_pages\techcrunch.com\podcasts_1.html
+2025-09-21 19:57:25,913 - INFO - Fetching: https://techcrunch.com/newsletters/
+2025-09-21 19:57:27,120 - INFO - Saved: downloaded_pages\techcrunch.com\newsletters_1.html
+2025-09-21 19:57:27,129 - INFO - Fetching: https://techcrunch.com/tag/amazon/
+2025-09-21 19:57:28,385 - INFO - Saved: downloaded_pages\techcrunch.com\tag_amazon_1.html
+2025-09-21 19:57:28,405 - INFO - Fetching: https://techcrunch.com/category/biotech-health/
+2025-09-21 19:57:39,052 - ERROR - [CONNECTION] Connection error for https://techcrunch.com/category/biotech-health/ - Check internet connection
+2025-09-21 19:57:39,053 - INFO - Fetching: https://techcrunch.com/category/climate/
+2025-09-21 19:57:40,889 - INFO - Saved: downloaded_pages\techcrunch.com\category_climate.html
+2025-09-21 19:57:40,911 - INFO - Fetching: https://techcrunch.com/tag/cloud-computing/
+2025-09-21 19:57:42,158 - INFO - Saved: downloaded_pages\techcrunch.com\tag_cloud-computing_1.html
+2025-09-21 19:57:42,181 - INFO - Fetching: https://techcrunch.com/category/commerce/
+2025-09-21 19:57:49,386 - INFO - Saved: downloaded_pages\techcrunch.com\category_commerce.html
+2025-09-21 19:57:49,406 - INFO - Fetching: https://techcrunch.com/category/cryptocurrency/
+2025-09-21 19:57:52,581 - INFO - Saved: downloaded_pages\techcrunch.com\category_cryptocurrency.html
+2025-09-21 19:57:52,602 - INFO - Fetching: https://techcrunch.com/category/enterprise/
+2025-09-21 19:57:54,053 - INFO - Saved: downloaded_pages\techcrunch.com\category_enterprise.html
+2025-09-21 19:57:54,077 - INFO - Fetching: https://techcrunch.com/tag/evs/
+2025-09-21 19:57:55,971 - INFO - Saved: downloaded_pages\techcrunch.com\tag_evs.html
+2025-09-21 19:57:55,991 - INFO - Fetching: https://techcrunch.com/category/fintech/
+2025-09-21 19:57:58,754 - INFO - Saved: downloaded_pages\techcrunch.com\category_fintech.html
+2025-09-21 19:57:58,774 - INFO - Crawling completed. Downloaded 20 pages.
+2025-09-21 19:57:58,774 - INFO - ==================================================
+2025-09-21 19:57:58,774 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 19:57:58,774 - INFO - ==================================================
+2025-09-21 19:57:58,774 - INFO - [DURATION] Duration: 72.2 seconds (1.2 minutes)
+2025-09-21 19:57:58,774 - INFO - [URLS] URLs Found: 3552
+2025-09-21 19:57:58,775 - INFO - [DOWNLOADED] Pages Downloaded: 20
+2025-09-21 19:57:58,775 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 19:57:58,775 - INFO - [DOMAINS] Domains Crawled: 1
+2025-09-21 19:57:58,775 - INFO - [DATA] Data Downloaded: 4.91 MB
+2025-09-21 19:57:58,775 - INFO - [RESPONSE] Average Response Time: 2.89s
+2025-09-21 19:57:58,775 - INFO - [RATE] Pages/minute: 16.6
+2025-09-21 19:57:58,775 - INFO - [ERRORS] Total Errors: 1
+2025-09-21 19:57:58,775 - INFO -    â””â”€â”€ connection: 1
+2025-09-21 19:57:58,775 - INFO - [SUCCESS] Success Rate: 95.2%
+2025-09-21 19:57:58,775 - INFO - ==================================================
+2025-09-21 20:00:02,731 - INFO - Fetching: https://example.com
+2025-09-21 20:00:06,466 - INFO - Saved: downloaded_pages\example.com\index.html
+2025-09-21 20:00:10,378 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 20:00:15,338 - INFO - Saved: downloaded_pages\www.iana.org\domains_example.html
+2025-09-21 20:00:15,341 - INFO - Crawling completed. Downloaded 2 pages.
+2025-09-21 20:00:15,341 - INFO - ==================================================
+2025-09-21 20:00:15,342 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 20:00:15,342 - INFO - ==================================================
+2025-09-21 20:00:15,342 - INFO - [DURATION] Duration: 284.2 seconds (4.7 minutes)
+2025-09-21 20:00:15,342 - INFO - [URLS] URLs Found: 31
+2025-09-21 20:00:15,342 - INFO - [DOWNLOADED] Pages Downloaded: 2
+2025-09-21 20:00:15,342 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 20:00:15,342 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 20:00:15,342 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 20:00:15,342 - INFO - [RESPONSE] Average Response Time: 4.35s
+2025-09-21 20:00:15,343 - INFO - [RATE] Pages/minute: 0.4
+2025-09-21 20:00:15,343 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 20:00:15,343 - INFO - ==================================================
+2025-09-21 20:23:08,268 - INFO - Starting crawl from: https://example.com
+2025-09-21 20:23:09,332 - INFO - Fetching: https://example.com
+2025-09-21 20:23:11,400 - INFO - Extracted data: downloaded_pages\example.com\index_1.json
+2025-09-21 20:23:11,401 - INFO - Saved: downloaded_pages\example.com\index_1.html
+2025-09-21 20:23:13,107 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 20:23:15,654 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_example_1.json
+2025-09-21 20:23:15,655 - INFO - Saved: downloaded_pages\www.iana.org\domains_example_1.html
+2025-09-21 20:23:15,657 - INFO - Fetching: https://www.iana.org/
+2025-09-21 20:23:16,898 - INFO - Extracted data: downloaded_pages\www.iana.org\index.json
+2025-09-21 20:23:16,899 - INFO - Saved: downloaded_pages\www.iana.org\index.html
+2025-09-21 20:23:16,900 - INFO - Crawling completed. Downloaded 3 pages.
+2025-09-21 20:23:16,900 - INFO - ==================================================
+2025-09-21 20:23:16,900 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 20:23:16,900 - INFO - ==================================================
+2025-09-21 20:23:16,900 - INFO - [DURATION] Duration: 8.6 seconds (0.1 minutes)
+2025-09-21 20:23:16,900 - INFO - [URLS] URLs Found: 31
+2025-09-21 20:23:16,901 - INFO - [DOWNLOADED] Pages Downloaded: 3
+2025-09-21 20:23:16,901 - INFO - [EXTRACTED] Content Extracted: 3
+2025-09-21 20:23:16,901 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 20:23:16,901 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 20:23:16,901 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 20:23:16,901 - INFO - [RESPONSE] Average Response Time: 1.94s
+2025-09-21 20:23:16,901 - INFO - [RATE] Pages/minute: 20.9
+2025-09-21 20:23:16,901 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 20:23:16,901 - INFO - ==================================================

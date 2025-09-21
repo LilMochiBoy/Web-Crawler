@@ -1,0 +1,36 @@
+# Web Crawler Configuration File
+
+crawler:
+  # Basic crawling settings
+  max_depth: 2                    # How deep to crawl (0 = only start page)
+  delay: 1.0                     # Seconds between requests (be polite!)
+  max_pages: 50                  # Maximum number of pages to download
+  user_agent: "WebCrawler-Bot/1.0"  # How the crawler identifies itself
+
+# Output settings  
+output:
+  directory: "downloaded_pages"   # Where to save downloaded files
+  create_metadata: true          # Save .meta files with page info
+
+# Filtering settings
+filters:
+  # Only crawl these domains (leave empty for all domains)
+  allowed_domains: []
+  # Example: 
+  # allowed_domains: 
+  #   - "example.com"
+  #   - "subdomain.example.com"
+  
+  # Skip URLs containing these patterns
+  skip_patterns:
+    - "/admin"
+    - "/login" 
+    - "/api/"
+    - "?search="
+    - "?page="
+
+# Advanced settings
+advanced:
+  timeout: 30                    # Request timeout in seconds
+  max_redirects: 10              # Maximum number of redirects to follow
+  respect_robots_txt: true       # Honor robots.txt files

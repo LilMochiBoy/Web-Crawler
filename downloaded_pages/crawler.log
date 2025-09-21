@@ -1035,3 +1035,68 @@
 2025-09-21 22:18:59,782 - INFO - [DB ERRORS] Logged Errors: 0
 2025-09-21 22:18:59,782 - INFO - ==================================================
 2025-09-21 22:18:59,782 - INFO - 
+2025-09-21 22:34:00,439 - INFO - Starting sequential crawl from: https://httpbin.org
+2025-09-21 22:34:01,847 - INFO - Fetching: https://httpbin.org
+2025-09-21 22:34:03,568 - INFO - Extracted data: downloaded_pages\httpbin.org\index_8.json
+2025-09-21 22:34:03,577 - INFO - Saved: downloaded_pages\httpbin.org\index_8.html
+2025-09-21 22:34:04,328 - INFO - Fetching: https://github.com/requests/httpbin
+2025-09-21 22:34:06,069 - INFO - Extracted data: downloaded_pages\github.com\requests_httpbin_8.json
+2025-09-21 22:34:06,080 - INFO - Saved: downloaded_pages\github.com\requests_httpbin_8.html
+2025-09-21 22:34:07,575 - INFO - Fetching: https://kennethreitz.org
+2025-09-21 22:34:08,782 - INFO - Extracted data: downloaded_pages\kennethreitz.org\index_8.json
+2025-09-21 22:34:08,791 - INFO - Saved: downloaded_pages\kennethreitz.org\index_8.html
+2025-09-21 22:34:08,792 - INFO - Crawling completed. Downloaded 3 pages.
+2025-09-21 22:34:08,809 - INFO - ==================================================
+2025-09-21 22:34:08,809 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:34:08,809 - INFO - ==================================================
+2025-09-21 22:34:08,810 - INFO - [DURATION] Duration: 8.4 seconds (0.1 minutes)
+2025-09-21 22:34:08,810 - INFO - [URLS] URLs Found: 198
+2025-09-21 22:34:08,810 - INFO - [DOWNLOADED] Pages Downloaded: 3
+2025-09-21 22:34:08,810 - INFO - [EXTRACTED] Content Extracted: 3
+2025-09-21 22:34:08,810 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 22:34:08,810 - INFO - [DOMAINS] Domains Crawled: 3
+2025-09-21 22:34:08,810 - INFO - [DATA] Data Downloaded: 0.34 MB
+2025-09-21 22:34:08,810 - INFO - [RESPONSE] Average Response Time: 1.49s
+2025-09-21 22:34:08,810 - INFO - [RATE] Pages/minute: 21.5
+2025-09-21 22:34:08,811 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 22:34:08,811 - INFO - ==================================================
+2025-09-21 22:34:08,813 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:34:08,813 - INFO - [SESSION] Session ID: 18
+2025-09-21 22:34:08,813 - INFO - [STORED] Pages in Database: 3
+2025-09-21 22:34:08,813 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:34:08,813 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:34:08,813 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:34:08,813 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:34:08,813 - INFO - ==================================================
+2025-09-21 22:34:08,814 - INFO - 
+2025-09-21 22:34:21,715 - INFO - Starting sequential crawl from: https://example.com
+2025-09-21 22:34:22,863 - INFO - Fetching: https://example.com
+2025-09-21 22:34:23,813 - INFO - Extracted data: downloaded_pages\example.com\index_7.json
+2025-09-21 22:34:23,825 - INFO - Saved: downloaded_pages\example.com\index_7.html
+2025-09-21 22:34:25,037 - INFO - Fetching: https://www.iana.org/domains/example
+2025-09-21 22:34:26,564 - INFO - Extracted data: downloaded_pages\www.iana.org\domains_example_6.json
+2025-09-21 22:34:26,573 - INFO - Saved: downloaded_pages\www.iana.org\domains_example_6.html
+2025-09-21 22:34:31,577 - INFO - Crawling completed. Downloaded 2 pages.
+2025-09-21 22:34:31,596 - INFO - ==================================================
+2025-09-21 22:34:31,596 - INFO - [STATISTICS] CRAWLING STATISTICS
+2025-09-21 22:34:31,596 - INFO - ==================================================
+2025-09-21 22:34:31,596 - INFO - [DURATION] Duration: 9.9 seconds (0.2 minutes)
+2025-09-21 22:34:31,596 - INFO - [URLS] URLs Found: 1
+2025-09-21 22:34:31,597 - INFO - [DOWNLOADED] Pages Downloaded: 2
+2025-09-21 22:34:31,597 - INFO - [EXTRACTED] Content Extracted: 2
+2025-09-21 22:34:31,597 - INFO - [SKIPPED] Pages Skipped: 0
+2025-09-21 22:34:31,597 - INFO - [DOMAINS] Domains Crawled: 2
+2025-09-21 22:34:31,597 - INFO - [DATA] Data Downloaded: 0.01 MB
+2025-09-21 22:34:31,597 - INFO - [RESPONSE] Average Response Time: 1.23s
+2025-09-21 22:34:31,597 - INFO - [RATE] Pages/minute: 12.1
+2025-09-21 22:34:31,598 - INFO - [SUCCESS] Success Rate: 100.0%
+2025-09-21 22:34:31,598 - INFO - ==================================================
+2025-09-21 22:34:31,601 - INFO - [DATABASE] DATABASE STATISTICS
+2025-09-21 22:34:31,601 - INFO - [SESSION] Session ID: 19
+2025-09-21 22:34:31,601 - INFO - [STORED] Pages in Database: 2
+2025-09-21 22:34:31,601 - INFO - [LINKS] Links Stored: 0
+2025-09-21 22:34:31,601 - INFO - [IMAGES] Images Stored: 0
+2025-09-21 22:34:31,601 - INFO - [SOCIAL] Social Links: 0
+2025-09-21 22:34:31,602 - INFO - [DB ERRORS] Logged Errors: 0
+2025-09-21 22:34:31,602 - INFO - ==================================================
+2025-09-21 22:34:31,602 - INFO - 

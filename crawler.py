@@ -28,6 +28,12 @@ from tqdm import tqdm
 from datetime import datetime
 import fnmatch
 
+# Import DataExporter for export functionality
+try:
+    from data_exporter import DataExporter
+except ImportError:
+    DataExporter = None
+
 
 class ContentExtractor:
     """
@@ -1802,6 +1808,12 @@ def main():
     parser.add_argument("--require-title", action="store_true", help="Only crawl pages with titles")
     parser.add_argument("--language-filter", nargs='+', help="Only crawl pages in these languages (e.g., en es fr)")
     
+    # Export functionality
+    parser.add_argument("--export", choices=['csv', 'json', 'xml', 'html'], help="Export crawled data after completion")
+    parser.add_argument("--export-output", help="Export output file path (auto-generated if not specified)")
+    parser.add_argument("--export-data-type", choices=['pages', 'links', 'images', 'sessions', 'all'], default='pages', help="Type of data to export (default: pages)")
+    parser.add_argument("--export-include-stats", action="store_true", help="Include statistics in export (JSON/HTML formats)")
+    
     args = parser.parse_args()
     
     # Handle list-sessions command
@@ -1923,6 +1935,48 @@ def main():
     # Start crawling
     try:
         crawler.crawl(args.url)
+        
+        # Handle data export after successful crawling
+        if args.export and DataExporter:
+            try:
+                print(f"\n[EXPORT] Exporting crawled data...")
+                
+                # Initialize exporter
+                output_dir = args.output_dir or "downloaded_pages"
+                db_path = os.path.join(output_dir, 'crawler_data.db')
+                exporter = DataExporter(db_path)
+                
+                # Generate output filename if not specified
+                if not args.export_output:
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    session_suffix = f"_session{crawler.session_id}" if crawler.session_id else ""
+                    args.export_output = f"{output_dir}/export_{args.export_data_type}_{timestamp}{session_suffix}.{args.export}"
+                
+                # Build export filters
+                export_filters = {}
+                if crawler.session_id:
+                    export_filters['session_id'] = int(crawler.session_id)
+                
+                # Export data based on format
+                if args.export == 'csv':
+                    result = exporter.export_to_csv(args.export_output, args.export_data_type, **export_filters)
+                elif args.export == 'json':
+                    result = exporter.export_to_json(args.export_output, args.export_data_type, 
+                                                   args.export_include_stats, **export_filters)
+                elif args.export == 'xml':
+                    result = exporter.export_to_xml(args.export_output, args.export_data_type, **export_filters)
+                elif args.export == 'html':
+                    result = exporter.generate_html_report(args.export_output, 
+                                                         int(crawler.session_id) if crawler.session_id else None,
+                                                         include_charts=True)
+                
+                print(f"[EXPORT] ✅ {result}")
+                
+            except Exception as e:
+                print(f"[EXPORT] ❌ Export failed: {e}")
+        elif args.export and not DataExporter:
+            print(f"[EXPORT] ❌ Export functionality not available. Check data_exporter.py file.")
+            
     except KeyboardInterrupt:
         print("\n⏸️  Crawling interrupted by user.")
         print(f"📊 Downloaded {crawler.downloaded_pages} pages before interruption.")
